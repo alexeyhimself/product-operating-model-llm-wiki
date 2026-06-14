@@ -4,19 +4,6 @@ A persistent, compounding knowledge base and **AI coach for the Product Operatin
 
 This repo is **open and community-maintained**. Clone it to use as your own PM coach, or help make it richer by contributing pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
 
-## How it works
-
-```mermaid
-flowchart LR
-    S["Sources you curate<br/>(kept local)"] -->|ingest| W[("wiki/<br/>LLM-written & maintained")]
-    Q["Your question"] -->|coach| C{{"Socratic session<br/>against the model"}}
-    W --> C
-    C -.->|files insight back| W
-```
-
-- **You** curate sources into [`raw/`](raw/) — kept local — and ask real questions about your team or org.
-- **The coach** summarizes each source into [`wiki/`](wiki/) (recording its citation and link in [`wiki/sources/`](wiki/sources/) so every claim stays traceable), keeps cross-references and [`index.md`](index.md) current, logs what it did to [`log.md`](log.md), and — by default — *coaches* rather than just answers: it diagnoses your situation against the model, asks questions, and ends with a concrete next step.
-
 ## Use it as your PM coach
 
 You don't need to add anything to get value — point an agent at the wiki and ask.
@@ -28,8 +15,6 @@ You don't need to add anything to get value — point an agent at the wiki and a
    > *Act as my Product Operating Model coach using this folder. First read `CLAUDE.md` and follow its conventions and coaching stance. Coach me actively and Socratically: diagnose my situation against the model using `wiki/diagnostics/`, cite the relevant pages, and end with one concrete next step. My situation is: …*
 
 4. **Ask a real question** about your team or org. The coach runs an assessment-driven session, places you on the relevant diagnostic, and gives you a next step.
-
-Browsing as an [Obsidian](https://obsidian.md/) vault (an `.obsidian/` config is included) is the nicest way to read pages, follow `[[wikilinks]]`, and see the graph — the LLM writes, you read.
 
 ## Grow & maintain it
 
@@ -79,7 +64,7 @@ The wiki holds **original summaries, synthesis, and commentary with citations** 
 
 This scaffold was generated in a single agent session, not hand-built:
 
-1. **Pattern.** Seeded from Andrej Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) (saved as [`llm-wiki.md`](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)) — the idea of an LLM-maintained, compounding wiki that sits between you and your raw sources.
+1. **Pattern.** Seeded from Andrej Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — the idea of an LLM-maintained, compounding wiki that sits between you and your raw sources.
 2. **Setup choices.** The agent asked three questions before building; the answers shaped the structure:
 
    | Question | Choice |
