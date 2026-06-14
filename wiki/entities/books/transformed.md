@@ -1,0 +1,43 @@
+---
+title: TRANSFORMED
+type: book
+aliases: [transformed]
+status: drafting
+tags: [book, svpg, product-operating-model, primary-source]
+role: primary-source
+author: Marty Cagan (with the SVPG team)
+year: 2024
+source_url: https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/
+related: ["[[marty-cagan]]", "[[svpg]]", "[[inspired]]", "[[empowered]]", "[[overview]]"]
+created: 2026-06-14
+updated: 2026-06-15
+---
+
+# TRANSFORMED
+
+> Cagan/SVPG's 2024 book on **moving to the Product Operating Model** — and the **root source** of the 20 product model first principles that seed this wiki. Official page: [svpg.com/books/transformed](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/).
+
+## Where these principles come from
+The first principles are **not an invention** of any one author. They are **SVPG's observation** that the world's best product companies — across very different products and markets — share the same underlying set of principles. Marty Cagan and the SVPG team **articulated** that observed set in *TRANSFORMED*. So:
+
+- **Root / primary source of the principles:** this book ([the official page](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/)).
+- **Origin of the ideas:** the practice of strong product companies, as observed and codified by [[svpg|SVPG]].
+- **Supporting explainers ingested here:** two ProductCompass posts ([[2024-03-16-huryn-product-model-first-principles-part-1]], [[2024-03-21-huryn-product-model-first-principles-part-2]]) — secondary material that explains the book's principles. Cite them as supporting, not primary.
+
+## What it covers
+A guide to transformation (moving from the project/IT/feature-factory model to the product model) that also states the model's **first principles** clearly. Audience: leaders and teams undertaking or sustaining a product transformation.
+
+## Structure
+Organized around the product model's competencies, concepts, and principles, plus the mechanics of transformation. Chapters this wiki currently references: **Ch. 8** (problem types / outcome-based roadmaps), **Ch. 10** (PM responsible for value + viability), **Ch. 13** (team objectives; product vision/strategy definitions), **Ch. 16** (product strategy; placing bets); the first principles are described across **Ch. 15–19**.
+
+## Key contributions
+- A crisp statement of the **20 first principles** in five areas — see [[overview]] and the area pages ([[principles-of-product-teams]], [[principles-of-product-strategy]], [[principles-of-product-discovery]], [[principles-of-product-delivery]], [[principles-of-product-culture]]).
+- **Customer problems vs company problems**, each with desired outcomes ([[team-objectives]]).
+- Drops **product mission** in favor of [[product-vision|vision]]; defines product strategy as choosing the most important problems ([[product-strategy]]).
+- "Output of product discovery is a **validated product backlog**"; A/B testing as the delivery "gold standard."
+
+## Chapters ingested
+- _None as a primary document yet_ — current knowledge entered via the two supporting ProductCompass explainers above. Ingesting the book chapters directly (into `raw/`) is the recommended next step to confirm chapter attributions and quote fidelity.
+
+## Related
+- [[marty-cagan]], [[svpg]], [[inspired]], [[empowered]]

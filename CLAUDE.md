@@ -36,9 +36,10 @@ The default interaction is **coaching, not lookup**. See [Coaching stance](#coac
     ├── case-studies/     # transformations & real examples (incl. the user's org)
     ├── diagnostics/      # assessment rubrics — the coaching engine
     ├── synthesis/        # cross-cutting essays & the evolving thesis
+    ├── resources/        # curated, trusted recommendations (books, videos, SVPG links) the coach suggests by topic/problem
     └── entities/
         ├── people/       # Cagan, Jones, Idiodi, Hickman, Lauchengco, Moore…
-        ├── books/        # INSPIRED, EMPOWERED, TRANSFORMED, LOVED
+        ├── books/        # INSPIRED, EMPOWERED, TRANSFORMED, LOVED + Cagan/SVPG-recommended reading
         └── organizations/# SVPG, exemplar companies, the user's company
 ```
 
@@ -59,7 +60,7 @@ type: concept        # concept | principle | competency | framework | case-study
 aliases: [discovery, dual-track discovery]
 status: stub         # stub | drafting | mature
 tags: [discovery, risk]
-sources: []          # [[wikilinks]] to wiki/sources/ pages backing this page
+sources: []          # provenance — the root/canonical source first (e.g. [[transformed]]), then any supporting explainer reference pages in wiki/sources/
 related: []          # [[wikilinks]] to related wiki pages
 created: 2026-06-14
 updated: 2026-06-14
@@ -68,12 +69,17 @@ updated: 2026-06-14
 
 **Linking:** use Obsidian `[[wikilinks]]` by filename, with display text where helpful: `[[product-discovery|product discovery]]`. Link **liberally** — a link to a page that doesn't exist yet is fine; it marks a page worth creating (and shows up in Obsidian's graph as a node to fill).
 
-**Citations:** every non-obvious claim cites a [`wiki/sources/`](wiki/sources/) page, ideally with location: `(see [[transformed-ch12]], p.140)`. Keep three voices distinct and labelled:
+**Citations & provenance — link to the real source, never reproduce it.** Every non-obvious claim must be traceable to its source by **hyperlink**, so the coach can answer "where does this come from?" with a real, clickable origin. Two rules:
+
+- **Cite the root source, not the messenger.** Attribute ideas to where they actually originate. The Product Operating Model first principles are **SVPG's observation** of what the world's best product companies share, **articulated by Marty Cagan in _TRANSFORMED_** — so the root source is the book ([[transformed]], which carries the canonical URL), even when the material was ingested via a secondary explainer (e.g. a blog post). Secondary explainers are cited as **supporting**, not primary.
+- **Reference, don't copy.** A `wiki/sources/` page is a **slim provenance card**, not a copy or full summary of the document: a one-line citation, the public hyperlink (`source_url`), the source's role (primary/root vs supporting/explainer), and a short list of which wiki pages it backs. Never paste or closely paraphrase the source document into the wiki — the user does not want their ingested documents reproduced. Short, attributed teaching quotes from published works are fine on concept/principle pages; wholesale reproduction is not.
+
+Keep three voices distinct and labelled:
 - **SVPG canon** — what the sources actually say.
 - **Field note** — the user's own org/observations.
 - **Coach inference** — synthesis or advice the coach is adding. Never let inference masquerade as canon.
 
-**Sources stay private; provenance stays public.** The contents of `raw/` are gitignored — source documents are never committed or published. Every claim still traces to a source via its [`wiki/sources/`](wiki/sources/) page, which records the citation and link the user provides at ingest. The wiki **cites and links** sources; it never reproduces them.
+**Sources stay private; provenance stays public.** The contents of `raw/` are gitignored — ingested documents are never committed or published. Provenance lives instead as **hyperlinks**: the root source's entity page (e.g. [[transformed]]) and slim supporting-reference pages in [`wiki/sources/`](wiki/sources/), each linking to the public original the user provided. The wiki **links** sources; it never reproduces them.
 
 **Status:** `stub` (placeholder), `drafting` (has content, incomplete), `mature` (well-supported, cross-linked). Update it as pages grow.
 
@@ -83,10 +89,12 @@ updated: 2026-06-14
 
 ### Ingest — adding a source
 When the user drops a file in `raw/` and asks to ingest it:
-1. Read the source fully, and capture the **citation and link the user provides** (author, title, where it's from, URL, date). Sources in `raw/` are local-only and gitignored, so this provenance must live in the wiki — never assume the file will be available later.
+1. Read the source fully, and capture the **citation and public link the user provides** (author, title, where it's from, URL, date). Identify the **root source**: where the ideas actually originate (often a canonical book/article), versus the **document at hand**, which may be a secondary explainer of that root. Sources in `raw/` are local-only and gitignored, so this provenance must live in the wiki as a hyperlink — never assume the file will be available later, and never reproduce it.
 2. Discuss the key takeaways with the user before writing (what's new, what's surprising, what to emphasize).
-3. Write a summary page in `wiki/sources/` using the [`source-summary`](templates/source-summary.md) template. Fill its `source_url`, `author`, `medium`, and `date` frontmatter plus a one-line citation — this page is the permanent, public record of where the knowledge came from.
-4. Integrate: update every affected concept/principle/competency/entity page. Add new pages where the source introduces something with no home yet. **Flag contradictions** with existing pages explicitly rather than silently overwriting.
+3. Record provenance as **hyperlinks, not copies**:
+   - If the root source lacks an entity page, create one (e.g. a [`book`](templates/entity-book.md) page) carrying its canonical URL — this is the **primary** source node.
+   - For the ingested explainer, write a **slim reference page** in `wiki/sources/` using the [`source-summary`](templates/source-summary.md) template: `source_url`, `author`, `medium`, `date`, `role` (primary | supporting), a one-line citation, and a short "backs which pages" list. Do **not** reproduce or fully summarize the document.
+4. Integrate: update every affected concept/principle/competency/entity page, attributing claims to the **root source** (primary) and citing the explainer as **supporting**. Add new pages where the source introduces something with no home yet. **Flag contradictions** with existing pages explicitly rather than silently overwriting.
 5. Update [`index.md`](index.md) (new/changed pages) and [`wiki/overview.md`](wiki/overview.md) if the big picture shifted.
 6. Append an entry to [`log.md`](log.md): `## [YYYY-MM-DD] ingest | <source title>` plus a one-line note of what changed.
 

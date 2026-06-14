@@ -8,18 +8,15 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 - `overview` — the model in one page
 
 ## Concepts — `wiki/concepts/`
-- `product-operating-model` · `product-discovery` · `product-delivery`
-- `empowered-product-teams` · `feature-teams-vs-product-teams` · `missionaries-vs-mercenaries`
-- `outcomes-over-output` · `the-four-big-risks` (value / usability / feasibility / business viability)
-- `product-vision` · `product-strategy` · `product-principles`
-- `continuous-discovery` · `dual-track` · `insights`
-- `the-product-model-vs-the-it-model` · `product-culture`
+✅ Created (ingest 2026-06-14): `empowered-product-teams` · `the-four-big-risks` · `product-vision` · `product-strategy` · `team-objectives` · `product-discovery` · `product-delivery` · `product-culture`.
+Still to do:
+- `product-operating-model` (top-level concept page) · `feature-teams-vs-product-teams` · `missionaries-vs-mercenaries`
+- `product-principles` · `continuous-discovery` · `dual-track` · `insights`
+- `the-product-model-vs-the-it-model`
+- (Note: `outcomes-over-output` exists as a **principle**, not a concept, to avoid duplication.)
 
 ## Principles — `wiki/principles/`
-SVPG frames the model as first principles across five areas. Start with one page per area, then split into individual principles as they earn detail:
-- `principles-of-product-teams` · `principles-of-product-strategy`
-- `principles-of-product-discovery` · `principles-of-product-delivery`
-- `principles-of-product-culture`
+✅ Created (ingest 2026-06-14): all **20 individual principle pages** + 5 area index pages (`principles-of-product-teams` · `principles-of-product-strategy` · `principles-of-product-discovery` · `principles-of-product-delivery` · `principles-of-product-culture`). This section is essentially complete for the TRANSFORMED first principles.
 
 ## Competencies — `wiki/competencies/`
 - `product-manager` · `product-designer` · `engineers` · `the-product-team-trio`
@@ -46,6 +43,13 @@ SVPG frames the model as first principles across five areas. Start with one page
 - `strongest-objections-to-the-model` · `your-evolving-thesis`
 
 ## Entities — `wiki/entities/`
-- **people/** `marty-cagan` · `chris-jones` · `christian-idiodi` · `lea-hickman` · `martina-lauchengco` · `jon-moore`
-- **books/** `inspired` · `empowered` · `transformed` · `loved`
-- **organizations/** `svpg` · `your-company`
+✅ Created: `marty-cagan`, `pawel-huryn` (people); `transformed`, `inspired`, `empowered` (books); `svpg` (org).
+✅ Created (recommended reading, 2026-06-15): `principles-life-and-work`, `build-tony-fadell`, `working-backwards`, `no-rules-rules`, `creative-selection`, `how-google-works`, `continuous-discovery-habits`, `trillion-dollar-coach`, `the-making-of-a-manager`, `the-joy-of-agility`, `accelerate` (all books) — see [[recommended-library]].
+Still to do:
+- **people/** `chris-jones` · `christian-idiodi` · `lea-hickman` · `martina-lauchengco` · `jon-moore`
+- **books/** `loved`
+- **organizations/** `your-company`; exemplars `amazon` · `google` · `apple` · `netflix` · `spotify` (linked from [[recommended-library]])
+
+## Resources — `wiki/resources/`
+✅ Created (2026-06-15): `recommended-library` — SVPG/Cagan-recommended books + videos, mapped by topic/problem.
+Still to do: add per-topic deep-links from each principle page into the library; add new recommendations only with a trusted-source trail.
