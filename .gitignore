@@ -1,0 +1,20 @@
+# OS cruft
+**/.DS_Store
+Thumbs.db
+
+# Obsidian (vault config kept local, not shared)
+**/.obsidian
+.trash/
+
+# Editor / temp
+*.tmp
+*~
+.idea/
+.vscode/
+
+# Raw sources stay local — never published. Provenance is recorded in wiki/sources/.
+/raw/*
+!/raw/README.md
+!/raw/assets/
+/raw/assets/*
+!/raw/assets/.gitkeep
