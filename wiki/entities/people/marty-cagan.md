@@ -6,10 +6,13 @@ status: drafting
 tags: [person, svpg, founder]
 role: Partner / founder, Silicon Valley Product Group; author
 org: "[[svpg]]"
-related: ["[[svpg]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]"]
+related: ["[[svpg]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[2026-02-04-cagan-product-coaching-and-ai]]"]
 created: 2026-06-14
 updated: 2026-06-14
 ---
+
+<!-- updated 2026-06-14 to reflect the Feb 2026 model-as-coach position shift -->
+
 
 # Marty Cagan
 
@@ -24,10 +27,11 @@ Cagan didn't *invent* the first principles — he and the [[svpg|SVPG]] team **o
 - **One holistic [[product-strategy]]**, owned by product leaders, driven by [[powered-by-insights|insights]] and expressed as [[placing-bets|bets]]; **product mission** dropped in *TRANSFORMED* in favor of [[product-vision|vision]].
 - **Missionaries, not mercenaries**; lead with **context, not control** ([[trust-over-control]]); **principles over process** at scale.
 - On **risk taxonomy** (Q&A with Huryn, 2024): deliberately keeps it to ~four risks — "once you get to more than 4... it just becomes a checklist and not a way of thinking"; "ethical risk is part of business viability risk."
+- **On AI and coaching (Feb 2026 — significant position shift, "a significant change to what we have been advocating for the past two decades"):** foundation models, configured with project files + project instructions + your company's strategic context, can serve as a personal product coach — "at least as good as most managers" and infinitely more scalable. Strong human coaches remain preferred but are scarce; SVPG's human-coach network now concentrates on product **leaders** (transformation politics, strategic context), while [[model-as-product-coach|model-as-coach]] addresses the millions of product creators without access to strong human coaching. See [[2026-02-04-cagan-product-coaching-and-ai]] and [[product-coaching]].
 
 ## Works
 - Books: *[[inspired|INSPIRED]]* (product management), *[[empowered|EMPOWERED]]* (product leadership), *[[transformed|TRANSFORMED]]* (moving to the product operating model), *LOVED* (product marketing, w/ Lauchengco).
-- SVPG articles cited here: *Time-Boxing Product Discovery*, *Process People*, *Product Vision vs Mission*.
+- SVPG articles cited here: *Time-Boxing Product Discovery*, *Process People*, *Product Vision vs Mission*, *[[2026-02-04-cagan-product-coaching-and-ai|Product Coaching and AI]]* (Feb 2026 — the model-as-coach prescription).
 
 ## Related
 - [[svpg]], [[transformed]], [[pawel-huryn]] (interpreter of his work), [[overview]]

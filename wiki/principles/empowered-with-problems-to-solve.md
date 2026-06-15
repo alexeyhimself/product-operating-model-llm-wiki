@@ -26,7 +26,7 @@ The team's charter is a [[team-objectives|team objective]]: a significant custom
 The feature factory: roadmaps are lists of features with dates, "requirements" arrive fully formed from stakeholders, and success = "we shipped it." Teams are measured on output and velocity, never on whether a customer or business problem actually improved.
 
 ## Tensions & trade-offs
-- **Coach inference:** "any metric you can influence counts" (Huryn's CES example) is pragmatic, but watch that proxy metrics don't quietly replace real customer-behavior change — see the outcomes nuance on [[outcomes-over-output]].
+- **Wiki synthesis:** "any metric you can influence counts" (Huryn's CES example) is pragmatic, but watch that proxy metrics don't quietly replace real customer-behavior change — see the outcomes nuance on [[outcomes-over-output]].
 - Empowerment requires competent teams and leaders who lead with context; granting it before the team is ready (or without a real outcome) produces chaos, not ownership. Pairs with [[trust-over-control]] and [[transparency]].
 
 ## Related

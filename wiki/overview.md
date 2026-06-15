@@ -31,12 +31,15 @@ A useful way to read the five groups (Cagan's Q&A confirms business strategy →
 3. **How to build them** — [[product-delivery|delivery]] (Delivery principles) — all held together by [[product-culture|culture]] (Culture principles).
 
 ## What it replaces
-The project / IT / **feature-factory** model: teams handed solutions to build, measured on output and predictability, with discovery and delivery split across groups and strategy reduced to a feature roadmap. The principles are the standard the coach holds the user's org against — see [[diagnostics]].
+The project / IT / **feature-factory** model: teams handed solutions to build, measured on output and predictability, with discovery and delivery split across groups and strategy reduced to a feature roadmap. The principles are the standard an agent using this wiki holds the user's org against — see [[diagnostics]].
+
+## How the model is taught
+Per [[2026-02-04-cagan-product-coaching-and-ai|Cagan, Feb 2026]], the primary way PMs become strong at the product model is [[product-coaching]] — by a manager, an external human coach, and (now) a [[model-as-product-coach|foundation model configured with project files + project instructions + strategic context]]. SVPG's Feb 2026 position shift makes the model-as-coach the scalable answer for most PMs. **This wiki implements that prescription:** the [`wiki/`](.) body is the project files; [`CLAUDE.md`](../CLAUDE.md) is the project instructions; the user supplies the strategic context.
 
 ## The map
-- **Concepts:** [[empowered-product-teams]] · [[the-four-big-risks]] · [[product-vision]] · [[product-strategy]] · [[team-objectives]] · [[product-discovery]] · [[product-delivery]] · [[product-culture]]
+- **Concepts:** [[empowered-product-teams]] · [[the-four-big-risks]] · [[product-vision]] · [[product-strategy]] · [[team-objectives]] · [[product-discovery]] · [[product-delivery]] · [[product-culture]] · [[product-coaching]] · [[model-as-product-coach]]
 - **Principles:** the five area pages above (each linking its four).
 - **Entities:** [[marty-cagan]] · [[pawel-huryn]] · [[svpg]] · [[transformed]] · [[inspired]] · [[empowered]]
-- **Resources:** [[recommended-library]] — SVPG/Cagan-recommended books & videos, by topic (the coach's recommendation engine).
-- **Sources:** root → *[[transformed|TRANSFORMED]]* ([svpg.com](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/)); SVPG canon → [[svpg-product-operating-model-introduction]] (confirms the principles); supporting explainers → [[2024-03-16-huryn-product-model-first-principles-part-1]] · [[2024-03-21-huryn-product-model-first-principles-part-2]]
+- **Resources:** [[recommended-library]] — SVPG/Cagan-recommended books & videos, by topic.
+- **Sources:** root → *[[transformed|TRANSFORMED]]* ([svpg.com](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/)); SVPG canon → [[svpg-product-operating-model-introduction]] (confirms the principles), [[2026-02-04-cagan-product-coaching-and-ai]] (the model-as-coach prescription); supporting explainers → [[2024-03-16-huryn-product-model-first-principles-part-1]] · [[2024-03-21-huryn-product-model-first-principles-part-2]]
 - **Open flags:** four-vs-five risks (see [[the-four-big-risks]]); confirm chapter attributions by ingesting *TRANSFORMED* directly.

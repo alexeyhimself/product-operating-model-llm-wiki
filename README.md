@@ -1,27 +1,54 @@
-# LLM Wiki as a Product Operating Model PM Coach
+# Product Operating Model — LLM Wiki
 
-A persistent, compounding knowledge base and **AI coach for the Product Operating Model** ([Marty Cagan](https://www.linkedin.com/in/cagan) / [Silicon Valley Product Group](https://www.svpg.com/)). Built on the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): you curate the sources and ask the questions; an LLM agent reads, summarizes, cross-references, and maintains the wiki — and coaches you against the model.
+A persistent, compounding **knowledge base** on the Product Operating Model ([Marty Cagan](https://www.linkedin.com/in/cagan) / [Silicon Valley Product Group](https://www.svpg.com/)), structured so AI agents (Claude Code, Cowork, etc.) can use it as authoritative context — for coaching, lookup, drafting, critique, or whatever you frame the session around. Built on the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): you curate the sources; an LLM reads, integrates, and cross-references the wiki against the conventions in [`CLAUDE.md`](CLAUDE.md). The wiki itself is neutral reference — *what* the agent grounds its reasoning in is this wiki, *how* it responds is set by your prompt.
 
-This repo is **open and community-maintained**. Clone it to use as your own PM coach, or help make it richer by contributing pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
+**Why this wiki exists.** Marty Cagan's [*Product Coaching and AI*](https://www.svpg.com/product-coaching-and-ai/) (SVPG, Feb 2026) argues that the lack of effective product coaching is "the primary obstacle" to PMs becoming strong at product, and prescribes a scalable answer: a foundation model configured with **project files + project instructions + your company's strategic context**, used as a personal product coach. This repo is one implementation of that prescription — the [`wiki/`](wiki/) body is the project files; [`CLAUDE.md`](CLAUDE.md) is the project instructions; you supply your company's strategic context as field notes. See [`wiki/concepts/model-as-product-coach.md`](wiki/concepts/model-as-product-coach.md) for the concept page and [`wiki/sources/2026-02-04-cagan-product-coaching-and-ai.md`](wiki/sources/2026-02-04-cagan-product-coaching-and-ai.md) for provenance.
 
-## Use it as your PM coach
+This repo is **open and community-maintained**. Clone it, point an agent at it, and ask — or help make it richer by contributing pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
 
-You don't need to add anything to get value — point an agent at the wiki and ask.
+## Use it with an AI agent
 
-1. **Clone** this repo.
-2. **Attach the folder** to Claude ([Cowork](https://claude.com/) / Claude Code). Read-only is fine for pure coaching — the coach reads and cites the wiki but won't change it.
-3. **Set the frame** with a starter prompt. The repo's [`CLAUDE.md`](CLAUDE.md) already encodes the coaching stance, so a capable agent picks most of this up on its own — but kicking off explicitly helps:
+You don't need to add anything to get value — clone, attach, ask. The wiki is **read-only for most users**: updates come from `git pull`. (See [How to contribute](#how-to-contribute) before you change anything — writes from a local clone will collide with future `git pull`s and break your copy.)
 
-   > *Act as my Product Operating Model coach using this folder. First read `CLAUDE.md` and follow its conventions and coaching stance. Coach me actively and Socratically: diagnose my situation against the model using `wiki/diagnostics/`, cite the relevant pages, and end with one concrete next step. My situation is: …*
+### 1. Clone
 
-4. **Ask a real question** about your team or org. The coach runs an assessment-driven session, places you on the relevant diagnostic, and gives you a next step.
+```bash
+git clone <this-repo-url>
+cd product-operating-model-llm-wiki
+```
 
-## Grow & maintain it
+### 2. Attach it to your Claude client
 
-To make the wiki richer — and the coach smarter — feed it. This needs **read-write** access (your own clone or fork):
+**Claude Code (terminal):** run `claude` from inside the repo. [`CLAUDE.md`](CLAUDE.md) auto-loads as the agent's working instructions — no other setup needed.
 
-1. Drop a source into [`raw/`](raw/) and say *"ingest this,"* **giving the citation/link** for it. The coach summarizes it into [`wiki/sources/`](wiki/sources/) (recording that provenance), updates the affected pages, refreshes [`index.md`](index.md), and logs it in [`log.md`](log.md).
-2. Ask questions; when a session produces a new insight, let the coach **file it back** as a `synthesis/` or `case-study/` page so it compounds.
+**[Cowork](https://claude.com/) (desktop app):** open Cowork → **New project** → attach this folder. Mark it **read-only** in the folder picker so the agent can read and cite pages but can't write to your clone. `CLAUDE.md` auto-loads as project instructions.
+
+**Claude.ai Projects — not recommended.** Project knowledge is injected into the context of *every* message in that project, so attaching the whole wiki (~80+ pages and growing) burns a lot of tokens per turn and slows replies, even when the question only touches one page. Cowork and Claude Code read pages on demand, which is the right model for a wiki this size. If you must use this path: add **only [`CLAUDE.md`](CLAUDE.md) and [`index.md`](index.md)** to the Project files (skip the wiki body) and paste the starter prompt below at the top of each new chat — the agent will then know the map but will read individual pages from links you paste in. Expect a degraded experience.
+
+### 3. Ask a real question
+
+Bring a real situation — your team, your role, a decision you're facing — not just a definition. Frame the session however you want (coaching, lookup, draft a strategy, critique a doc); the wiki gives the agent its grounding, your prompt gives it its stance. For a coaching session, this works as a starter prompt:
+
+> *Use this folder as your reference on the Product Operating Model. First read [`CLAUDE.md`](CLAUDE.md) to learn the wiki's conventions, then act as my product coach: ground every observation in the relevant pages, cite them with `[[page-name]]`, and end with one concrete next step. My situation is: …*
+
+With `CLAUDE.md` auto-loaded (Claude Code, Cowork), a capable agent picks the grounding up on its own — after the first session you can drop the preamble and just ask. With Claude.ai Projects (no auto-load), paste this prompt at the top of each new chat.
+
+### 4. Stay current
+
+```bash
+git pull
+```
+
+The agent picks up new and updated pages automatically on the next session — no re-install, no re-attach.
+
+## Grow & maintain it (advanced — most readers can skip)
+
+> **Warning.** Ingesting and writing into a local clone diverges your working copy from upstream, so the next `git pull` will collide with the shared wiki and your copy may break in ways that are hard to undo. Only do this if you're comfortable resolving git merge conflicts — and even then, prefer working in a **fork** and opening a PR (see [How to contribute](#how-to-contribute)) so the work flows back into the shared wiki instead of stranding on your machine.
+
+To make the wiki richer, feed it. This needs **read-write** access (your own clone or fork):
+
+1. Drop a source into [`raw/`](raw/) and say *"ingest this,"* **giving the citation/link** for it. The agent summarizes it into [`wiki/sources/`](wiki/sources/) (recording that provenance), updates the affected pages, refreshes [`index.md`](index.md), and logs it in [`log.md`](log.md).
+2. Ask questions; when a session produces a new insight, let the agent **file it back** as a `synthesis/` or `case-study/` page so it compounds.
 3. Periodically say *"lint the wiki"* to catch contradictions, stale claims, and orphan pages.
 4. See [`backlog.md`](backlog.md) for suggested starter pages, and [`CLAUDE.md`](CLAUDE.md) for the full conventions.
 
@@ -29,7 +56,7 @@ To make the wiki richer — and the coach smarter — feed it. This needs **read
 
 | Path | What |
 |---|---|
-| [`CLAUDE.md`](CLAUDE.md) | Canonical conventions + coaching stance (read first) |
+| [`CLAUDE.md`](CLAUDE.md) | Canonical wiki conventions (read first) |
 | [`AGENTS.md`](AGENTS.md) | Pointer to `CLAUDE.md` for non-Claude agents |
 | [`raw/`](raw/) | Sources you ingest — **local-only** (gitignored); provenance is published in `wiki/sources/` |
 | [`wiki/`](wiki/) | Everything the LLM writes (concepts, principles, diagnostics, …) |
@@ -40,17 +67,17 @@ To make the wiki richer — and the coach smarter — feed it. This needs **read
 
 ## How to contribute
 
-Pull requests welcome — the goal is a living, community-maintained coach that gets better as more of the SVPG body of knowledge is captured. The most valuable contributions:
+Pull requests welcome — the goal is a living, community-maintained knowledge base that gets richer as more of the SVPG body of knowledge is captured. The most valuable contributions:
 
 - **Sources, ingested.** Summarize a Cagan/SVPG article, talk, or book chapter into a [`wiki/sources/`](wiki/sources/) page (with its citation/link) and wire it into the concept/principle/diagnostic pages it touches.
-- **New or sharper pages.** Concepts, principles, frameworks — and especially **diagnostics**, the rubrics the coach assesses against.
+- **New or sharper pages.** Concepts, principles, frameworks — and especially **diagnostics**, the rubrics for assessing teams/orgs against the model.
 - **Corrections & connections.** Fix a misreading, add citations, link orphan pages.
 
 Workflow:
 
 1. **Fork** and create a branch.
-2. **Follow [`CLAUDE.md`](CLAUDE.md):** copy the right [`template`](templates/), use kebab-case filenames, YAML frontmatter, and `[[wikilinks]]`, and cite sources — keeping the three voices distinct (**SVPG canon** vs **field note** vs **coach inference**).
-3. *(Optional, easiest path)* Attach your fork to Claude read-write, drop your source in [`raw/`](raw/), say *"ingest this,"* and review the diff the coach produces.
+2. **Follow [`CLAUDE.md`](CLAUDE.md):** copy the right [`template`](templates/), use kebab-case filenames, YAML frontmatter, and `[[wikilinks]]`, and cite sources — keeping the three voices distinct (**SVPG canon** vs **field note** vs **wiki synthesis**).
+3. *(Optional, easiest path)* Attach your fork to Claude read-write, drop your source in [`raw/`](raw/), say *"ingest this,"* and review the diff the agent produces.
 4. **Update [`index.md`](index.md)** and append a one-line entry to [`log.md`](log.md).
 5. **Open a PR** describing what you added and which pages it touches.
 
@@ -58,7 +85,7 @@ A fuller `CONTRIBUTING.md` checklist can follow as the project grows.
 
 ## Sources & copyright
 
-The wiki holds **original summaries, synthesis, and commentary with citations** — never reproductions of Cagan/SVPG books or articles. The contents of [`raw/`](raw/) are **gitignored by default**: your source documents stay on your machine and are never published. What *is* published is each source's provenance — the [`wiki/sources/`](wiki/sources/) page records the citation and link you provide at ingest. In short, the wiki **cites and links** sources; it never reproduces them. Keep any quotes short. The original work — and the value — is the structured, cross-linked synthesis and the coach.
+The wiki holds **original summaries, synthesis, and commentary with citations** — never reproductions of Cagan/SVPG books or articles. The contents of [`raw/`](raw/) are **gitignored by default**: your source documents stay on your machine and are never published. What *is* published is each source's provenance — the [`wiki/sources/`](wiki/sources/) page records the citation and link you provide at ingest. In short, the wiki **cites and links** sources; it never reproduces them. Keep any quotes short. The original work — and the value — is the structured, cross-linked synthesis an agent can reason from.
 
 ## How this repo was initiated
 
@@ -70,7 +97,7 @@ This scaffold was generated in a single agent session, not hand-built:
    | Question | Choice |
    |---|---|
    | How much to pre-fill the wiki vs. leave empty? | **Empty scaffold only** |
-   | How should the AI coach behave when queried? | **Active coaching focus** (Socratic, assessment-driven) |
+   | How should the AI behave when queried? | **No prescription** — the wiki is reference only; the user's session prompt sets the stance (coaching, lookup, drafting, critique…) |
    | Which agent schema/config file drives conventions? | **Both `CLAUDE.md` + `AGENTS.md`** |
 
 3. **Model.** Built with **Claude Opus 4.8** (max reasoning).

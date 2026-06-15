@@ -4,4 +4,4 @@ This folder is the engine of the **coach**. Each page is a diagnostic: a structu
 
 Use the [`diagnostic`](../../templates/diagnostic.md) template.
 
-A good diagnostic: what it assesses, observable **signals/symptoms**, a leveled **rubric** (e.g. 1–4 from feature factory → exemplary), the **Socratic questions** the coach asks to place you on the rubric, what "good" looks like, and recommended **interventions / experiments** mapped to [`principles`](../principles/) and [`frameworks`](../frameworks/). See [`../../CLAUDE.md`](../../CLAUDE.md) → Coaching stance for how the coach uses these.
+A good diagnostic: what it assesses, observable **signals/symptoms**, a leveled **rubric** (e.g. 1–4 from feature factory → exemplary), the **Socratic questions** an agent asks to place the user on the rubric, what "good" looks like, and recommended **interventions / experiments** mapped to [`principles`](../principles/) and [`frameworks`](../frameworks/). See [`../../CLAUDE.md`](../../CLAUDE.md) → *Operations → Answer* for how an agent reads pages from this folder when a user's prompt asks for a diagnostic.

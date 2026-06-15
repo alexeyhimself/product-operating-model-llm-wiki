@@ -3,6 +3,8 @@
 Catalog of every page in the wiki, by category. **The coach reads this first when answering** and updates it on every ingest or page change. Each entry: `[[page]] — one-line summary` (🌱 stub · 📝 drafting · 🌳 mature).
 
 > First ingest (2026-06-14): the **20 product model first principles** — SVPG's observation articulated by Cagan in *[[transformed|TRANSFORMED]]* (root source), populated via two supporting ProductCompass explainer posts. Start at [[overview]].
+>
+> Latest ingest (2026-06-14): Cagan's **[[2026-02-04-cagan-product-coaching-and-ai|Product Coaching and AI]]** (Feb 2026, primary canon) — SVPG's significant position shift on coaching; seeds [[model-as-product-coach]] and [[product-coaching]] and grounds this wiki's purpose.
 
 ---
 
@@ -18,6 +20,8 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[product-discovery]] — 📝 figuring out what to build by testing risks cheaply; output = validated backlog.
 - [[product-delivery]] — 📝 building & shipping reliably and often; engineering-owned.
 - [[product-culture]] — 📝 trust/learning/innovation over control/blame/predictability.
+- [[product-coaching]] — 📝 the primary mechanism by which PMs learn the model; SVPG's Feb 2026 diagnosis: the supply gap is the industry's primary obstacle.
+- [[model-as-product-coach]] — 📝 Cagan's Feb 2026 prescription: foundation models + project files + project instructions + strategic context as a personal product coach. This wiki is one implementation.
 
 ## Principles
 **Product Teams** — [[principles-of-product-teams]] (🌳 index)
@@ -55,7 +59,7 @@ _none yet_
 
 ## Sources
 - **Root / primary:** [[transformed]] — *TRANSFORMED* (Cagan/SVPG, 2024); the principles' actual source. [svpg.com](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/).
-- **Primary (SVPG canon):** [[svpg-product-operating-model-introduction]] — SVPG, *The Product Operating Model: An Introduction* (2023); confirms the principles + source of the recommendation list.
+- **Primary (SVPG canon):** [[svpg-product-operating-model-introduction]] — SVPG, *The Product Operating Model: An Introduction* (2023); confirms the principles + source of the recommendation list. [[2026-02-04-cagan-product-coaching-and-ai]] — Cagan/SVPG, *Product Coaching and AI* (Feb 2026); the model-as-coach prescription and SVPG's significant position shift on coaching.
 - **Supporting (explainers):** [[2024-03-16-huryn-product-model-first-principles-part-1]] — ProductCompass, Team & Strategy + Cagan Q&A; [[2024-03-21-huryn-product-model-first-principles-part-2]] — ProductCompass, Discovery/Delivery/Culture + Cagan Q&A; [[svpg-cagan-on-principles-dalio]] — Cagan recommending Dalio's *Principles*.
 
 ## Entities — People
