@@ -1,0 +1,80 @@
+---
+title: Product Manager
+type: competency
+aliases: [product-manager, pm, product-management]
+status: drafting
+tags: [competency, product-manager, trio, discovery, value, viability]
+role: The member of the product team accountable for value and viability risk; partner to design and engineering in an empowered product team.
+sources: ["[[transformed]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]"]
+related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]"]
+created: 2026-06-20
+updated: 2026-06-20
+---
+
+# Product Manager
+
+> In an [[empowered-product-teams|empowered product team]], the PM is accountable for ensuring the solution is **valuable** and **viable** — that customers will buy/use it, and that it works for the business — while design owns usability and engineering owns feasibility (the [[the-four-big-risks|four big risks]]). The PM is a member of the [[the-product-team-trio|trio]], not its boss. Per *[[transformed|TRANSFORMED]]* (Ch. 10), value and viability are the PM's explicit responsibility.
+
+## Accountabilities
+- **Value and viability risk** — the PM personally owns the question of whether customers will buy/use the product and whether it works across the business's constraints (finance, sales, marketing, legal, partnerships). The other risks belong to the trio.
+- **Deep knowledge the team relies on** — the PM is the team's acknowledged expert on the customer, the data, the industry/domain, the business, and the product itself. This is the foundation that earns the PM a seat in solving the problem.
+- **Bringing the business context into discovery** — translating company strategy, [[team-objectives|objectives]], and constraints into the problems the team tackles, and feeding [[powered-by-insights|insights]] back up.
+- **Product-owner mechanics** — the administrative/backlog responsibilities (a small subset of the role, not the role itself).
+
+> **What the PM is *not*:** a project manager, a backlog administrator, a "CEO of the product," or a feature-request router. The CSPO/product-owner responsibilities are "just a very small subset of the responsibilities of the true product manager" (Cagan).
+
+## Competencies — weak vs strong
+Cagan assesses PM competence along three pillars — **product knowledge, process skills, people skills** ([[pm-competency]] is the assessment rubric; [[coaching-the-pm]] is how each is developed). Product knowledge is table stakes (~2–3 months to ramp); people skills separate competent from exceptional.
+
+### Product knowledge (the foundation — without it, nothing else matters)
+| Competency | Weak | Strong |
+|---|---|---|
+| User & customer | Knows users second-hand, through tickets/requests | Company-acknowledged expert on target users; has met many real ones (Cagan: ≥15 visits as onboarding) |
+| Data | Delegates questions to analysts; can't read the tools | Operates the analytics tools *and* understands what the data is telling them |
+| Industry & domain | Vague on the landscape; surprised by competitors | Knows the domain, competitors, and which trends matter for this product |
+| Business & company | Unaware of finance, GTM, legal constraints | Understands revenue/cost KPIs, the funnel, legal/partnership constraints; stakeholders feel understood |
+| Product operational | Can give a basic demo, no more | Expert user of their own product; could demo, onboard, and handle support; dogfoods |
+
+### Process skills & techniques
+| Competency | Weak | Strong |
+|---|---|---|
+| Product discovery | Jumps to build; tests nothing up front | Tackles the [[the-four-big-risks|four risks]] *before* engineers build; uses qual + quant; solves collaboratively; focuses on [[outcomes-over-output|outcome]] |
+| Product optimization | Ships and moves on | Runs ongoing A/B optimization on live products where traffic warrants |
+| Product delivery | Ignores delivery as "engineering's job" | Understands delivery techniques and the cost trade-offs of release decisions |
+| Development process | Only knows the ritual (standups, Jira) | Understands discovery + delivery end-to-end and their own product-owner role within it |
+
+### People skills (what separates competent from truly successful)
+| Competency | Weak | Strong |
+|---|---|---|
+| Team collaboration | Order-taker model; designer/eng brought in late | True collaboration built on trust and respect; involves the trio early, with direct customer access |
+| Stakeholder management | Stakeholders feel unheard; surprises them | Mutual trust; understands each stakeholder's constraints; previews anything of concern before building |
+| Evangelism | Can't get the team or company behind the work | Shares vision/strategy persuasively; motivates team and stakeholders |
+| Leadership | Relies on the title (which grants nothing) | Earns influence over people who don't report to them; looked to under pressure |
+
+## Common failure modes
+- **The feature-team PM** — a backlog administrator / project manager taking orders from stakeholders, not owning value and viability. The default in the project model; see [[feature-team-vs-empowered-team]].
+- **CSPO-only** — trained on product-owner mechanics, then confused about why they're failing; they never built the product/process/people foundation.
+- **The "I'm a great designer/engineer" PM** — meddles in usability/feasibility instead of owning value/viability and trusting the trio.
+- **No customer contact** — reasoning about users from requests and opinions rather than first-hand knowledge.
+- **People-skill plateau** — competent on knowledge/process but unwilling to develop collaboration/stakeholder skills; Cagan: if there's no sincere interest in improving, it's time to find a more suitable role.
+
+## Relationships
+- **The trio.** The PM works as a peer with the [[the-product-team-trio|product designer and tech lead]], not above them — "what each of design and engineering brings to the table is just as essential as what the PM brings."
+- **Stakeholders.** Built on mutual trust earned by understanding constraints and previewing concerns — harder than trio trust because interactions are fewer and weightier.
+- **Leadership & coaching.** The PM is developed by their manager (or a [[product-coach]] / [[model-as-product-coach|model-as-coach]]) via the [[pm-competency|assessment]] → [[coaching-the-pm|coaching plan]] loop, ideally in weekly one-on-ones.
+
+## In your context
+_Field note placeholder — rate your PMs (or yourself) against the three pillars using [[pm-competency]]. Where are the biggest gaps relative to what this team and company need? Who is coaching those gaps?_
+
+## Related
+- concepts: [[empowered-product-teams]], [[product-discovery]], [[the-four-big-risks]]
+- competencies: [[the-product-team-trio]], [[product-coach]], `[[product-leadership]]`
+- frameworks: [[coaching-the-pm]]
+- diagnostics: [[pm-competency]], [[feature-team-vs-empowered-team]]
+- principles: [[empowered-with-problems-to-solve]], [[outcomes-over-output]], [[collaboration]]
+
+## Sources
+- [[transformed]] — root source; the PM as owner of value & viability risk in an empowered team (Ch. 10).
+- [[2019-04-08-cagan-coaching-tools-the-assessment]] — the people/process/product skills taxonomy (assessment).
+- [[2019-04-22-cagan-coaching-tools-the-plan]] — how each competency is developed.
+- [[inspired]] — supporting; the PM role and discovery craft.

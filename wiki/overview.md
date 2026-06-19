@@ -4,7 +4,7 @@ type: overview
 status: drafting
 tags: [overview]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # The Product Operating Model — Overview
@@ -36,9 +36,12 @@ The project / IT / **feature-factory** model: teams handed solutions to build, m
 ## How the model is taught
 Per [[2026-02-04-cagan-product-coaching-and-ai|Cagan, Feb 2026]], the primary way PMs become strong at the product model is [[product-coaching]] — by a manager, an external human coach, and (now) a [[model-as-product-coach|foundation model configured with project files + project instructions + strategic context]]. SVPG's Feb 2026 position shift makes the model-as-coach the scalable answer for most PMs. **This wiki implements that prescription:** the [`wiki/`](.) body is the project files; [`CLAUDE.md`](../CLAUDE.md) is the project instructions; the user supplies the strategic context.
 
+What coaching actually consists of — Cagan's older "Coaching Tools" canon, now in the wiki as the **coaching engine**: a coach develops *capability, not deliverables* ([[coaching-vs-contracting]]); for a PM, that means assessing skills across the people/process/product taxonomy ([[pm-competency]]) and coaching the biggest gaps ([[coaching-the-pm]]). Coaching comes in three altitudes — discovery, leadership, transformation ([[types-of-product-coaching]]) — and every coach, human or model, rests on real product experience ([[product-coach]]).
+
 ## The map
-- **Concepts:** [[empowered-product-teams]] · [[the-four-big-risks]] · [[product-vision]] · [[product-strategy]] · [[team-objectives]] · [[product-discovery]] · [[product-delivery]] · [[product-culture]] · [[product-coaching]] · [[model-as-product-coach]]
+- **Concepts:** [[empowered-product-teams]] · [[the-four-big-risks]] · [[product-vision]] · [[product-strategy]] · [[team-objectives]] · [[product-discovery]] · [[product-delivery]] · [[product-culture]] · [[product-coaching]] · [[model-as-product-coach]] · [[coaching-vs-contracting]] · [[types-of-product-coaching]]
 - **Principles:** the five area pages above (each linking its four).
+- **Coaching engine:** competencies [[product-manager]] · [[product-coach]]; framework [[coaching-the-pm]]; diagnostic [[pm-competency]].
 - **Entities:** [[marty-cagan]] · [[pawel-huryn]] · [[svpg]] · [[transformed]] · [[inspired]] · [[empowered]]
 - **Resources:** [[recommended-library]] — SVPG/Cagan-recommended books & videos, by topic.
 - **Sources:** root → *[[transformed|TRANSFORMED]]* ([svpg.com](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/)); SVPG canon → [[svpg-product-operating-model-introduction]] (confirms the principles), [[2026-02-04-cagan-product-coaching-and-ai]] (the model-as-coach prescription); supporting explainers → [[2024-03-16-huryn-product-model-first-principles-part-1]] · [[2024-03-21-huryn-product-model-first-principles-part-2]]

@@ -6,9 +6,9 @@ status: drafting
 tags: [person, svpg, founder]
 role: Partner / founder, Silicon Valley Product Group; author
 org: "[[svpg]]"
-related: ["[[svpg]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[2026-02-04-cagan-product-coaching-and-ai]]"]
+related: ["[[svpg]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[product-coach]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2023-01-11-cagan-becoming-a-product-coach]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 <!-- updated 2026-06-14 to reflect the Feb 2026 model-as-coach position shift -->
@@ -32,6 +32,7 @@ Cagan didn't *invent* the first principles — he and the [[svpg|SVPG]] team **o
 ## Works
 - Books: *[[inspired|INSPIRED]]* (product management), *[[empowered|EMPOWERED]]* (product leadership), *[[transformed|TRANSFORMED]]* (moving to the product operating model), *LOVED* (product marketing, w/ Lauchengco).
 - SVPG articles cited here: *Time-Boxing Product Discovery*, *Process People*, *Product Vision vs Mission*, *[[2026-02-04-cagan-product-coaching-and-ai|Product Coaching and AI]]* (Feb 2026 — the model-as-coach prescription).
+- **On coaching** (the basis for this wiki's [[product-coach]] / [[coaching-the-pm]] / [[pm-competency]] pages): *[[2023-01-11-cagan-becoming-a-product-coach|Becoming a Product Coach]]* (2023 — the coaching profession), and the "Coaching Tools" series — *[[2019-04-08-cagan-coaching-tools-the-assessment|The Assessment]]* (the PM gap analysis) and *[[2019-04-22-cagan-coaching-tools-the-plan|The Plan]]* (the coaching curriculum), both 2019.
 
 ## Related
 - [[svpg]], [[transformed]], [[pawel-huryn]] (interpreter of his work), [[overview]]

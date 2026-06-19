@@ -9,6 +9,7 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 
 ## Concepts — `wiki/concepts/`
 ✅ Created (ingest 2026-06-14): `empowered-product-teams` · `the-four-big-risks` · `product-vision` · `product-strategy` · `team-objectives` · `product-discovery` · `product-delivery` · `product-culture`.
+✅ Created (coaching ingests): `model-as-product-coach` · `product-coaching` (2026-06-14); `coaching-vs-contracting` · `types-of-product-coaching` (2026-06-20).
 Still to do:
 - `product-operating-model` (top-level concept page) · `feature-teams-vs-product-teams` · `missionaries-vs-mercenaries`
 - `product-principles` · `continuous-discovery` · `dual-track` · `insights`
@@ -19,19 +20,25 @@ Still to do:
 ✅ Created (ingest 2026-06-14): all **20 individual principle pages** + 5 area index pages (`principles-of-product-teams` · `principles-of-product-strategy` · `principles-of-product-discovery` · `principles-of-product-delivery` · `principles-of-product-culture`). This section is essentially complete for the TRANSFORMED first principles.
 
 ## Competencies — `wiki/competencies/`
-- `product-manager` · `product-designer` · `engineers` · `the-product-team-trio`
+✅ Created (ingest 2026-06-20): `product-manager` · `product-coach`.
+Still to do:
+- `product-designer` · `engineers` · `the-product-team-trio`
 - `product-leadership` · `head-of-product` · `engineering-leadership` · `design-leadership`
-- `product-ops` · `product-coaching`
+- `product-ops`
 
 ## Frameworks — `wiki/frameworks/`
+✅ Created (ingest 2026-06-20): `coaching-the-pm` — the PM coaching curriculum (Cagan's "The Plan").
+Still to do:
 - `opportunity-assessment` · `product-discovery-techniques` · `prototypes`
 - `customer-interviews` · `okrs` · `story-mapping`
 - `product-vision-narrative` · `the-product-strategy-process` · `reference-customer-program`
 
 ## Diagnostics — `wiki/diagnostics/` (the coaching engine)
+✅ Created (ingest 2026-06-20): `pm-competency` — the first diagnostic (PM importance-vs-capability gap analysis).
+Still to do:
 - `feature-team-vs-empowered-team` · `model-maturity`
 - `discovery-health` · `delivery-health` · `product-strategy-quality`
-- `pm-competency` · `leadership-readiness` · `outcome-vs-output-orientation`
+- `leadership-readiness` · `outcome-vs-output-orientation`
 - `stakeholder-relationship-health`
 
 ## Case studies — `wiki/case-studies/`
@@ -53,3 +60,10 @@ Still to do:
 ## Resources — `wiki/resources/`
 ✅ Created (2026-06-15): `recommended-library` — SVPG/Cagan-recommended books + videos, mapped by topic/problem.
 Still to do: add per-topic deep-links from each principle page into the library; add new recommendations only with a trusted-source trail.
+
+## Sources to ingest next (referenced but not yet in the wiki)
+Cagan coaching-tools companions referenced by the 2026-06-20 ingest — ingest to deepen the coaching engine:
+- *Coaching Tools – The One-on-One* (svpg.com) — the weekly cadence that runs the [[coaching-the-pm|coaching plan]].
+- *Coaching Tools – The Narrative* (svpg.com) — the evangelism/argument tool referenced from [[coaching-the-pm]].
+- *Developing Strong Product Managers* (svpg.com) — the older gap-analysis tool that [[2019-04-08-cagan-coaching-tools-the-assessment|The Assessment]] updates.
+- *Product Leadership is Hard* / *Keys to Successful Transformation* / *Product Sense Demystified* (svpg.com) — referenced from [[types-of-product-coaching]] and [[product-coach]]; would seed `product-leadership` and transformation pages.

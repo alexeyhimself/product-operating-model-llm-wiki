@@ -4,10 +4,10 @@ type: concept
 aliases: [product-coaching, coaching, pm-coaching]
 status: drafting
 tags: [coaching, learning, leadership, culture, core-concept]
-sources: ["[[2026-02-04-cagan-product-coaching-and-ai]]", "[[transformed]]"]
-related: ["[[model-as-product-coach]]", "[[trust-over-control]]", "[[product-culture]]", "[[principles-over-process]]", "[[marty-cagan]]", "[[svpg]]", "[[overview]]"]
+sources: ["[[2026-02-04-cagan-product-coaching-and-ai]]", "[[transformed]]", "[[2023-01-11-cagan-becoming-a-product-coach]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]"]
+related: ["[[model-as-product-coach]]", "[[product-coach]]", "[[types-of-product-coaching]]", "[[coaching-vs-contracting]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[trust-over-control]]", "[[product-culture]]", "[[principles-over-process]]", "[[marty-cagan]]", "[[svpg]]", "[[overview]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Product Coaching
@@ -32,9 +32,13 @@ updated: 2026-06-14
 
 ## What strong coaching does
 - Holds you to the [[overview|model's principles]], not the rituals.
-- Diagnoses where your team/org is and what to try next — see [`diagnostics`](../diagnostics/).
+- **Develops capability, not deliverables.** A coach teaches you to do the work; it never does the work for you — the [[coaching-vs-contracting]] line that also separates [[model-as-product-coach|model-as-coach]] from PM theater.
+- Diagnoses where your team/org is and what to try next — see [`diagnostics`](../diagnostics/). For a PM, that's the [[pm-competency|assessment]] → [[coaching-the-pm|coaching plan]] loop (rate the gaps, coach the top 3, review weekly).
 - Develops *product sense* — Cagan's recommended starting point: [Product Sense Demystified](https://www.svpg.com/product-sense-demystified/).
 - Coaches the *person* across sessions — patterns, not one-off answers.
+
+## Types of coaching, and the experience prerequisite
+Cagan ([[2023-01-11-cagan-becoming-a-product-coach|Becoming a Product Coach]], 2023) sees three primary [[types-of-product-coaching|types]] by altitude — **discovery** (product teams), **product leadership** (heads of product/eng), and **transformation** (the CEO) — across three client segments (startup / scaleup / enterprise). His hard prerequisite for *any* coach: real, relevant product experience. "I do not see how a person can be an effective product coach without actual, relevant product experience" — facilitation skills help only on top of that foundation. This is why [[model-as-product-coach|model-as-coach]] leans on strong project files (this wiki) and explicit instruction to prioritize the [[overview|product model]]. The role itself: [[product-coach]].
 
 ## Anti-patterns
 - **No coaching at all.** Managers as approvers and status-checkers, not coaches. The default in the project model.
@@ -49,10 +53,14 @@ _Field note placeholder — who coaches you today? Manager, external coach, mode
 
 ## Related
 - [[model-as-product-coach]] — the AI-specific form.
+- [[product-coach]] — the role; [[types-of-product-coaching]] — its three forms; [[coaching-vs-contracting]] — the defining distinction.
+- [[coaching-the-pm]] (the curriculum) + [[pm-competency]] (the assessment) — how a PM is actually developed.
 - [[trust-over-control]] — active coaching as a leadership principle.
 - `[[product-leadership]]` (future competency), [[product-culture]].
 - diagnostics: `[[leadership-readiness]]`.
 
 ## Sources
 - [[2026-02-04-cagan-product-coaching-and-ai]] — Cagan/SVPG, Feb 2026; primary source for the position shift and the scaling diagnosis.
+- [[2023-01-11-cagan-becoming-a-product-coach]] — Cagan/SVPG, 2023; the coaching profession (prerequisites, types, coaching-vs-contracting).
+- [[2019-04-08-cagan-coaching-tools-the-assessment]] · [[2019-04-22-cagan-coaching-tools-the-plan]] — Cagan/SVPG, 2019; the PM assessment + coaching plan.
 - [[transformed]] — root source for "active coaching" as a leadership behavior in [[trust-over-control]].

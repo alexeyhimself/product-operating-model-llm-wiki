@@ -4,7 +4,9 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 
 > First ingest (2026-06-14): the **20 product model first principles** — SVPG's observation articulated by Cagan in *[[transformed|TRANSFORMED]]* (root source), populated via two supporting ProductCompass explainer posts. Start at [[overview]].
 >
-> Latest ingest (2026-06-14): Cagan's **[[2026-02-04-cagan-product-coaching-and-ai|Product Coaching and AI]]** (Feb 2026, primary canon) — SVPG's significant position shift on coaching; seeds [[model-as-product-coach]] and [[product-coaching]] and grounds this wiki's purpose.
+> Latest ingest (2026-06-20): Cagan's **coaching trilogy** (primary canon) — *[[2023-01-11-cagan-becoming-a-product-coach|Becoming a Product Coach]]* (2023) + *[[2019-04-08-cagan-coaching-tools-the-assessment|Coaching Tools – The Assessment]]* and *[[2019-04-22-cagan-coaching-tools-the-plan|The Plan]]* (2019). Builds out the **coaching engine** for an exceptional PM coach: competencies [[product-manager]] + [[product-coach]], concepts [[coaching-vs-contracting]] + [[types-of-product-coaching]], framework [[coaching-the-pm]], diagnostic [[pm-competency]].
+>
+> Prior ingest (2026-06-14): Cagan's **[[2026-02-04-cagan-product-coaching-and-ai|Product Coaching and AI]]** (Feb 2026, primary canon) — SVPG's significant position shift on coaching; seeds [[model-as-product-coach]] and [[product-coaching]] and grounds this wiki's purpose.
 
 ---
 
@@ -22,6 +24,8 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[product-culture]] — 📝 trust/learning/innovation over control/blame/predictability.
 - [[product-coaching]] — 📝 the primary mechanism by which PMs learn the model; SVPG's Feb 2026 diagnosis: the supply gap is the industry's primary obstacle.
 - [[model-as-product-coach]] — 📝 Cagan's Feb 2026 prescription: foundation models + project files + project instructions + strategic context as a personal product coach. This wiki is one implementation.
+- [[coaching-vs-contracting]] — 📝 a coach teaches you to do the work; it never does it for you. The scalability hinge — and the line that separates model-as-coach from PM theater.
+- [[types-of-product-coaching]] — 📝 discovery / leadership / transformation coaching, across startup / scaleup / enterprise clients; how to locate what kind of help a user needs.
 
 ## Principles
 **Product Teams** — [[principles-of-product-teams]] (🌳 index)
@@ -40,13 +44,17 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[principles-over-process]] · [[trust-over-control]] · [[innovation-over-predictability]] · [[learning-over-failure]] — 🌳
 
 ## Competencies
-_none yet — `[[the-product-team-trio]]`, `[[product-manager]]`, `[[product-leadership]]` etc. referenced by principle pages; create as sources justify._
+- [[product-manager]] — 📝 owns value & viability risk; the people/process/product skill taxonomy (weak vs strong). The long-missing, most-referenced competency.
+- [[product-coach]] — 📝 develops product people; the experience prerequisite, the three coaching types, the business of coaching.
+- _Still referenced, not yet created: `[[the-product-team-trio]]`, `[[product-leadership]]`, `[[product-designer]]`, `[[engineers]]`._
 
 ## Frameworks
-_none yet — `[[okrs]]`, `[[ab-testing]]`, `[[product-strategy-canvas]]` referenced; create as sources justify._
+- [[coaching-the-pm]] — 📝 the PM coaching curriculum: how to develop each skill in the people/process/product taxonomy (Cagan's "The Plan").
+- _Still referenced, not yet created: `[[okrs]]`, `[[product-discovery-techniques]]`, `[[prototypes]]`._
 
 ## Diagnostics
-_none yet — `[[feature-team-vs-empowered-team]]`, `[[discovery-health]]`, `[[delivery-health]]`, `[[product-strategy-quality]]`, `[[model-maturity]]` referenced by principle pages; high-value next build for the coach._
+- [[pm-competency]] — 📝 Cagan's PM gap analysis: rate each of 13 skills on importance vs capability; coach the top-3 weighted gaps. The first diagnostic — the coaching engine's anchor.
+- _Still referenced, not yet created: `[[feature-team-vs-empowered-team]]`, `[[discovery-health]]`, `[[delivery-health]]`, `[[product-strategy-quality]]`, `[[model-maturity]]`._
 
 ## Case studies
 _none yet — `[[your-org-baseline]]` recommended next._
@@ -59,7 +67,7 @@ _none yet_
 
 ## Sources
 - **Root / primary:** [[transformed]] — *TRANSFORMED* (Cagan/SVPG, 2024); the principles' actual source. [svpg.com](https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/).
-- **Primary (SVPG canon):** [[svpg-product-operating-model-introduction]] — SVPG, *The Product Operating Model: An Introduction* (2023); confirms the principles + source of the recommendation list. [[2026-02-04-cagan-product-coaching-and-ai]] — Cagan/SVPG, *Product Coaching and AI* (Feb 2026); the model-as-coach prescription and SVPG's significant position shift on coaching.
+- **Primary (SVPG canon):** [[svpg-product-operating-model-introduction]] — SVPG, *The Product Operating Model: An Introduction* (2023); confirms the principles + source of the recommendation list. [[2026-02-04-cagan-product-coaching-and-ai]] — Cagan/SVPG, *Product Coaching and AI* (Feb 2026); the model-as-coach prescription and SVPG's significant position shift on coaching. [[2023-01-11-cagan-becoming-a-product-coach]] — Cagan/SVPG (2023); the product-coaching profession. [[2019-04-08-cagan-coaching-tools-the-assessment]] — Cagan/SVPG (2019); the PM skills gap analysis. [[2019-04-22-cagan-coaching-tools-the-plan]] — Cagan/SVPG (2019); the PM coaching curriculum.
 - **Supporting (explainers):** [[2024-03-16-huryn-product-model-first-principles-part-1]] — ProductCompass, Team & Strategy + Cagan Q&A; [[2024-03-21-huryn-product-model-first-principles-part-2]] — ProductCompass, Discovery/Delivery/Culture + Cagan Q&A; [[svpg-cagan-on-principles-dalio]] — Cagan recommending Dalio's *Principles*.
 
 ## Entities — People
