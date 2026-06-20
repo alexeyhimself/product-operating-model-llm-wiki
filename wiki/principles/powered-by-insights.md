@@ -6,10 +6,10 @@ status: mature
 tags: [product-strategy, insights, data, first-principles]
 group: product-strategy
 order: 6
-sources: ["[[transformed]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
+sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
 related: ["[[product-strategy]]", "[[focus]]", "[[product-discovery]]", "[[principles-of-product-strategy]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Powered by Insights
@@ -35,4 +35,7 @@ Strategy set in a single offsite by loudest-voice or HiPPO; choices justified by
 - diagnostics: [[product-strategy-quality]]
 
 ## Sources
-- [[2024-03-16-huryn-product-model-first-principles-part-1]] — Principle 6; Cagan Q&A on insights → strategy.
+- [[transformed]] — root source.
+- [[2020-02-17-cagan-product-strategy-overview]] — insights as the second of four strategy pillars; "insights come from study and thought."
+- [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — quantitative + qualitative insights, enabling tech, industry trends as inputs.
+- [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; Principle 6.

@@ -6,10 +6,10 @@ status: mature
 tags: [product-team, outcomes, roadmaps, first-principles]
 group: product-team
 order: 2
-sources: ["[[transformed]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
-related: ["[[empowered-with-problems-to-solve]]", "[[team-objectives]]", "[[innovation-over-predictability]]", "[[principles-of-product-teams]]"]
+sources: ["[[transformed]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
+related: ["[[empowered-with-problems-to-solve]]", "[[team-objectives]]", "[[innovation-over-predictability]]", "[[time-to-money]]", "[[principles-of-product-teams]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Outcomes over Output
@@ -35,4 +35,7 @@ Output theater: success measured in story points, releases, and "% of roadmap de
 - diagnostics: [[outcome-vs-output-orientation]]
 
 ## Sources
-- [[2024-03-16-huryn-product-model-first-principles-part-1]] — Principle 2; *TRANSFORMED* Ch. 8.
+- [[transformed]] — root source; Ch. 8 (outcome-based roadmaps).
+- [[2023-08-17-cagan-from-projects-to-products]] — the culture lens: time-to-market → [[time-to-money]]; outcome-vs-output as a cultural shift.
+- [[2022-09-20-moore-changing-how-you-solve-problems]] — feature teams produce *output*; only empowered teams can be held accountable for *outcomes*; the 10–20% ROI figure.
+- [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; Principle 2.

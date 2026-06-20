@@ -6,10 +6,10 @@ status: mature
 tags: [product-team, collaboration, psychological-safety, trio, first-principles]
 group: product-team
 order: 4
-sources: ["[[transformed]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
-related: ["[[sense-of-ownership]]", "[[product-discovery]]", "[[the-product-team-trio]]", "[[principles-of-product-teams]]"]
+sources: ["[[transformed]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
+related: ["[[sense-of-ownership]]", "[[product-discovery]]", "[[the-product-team-trio]]", "[[empowered-engineers]]", "[[principles-of-product-teams]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Collaboration
@@ -35,4 +35,7 @@ The [[the-product-team-trio|trio]] does discovery side by side; people challenge
 - diagnostics: [[feature-team-vs-empowered-team]]
 
 ## Sources
-- [[2024-03-16-huryn-product-model-first-principles-part-1]] — Principle 4.
+- [[transformed]] — root source.
+- [[2020-09-04-cagan-discovery-problem-vs-solution]] — the *interplay* of value/usability/feasibility/viability owned by the trio is what produces winning solutions.
+- [[2020-10-30-cagan-discovery-delivery]] — one team does both discovery and delivery; hand-off culture kills collaboration.
+- [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; Principle 4.

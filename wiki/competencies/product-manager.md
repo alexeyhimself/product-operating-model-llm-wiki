@@ -5,8 +5,8 @@ aliases: [product-manager, pm, product-management]
 status: drafting
 tags: [competency, product-manager, trio, discovery, value, viability]
 role: The member of the product team accountable for value and viability risk; partner to design and engineering in an empowered product team.
-sources: ["[[transformed]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]"]
-related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]"]
+related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]"]
 created: 2026-06-20
 updated: 2026-06-20
 ---
@@ -59,9 +59,10 @@ Cagan assesses PM competence along three pillars — **product knowledge, proces
 - **People-skill plateau** — competent on knowledge/process but unwilling to develop collaboration/stakeholder skills; Cagan: if there's no sincere interest in improving, it's time to find a more suitable role.
 
 ## Relationships
-- **The trio.** The PM works as a peer with the [[the-product-team-trio|product designer and tech lead]], not above them — "what each of design and engineering brings to the table is just as essential as what the PM brings."
+- **The trio.** The PM works as a peer with the [[product-designer|product designer]] and the [[engineers|tech lead]] (the [[the-product-team-trio|trio]]), not above them — "what each of design and engineering brings to the table is just as essential as what the PM brings." Prototyping, wireframing, and user research are the designer's job, not the PM's ([[2020-06-12-cagan-product-management-start-here|canon]]).
 - **Stakeholders.** Built on mutual trust earned by understanding constraints and previewing concerns — harder than trio trust because interactions are fewer and weightier.
-- **Leadership & coaching.** The PM is developed by their manager (or a [[product-coach]] / [[model-as-product-coach|model-as-coach]]) via the [[pm-competency|assessment]] → [[coaching-the-pm|coaching plan]] loop, ideally in weekly one-on-ones.
+- **Leadership & coaching.** The PM is developed by their manager (or a [[product-coach]] / [[model-as-product-coach|model-as-coach]]) via the [[pm-competency|assessment]] → [[coaching-the-pm|coaching plan]] loop, ideally in weekly one-on-ones. Expect **~3 months of real work** to reach basic competence, *with* weekly coaching ([[2020-06-12-cagan-product-management-start-here|Cagan]]).
+- **Feature-team trap.** If you have the PM title but spend most of your day on project management or backlog admin, you're on a feature team or worse — see [[feature-teams-vs-product-teams]].
 
 ## In your context
 _Field note placeholder — rate your PMs (or yourself) against the three pillars using [[pm-competency]]. Where are the biggest gaps relative to what this team and company need? Who is coaching those gaps?_
@@ -75,6 +76,8 @@ _Field note placeholder — rate your PMs (or yourself) against the three pillar
 
 ## Sources
 - [[transformed]] — root source; the PM as owner of value & viability risk in an empowered team (Ch. 10).
+- [[2023-03-15-cagan-product-model-competencies]] — risk-ownership table (PM = value + viability → outcomes); the title-without-competency warning.
+- [[2020-06-12-cagan-product-management-start-here]] — canonical PM primer: CSPO is a subset; 3-month ramp; design/research belong to the designer.
 - [[2019-04-08-cagan-coaching-tools-the-assessment]] — the people/process/product skills taxonomy (assessment).
 - [[2019-04-22-cagan-coaching-tools-the-plan]] — how each competency is developed.
 - [[inspired]] — supporting; the PM role and discovery craft.

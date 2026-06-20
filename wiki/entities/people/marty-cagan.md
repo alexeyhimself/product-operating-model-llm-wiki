@@ -6,7 +6,7 @@ status: drafting
 tags: [person, svpg, founder]
 role: Partner / founder, Silicon Valley Product Group; author
 org: "[[svpg]]"
-related: ["[[svpg]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[product-coach]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2023-01-11-cagan-becoming-a-product-coach]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]"]
+related: ["[[svpg]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[product-coach]]", "[[jon-moore]]", "[[chris-jones]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2023-01-11-cagan-becoming-a-product-coach]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-08-10-cagan-product-vision-faq]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]"]
 created: 2026-06-14
 updated: 2026-06-20
 ---
@@ -32,6 +32,11 @@ Cagan didn't *invent* the first principles — he and the [[svpg|SVPG]] team **o
 ## Works
 - Books: *[[inspired|INSPIRED]]* (product management), *[[empowered|EMPOWERED]]* (product leadership), *[[transformed|TRANSFORMED]]* (moving to the product operating model), *LOVED* (product marketing, w/ Lauchengco).
 - SVPG articles cited here: *Time-Boxing Product Discovery*, *Process People*, *Product Vision vs Mission*, *[[2026-02-04-cagan-product-coaching-and-ai|Product Coaching and AI]]* (Feb 2026 — the model-as-coach prescription).
+- **On the model itself (overview canon):** *[[2024-01-17-cagan-product-model-concepts|Product Model Concepts]]* (2024 — the five concepts) and *[[2023-03-15-cagan-product-model-competencies|Product Model Competencies]]* (2023 — the four competencies); both written ahead of TRANSFORMED to make the model legible to a non-technical audience.
+- **On vision and strategy:** *[[2020-08-10-cagan-product-vision-faq|Product Vision FAQ]]* (the operational guidance on vision), *[[2020-02-17-cagan-product-strategy-overview|Product Strategy – Overview]]* (the four pillars that became the strategy principles).
+- **On culture and teams:** *[[2023-08-17-cagan-from-projects-to-products|From Projects to Products]]* (the cultural shift; time-to-market vs. time-to-money), *[[2021-04-27-cagan-product-vs-project-teams|Product vs. Project Teams]]* (the two-axes clarification).
+- **On discovery:** *[[2020-09-04-cagan-discovery-problem-vs-solution|Discovery: Problem vs. Solution]]* (most of discovery is solution work), *[[2020-10-30-cagan-discovery-delivery|Discovery: Delivery]]* (one team owns both).
+- **On the trio competencies:** *[[2020-06-12-cagan-product-management-start-here|Product Management: Start Here]]* (PM primer), *[[2020-04-20-cagan-the-most-important-thing|The Most Important Thing]]* (the empowered engineer), *[[2020-11-19-cagan-product-leadership-is-hard|Product Leadership Is Hard]]* (leadership overview).
 - **On coaching** (the basis for this wiki's [[product-coach]] / [[coaching-the-pm]] / [[pm-competency]] pages): *[[2023-01-11-cagan-becoming-a-product-coach|Becoming a Product Coach]]* (2023 — the coaching profession), and the "Coaching Tools" series — *[[2019-04-08-cagan-coaching-tools-the-assessment|The Assessment]]* (the PM gap analysis) and *[[2019-04-22-cagan-coaching-tools-the-plan|The Plan]]* (the coaching curriculum), both 2019.
 
 ## Related

@@ -6,10 +6,10 @@ status: mature
 tags: [product-strategy, focus, trade-offs, first-principles]
 group: product-strategy
 order: 5
-sources: ["[[transformed]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
+sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
 related: ["[[product-strategy]]", "[[placing-bets]]", "[[powered-by-insights]]", "[[principles-of-product-strategy]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Focus
@@ -35,4 +35,7 @@ Strategy as a wish-list that says yes to every stakeholder; "priorities" so nume
 - diagnostics: [[product-strategy-quality]]
 
 ## Sources
-- [[2024-03-16-huryn-product-model-first-principles-part-1]] — Principle 5; Steve Jobs quote via *TRANSFORMED*.
+- [[transformed]] — root source.
+- [[2020-02-17-cagan-product-strategy-overview]] — focus as the first of four strategy pillars; Rumelt quote on avoidance of the hard choice.
+- [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — Steve Jobs quote on focus; "if you chase two rabbits…" — the *Decide* dimension.
+- [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; Principle 5.

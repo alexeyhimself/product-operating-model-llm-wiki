@@ -6,10 +6,10 @@ status: mature
 tags: [product-team, ownership, autonomy, purpose, first-principles]
 group: product-team
 order: 3
-sources: ["[[transformed]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
-related: ["[[empowered-with-problems-to-solve]]", "[[collaboration]]", "[[trust-over-control]]", "[[product-discovery]]", "[[product-delivery]]", "[[principles-of-product-teams]]"]
+sources: ["[[transformed]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
+related: ["[[empowered-with-problems-to-solve]]", "[[collaboration]]", "[[trust-over-control]]", "[[product-discovery]]", "[[product-delivery]]", "[[missionaries-vs-mercenaries]]", "[[feature-teams-vs-product-teams]]", "[[principles-of-product-teams]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Sense of Ownership
@@ -35,4 +35,7 @@ Discovery and delivery split across "design/PM teams" and "dev teams"; teams ren
 - diagnostics: [[feature-team-vs-empowered-team]]
 
 ## Sources
-- [[2024-03-16-huryn-product-model-first-principles-part-1]] — Principle 3.
+- [[transformed]] — root source.
+- [[2021-04-27-cagan-product-vs-project-teams]] — durability is the *ownership* axis; pool model = mercenary engineers.
+- [[2020-10-30-cagan-discovery-delivery]] — same team owns discovery and delivery; split-team is the ownership-killing anti-pattern.
+- [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; Principle 3.

@@ -6,10 +6,10 @@ status: mature
 tags: [product-team, empowerment, outcomes, first-principles]
 group: product-team
 order: 1
-sources: ["[[transformed]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
-related: ["[[empowered-product-teams]]", "[[team-objectives]]", "[[outcomes-over-output]]", "[[sense-of-ownership]]", "[[principles-of-product-teams]]"]
+sources: ["[[transformed]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
+related: ["[[empowered-product-teams]]", "[[team-objectives]]", "[[outcomes-over-output]]", "[[sense-of-ownership]]", "[[empowered-engineers]]", "[[feature-teams-vs-product-teams]]", "[[principles-of-product-teams]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Empowered with Problems to Solve
@@ -35,4 +35,7 @@ The feature factory: roadmaps are lists of features with dates, "requirements" a
 - diagnostics: [[feature-team-vs-empowered-team]]
 
 ## Sources
-- [[2024-03-16-huryn-product-model-first-principles-part-1]] — Principle 1; *TRANSFORMED* Ch. 8 (problem types), Ch. 13 (team objectives).
+- [[transformed]] — root source; Ch. 8 (problem types), Ch. 13 (team objectives).
+- [[2022-09-20-moore-changing-how-you-solve-problems]] — feature-team vs. empowered-team contrast; the *Solve Problems* dimension.
+- [[2023-03-15-cagan-product-model-competencies]] — competencies that empowerment depends on; "if your transformation fails, it will very likely be because you did not establish these competencies."
+- [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; Principle 1.

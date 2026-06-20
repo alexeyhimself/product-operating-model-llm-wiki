@@ -4,10 +4,10 @@ type: concept
 aliases: [four-big-risks, product-risks, value-usability-feasibility-viability]
 status: drafting
 tags: [product-discovery, risk, core-concept]
-sources: ["[[transformed]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
-related: ["[[assess-product-risks]]", "[[product-discovery]]", "[[product-manager]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
+related: ["[[assess-product-risks]]", "[[product-discovery]]", "[[product-manager]]", "[[product-designer]]", "[[engineers]]", "[[the-product-team-trio]]", "[[overview]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # The Four Big Risks
@@ -40,4 +40,8 @@ _Field note placeholder — which risk does your org systematically under-test? 
 - [[product-discovery]], [[embrace-rapid-experimentation]], [[product-manager]]
 
 ## Sources
-- [[2024-03-21-huryn-product-model-first-principles-part-2]] — Principle 10 + Cagan Q&A (2024-03-21) on taxonomy; *TRANSFORMED* Ch. 10; *INSPIRED* (original four risks).
+- [[transformed]] — root source; the four risks and the trio risk ownership.
+- [[2023-03-15-cagan-product-model-competencies]] — the canonical risk-ownership table (PM = value+viability, designer = usability, Tech Lead = feasibility).
+- [[2022-09-20-moore-changing-how-you-solve-problems]] — the four risks as the empowered-team accountability set.
+- [[2020-09-04-cagan-discovery-problem-vs-solution]] — the *interplay* between the three dimensions of risk as the engine of discovery.
+- [[2024-03-21-huryn-product-model-first-principles-part-2]] — supporting explainer; Principle 10 + Cagan Q&A on taxonomy; *INSPIRED* (original four risks).

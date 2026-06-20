@@ -5,12 +5,12 @@ aliases: [transformed]
 status: drafting
 tags: [book, svpg, product-operating-model, primary-source]
 role: primary-source
-author: Marty Cagan (with the SVPG team)
+author: Marty Cagan, Lea Hickman, Christian Idiodi, Chris Jones, Jon Moore
 year: 2024
 source_url: https://www.svpg.com/books/transformed-moving-to-the-product-operating-model/
-related: ["[[marty-cagan]]", "[[svpg]]", "[[inspired]]", "[[empowered]]", "[[overview]]"]
+related: ["[[marty-cagan]]", "[[chris-jones]]", "[[jon-moore]]", "[[svpg]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]"]
 created: 2026-06-14
-updated: 2026-06-15
+updated: 2026-06-20
 ---
 
 # TRANSFORMED
@@ -39,5 +39,11 @@ Organized around the product model's competencies, concepts, and principles, plu
 ## Chapters ingested
 - _None as a primary document yet_ — current knowledge entered via the two supporting ProductCompass explainers above. Ingesting the book chapters directly (into `raw/`) is the recommended next step to confirm chapter attributions and quote fidelity.
 
+## Pre-launch companion articles (SVPG canon, ingested as primary)
+The wiki has primary-source coverage of the book's framing via Cagan/Moore's pre-launch articles:
+- [[2024-01-17-cagan-product-model-concepts]] — the five product concepts overview.
+- [[2023-03-15-cagan-product-model-competencies]] — the four critical competencies (trio + leadership).
+- [[2022-09-17-moore-changing-how-you-build]], [[2022-09-20-moore-changing-how-you-solve-problems]], [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — the three transformation dimensions.
+
 ## Related
-- [[marty-cagan]], [[svpg]], [[inspired]], [[empowered]]
+- [[marty-cagan]], [[chris-jones]], [[jon-moore]], [[svpg]], [[inspired]], [[empowered]]

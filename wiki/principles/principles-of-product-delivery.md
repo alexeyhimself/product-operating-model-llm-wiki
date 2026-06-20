@@ -5,10 +5,10 @@ aliases: [product-delivery-principles, delivery-principles, principles-of-produc
 status: mature
 tags: [product-delivery, first-principles, index]
 group: product-delivery
-sources: ["[[transformed]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
-related: ["[[small-frequent-uncoupled-releases]]", "[[instrumentation]]", "[[monitoring]]", "[[deployment-infrastructure]]", "[[product-delivery]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
+related: ["[[small-frequent-uncoupled-releases]]", "[[instrumentation]]", "[[monitoring]]", "[[deployment-infrastructure]]", "[[product-delivery]]", "[[engineers]]", "[[overview]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Principles of Product Delivery
@@ -25,4 +25,6 @@ These four principles define how strong teams ship: **small, frequent, uncoupled
 See also: [[product-delivery]] (concept). These delivery capabilities are what make [[test-ideas-responsibly|responsible experimentation]] practical.
 
 ## Sources
-- [[2024-03-21-huryn-product-model-first-principles-part-2]] — Four Product Delivery Principles.
+- [[transformed]] — root source.
+- [[2022-09-17-moore-changing-how-you-build]] — primary SVPG canon for the *Build* dimension; the three foundational reasons + small/frequent/reliable mechanism.
+- [[2024-03-21-huryn-product-model-first-principles-part-2]] — supporting explainer; Four Product Delivery Principles.
