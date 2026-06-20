@@ -4,8 +4,8 @@ type: concept
 aliases: [product-strategy, strategy]
 status: drafting
 tags: [product-strategy, core-concept]
-sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
-related: ["[[product-vision]]", "[[focus]]", "[[powered-by-insights]]", "[[transparency]]", "[[placing-bets]]", "[[team-objectives]]", "[[product-leadership]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]", "[[2020-02-18-cagan-product-strategy-focus]]", "[[2020-02-19-cagan-product-strategy-insights]]", "[[2020-02-20-cagan-product-strategy-actions]]", "[[2020-02-21-cagan-product-strategy-management]]", "[[2016-07-16-cagan-vision-vs-strategy]]", "[[2008-06-29-cagan-product-strategy-in-an-agile-world]]", "[[2006-01-02-cagan-the-product-manifesto]]", "[[2017-07-14-cagan-analyzing-product-strategy]]", "[[2020-01-09-cagan-coaching-strategic-context]]"]
+related: ["[[product-vision]]", "[[focus]]", "[[powered-by-insights]]", "[[transparency]]", "[[placing-bets]]", "[[team-objectives]]", "[[product-leadership]]", "[[overview]]", "[[product-strategy-quality]]"]
 created: 2026-06-14
 updated: 2026-06-20
 ---

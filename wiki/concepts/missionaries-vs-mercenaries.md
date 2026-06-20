@@ -4,7 +4,7 @@ type: concept
 aliases: [missionaries-vs-mercenaries, missionaries, mercenaries]
 status: drafting
 tags: [team-culture, motivation, ownership, missionaries, mercenaries]
-sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]"]
+sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2015-11-25-cagan-missionaries-vs-mercenaries]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2014-06-13-cagan-good-product-team-bad-product-team]]"]
 related: ["[[empowered-product-teams]]", "[[sense-of-ownership]]", "[[product-vision]]", "[[empowered-engineers]]", "[[trust-over-control]]"]
 created: 2026-06-20
 updated: 2026-06-20

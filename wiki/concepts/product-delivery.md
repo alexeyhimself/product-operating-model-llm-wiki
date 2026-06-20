@@ -4,8 +4,8 @@ type: concept
 aliases: [product-delivery, delivery]
 status: drafting
 tags: [product-delivery, engineering, core-concept]
-sources: ["[[transformed]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
-related: ["[[small-frequent-uncoupled-releases]]", "[[instrumentation]]", "[[monitoring]]", "[[deployment-infrastructure]]", "[[product-discovery]]", "[[engineers]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2010-11-10-cagan-big-bang-releases]]", "[[2006-02-15-cagan-gentle-deployment]]", "[[2012-11-01-cagan-assessing-customer-impact]]", "[[2012-10-24-cagan-continuous-discovery]]", "[[2010-10-14-cagan-requirements-are-not]]"]
+related: ["[[small-frequent-uncoupled-releases]]", "[[instrumentation]]", "[[monitoring]]", "[[deployment-infrastructure]]", "[[product-discovery]]", "[[engineers]]", "[[overview]]", "[[delivery-health]]"]
 created: 2026-06-14
 updated: 2026-06-20
 ---

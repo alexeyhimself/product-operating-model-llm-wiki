@@ -34,13 +34,14 @@ Still to do:
 - `customer-interviews` · `okrs` · `story-mapping`
 - `product-vision-narrative` · `the-product-strategy-process` · `reference-customer-program`
 
-## Diagnostics — `wiki/diagnostics/` (the coaching engine)
+## Diagnostics — `wiki/diagnostics/`
 ✅ Created (ingest 2026-06-20): `pm-competency` — the first diagnostic (PM importance-vs-capability gap analysis).
+✅ Created (ingest 2026-06-21, the Diagnostics Ingest): `feature-team-vs-empowered-team` · `discovery-health` · `delivery-health` · `product-strategy-quality` · `leadership-readiness` · `model-maturity` · `outcome-vs-output-orientation` · `stakeholder-relationship-health`.
 Still to do:
-- `feature-team-vs-empowered-team` · `model-maturity`
-- `discovery-health` · `delivery-health` · `product-strategy-quality`
-- `leadership-readiness` · `outcome-vs-output-orientation`
-- `stakeholder-relationship-health`
+- `team-collaboration-health` (trio dynamics; PM/designer/Tech Lead interplay)
+- `vision-quality` (is it inspiring? 2–5 years? a recruiting tool?)
+- `engineering-empowerment` (the "first source of just-now-possible ideas" test)
+- `model-as-coach-readiness` (project files + instructions + strategic context check — referenced from [[model-as-product-coach]])
 
 ## Case studies — `wiki/case-studies/`
 - `your-org-baseline` — assess your own organization's starting state (high value for coaching)
@@ -64,9 +65,20 @@ Still to do:
 Still to do: add per-topic deep-links from each principle page into the library; add new recommendations only with a trusted-source trail.
 
 ## Sources to ingest next (referenced but not yet in the wiki)
-Cagan coaching-tools companions referenced by the 2026-06-20 ingest — ingest to deepen the coaching engine:
-- *Coaching Tools – The One-on-One* (svpg.com) — the weekly cadence that runs the [[coaching-the-pm|coaching plan]].
-- *Coaching Tools – The Narrative* (svpg.com) — the evangelism/argument tool referenced from [[coaching-the-pm]].
+✅ Ingested 2026-06-21 (the Diagnostics Ingest): *Coaching Tools – The One-on-One*, *Coaching Tools – The Narrative* (both now slim cards backing coaching/leadership diagnostics).
+
+Still to ingest — in `raw/` but not yet card-ified (would deepen the coaching engine and discovery toolkit):
+- *Coaching – Thinking* · *Coaching – Owner vs. Employee* · *Coaching – Managing Time* — the coaching-mindset trilogy.
+- *Product Discovery With Live-Data Prototypes* · *Great Products By Design* · *Assessing Product Opportunities* — discovery technique deep-dives.
+- *Beyond Usability* (designers) — the canonical Cagan designer expansion essay.
+- *Product Roadmaps* · *The Alternative to Roadmaps* — the roadmap-replacement canon.
+- *The Product Scorecard* · *Your Business Plan is Wrong* — the metrics/business-model canon.
+- *Lessons from Amazon* — exemplar-org canon; would seed an `amazon` organization entity.
+- *Avoiding Design By Committee* — referenced from [[stakeholder-relationship-health]].
+- *Recruiting Product Managers* · *Product Management as a Service Organization* · *Product Manager vs. Product Owner Revisited* — PM-role deep-dives.
+- *The Delivery Manager Role* — the project-manager/delivery-manager role page.
+- *Empowered Engineers FAQ* — would extend [[empowered-engineers]].
+- *High-Integrity Commitments* — referenced from [[time-to-money]].
 - *Developing Strong Product Managers* (svpg.com) — the older gap-analysis tool that [[2019-04-08-cagan-coaching-tools-the-assessment|The Assessment]] updates.
 - ✅ Ingested 2026-06-20: *Product Leadership Is Hard* (now [[2020-11-19-cagan-product-leadership-is-hard]]).
 - *Keys to Successful Transformation* / *Product Sense Demystified* / *Transformation Defined* (svpg.com) — referenced from the Moore three-part series and from [[types-of-product-coaching]]; would seed transformation pages.

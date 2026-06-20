@@ -4,8 +4,8 @@ type: concept
 aliases: [product-discovery, discovery]
 status: drafting
 tags: [product-discovery, core-concept]
-sources: ["[[transformed]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
-related: ["[[the-four-big-risks]]", "[[minimize-waste]]", "[[embrace-rapid-experimentation]]", "[[product-delivery]]", "[[time-to-money]]", "[[empowered-engineers]]", "[[the-product-team-trio]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2009-10-12-cagan-product-discovery-plan]]", "[[2012-10-24-cagan-continuous-discovery]]", "[[2012-09-18-cagan-dual-track-agile]]", "[[2009-08-23-cagan-the-two-week-rule]]", "[[2012-08-21-cagan-time-boxing-product-discovery]]", "[[2012-07-24-cagan-the-opportunity-backlog]]", "[[2009-09-08-cagan-product-discovery-vs-product-optimization]]", "[[2013-11-23-cagan-product-discovery-in-established-companies]]", "[[2012-11-01-cagan-assessing-customer-impact]]", "[[2010-10-14-cagan-requirements-are-not]]", "[[2013-03-17-cagan-the-inconvenient-truth-about-product]]"]
+related: ["[[the-four-big-risks]]", "[[minimize-waste]]", "[[embrace-rapid-experimentation]]", "[[product-delivery]]", "[[time-to-money]]", "[[empowered-engineers]]", "[[the-product-team-trio]]", "[[overview]]", "[[discovery-health]]"]
 created: 2026-06-14
 updated: 2026-06-20
 ---

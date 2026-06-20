@@ -4,7 +4,7 @@ type: concept
 aliases: [feature-teams-vs-product-teams, feature-vs-product-teams, feature-team]
 status: drafting
 tags: [team-models, anti-pattern, empowerment, ownership]
-sources: ["[[transformed]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2023-08-17-cagan-from-projects-to-products]]"]
+sources: ["[[transformed]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2019-08-29-cagan-product-vs-feature-teams]]", "[[2014-06-13-cagan-good-product-team-bad-product-team]]"]
 related: ["[[empowered-product-teams]]", "[[empowered-with-problems-to-solve]]", "[[outcomes-over-output]]", "[[sense-of-ownership]]", "[[feature-team-vs-empowered-team]]"]
 created: 2026-06-20
 updated: 2026-06-20
@@ -51,10 +51,12 @@ _Field note placeholder — pick one of your teams. Are they given problems or f
 
 ## Related
 - [[empowered-product-teams]], [[empowered-with-problems-to-solve]], [[outcomes-over-output]], [[sense-of-ownership]], [[missionaries-vs-mercenaries]]
-- diagnostics: `[[feature-team-vs-empowered-team]]` (to be built)
+- diagnostics: [[feature-team-vs-empowered-team]], [[outcome-vs-output-orientation]], [[model-maturity]]
 
 ## Sources
 - [[transformed]] — root source; the feature/product/project distinctions.
 - [[2022-09-20-moore-changing-how-you-solve-problems]] — feature teams diagnosis; the 10–20% feature-ROI figure.
 - [[2021-04-27-cagan-product-vs-project-teams]] — the two-axes clarification; the pool model.
 - [[2023-08-17-cagan-from-projects-to-products]] — the cultural shift away from projects.
+- [[2019-08-29-cagan-product-vs-feature-teams]] — the canonical three team types and the seven-indicator test.
+- [[2014-06-13-cagan-good-product-team-bad-product-team]] — the seventeen-bullet contrast.

@@ -5,7 +5,7 @@ aliases: [product-leadership, head-of-product, head-of-design, head-of-engineeri
 status: drafting
 tags: [competency, product-leadership, management, leadership, strategic-context]
 role: The managers and leaders of product management, product design, and engineering. Responsible for coaching and staffing the people, and for providing the strategic context (vision, principles, topology, strategy, team objectives, evangelism) that empowered teams need to make good decisions.
-sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]"]
+sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2015-06-27-cagan-leadership-vs-management]]", "[[2023-12-05-cagan-alternatives-to-product-leaders]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2019-04-24-cagan-the-greatest-coach]]"]
 related: ["[[empowered-product-teams]]", "[[product-coaching]]", "[[product-strategy]]", "[[product-vision]]", "[[team-objectives]]", "[[team-topology]]", "[[trust-over-control]]", "[[principles-over-process]]"]
 created: 2026-06-20
 updated: 2026-06-20
@@ -55,7 +55,7 @@ _Field note placeholder — can each product leader articulate their team's visi
 - concepts: [[empowered-product-teams]], [[product-vision]], [[product-strategy]], [[team-objectives]], [[team-topology]]
 - competencies: [[product-manager]], [[product-designer]], [[engineers]], [[product-coach]], [[the-product-team-trio]]
 - principles: [[trust-over-control]], [[principles-over-process]], [[focus]]
-- frameworks/diagnostics: [[coaching-the-pm]], [[pm-competency]]
+- frameworks/diagnostics: [[coaching-the-pm]], [[pm-competency]], [[leadership-readiness]], [[product-strategy-quality]], [[model-maturity]], [[stakeholder-relationship-health]]
 
 ## Sources
 - [[transformed]] — root source; product leadership in the empowered model.
@@ -63,3 +63,8 @@ _Field note placeholder — can each product leader articulate their team's visi
 - [[2020-11-19-cagan-product-leadership-is-hard]] — canonical management vs. leadership split + the five elements of strategic context.
 - [[2023-03-15-cagan-product-model-competencies]] — leadership as one of the four critical competencies.
 - [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — the *Decide* dimension and the product-leadership-gap diagnosis in transformations.
+- [[2015-06-27-cagan-leadership-vs-management]] — leadership (pull) vs. management (push); both required.
+- [[2023-12-05-cagan-alternatives-to-product-leaders]] — no real alternative at scale; the three failure modes (command-and-control / process / proxies).
+- [[2020-01-09-cagan-coaching-strategic-context]] — the six elements of strategic context every PM needs.
+- [[2018-10-31-cagan-empowered-product-teams]] — five leadership elements + three management elements; "ordinary people, extraordinary teams."
+- [[2019-04-24-cagan-the-greatest-coach]] — Bill Campbell's yardstick: measure leadership by leaders produced.
