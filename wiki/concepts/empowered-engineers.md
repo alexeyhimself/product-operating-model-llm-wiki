@@ -4,7 +4,7 @@ type: concept
 aliases: [empowered-engineers, empowered-engineer]
 status: drafting
 tags: [engineers, empowerment, innovation, the-most-important-thing]
-sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]"]
+sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2020-04-23-cagan-empowered-engineers-faq]]"]
 related: ["[[engineers]]", "[[empowered-product-teams]]", "[[missionaries-vs-mercenaries]]", "[[product-discovery]]", "[[the-four-big-risks]]"]
 created: 2026-06-20
 updated: 2026-06-20

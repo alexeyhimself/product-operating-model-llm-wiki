@@ -4,8 +4,8 @@ type: concept
 aliases: [team-objective, problems-and-outcomes, okrs-in-the-model]
 status: drafting
 tags: [product-team, product-strategy, outcomes, okrs, core-concept]
-sources: ["[[transformed]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]"]
-related: ["[[empowered-with-problems-to-solve]]", "[[outcomes-over-output]]", "[[product-strategy]]", "[[product-leadership]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]", "[[2015-09-07-cagan-the-alternative-to-roadmaps]]", "[[2009-06-01-cagan-the-product-scorecard]]"]
+related: ["[[empowered-with-problems-to-solve]]", "[[outcomes-over-output]]", "[[product-strategy]]", "[[product-leadership]]", "[[overview]]", "[[outcome-based-roadmap]]", "[[high-integrity-commitments]]"]
 created: 2026-06-14
 updated: 2026-06-20
 ---

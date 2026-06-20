@@ -5,8 +5,8 @@ aliases: [product-manager, pm, product-management]
 status: drafting
 tags: [competency, product-manager, trio, discovery, value, viability]
 role: The member of the product team accountable for value and viability risk; partner to design and engineering in an empowered product team.
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]"]
-related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]"]
+related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[delivery-manager]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]"]
 created: 2026-06-20
 updated: 2026-06-20
 ---

@@ -5,7 +5,7 @@ aliases: [product-designer, designer, ux-designer]
 status: drafting
 tags: [competency, product-designer, trio, usability, experience]
 role: The member of the product team accountable for usability risk; owner of the holistic customer experience; the trio's prototyping and user-testing engine.
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2016-08-30-jones-the-product-designer-role]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2016-08-30-jones-the-product-designer-role]]", "[[2011-01-06-cagan-beyond-usability]]", "[[2007-02-23-cagan-great-products-by-design]]"]
 related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-manager]]", "[[chris-jones]]"]
 created: 2026-06-20
 updated: 2026-06-20

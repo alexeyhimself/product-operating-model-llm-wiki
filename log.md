@@ -102,3 +102,42 @@ User direction: the wiki is a **knowledge base used by AI agents to coach PMs wi
 4. **Voice across diagnostics:** wiki-synthesis additions (four-level rubric labels; intervention sequencing) are the wiki's framing; canon material is attributed to source articles each time.
 5. **Not-yet-built diagnostics** noted in the diagnostics README for future passes: `team-collaboration-health`, `vision-quality`, `engineering-empowerment`, `model-as-coach-readiness`.
 6. **Not-yet-ingested raw files** that the diagnostics did not need this pass — added to backlog: `Coaching – Thinking`, `Coaching – Owner vs. Employee`, `Coaching – Managing Time`, `Product Discovery With Live-Data Prototypes`, `Great Products By Design`, `Assessing Product Opportunities`, `Beyond Usability`, `Product Roadmaps`, `The Alternative to Roadmaps`, `The Product Scorecard`, `Your Business Plan is Wrong`, `Lessons from Amazon`, `Avoiding Design By Committee`, `Recruiting Product Managers`, `Product Management as a Service Organization`, `The Delivery Manager Role`, `Empowered Engineers FAQ`, `Product Manager vs. Product Owner Revisited`, `High-Integrity Commitments`.
+
+## [2026-06-21] ingest | Follow-up pass — the 19 remaining raw files
+**Primary canon, follow-up to the Diagnostics Ingest.** Per user request, ingested the 19 raw files the morning's diagnostics ingest had deferred to backlog — coaching mindset trilogy, discovery techniques, designer canon, roadmaps & metrics, PM-role deep-dives, role-specific essays, and the Amazon exemplar.
+
+**Pages created (24):**
+- **Source provenance cards (19 slim, all primary):**
+  - *Coaching mindset trilogy:* [[2019-06-24-cagan-coaching-owner-vs-employee]] · [[2019-06-28-cagan-coaching-managing-time]] · [[2019-07-16-cagan-coaching-thinking]].
+  - *Discovery techniques:* [[2011-02-20-cagan-product-discovery-with-live-data-prototypes]] · [[2007-02-23-cagan-great-products-by-design]] · [[2006-12-13-cagan-assessing-product-opportunities]] · [[2009-07-06-cagan-your-business-plan-is-wrong]].
+  - *Designer canon:* [[2011-01-06-cagan-beyond-usability]].
+  - *Roadmaps & metrics:* [[2009-01-07-cagan-product-roadmaps]] · [[2015-09-07-cagan-the-alternative-to-roadmaps]] · [[2009-06-01-cagan-the-product-scorecard]] · [[2012-12-15-cagan-high-integrity-commitments]].
+  - *PM-role deep-dives:* [[2007-09-11-cagan-recruiting-product-managers]] · [[2010-01-13-cagan-product-management-as-a-service-organization]] · [[2016-12-13-cagan-product-manager-vs-product-owner-revisited]].
+  - *Role-specific:* [[2014-07-13-cagan-the-delivery-manager-role]] · [[2020-04-23-cagan-empowered-engineers-faq]].
+  - *Anti-patterns / exemplars:* [[2008-06-03-cagan-avoiding-design-by-committee]] · [[2009-08-03-cagan-lessons-from-amazon]].
+- **5 new wiki pages:**
+  - [[amazon]] — Cagan's most-cited exemplar org; written narrative + customer obsession + Day 1 + working backwards.
+  - [[delivery-manager]] — competency page for the role Cagan rebranded from "project manager"; clears impediments and tracks high-integrity commitments.
+  - [[opportunity-assessment]] — framework page for the canonical 10-question pre-discovery assessment.
+  - [[high-integrity-commitments]] — framework page for the discovery-window-then-confident-commitment pattern.
+  - [[outcome-based-roadmap]] — concept page for the transitional artifact between feature-roadmaps and direct strategy/objectives communication.
+
+**Pages updated:** [[product-manager]] (6 new sources + delivery-manager backlink), [[engineers]] (FAQ source + delivery-manager backlink), [[product-designer]] (Beyond Usability + Great Products By Design sources), [[product-discovery]] (4 new sources), [[product-strategy]] (4 new sources + outcome-based-roadmap backlink), [[team-objectives]] (2 new sources + outcome-based-roadmap/high-integrity-commitments backlinks), [[empowered-engineers]] (FAQ source), [[time-to-money]] (high-integrity-commitments source + backlink), [[marty-cagan]] (Works inventory now near-complete, 50+ articles), [`wiki/frameworks/README.md`](wiki/frameworks/README.md) (now lists 3 built frameworks).
+
+**Catalog updates:** `index.md` (latest-ingest banner; new concept + competency + organization + 2 frameworks entries; Sources section expanded with 5 new tier groupings: mindset trilogy, discovery additions, roadmaps & metrics, PM-role deep-dives, exemplars).
+
+**Decisions:**
+1. Created **5 new wiki pages** (not just source cards) because (a) the canon clearly warranted it, (b) several were referenced from existing pages as forward-links, and (c) the user explicitly asked for careful inclusion of these sources, not just queueing.
+2. Did *not* create separate pages for items where the canon was best absorbed into existing pages: PM-vs-PO content went into [[product-manager]]'s sources; PM-as-service-org went into [[stakeholder-relationship-health]]'s sources; Lessons-from-Amazon backs both [[amazon]] (new) and [[recommended-library]].
+3. Did *not* reproduce article bodies in source cards — slim provenance per CLAUDE.md.
+
+**Voice discipline:** every new framework's steps cite the source article inline. The 10 questions on [[opportunity-assessment]] and the three-step high-integrity-commitment process are reproduced *as steps/questions only*, not source text.
+
+**Flags:**
+1. **[[outcome-based-roadmap]] is explicitly transitional**, not the destination. Per Moore/Cagan canon, the destination is direct strategy + team objectives communication. The concept page captures this so an agent doesn't recommend outcome-based roadmaps as the end-state.
+2. **[[high-integrity-commitments]] is the *exception* path**, not the default operating mode — paired explicitly with [[outcomes-over-output]] so the framework isn't used as cover for stakeholder-driven feature work.
+3. **[[opportunity-assessment]] vs [[2012-07-24-cagan-the-opportunity-backlog|opportunity-backlog]]:** the 10 questions are the heavy-weight assessment; the 3-question entry is the lighter-weight modern condensation. Both have a role.
+4. **[[amazon]] cross-references [[working-backwards]]** (existing book entity); the org page is the entry point, the book remains for deeper recommendation context.
+5. **[[delivery-manager]]** explicitly notes the role is not [[product-coach|product coach]] / not Agile coach — both common confusions.
+6. **PM/PO distinction** (from [[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]) is captured in the source notes but not yet integrated into [[product-manager]]'s body — future page-update opportunity.
+7. **Raw `Continuous Discovery`** drop (which the morning ingest noted as already covered by existing source page) verified — single canonical source card handles both raw drops.

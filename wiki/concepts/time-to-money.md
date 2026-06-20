@@ -4,8 +4,8 @@ type: concept
 aliases: [time-to-money, time-to-outcome]
 status: drafting
 tags: [outcomes, metrics, projects-vs-products, discovery-economics]
-sources: ["[[transformed]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]"]
-related: ["[[outcomes-over-output]]", "[[product-discovery]]", "[[empowered-product-teams]]", "[[product-culture]]", "[[feature-teams-vs-product-teams]]"]
+sources: ["[[transformed]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2012-12-15-cagan-high-integrity-commitments]]"]
+related: ["[[outcomes-over-output]]", "[[product-discovery]]", "[[empowered-product-teams]]", "[[product-culture]]", "[[feature-teams-vs-product-teams]]", "[[high-integrity-commitments]]"]
 created: 2026-06-20
 updated: 2026-06-20
 ---

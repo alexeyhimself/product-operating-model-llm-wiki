@@ -4,7 +4,9 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 
 > First ingest (2026-06-14): the **20 product model first principles** — SVPG's observation articulated by Cagan in *[[transformed|TRANSFORMED]]* (root source), populated via two supporting ProductCompass explainer posts. Start at [[overview]].
 >
-> Latest ingest (2026-06-21): the **diagnostics ingest** — 35 new primary SVPG/Cagan articles across teams, discovery, delivery, strategy, leadership, coaching, and project-model diagnosis, all grounded into **8 new diagnostic pages** that fill the long-standing diagnostic gap: [[feature-team-vs-empowered-team]] · [[discovery-health]] · [[delivery-health]] · [[product-strategy-quality]] · [[leadership-readiness]] · [[model-maturity]] · [[outcome-vs-output-orientation]] · [[stakeholder-relationship-health]]. The wiki now has a real *coaching engine* — agents can place a user on a rubric for almost any aspect of the model.
+> Latest ingest (2026-06-21, *follow-up pass*): the **remaining 19 raw articles** the diagnostics ingest left for later — coaching mindset trilogy, discovery techniques, designer canon, roadmaps & metrics, PM-role deep-dives, role-specific essays, Amazon exemplar. Created 19 slim source cards + **5 new pages**: [[amazon]] (org entity), [[delivery-manager]] (competency), [[opportunity-assessment]] (framework — the canonical 10 questions), [[high-integrity-commitments]] (framework — how to honor commitments in an outcome-based team), [[outcome-based-roadmap]] (concept — the transitional roadmap-replacement). Updated provenance across competency, concept, and entity pages.
+>
+> Prior ingest (2026-06-21): the **diagnostics ingest** — 35 new primary SVPG/Cagan articles across teams, discovery, delivery, strategy, leadership, coaching, and project-model diagnosis, all grounded into **8 new diagnostic pages** that fill the long-standing diagnostic gap: [[feature-team-vs-empowered-team]] · [[discovery-health]] · [[delivery-health]] · [[product-strategy-quality]] · [[leadership-readiness]] · [[model-maturity]] · [[outcome-vs-output-orientation]] · [[stakeholder-relationship-health]]. The wiki now has a real *coaching engine* — agents can place a user on a rubric for almost any aspect of the model.
 >
 > Prior ingest (2026-06-20): the **SVPG article corpus** for the Product Operating Model — 15 primary SVPG/Cagan/Moore/Jones articles covering the three transformation dimensions, the five product concepts, the four competencies, and the deep-dive companion essays. Fills the wiki's biggest remaining gap: 4 new competency pages ([[product-designer]] · [[engineers]] · [[product-leadership]] · [[the-product-team-trio]]), 5 new concept pages ([[feature-teams-vs-product-teams]] · [[missionaries-vs-mercenaries]] · [[empowered-engineers]] · [[time-to-money]] · [[team-topology]]), 2 new person entities ([[jon-moore]] · [[chris-jones]]), and provenance + content updates across ~15 existing pages.
 >
@@ -19,6 +21,7 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 
 ## Concepts
 - [[empowered-product-teams]] — 📝 durable cross-functional team given problems, not features; the most fundamental concept.
+- [[outcome-based-roadmap]] — 📝 the transitional artifact between feature-roadmaps and direct strategy/objectives communication; outcomes-as-entries with high-integrity-commitment escape hatches.
 - [[the-four-big-risks]] — 📝 value, usability, feasibility, viability (ethics inside viability); the risks discovery addresses.
 - [[product-vision]] — 📝 the customer-improving future you're creating; mission dropped in TRANSFORMED.
 - [[product-strategy]] — 📝 one holistic strategy = choosing the most important problems to solve.
@@ -58,10 +61,13 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[engineers]] — 📝 the Tech Lead + engineers; own feasibility + delivery; "the most important thing" — the single largest source of innovation.
 - [[product-leadership]] — 📝 managers of PM/design/eng; management (coaching + staffing) + leadership (the five elements of strategic context). Empowered teams need *better* leadership, not less.
 - [[the-product-team-trio]] — 📝 PM + designer + Tech Lead as peers, owning the four risks together. The competency core of every empowered team.
+- [[delivery-manager]] — 📝 the role Cagan rebranded from "project manager"; clears impediments and tracks high-integrity commitments so the PM can do discovery.
 - [[product-coach]] — 📝 develops product people; the experience prerequisite, the three coaching types, the business of coaching.
 
 ## Frameworks
 - [[coaching-the-pm]] — 📝 the PM coaching curriculum: how to develop each skill in the people/process/product taxonomy (Cagan's "The Plan").
+- [[opportunity-assessment]] — 📝 the canonical 10-question Cagan framework for deciding whether to pursue a product idea, lightweight enough to live on a page.
+- [[high-integrity-commitments]] — 📝 how to honor date-based commitments while operating an outcome-based team; the give-and-take of discovery-window-for-confident-date.
 - _Still referenced, not yet created: `[[okrs]]`, `[[product-discovery-techniques]]`, `[[prototypes]]`._
 
 ## Diagnostics
@@ -95,7 +101,12 @@ _none yet_
 - **Primary (SVPG canon) — discovery techniques:** [[2009-10-12-cagan-product-discovery-plan]] · [[2012-10-24-cagan-continuous-discovery]] · [[2012-09-18-cagan-dual-track-agile]] · [[2009-08-23-cagan-the-two-week-rule]] · [[2012-08-21-cagan-time-boxing-product-discovery]] · [[2012-07-24-cagan-the-opportunity-backlog]] · [[2009-09-08-cagan-product-discovery-vs-product-optimization]] · [[2013-11-23-cagan-product-discovery-in-established-companies]] · [[2012-11-01-cagan-assessing-customer-impact]] · [[2010-10-14-cagan-requirements-are-not]].
 - **Primary (SVPG canon) — delivery:** [[2010-11-10-cagan-big-bang-releases]] · [[2006-02-15-cagan-gentle-deployment]].
 - **Primary (SVPG canon) — leadership:** [[2015-06-27-cagan-leadership-vs-management]] · [[2023-12-05-cagan-alternatives-to-product-leaders]].
-- **Primary (SVPG canon) — project model diagnosis / success keys:** [[2010-08-16-cagan-top-10-reasons-for-weak-product]] · [[2013-03-17-cagan-the-inconvenient-truth-about-product]] · [[2015-06-05-cagan-product-fail]] · [[2016-05-03-cagan-product-success]].
+- **Primary (SVPG canon) — project model diagnosis / success keys:** [[2010-08-16-cagan-top-10-reasons-for-weak-product]] · [[2013-03-17-cagan-the-inconvenient-truth-about-product]] · [[2015-06-05-cagan-product-fail]] · [[2016-05-03-cagan-product-success]] · [[2010-01-13-cagan-product-management-as-a-service-organization]] · [[2008-06-03-cagan-avoiding-design-by-committee]].
+- **Primary (SVPG canon) — coaching mindset trilogy:** [[2019-06-24-cagan-coaching-owner-vs-employee]] · [[2019-06-28-cagan-coaching-managing-time]] · [[2019-07-16-cagan-coaching-thinking]].
+- **Primary (SVPG canon) — discovery techniques (additions):** [[2006-12-13-cagan-assessing-product-opportunities]] · [[2011-02-20-cagan-product-discovery-with-live-data-prototypes]] · [[2007-02-23-cagan-great-products-by-design]] · [[2009-07-06-cagan-your-business-plan-is-wrong]] · [[2011-01-06-cagan-beyond-usability]].
+- **Primary (SVPG canon) — roadmaps & metrics:** [[2009-01-07-cagan-product-roadmaps]] · [[2015-09-07-cagan-the-alternative-to-roadmaps]] · [[2009-06-01-cagan-the-product-scorecard]] · [[2012-12-15-cagan-high-integrity-commitments]].
+- **Primary (SVPG canon) — PM role deep-dives & adjacent roles:** [[2007-09-11-cagan-recruiting-product-managers]] · [[2016-12-13-cagan-product-manager-vs-product-owner-revisited]] · [[2014-07-13-cagan-the-delivery-manager-role]] · [[2020-04-23-cagan-empowered-engineers-faq]].
+- **Primary (SVPG canon) — exemplars:** [[2009-08-03-cagan-lessons-from-amazon]].
 - **Supporting (explainers):** [[2024-03-16-huryn-product-model-first-principles-part-1]] — ProductCompass, Team & Strategy + Cagan Q&A; [[2024-03-21-huryn-product-model-first-principles-part-2]] — ProductCompass, Discovery/Delivery/Culture + Cagan Q&A; [[svpg-cagan-on-principles-dalio]] — Cagan recommending Dalio's *Principles*.
 
 ## Entities — People
@@ -125,3 +136,4 @@ _none yet_
 
 ## Entities — Organizations
 - [[svpg]] — 📝 Silicon Valley Product Group; the canonical source.
+- [[amazon]] — 🌱 Cagan exemplar org; written narrative + customer obsession + Day 1 + working backwards.
