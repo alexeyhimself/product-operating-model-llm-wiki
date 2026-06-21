@@ -79,6 +79,7 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - _Still referenced, not yet created: `[[okrs]]`, `[[product-discovery-techniques]]`, `[[prototypes]]`._
 
 ## Diagnostics
+- [[diagnostics]] — 📝 hub page: when to use diagnostics, scope-matching table, the 10 built rubrics ordered by scope. Resolves the long-standing `[[diagnostics]]` references in [[overview]] and [[svpg]].
 - [[pm-competency]] — 📝 Cagan's PM gap analysis: rate each of 13 skills on importance vs capability; coach the top-3 weighted gaps.
 - [[feature-team-vs-empowered-team]] — 📝 place a single team on the empowerment axis: problems-to-solve or features-to-build? Cagan's seven-indicator test + Good Team / Bad Team contrast.
 - [[discovery-health]] — 📝 is discovery tackling the four risks fast and cheap, or theater? Nine weekly oversight questions + the two-week rule.
