@@ -69,7 +69,7 @@ updated: 2026-06-14
 ---
 ```
 
-**Linking:** use Obsidian `[[wikilinks]]` by filename, with display text where helpful: `[[product-discovery|product discovery]]`. Link **liberally** — a link to a page that doesn't exist yet is fine; it marks a page worth creating (and shows up in Obsidian's graph as a node to fill).
+**Linking:** inside content written into wiki `.md` files, use Obsidian `[[wikilinks]]` by filename, with display text where helpful: `[[product-discovery|product discovery]]`. Link **liberally** — a link to a page that doesn't exist yet is fine; it marks a page worth creating (and shows up in Obsidian's graph as a node to fill). Wikilinks are a wiki-content convention only; for citing pages in a chat reply, see the **Answer** section in §3.
 
 **Citations & provenance — link to the real source, never reproduce it.** Every non-obvious claim must be traceable to its source by **hyperlink**, so any agent reading the wiki can answer "where does this come from?" with a real, clickable origin. Two rules:
 
@@ -103,7 +103,7 @@ When the user drops a file in `raw/` and asks to ingest it:
 A single ingest may touch 10–15 pages. That bookkeeping is the whole point — do it.
 
 ### Answer — using the wiki as context
-When the user asks a question, the wiki is your authoritative source. Mechanically: read [`index.md`](index.md) first → open the relevant pages → ground your answer in what's there, citing pages as you go with `[[page-name]]`. If the user's prompt asks for coaching, a diagnostic, or a strategy critique, the [`diagnostics/`](wiki/diagnostics/) and [`case-studies/`](wiki/case-studies/) folders are especially useful — but don't impose that style if the user didn't ask for it. If the exchange produces a genuinely new connection or assessment of the user's org **and** the user has read-write access, offer to file it as a `synthesis/` or `case-study/` page so it compounds; log queries that produced filed pages.
+When the user asks a question, the wiki is your authoritative source. Mechanically: read [`index.md`](index.md) first → open the relevant pages → ground your answer in what's there, citing pages as you go. **Match the citation style to where you're writing.** Inside `.md` files in the wiki, use Obsidian wikilinks (`[[page-name]]`) — they render and feed the graph. In a chat reply, the user's client doesn't render wikilinks, so they appear as raw `[[braces]]` and look like noise. There, cite pages in prose ("see the product-discovery page") or as markdown links to the file (`[product discovery](wiki/concepts/product-discovery.md)`) — never as bare wikilinks. If the user's prompt asks for coaching, a diagnostic, or a strategy critique, the [`diagnostics/`](wiki/diagnostics/) and [`case-studies/`](wiki/case-studies/) folders are especially useful — but don't impose that style if the user didn't ask for it. If the exchange produces a genuinely new connection or assessment of the user's org **and** the user has read-write access, offer to file it as a `synthesis/` or `case-study/` page so it compounds; log queries that produced filed pages.
 
 ### Lint — health-checking the wiki
 On request (or periodically), scan for: contradictions between pages, stale claims a newer source superseded, orphan pages (no inbound links), important concepts mentioned but lacking a page, missing cross-references, and gaps a web search or new source could fill. Report findings and suggest next questions/sources. Append a `lint` entry to [`log.md`](log.md).
