@@ -4,7 +4,9 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 
 > First ingest (2026-06-14): the **20 product model first principles** — SVPG's observation articulated by Cagan in *[[transformed|TRANSFORMED]]* (root source), populated via two supporting ProductCompass explainer posts. Start at [[overview]].
 >
-> Latest ingest (2026-06-21, *follow-up pass*): the **remaining 19 raw articles** the diagnostics ingest left for later — coaching mindset trilogy, discovery techniques, designer canon, roadmaps & metrics, PM-role deep-dives, role-specific essays, Amazon exemplar. Created 19 slim source cards + **5 new pages**: [[amazon]] (org entity), [[delivery-manager]] (competency), [[opportunity-assessment]] (framework — the canonical 10 questions), [[high-integrity-commitments]] (framework — how to honor commitments in an outcome-based team), [[outcome-based-roadmap]] (concept — the transitional roadmap-replacement). Updated provenance across competency, concept, and entity pages.
+> Latest ingest (2026-06-21, *Transformation Ingest*): the **12 raw transformation articles** (10 new + 2 already covered). Created 10 slim source cards + **7 new pages**: [[transformation]] (concept hub), [[pilot-teams]] (framework — risk-mitigation + political mechanism), [[transformation-as-a-project]] (named Cagan anti-pattern), [[transformation-politics]] (concept — eight political dimensions), [[the-need-for-speed]] (concept — Cagan's 10 reasons), [[it-to-product-organization]] (framework — Cagan's 10-step IT→product), [[transformation-readiness]] (diagnostic — 8 readiness lenses). Updated [[transformed]], [[marty-cagan]], [[jon-moore]], [[svpg]], [[overview]], [[model-maturity]], [[product-leadership]] with new provenance and cross-references. **Major flag captured:** the Moore-vs-Cagan sequencing tension (Moore 2022 "pursue in parallel" vs Cagan 2024 "hold *Decide* for last") — both are canon; the wiki's operational rule for politically constrained orgs is Cagan's later guidance. [[2022-05-31-moore-transformation-defined|Moore 'Transformation Defined' (May 2022)]] is now correctly identified as the **root** of the three-dimensions framework (the three Sep 2022 articles are the deep-dives).
+>
+> Prior ingest (2026-06-21, *follow-up pass*): the **remaining 19 raw articles** the diagnostics ingest left for later — coaching mindset trilogy, discovery techniques, designer canon, roadmaps & metrics, PM-role deep-dives, role-specific essays, Amazon exemplar. Created 19 slim source cards + **5 new pages**: [[amazon]] (org entity), [[delivery-manager]] (competency), [[opportunity-assessment]] (framework — the canonical 10 questions), [[high-integrity-commitments]] (framework — how to honor commitments in an outcome-based team), [[outcome-based-roadmap]] (concept — the transitional roadmap-replacement). Updated provenance across competency, concept, and entity pages.
 >
 > Prior ingest (2026-06-21): the **diagnostics ingest** — 35 new primary SVPG/Cagan articles across teams, discovery, delivery, strategy, leadership, coaching, and project-model diagnosis, all grounded into **8 new diagnostic pages** that fill the long-standing diagnostic gap: [[feature-team-vs-empowered-team]] · [[discovery-health]] · [[delivery-health]] · [[product-strategy-quality]] · [[leadership-readiness]] · [[model-maturity]] · [[outcome-vs-output-orientation]] · [[stakeholder-relationship-health]]. The wiki now has a real *coaching engine* — agents can place a user on a rubric for almost any aspect of the model.
 >
@@ -38,6 +40,10 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[model-as-product-coach]] — 📝 Cagan's Feb 2026 prescription: foundation models + project files + project instructions + strategic context as a personal product coach. This wiki is one implementation.
 - [[coaching-vs-contracting]] — 📝 a coach teaches you to do the work; it never does it for you. The scalability hinge — and the line that separates model-as-coach from PM theater.
 - [[types-of-product-coaching]] — 📝 discovery / leadership / transformation coaching, across startup / scaleup / enterprise clients; how to locate what kind of help a user needs.
+- [[transformation]] — 📝 the multi-year shift from project/IT/feature-factory to the product model; three dimensions (build/solve/decide); pilot-team approach; Moore-vs-Cagan sequencing tension captured.
+- [[transformation-politics]] — 📝 the eight political dimensions Cagan names; trust stakeholders on the problem; hold *Decide* for last; monthly drumbeat of outcomes.
+- [[transformation-as-a-project]] — 📝 named anti-pattern: running the transformation in the very mode you're trying to leave. Use the product model to transform.
+- [[the-need-for-speed]] — 📝 Cagan's 10 reasons speed matters beyond time-to-market: learning, MVP focus, quality, morale, the only sustainable differentiator.
 
 ## Principles
 **Product Teams** — [[principles-of-product-teams]] (🌳 index)
@@ -68,6 +74,8 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[coaching-the-pm]] — 📝 the PM coaching curriculum: how to develop each skill in the people/process/product taxonomy (Cagan's "The Plan").
 - [[opportunity-assessment]] — 📝 the canonical 10-question Cagan framework for deciding whether to pursue a product idea, lightweight enough to live on a page.
 - [[high-integrity-commitments]] — 📝 how to honor date-based commitments while operating an outcome-based team; the give-and-take of discovery-window-for-confident-date.
+- [[pilot-teams]] — 📝 the canonical SVPG transformation technique: hand-picked trio, meaningful business problem, training + coaching, drumbeat of outcomes. Risk-mitigation tool + political mechanism + proof-of-concept.
+- [[it-to-product-organization]] — 📝 Cagan's 10-step framework (2008, still load-bearing) for evolving a legacy IT org into a product org; the structural changes a CIO-led tech org must make.
 - _Still referenced, not yet created: `[[okrs]]`, `[[product-discovery-techniques]]`, `[[prototypes]]`._
 
 ## Diagnostics
@@ -80,6 +88,7 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[model-maturity]] — 📝 whole-org rollup against the three transformation dimensions (build / solve / decide). Project model → exemplary.
 - [[outcome-vs-output-orientation]] — 📝 do you celebrate shipping or moving the KPI? The behavioral test of empowerment.
 - [[stakeholder-relationship-health]] — 📝 PM/stakeholder trust as the wall under viability; written-narrative discipline; the mojo moves.
+- [[transformation-readiness]] — 📝 **before** starting a transformation: 8 readiness lenses (scope clarity, leadership, coaching, pilot strategy, political plan, comms cadence, KTLO budget, patience). Distinct from [[model-maturity]] (current state).
 
 ## Case studies
 _none yet — `[[your-org-baseline]]` recommended next._
@@ -107,11 +116,14 @@ _none yet_
 - **Primary (SVPG canon) — roadmaps & metrics:** [[2009-01-07-cagan-product-roadmaps]] · [[2015-09-07-cagan-the-alternative-to-roadmaps]] · [[2009-06-01-cagan-the-product-scorecard]] · [[2012-12-15-cagan-high-integrity-commitments]].
 - **Primary (SVPG canon) — PM role deep-dives & adjacent roles:** [[2007-09-11-cagan-recruiting-product-managers]] · [[2016-12-13-cagan-product-manager-vs-product-owner-revisited]] · [[2014-07-13-cagan-the-delivery-manager-role]] · [[2020-04-23-cagan-empowered-engineers-faq]].
 - **Primary (SVPG canon) — exemplars:** [[2009-08-03-cagan-lessons-from-amazon]].
+- **Primary (SVPG canon) — transformation root + index:** [[2022-05-31-moore-transformation-defined]] (May 2022 — the **root** of the three-dimensions framework, predates the deep-dives) · [[2022-09-18-moore-the-transformation-series]] (the SVPG transformation canon index).
+- **Primary (SVPG canon) — transformation execution & politics:** [[2023-02-20-cagan-transformed-announcement]] (the book's premise; three case studies; role of coaching) · [[2024-10-29-cagan-transformation-as-a-project]] (named anti-pattern) · [[2024-11-21-cagan-transformation-politics]] (eight political dimensions; sequencing refinement) · [[2023-09-12-cagan-who-is-product-operating-model-for]] (scope clarification).
+- **Primary (SVPG canon) — foundational transformation classics:** [[2008-07-07-cagan-moving-from-it-to-product-organization]] (10-step IT→product) · [[2013-12-30-cagan-epic-waste]] (the economic case) · [[2013-07-21-cagan-the-need-for-speed]] (10 reasons speed matters) · [[2022-02-11-cagan-coaching-the-coaches]] (coaching-supply strategy; precursor to 2026 model-as-coach pivot).
 - **Supporting (explainers):** [[2024-03-16-huryn-product-model-first-principles-part-1]] — ProductCompass, Team & Strategy + Cagan Q&A; [[2024-03-21-huryn-product-model-first-principles-part-2]] — ProductCompass, Discovery/Delivery/Culture + Cagan Q&A; [[svpg-cagan-on-principles-dalio]] — Cagan recommending Dalio's *Principles*.
 
 ## Entities — People
 - [[marty-cagan]] — 📝 articulated the Product Operating Model & its first principles (SVPG founder).
-- [[jon-moore]] — 🌱 SVPG partner; TRANSFORMED co-author; author of the three-part transformation dimensions series.
+- [[jon-moore]] — 📝 SVPG partner; TRANSFORMED co-author; author of [[2022-05-31-moore-transformation-defined|*Transformation Defined*]] and the three-part transformation dimensions deep-dives.
 - [[chris-jones]] — 🌱 SVPG partner; EMPOWERED & TRANSFORMED co-author; author of *The Product Designer Role* (2016).
 - [[pawel-huryn]] — 🌱 product writer; author of the supporting explainer posts (secondary source).
 

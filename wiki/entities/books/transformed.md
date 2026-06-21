@@ -41,9 +41,17 @@ Organized around the product model's competencies, concepts, and principles, plu
 
 ## Pre-launch companion articles (SVPG canon, ingested as primary)
 The wiki has primary-source coverage of the book's framing via Cagan/Moore's pre-launch articles:
+- [[2023-02-20-cagan-transformed-announcement]] — the book's pre-launch announcement (Feb 2023); explains the premise, the three first-person case studies (Hickman, Idiodi, Moore), and the role of coaching.
 - [[2024-01-17-cagan-product-model-concepts]] — the five product concepts overview.
 - [[2023-03-15-cagan-product-model-competencies]] — the four critical competencies (trio + leadership).
-- [[2022-09-17-moore-changing-how-you-build]], [[2022-09-20-moore-changing-how-you-solve-problems]], [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — the three transformation dimensions.
+- [[2022-05-31-moore-transformation-defined]] — the **root** of the three-dimensions framework (May 2022); predates the three deep-dives.
+- [[2022-09-18-moore-the-transformation-series]] — the SVPG transformation canon index.
+- [[2022-09-17-moore-changing-how-you-build]], [[2022-09-20-moore-changing-how-you-solve-problems]], [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — the three transformation dimensions (deep-dives).
+
+## Post-launch transformation articles (SVPG canon)
+- [[2024-10-29-cagan-transformation-as-a-project]] — the named anti-pattern; use the product model to transform.
+- [[2024-11-21-cagan-transformation-politics]] — the eight political dimensions; refines Moore's "in parallel" sequencing with "Decide last" for politically constrained orgs.
+- [[2023-09-12-cagan-who-is-product-operating-model-for]] — scope clarification; the heuristic.
 
 ## Related
-- [[marty-cagan]], [[chris-jones]], [[jon-moore]], [[svpg]], [[inspired]], [[empowered]]
+- [[marty-cagan]], [[chris-jones]], [[jon-moore]], [[svpg]], [[inspired]], [[empowered]], [[transformation]] (the wiki's transformation hub)

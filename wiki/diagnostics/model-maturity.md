@@ -81,12 +81,14 @@ A whole-organization Level-3+ posture: durable trio-led teams across the org, gi
 - **Common traps:** (1) "We can transform one team in the bubble" — you can pilot, but real transformation needs leadership change; (2) "Process is the lever" — process amplifies what's already there; weak orgs that buy SAFe get faster failure ([[2015-11-25-cagan-missionaries-vs-mercenaries|Cagan]]); (3) confusing **agile** (an engineering practice) with **the product model** (an organization-wide operating model) — [[2015-06-05-cagan-product-fail|canon: "Agile finally enters too late"]]; (4) "We are special; this doesn't apply" — every successful product company is using this model under different cultural wrappers ([[2019-04-24-cagan-the-greatest-coach|Bill Campbell's quote]]).
 
 ## Related
-- concepts: [[empowered-product-teams]], [[product-vision]], [[product-strategy]], [[product-discovery]], [[product-delivery]], [[product-culture]], [[feature-teams-vs-product-teams]]
+- concepts: [[empowered-product-teams]], [[product-vision]], [[product-strategy]], [[product-discovery]], [[product-delivery]], [[product-culture]], [[feature-teams-vs-product-teams]], [[transformation]], [[transformation-as-a-project]]
 - competencies: [[product-manager]], [[product-designer]], [[engineers]], [[product-leadership]], [[the-product-team-trio]]
-- diagnostics: [[feature-team-vs-empowered-team]], [[discovery-health]], [[delivery-health]], [[product-strategy-quality]], [[leadership-readiness]], [[outcome-vs-output-orientation]], [[stakeholder-relationship-health]]
+- frameworks: [[pilot-teams]], [[it-to-product-organization]]
+- diagnostics: [[feature-team-vs-empowered-team]], [[discovery-health]], [[delivery-health]], [[product-strategy-quality]], [[leadership-readiness]], [[outcome-vs-output-orientation]], [[stakeholder-relationship-health]], [[transformation-readiness]] (the preconditions to *starting* a transformation)
 - overview: [[overview]]
 
 ## Sources
+- [[2022-05-31-moore-transformation-defined]] — the root of the three-dimensions framework.
 - [[2022-09-17-moore-changing-how-you-build]] — the Build dimension.
 - [[2022-09-20-moore-changing-how-you-solve-problems]] — the Solve dimension; 10–20% feature-ROI figure.
 - [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — the Decide dimension; the leadership gap.
@@ -95,5 +97,8 @@ A whole-organization Level-3+ posture: durable trio-led teams across the org, gi
 - [[2016-05-03-cagan-product-success]] — the 10 keys to success (the success scoring rubric).
 - [[2013-03-17-cagan-the-inconvenient-truth-about-product]] — the two inconvenient truths.
 - [[2023-08-17-cagan-from-projects-to-products]] — the cultural shift narrative.
+- [[2024-10-29-cagan-transformation-as-a-project]] — Level 2 "checkbox transformation" diagnosis; the project-style transformation anti-pattern.
+- [[2024-11-21-cagan-transformation-politics]] — sequencing refinement; what high-maturity looks like politically.
+- [[2013-12-30-cagan-epic-waste]] — the economic case for transforming out of Level 1.
 - [[svpg-product-operating-model-introduction]] — three dimensions × five concepts × four competencies × four principles.
 - [[transformed]] — root source.

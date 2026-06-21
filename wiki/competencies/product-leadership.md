@@ -5,10 +5,10 @@ aliases: [product-leadership, head-of-product, head-of-design, head-of-engineeri
 status: drafting
 tags: [competency, product-leadership, management, leadership, strategic-context]
 role: The managers and leaders of product management, product design, and engineering. Responsible for coaching and staffing the people, and for providing the strategic context (vision, principles, topology, strategy, team objectives, evangelism) that empowered teams need to make good decisions.
-sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2015-06-27-cagan-leadership-vs-management]]", "[[2023-12-05-cagan-alternatives-to-product-leaders]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2019-04-24-cagan-the-greatest-coach]]"]
-related: ["[[empowered-product-teams]]", "[[product-coaching]]", "[[product-strategy]]", "[[product-vision]]", "[[team-objectives]]", "[[team-topology]]", "[[trust-over-control]]", "[[principles-over-process]]"]
+sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2015-06-27-cagan-leadership-vs-management]]", "[[2023-12-05-cagan-alternatives-to-product-leaders]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2019-04-24-cagan-the-greatest-coach]]", "[[2024-11-21-cagan-transformation-politics]]", "[[2024-10-29-cagan-transformation-as-a-project]]"]
+related: ["[[empowered-product-teams]]", "[[product-coaching]]", "[[product-strategy]]", "[[product-vision]]", "[[team-objectives]]", "[[team-topology]]", "[[trust-over-control]]", "[[principles-over-process]]", "[[transformation]]", "[[transformation-politics]]"]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 # Product Leadership
@@ -48,6 +48,14 @@ Empowered teams need *strategic context* to make good decisions. Senior leaders 
 - **Product coaches.** External [[product-coach|product leadership coaches]] are the typical lift for transformation-era leaders whose own coaching network is thin; SVPG's human-coach network now concentrates here ([[product-coaching]]).
 - **CEO and CFO/CIO.** Many transformation failures originate at the C-suite ([[2021-04-27-cagan-product-vs-project-teams|project-team root causes]]). Product leadership reaches across to finance and the business owners to unwind project-based funding.
 
+## In transformation contexts
+Cagan: "product leaders really are the key to successful transformation" ([[2024-11-21-cagan-transformation-politics|canon]]). Specific political dimensions to remember:
+- **"The product leader is judged by her weakest product manager."** Be careful which PMs are exposed to stakeholders, and when.
+- **Start with humility** — initial stakeholder meetings should be about *learning* their concerns and constraints, not selling the new model.
+- **Trust stakeholders on the problem** in pilots; race to a successful solution. Long problem-discovery against stakeholder will is politically toxic and usually unnecessary.
+- **Hold the *Decide* dimension change for last** — change how the org *solves* and *builds* first; let those wins earn the trust to take on *decide*.
+- See [[transformation-politics]] for the full eight-dimension framing.
+
 ## In your context
 _Field note placeholder — can each product leader articulate their team's vision, topology, strategy, and current objectives without notes? How much of last week did first-level managers spend on coaching? Where is the strategic context still missing for the trio?_
 
@@ -68,3 +76,5 @@ _Field note placeholder — can each product leader articulate their team's visi
 - [[2020-01-09-cagan-coaching-strategic-context]] — the six elements of strategic context every PM needs.
 - [[2018-10-31-cagan-empowered-product-teams]] — five leadership elements + three management elements; "ordinary people, extraordinary teams."
 - [[2019-04-24-cagan-the-greatest-coach]] — Bill Campbell's yardstick: measure leadership by leaders produced.
+- [[2024-11-21-cagan-transformation-politics]] — the political dimensions a transforming leader must own; "judged by her weakest PM"; the sequencing refinement.
+- [[2024-10-29-cagan-transformation-as-a-project]] — the named anti-pattern leaders must avoid in how they manage transformation itself.
