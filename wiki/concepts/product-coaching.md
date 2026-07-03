@@ -21,7 +21,7 @@ updated: 2026-07-03
 
 ## How it shows up in the model
 - A leadership behavior in [[trust-over-control]]: "servant-based leadership with **active coaching**" (Cagan, *[[transformed|TRANSFORMED]]*).
-- A core `[[product-leadership]]` competency (future page) — not a side activity.
+- A core [[product-leadership]] competency — not a side activity.
 - The mechanism that operationalizes [[principles-over-process]] at scale: principles only stick when someone is coaching the team in applying them.
 
 ## Who provides it (supply, as of Feb 2026)
@@ -56,8 +56,8 @@ _Field note placeholder — who coaches you today? Manager, external coach, mode
 - [[product-coach]] — the role; [[types-of-product-coaching]] — its three forms; [[coaching-vs-contracting]] — the defining distinction.
 - [[coaching-the-pm]] (the curriculum) + [[pm-competency]] (the assessment) — how a PM is actually developed.
 - [[trust-over-control]] — active coaching as a leadership principle.
-- `[[product-leadership]]` (future competency), [[product-culture]].
-- diagnostics: `[[leadership-readiness]]`.
+- [[product-leadership]], [[product-culture]].
+- diagnostics: [[leadership-readiness]].
 
 ## Sources
 - [[2026-02-04-cagan-product-coaching-and-ai]] — Cagan/SVPG, Feb 2026; primary source for the position shift and the scaling diagnosis.

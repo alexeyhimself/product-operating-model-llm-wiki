@@ -10,7 +10,7 @@ medium: article
 source_url: https://www.svpg.com/transformed/
 date: 2023-02-20
 root_source: "[[transformed]]"
-related: ["[[marty-cagan]]", "[[svpg]]", "[[transformed]]", "[[chris-jones]]", "[[jon-moore]]", "[[transformation]]", "[[product-coaching]]"]
+related: ["[[marty-cagan]]", "[[svpg]]", "[[transformed]]", "[[chris-jones]]", "[[jon-moore]]", "[[lea-hickman]]", "[[christian-idiodi]]", "[[transformation]]", "[[product-coaching]]"]
 created: 2026-06-21
 updated: 2026-06-21
 ---
@@ -30,7 +30,7 @@ updated: 2026-06-21
 ## What it backs
 - entities: [[transformed]] (the book; this article is its pre-launch announcement), [[marty-cagan]], [[chris-jones]], [[jon-moore]], [[svpg]]
 - concepts: [[transformation]] (the book's frame), [[product-coaching]] (why coaching is essential to most transformations)
-- related (not yet pages): `[[lea-hickman]]`, `[[christian-idiodi]]`
+- entities: [[lea-hickman]], [[christian-idiodi]] (TRANSFORMED co-authors / first-person case studies)
 
 ## Notes for the coach
 - **"The rest vs. the best"** — Cagan's frame for who needs transformation (legacy companies in non-tech-native industries). The wiki uses this same frame in [[overview]] and [[transformation]].

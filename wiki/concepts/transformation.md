@@ -4,8 +4,8 @@ type: concept
 aliases: [transformation, product-transformation, transformation-to-the-product-model, moving-to-the-product-operating-model]
 status: drafting
 tags: [transformation, three-dimensions, product-operating-model, pilot-teams]
-sources: ["[[transformed]]", "[[2022-05-31-moore-transformation-defined]]", "[[2022-09-18-moore-the-transformation-series]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2023-02-20-cagan-transformed-announcement]]", "[[2024-10-29-cagan-transformation-as-a-project]]", "[[2024-11-21-cagan-transformation-politics]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2023-09-12-cagan-who-is-product-operating-model-for]]", "[[2013-12-30-cagan-epic-waste]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]", "[[2024-05-21-cagan-moving-to-the-product-operating-model-industry]]", "[[2023-10-31-cagan-transformed-just-product]]", "[[2024-04-14-cagan-escape-the-project-trap-agile-theatre]]"]
-related: ["[[overview]]", "[[empowered-product-teams]]", "[[feature-teams-vs-product-teams]]", "[[pilot-teams]]", "[[transformation-politics]]", "[[transformation-as-a-project]]", "[[model-maturity]]", "[[product-coaching]]", "[[product-leadership]]"]
+sources: ["[[transformed]]", "[[2022-05-31-moore-transformation-defined]]", "[[2022-09-18-moore-the-transformation-series]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2023-02-20-cagan-transformed-announcement]]", "[[2024-10-29-cagan-transformation-as-a-project]]", "[[2024-11-21-cagan-transformation-politics]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2023-09-12-cagan-who-is-product-operating-model-for]]", "[[2013-12-30-cagan-epic-waste]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]", "[[2024-05-21-cagan-moving-to-the-product-operating-model-industry]]", "[[2023-10-31-cagan-transformed-just-product]]", "[[2024-04-14-cagan-escape-the-project-trap-agile-theatre]]", "[[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]]", "[[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction]]"]
+related: ["[[overview]]", "[[empowered-product-teams]]", "[[feature-teams-vs-product-teams]]", "[[pilot-teams]]", "[[transformation-politics]]", "[[transformation-as-a-project]]", "[[model-maturity]]", "[[product-coaching]]", "[[product-leadership]]", "[[lea-hickman]]"]
 created: 2026-06-21
 updated: 2026-07-03
 ---
@@ -57,6 +57,9 @@ Drawn across the canon:
 - **A drumbeat of real business results** — monthly minimum, not activity reports, sustained across the 1–3 years a large-company transformation takes ([[2024-11-21-cagan-transformation-politics|Cagan]]).
 - **Coaching capacity** — SVPG's [[2022-02-11-cagan-coaching-the-coaches|coaching-the-coaches]] and [[2026-02-04-cagan-product-coaching-and-ai|model-as-coach]] efforts exist because human coach supply doesn't meet demand.
 
+### The ten keys, and the technology-as-cost-center blind spot
+Cagan and [[lea-hickman|Lea Hickman]] distilled the companies that actually transformed into **ten keys to successful transformation** — the first being **CEO responsibility** ([[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri|canon]]). The deepest blocker is a CEO who sees **technology as a cost center** (Ford — a necessary evil) rather than a **profit center / enabler** (Tesla — "a computer on four wheels"); this is why "digital transformations" so often collapse into automation and cost-cutting rather than 10× reinvention. Transformation reaches far beyond product — it changes how **finance** funds work (**fund teams for quarters**, not projects — the small change with the biggest leverage), how **sales / marketing** and **HR** operate, and it moves real power between executives, which is why the CEO's air cover is non-negotiable. A vivid existence proof: **The Guardian** — a 200-year-old company that, after a near-death revenue collapse, built the product muscles to ship in seven weeks what "teams at Amazon or Google couldn't," earning Apple's respect ([[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri|canon]]).
+
 ## What it replaces
 The project / IT / feature-factory model ([[feature-teams-vs-product-teams|two-axes view]]; [[2023-08-17-cagan-from-projects-to-products|cultural narrative]]):
 - Dates over outcomes ([[time-to-money]] is the replacement metric).
@@ -74,6 +77,7 @@ The project / IT / feature-factory model ([[feature-teams-vs-product-teams|two-a
 - **Skipping politics** — the transformation succeeds or fails on stakeholder/executive hearts and minds; ignoring this dimension is fatal ([[transformation-politics]]).
 - **Hiring a management consultancy to do it for you** — McKinsey / Accenture / Bain "have never worked in the product model; they don't know what good looks like." Millions spent, "three years later still where they started." The company has to build the skills in-house; **coaching beats consulting** ([[2025-04-21-cagan-design-a-product-like-steve-jobs|Cagan]]).
 - **"Agile = transformation"** — moving to Agile only addresses the *easiest* of the three dimensions (how you build); companies that equated the two "got almost nothing, sometimes worse" ([[2024-04-14-cagan-escape-the-project-trap-agile-theatre|agile theater]]).
+- **Transformation theater** — labels and rituals change, competencies don't; the transformation sibling of [[product-management-theater|PM theater]] ([[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction|Cagan's "transformation theater"]]).
 
 ## In your context
 _Field note placeholder — which of the three dimensions is your org currently moving on, if any? Are you running pilot teams or running a transformation project? Who is the product leader, and have they worked in the product model before?_
@@ -98,4 +102,6 @@ _Field note placeholder — which of the three dimensions is your org currently 
 - [[2025-04-21-cagan-design-a-product-like-steve-jobs]] — the three meta questions; the 1–3-year timeline; the McKinsey and "agile = transformation" anti-patterns; coaching beats consulting.
 - [[2024-05-21-cagan-moving-to-the-product-operating-model-industry]] · [[2023-10-31-cagan-transformed-just-product]] — the canonical POM-overview talks (3 dimensions + 4 competencies + 5 concepts); Atlassian as the term's origin.
 - [[2024-04-14-cagan-escape-the-project-trap-agile-theatre]] — agile addresses only one (the easiest) of the three dimensions.
+- [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]] — the ten keys to successful transformation (with [[lea-hickman|Hickman]]); cost-center vs profit-center; fund teams for quarters; The Guardian.
+- [[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction]] — "transformation theater"; fund-teams-for-quarters as a transition technique.
 - [[transformed]] — root source.

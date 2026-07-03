@@ -4,7 +4,7 @@ type: concept
 aliases: [empowered-engineers, empowered-engineer]
 status: drafting
 tags: [engineers, empowerment, innovation, the-most-important-thing]
-sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2020-04-23-cagan-empowered-engineers-faq]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]"]
+sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2020-04-23-cagan-empowered-engineers-faq]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]", "[[2022-12-07-cagan-product-lessons-jobs-musk-20vc]]", "[[2020-05-20-cagan-customer-inspired-technology-enabled]]"]
 related: ["[[engineers]]", "[[empowered-product-teams]]", "[[missionaries-vs-mercenaries]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[bill-campbell]]"]
 created: 2026-06-20
 updated: 2026-07-03
@@ -43,7 +43,7 @@ This is the cleanest single diagnostic for engineer-empowerment status.
 - A **dual-track career ladder** so the best engineers stay engineers.
 
 ## Anti-patterns
-- **Outsourced engineering** — literal mercenaries.
+- **Outsourced engineering** — literal mercenaries; Cagan: outsourcing your engineering signals "you're not serious about this — come back when you decide to get serious" ([[2022-12-07-cagan-product-lessons-jobs-musk-20vc|20VC]]).
 - **Sprint-planning-first** — engineers see ideas only as Jira tickets.
 - **Excluded from customer contact** — kills innovation.
 - **"Engineering-driven" treated as a problem** — Cagan: "engineering-driven" orgs are usually the easiest to transform, because they already have the most important part right.
@@ -62,3 +62,5 @@ _Field note placeholder — when did your engineers last propose a solution that
 - [[2020-09-04-cagan-discovery-problem-vs-solution]] — engineers in the room during customer/discovery work.
 - [[2020-10-30-cagan-discovery-delivery]] — engineers stay engaged with discovery; the same team does both.
 - [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] · [[2025-04-21-cagan-design-a-product-like-steve-jobs]] — Bill Campbell's "most important thing"; the Steve Jobs myth (engineers show what's possible).
+- [[2022-12-07-cagan-product-lessons-jobs-musk-20vc]] — "using engineers only to code = half their value"; outsourcing = not serious; Bill Campbell.
+- [[2020-05-20-cagan-customer-inspired-technology-enabled]] — customer-inspired, technology-enabled: the enabling tech that makes solutions *just now possible*.

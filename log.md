@@ -220,3 +220,32 @@ Q: what is the purpose of Agile in POM, and does the wiki capture that learning 
 6. **Known minor debt for a future lint pass:** a few pre-existing pages still show `[[product-leadership]]` / `[[leadership-readiness]]` in backticks marked "(future)" though those pages exist; the `[[product-management-theater]]` "(future)" markers were fixed on the pages touched this ingest. Also several talks reference SVPG articles not yet card-ified (see backlog).
 
 **Duplicates/notes:** "The Nature of Product" appears as two *distinct* talks (Lenny's 2022 interview `h-KVGHoQ_98` and the School of Product 2022 keynote `T3VRz18ntjQ`) — both carded. No transcripts duplicated an already-ingested source.
+
+## [2026-07-04] ingest | The Video Ingest II — 44 more Marty Cagan talks/interviews → 44 sources + 8 pages
+**Primary canon, the second video pass.** The user added ~44 more transcripts to `raw/videos/YouTube/Marty Cagan interviews/` beyond the 27 carded on 2026-07-03. Reviewed all 44 (8 read in full — the highest-signal net-new: Product Ops w/ Dan Olsen, 20VC "idolize engineers," Internal Data Products, 10 Misconceptions, Beyond Lean & Agile, Hardest Challenges of Product Strategy, PM & Experimentation, Getting Leadership Up to Speed — the other ~36 characterized via frontmatter + description + established canon, since they reinforce well-covered material). Discussed scope with the user, who chose **full build** + all four new-page areas.
+
+**Sources created (44 slim cards; all primary):** listed in `index.md` under the *Video Ingest II* Sources tier. Key net-new sources: [[2022-03-07-cagan-product-ops-dan-olsen]], [[2022-12-07-cagan-product-lessons-jobs-musk-20vc]], [[2021-03-23-cagan-internal-data-products-designing-for-analytics]], [[2023-05-17-cagan-10-misconceptions-startups-productx]], [[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]], [[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction]], [[2024-06-24-cagan-pm-and-experimentation-testing-insights]], [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]].
+
+**Pages created (8):**
+- **Competencies (2):** [[product-ops]] (the six models; the force-multiplier model; three pillars; the danger signs), [[product-marketing]] (the market side of PMF; Lauchengco/LOVED; the PM↔PMM partnership).
+- **Concept (1):** [[data-product-management]] (data-to-decide vs data-to-power; the "is it a product?" litmus test; facing/enabling/platform teams; platform PM; AI/ML PM; ethics).
+- **Framework (1):** [[hiring-and-onboarding]] (first hire ~25 engineers; hire for potential; assessment → coaching plan → competence; domain expertise vs domain dogma).
+- **People (3):** [[martina-lauchengco]] (LOVED / product marketing), [[christian-idiodi]] (Africa; coaching), [[lea-hickman]] (Adobe Creative Cloud; Keys to Successful Transformation).
+- **Book (1):** [[loved]] (Lauchengco, 2022).
+
+**Pages enriched (~12):** [[product-strategy]] (flight levels; peanut-butter; leaders-pick-outcomes → product-finds-levers-and-bets; assign-one-problem-to-multiple-teams; confidence levels; strategy > discovery), [[the-four-big-risks]] (primary vs secondary risk; ML raises value/viability stakes), [[product-discovery]] (optimization vs innovation; talk-to-churned; pyramid-not-Double-Diamond; 50–100 iterations; fall in love with the problem), [[product-manager]] (group-PM player-coach; product-marketing partner; hiring/onboarding link; the CEO-of-the-product metaphor clarified), [[product-leadership]] (Andy Grove's two failure modes; cost-center vs profit-center; the leader's agency — demonstrate, don't fight back; the operator trap; product-ops as deck-chairs), [[team-topology]] (facing/enabling/platform teams; platform PM; pyramid), [[empowered-engineers]] (outsourcing = "not serious"; customer-inspired-technology-enabled), [[principles-over-process]] (the "disease of process people"; scale with coaching), [[transformation]] (ten keys w/ Hickman; cost-vs-profit-center; The Guardian; transformation theater), [[svpg]] (partners Idiodi/Hickman/Lauchengco + LOVED linked), [[marty-cagan]] (new positions; corpus note), [[recommended-library]] (LOVED).
+
+**Catalog updates:** `index.md` (new latest-ingest banner; Concepts/Competencies/Frameworks/People/Books entries; a new *Video Ingest II* Sources tier listing all 44), `overview.md` (the adjacent roles), `backlog.md` (trimmed created items; queued next SVPG articles), this `log.md`.
+
+**Decisions:**
+1. **Full build**, per the user's explicit choice (consistent with every prior ingest).
+2. **Reinforcement talks carded but characterized from metadata + canon**, not full transcripts — slim provenance cards don't reproduce content, so the reinforcement cards state role + what-they-back rather than new doctrine. The 8 highest-signal net-new talks were read in full to ground the new pages.
+3. **New people/books** ([[christian-idiodi]], [[lea-hickman]], [[martina-lauchengco]], [[loved]]) were long-standing backlog items surfaced with real provenance in these talks.
+
+**Flags:**
+1. **Product ops = force multiplier, not governance.** The single most useful new distinction; the danger signs ("lipstick on a pig"; band-aid for weak management) are load-bearing. Captured on [[product-ops]].
+2. **Optimization ≠ innovation experimentation.** Discovery is a *pyramid*, not the Double Diamond; leaders pick problems, teams discover solutions. Captured on [[product-discovery]] and [[data-product-management]].
+3. **Cost-center vs profit-center** is the deepest transformation blocker; the **ten keys** (Cagan + [[lea-hickman|Hickman]]) name CEO responsibility as #1. Captured on [[transformation]] and [[product-leadership]].
+4. **Brave UX card has no captured upload date** — year (2021) marked approximate on [[2021-cagan-brave-ux-empowering-teams]].
+5. **Two same-day-ish Dan Olsen "misconceptions" talks** exist (ProductX keynote published 2023-05-17 and the Lean Product fireside 2023-02-02) — both carded; content overlaps.
+6. **Not-yet-card-ified SVPG articles** surfaced and queued in backlog: *Keys to Successful Transformation* (Cagan + Hickman), the *Product Ops* article(s), *Product Sense Demystified*, *Transformation Theater*.

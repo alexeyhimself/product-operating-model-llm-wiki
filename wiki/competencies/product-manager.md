@@ -5,7 +5,7 @@ aliases: [product-manager, pm, product-management]
 status: drafting
 tags: [competency, product-manager, trio, discovery, value, viability]
 role: The member of the product team accountable for value and viability risk; partner to design and engineering in an empowered product team.
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]", "[[2024-03-21-cagan-product-management-rules-in-early-stage-june]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]", "[[2024-03-21-cagan-product-management-rules-in-early-stage-june]]", "[[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]]", "[[2022-12-07-cagan-product-lessons-jobs-musk-20vc]]", "[[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]]"]
 related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[delivery-manager]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]", "[[product-management-theater]]", "[[build-to-learn-vs-build-to-earn]]", "[[product-sense]]"]
 created: 2026-06-20
 updated: 2026-07-03
@@ -70,13 +70,17 @@ Cagan assesses PM competence along three pillars — **product knowledge, proces
 - **Stakeholders.** Built on mutual trust earned by understanding constraints and previewing concerns — harder than trio trust because interactions are fewer and weightier.
 - **Leadership & coaching.** The PM is developed by their manager (or a [[product-coach]] / [[model-as-product-coach|model-as-coach]]) via the [[pm-competency|assessment]] → [[coaching-the-pm|coaching plan]] loop, ideally in weekly one-on-ones. Expect **~3 months of real work** to reach basic competence, *with* weekly coaching ([[2020-06-12-cagan-product-management-start-here|Cagan]]).
 - **Feature-team trap.** If you have the PM title but spend most of your day on project management or backlog admin, you're on a feature team or worse — see [[feature-teams-vs-product-teams]].
+- **Group product manager (GPM).** As orgs grow, the "player-coach" GPM leads a team *and* coaches one to three other PMs — an underused role for scaling PM depth ([[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen|canon]]).
+- **Product marketing.** With a direct sales channel the PM needs a [[product-marketing|product-marketing]] partner (owning the market side of product-market fit); "responsibility for sales is on the product team" ([[2022-12-07-cagan-product-lessons-jobs-musk-20vc|Andy Grove / OKRs]]).
+- **Hiring & onboarding.** New PMs are hired for **potential** and coached to competence in ~3 months — see [[hiring-and-onboarding]]. Cagan's "CEO of the product" metaphor ([[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen|Beyond Lean and Agile]]) is about the *breadth of business context* a PM must hold — "like a startup CEO" — explicitly **not** boss authority.
 
 ## In your context
 _Field note placeholder — rate your PMs (or yourself) against the three pillars using [[pm-competency]]. Where are the biggest gaps relative to what this team and company need? Who is coaching those gaps?_
 
 ## Related
 - concepts: [[empowered-product-teams]], [[product-discovery]], [[the-four-big-risks]]
-- competencies: [[the-product-team-trio]], [[product-coach]], `[[product-leadership]]`
+- competencies: [[the-product-team-trio]], [[product-coach]], [[product-leadership]], [[product-marketing]], [[product-ops]]
+- frameworks: [[hiring-and-onboarding]]; concepts: [[data-product-management]]
 - frameworks: [[coaching-the-pm]]
 - diagnostics: [[pm-competency]], [[feature-team-vs-empowered-team]]
 - principles: [[empowered-with-problems-to-solve]], [[outcomes-over-output]], [[collaboration]]
@@ -92,3 +96,6 @@ _Field note placeholder — rate your PMs (or yourself) against the three pillar
 - [[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]] — the "three ways" a PM works; the role more essential than ever.
 - [[2025-09-29-cagan-future-of-product-management-producttank-sydney]] — agency + prototyping; ethics/viability under AI.
 - [[2024-03-21-cagan-product-management-rules-in-early-stage-june]] — pre-PMF: founders, not PMs; discovery vs optimization.
+- [[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]] — "CEO of the product" (not the boss); the group-PM player-coach; ~4 hrs/day of discovery.
+- [[2022-12-07-cagan-product-lessons-jobs-musk-20vc]] — hire for potential; sales is the product team's responsibility; the product-marketing partner.
+- [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]] — PMs as the "weakest link" once the CEO is on board; hire on potential.

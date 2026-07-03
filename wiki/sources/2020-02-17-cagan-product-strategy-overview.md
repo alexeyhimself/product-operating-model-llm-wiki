@@ -27,7 +27,7 @@ updated: 2026-06-20
 - concepts: [[product-strategy]] (the canonical definition + the four-pillar decomposition)
 - principles: [[focus]] (Jobs/Rumelt framing), [[powered-by-insights]] (study + thought), [[placing-bets]] (insights→action), [[transparency]] (implicit in the leadership reasoning)
 - entities: [[marty-cagan]]
-- related linked references (not yet pages): `[[product-strategy-focus]]`, `[[product-strategy-insights]]`, `[[product-strategy-actions]]`, `[[product-strategy-management]]`, `[[good-strategy-bad-strategy]]` (Rumelt; future entity)
+- entities: [[good-strategy-bad-strategy]] (Rumelt); linked references not yet pages: `[[product-strategy-focus]]`, `[[product-strategy-insights]]`, `[[product-strategy-actions]]`, `[[product-strategy-management]]`
 
 ## Notes for the coach
 - **The four pillars** (focus, insights, action, management) directly map to the [[principles-of-product-strategy|four product-strategy principles]]. Use this article to teach the *reasoning behind* the principles, not just the labels.

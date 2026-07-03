@@ -14,6 +14,7 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 ✅ Created (ingest 2026-06-21, follow-up pass): `outcome-based-roadmap`.
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `transformation` · `transformation-politics` · `transformation-as-a-project` · `the-need-for-speed`.
 ✅ Created (ingest 2026-07-03, Video Ingest): `product-management-theater` · `founder-style-leadership` · `product-sense` · `build-to-learn-vs-build-to-earn`.
+✅ Created (ingest 2026-07-04, Video Ingest II): `data-product-management` (data/AI/platform; the "is it a product?" litmus test).
 Still to do:
 - `product-operating-model` (top-level concept page)
 - `product-principles` · `continuous-discovery` · `dual-track` · `insights`
@@ -27,15 +28,16 @@ Still to do:
 ✅ Created (ingest 2026-06-20, first batch): `product-manager` · `product-coach`.
 ✅ Created (ingest 2026-06-20, SVPG article set): `product-designer` · `engineers` · `the-product-team-trio` · `product-leadership`.
 ✅ Created (ingest 2026-06-21, follow-up pass): `delivery-manager`.
+✅ Created (ingest 2026-07-04, Video Ingest II): `product-ops` · `product-marketing` (Cagan's "other impacted roles").
 Still to do:
 - `head-of-product` · `engineering-leadership` · `design-leadership` (sub-roles within [[product-leadership]])
-- `product-ops` · `product-marketing` (Cagan's "other impacted roles")
 
 ## Frameworks — `wiki/frameworks/`
 ✅ Created (ingest 2026-06-20): `coaching-the-pm` — the PM coaching curriculum (Cagan's "The Plan").
 ✅ Created (ingest 2026-06-21, follow-up pass): `opportunity-assessment` · `high-integrity-commitments`.
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `pilot-teams` · `it-to-product-organization`.
 ✅ Created (ingest 2026-07-03, Video Ingest): `prototypes` (the four prototype types).
+✅ Created (ingest 2026-07-04, Video Ingest II): `hiring-and-onboarding` (first hire; potential; assessment → coaching plan → competence).
 Still to do:
 - `product-discovery-techniques`
 - `customer-interviews` · `okrs` · `story-mapping`
@@ -67,9 +69,8 @@ Still to do:
 ✅ Created (ingest 2026-06-20): **people/** `jon-moore` · `chris-jones`.
 ✅ Created (ingest 2026-06-21, follow-up pass): **organizations/** `amazon`.
 ✅ Created (ingest 2026-07-03, Video Ingest): **people/** `bill-campbell` · `jeff-patton`; **books/** `good-strategy-bad-strategy` · `the-art-of-action` (see [[recommended-library]]).
+✅ Created (ingest 2026-07-04, Video Ingest II): **people/** `christian-idiodi` · `lea-hickman` · `martina-lauchengco`; **books/** `loved`.
 Still to do:
-- **people/** `christian-idiodi` · `lea-hickman` · `martina-lauchengco`
-- **books/** `loved`
 - **organizations/** `your-company`; other exemplars `google` · `apple` · `netflix` · `spotify` (linked from [[recommended-library]])
 
 ## Resources — `wiki/resources/`
@@ -102,3 +103,4 @@ Still to ingest — referenced from existing pages but not yet card-ified:
   - *The Coaching Series* (Cagan, svpg.com) — the coaching canon index.
   - *Top 10 Reasons for Slow Velocity* (Cagan, svpg.com) — referenced from [[2013-07-21-cagan-the-need-for-speed]]; complementary velocity-blocker enumeration.
 - **Referenced from the 2026-07-03 Video Ingest (SVPG articles worth card-ifying to back the new video pages):** *Product Management Theater* · *Product Leadership Theater* · *Founder Mode / Founder-Style Leadership* · *Product Sense Demystified* · *Pledge to Customers* · *The Product Model in Government* · *Devolving From Good to Bad*.
+- **Referenced from the 2026-07-04 Video Ingest II (SVPG articles worth card-ifying to back the new pages):** *Keys to Successful Transformation* (Cagan + [[lea-hickman|Hickman]] — the ten keys, backs [[transformation]] / [[transformation-readiness]]) · the *Product Ops* article(s) (backs [[product-ops]]) · *Transformation Theater* (Cagan) · the *Amazon Prime / experimentation* article Cagan co-wrote with an Amazon leader (backs [[product-discovery]] / [[data-product-management]]) · *The Product Model at Amazon* & *…at Spotify* (already linked from [[recommended-library]]). New candidate pages the canon now supports: `group-product-manager` (the player-coach role), `reference-customers` (the customer-development program / leading indicator of PMF).

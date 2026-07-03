@@ -25,7 +25,7 @@ updated: 2026-06-20
 - competencies (primary source): [[product-manager]] (value + viability, outcomes), [[product-designer]] (usability, experience), [[engineers]] / Tech Lead (feasibility, delivery), [[product-leadership]] (managers of PM/design/engineering), [[the-product-team-trio]] (canonical statement of trio composition + risk ownership)
 - concepts: [[the-four-big-risks]] (the four risks are explicitly named here as the basis for who owns what), [[empowered-product-teams]]
 - entities: [[marty-cagan]], [[transformed]] (this article is the book's competencies announcement)
-- related linked references: `[[product-ops]]`, `[[product-marketing]]`, `[[delivery-management]]` (the "other impacted roles")
+- competencies (other impacted roles): [[product-ops]], [[product-marketing]], [[delivery-manager]]
 
 ## Notes for the coach
 - **The risk-ownership table** here is the cleanest source you can cite when assigning accountabilities in the trio:

@@ -6,7 +6,7 @@ status: mature
 tags: [product-culture, scaling, process, leadership, first-principles]
 group: product-culture
 order: 17
-sources: ["[[transformed]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
+sources: ["[[transformed]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2022-12-07-cagan-product-lessons-jobs-musk-20vc]]", "[[2024-06-24-cagan-pm-and-experimentation-testing-insights]]"]
 related: ["[[trust-over-control]]", "[[product-culture]]", "[[product-leadership]]", "[[principles-of-product-culture]]"]
 created: 2026-06-14
 updated: 2026-06-14
@@ -23,7 +23,7 @@ There are two ways orgs try to scale: with **leaders (managers)** or with **proc
 A small set of shared principles guides decisions; leaders coach judgment rather than writing ever-more rules; [[product-ops|product operations]] supports teams rather than policing them; the org adds managers/coaches, not gates, as it grows.
 
 ## What violating it looks like
-Heavy stage-gates, approval chains, and mandatory templates that substitute for thinking; "we can't, the process says…"; scaling by adding controls instead of capability; bureaucracy that punishes judgment.
+Heavy stage-gates, approval chains, and mandatory templates that substitute for thinking; "we can't, the process says…"; scaling by adding controls instead of capability; bureaucracy that punishes judgment. Cagan calls this the **"disease of process people"** — Steve Jobs's phrase in his 1995 "Lost Interview," describing the process people who took over and gutted IBM; Bezos, Musk, and Steve Blank warn of the same. The **operator who scales with process rather than coaching** is the modern carrier ([[2022-12-07-cagan-product-lessons-jobs-musk-20vc|20VC]], [[2024-06-24-cagan-pm-and-experimentation-testing-insights|Experimentation]], [[2023-05-17-cagan-10-misconceptions-startups-productx|10 Misconceptions]]). The alternative to process is **leaders who scale with coaching** — see [[product-leadership]].
 
 ## Tensions & trade-offs
 - Some process is essential (compliance, safety, [[test-ideas-responsibly|responsible testing]]); the principle is about *defaulting* to principles + judgment, not abolishing all process.
@@ -36,3 +36,5 @@ Heavy stage-gates, approval chains, and mandatory templates that substitute for 
 
 ## Sources
 - [[2024-03-21-huryn-product-model-first-principles-part-2]] — Principle 17; Hastings, *No Rules Rules*; Cagan, *Process People* (SVPG).
+- [[2022-12-07-cagan-product-lessons-jobs-musk-20vc]] — the "disease of process people" (Jobs/Bezos/Blank/Musk); scale with process vs coaching.
+- [[2024-06-24-cagan-pm-and-experimentation-testing-insights]] — process optimizes for predictability, not innovation; the Double Diamond as "process people looking at experimentation."

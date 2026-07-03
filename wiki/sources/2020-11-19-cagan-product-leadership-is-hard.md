@@ -26,7 +26,7 @@ updated: 2026-06-20
 - concepts: [[product-coaching]] (canon: coaching is the *single most important* responsibility of every people manager; ~50% of a first-level manager's week), [[product-vision]], [[product-strategy]], [[team-objectives]], [[team-topology]] (loosely-coupled, highly-aligned), [[empowered-product-teams]]
 - principles: [[principles-over-process]] (product principles as part of strategic context), [[trust-over-control]] (lead by context not control), [[empowered-with-problems-to-solve]]
 - entities: [[marty-cagan]], [[empowered]] (this is the 400-page version)
-- related linked references (not yet pages): `[[team-topology]]`, `[[product-principles]]`, `[[evangelism]]`, `[[greatest-coach|the-greatest-coach]]` (Bill Campbell)
+- related linked references (not yet pages): `[[product-principles]]`, `[[evangelism]]`, `[[greatest-coach|the-greatest-coach]]` (Bill Campbell)
 
 ## Notes for the coach
 - **Empowered teams need *better* leadership, not less** — Cagan's headline correction. Use when a leader interprets "empowerment" as backing off.

@@ -4,8 +4,8 @@ type: concept
 aliases: [team-topology, topology, product-org-design]
 status: drafting
 tags: [team-topology, org-design, product-leadership, empowerment]
-sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]"]
-related: ["[[product-leadership]]", "[[empowered-product-teams]]", "[[product-strategy]]", "[[product-vision]]", "[[the-product-team-trio]]"]
+sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2021-03-23-cagan-internal-data-products-designing-for-analytics]]", "[[2024-06-24-cagan-pm-and-experimentation-testing-insights]]"]
+related: ["[[product-leadership]]", "[[empowered-product-teams]]", "[[product-strategy]]", "[[product-vision]]", "[[the-product-team-trio]]", "[[data-product-management]]"]
 created: 2026-06-20
 updated: 2026-07-03
 ---
@@ -32,6 +32,14 @@ updated: 2026-07-03
 - **Team scope larger than the team can own** — too many domains; no team can become expert in any.
 - **Team scope smaller than the problem** — the team owns half a workflow; the other half is "someone else's team."
 
+## Facing, enabling, and platform teams
+A non-startup has many product teams — often hundreds — kept aligned by [[product-leadership]], [[product-vision]], and [[product-strategy]]. Three kinds ([[2021-03-23-cagan-internal-data-products-designing-for-analytics|canon]], [[2024-06-24-cagan-pm-and-experimentation-testing-insights|canon]]):
+- **Customer-facing** experience teams (the storefront).
+- **Customer-enabling** experience teams (order fulfillment, pricing, inventory) — "most of Amazon is enabling teams." Still first-class product teams even though customers never see them.
+- **Platform teams** — shared infrastructure used by both. When a platform team is "crushed with requests," a **platform product manager** supplies the missing context and prioritization (a platform team's [[the-product-team-trio|trio]] may lack a designer if it's all APIs).
+
+This is why topology is a **pyramid, not a Double Diamond**: leaders pick the important problems at the top; the many facing/enabling/platform teams run [[product-discovery|discovery]] and delivery on the problems assigned to them. See [[data-product-management]] for the "is it a product?" litmus test that decides whether an internal capability gets a product team.
+
 ## The future shape of teams (AI era)
 Two shifts Cagan flags ([[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto|Modern CTO]]): the **average number of engineers per team is going down** (smaller teams communicate better — "a four is really easy"), while the **scope of each team is going up** (GenAI raises engineers' cognitive capacity, so a team can own more end-to-end and suffer fewer painful cross-team dependencies — the most common complaint of even good empowered teams). The open question is whether companies use this to do *more* (pursue the vision faster) or the *same with fewer people*.
 
@@ -48,3 +56,5 @@ _Field note placeholder — pick a product team. Can it ship a meaningful end-to
 - [[2020-11-19-cagan-product-leadership-is-hard]] — topology as one of five strategic-context elements; "loosely coupled, highly aligned"; head-of-product + head-of-technology jointly own the call.
 - [[2024-01-17-cagan-product-model-concepts]] — topology named as a "supporting concept" for product strategy.
 - [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] — the AI-era shift: smaller teams, bigger scope, fewer dependencies.
+- [[2021-03-23-cagan-internal-data-products-designing-for-analytics]] — customer-facing vs customer-enabling vs platform teams; the platform product manager.
+- [[2024-06-24-cagan-pm-and-experimentation-testing-insights]] — the pyramid (not diamond); the trio applies on platform teams (may lack a designer).

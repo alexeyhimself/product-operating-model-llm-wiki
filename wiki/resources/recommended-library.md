@@ -5,9 +5,9 @@ aliases: [recommended-library, recommended-reading, recommended-resources, what-
 status: drafting
 tags: [resources, recommendations, books, videos, reading-list]
 sources: ["[[transformed]]", "[[svpg-product-operating-model-introduction]]", "[[svpg-cagan-on-principles-dalio]]"]
-related: ["[[overview]]", "[[svpg]]", "[[marty-cagan]]"]
+related: ["[[overview]]", "[[svpg]]", "[[marty-cagan]]", "[[loved]]", "[[product-marketing]]"]
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-07-04
 ---
 
 # Recommended Library
@@ -28,6 +28,9 @@ updated: 2026-06-15
 ### "How do I build / manage a product?" (product management craft)
 - **[[inspired|INSPIRED]]** — Cagan. The PM role and discovery basics. → [book](https://www.amazon.com/dp/1119387507)
 - **[[build-tony-fadell|Build]]** — Tony Fadell. The craft of making things worth making.
+
+### Product marketing (the market side of product-market fit)
+- **[[loved|LOVED]]** — [[martina-lauchengco|Martina Lauchengco]]. How to rethink marketing for tech products; the [[product-marketing]] volume of the SVPG series.
 
 ### Empowered teams & how problems are assigned
 - **[[empowered|EMPOWERED]]** — Cagan & Jones. Leadership that creates empowered teams.

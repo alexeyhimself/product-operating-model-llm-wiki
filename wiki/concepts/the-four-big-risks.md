@@ -4,7 +4,7 @@ type: concept
 aliases: [four-big-risks, product-risks, value-usability-feasibility-viability]
 status: drafting
 tags: [product-discovery, risk, core-concept]
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]", "[[2022-12-07-cagan-product-lessons-jobs-musk-20vc]]", "[[2023-05-17-cagan-10-misconceptions-startups-productx]]"]
 related: ["[[assess-product-risks]]", "[[product-discovery]]", "[[product-manager]]", "[[product-designer]]", "[[engineers]]", "[[the-product-team-trio]]", "[[overview]]", "[[build-to-learn-vs-build-to-earn]]"]
 created: 2026-06-14
 updated: 2026-07-03
@@ -27,6 +27,9 @@ For each meaningful idea, the [[the-product-team-trio|trio]] asks:
 
 The team finds its *biggest* risks and tests those first. The **PM is explicitly responsible for value and viability** (*TRANSFORMED* Ch. 10); but **anyone** may raise an objection on any risk — Cagan encourages engineers to refuse to build something they're not convinced is valuable or ethical.
 
+## Primary vs secondary risk (for founders)
+Cagan reframes the four risks for founders as **primary vs secondary**: the **primary** risk is almost always **value** — a product people will actually switch to — yet founders gravitate to the risk they're most comfortable with (often the business model). "Unless the product is right, you've got nothing." Value is usually the hardest of the four; demand is rarely the issue — a solution that is *significantly better* (Ben Horowitz's "~10× better") is. In the AI era, ML **raises the stakes on value and viability**, making the PM's ownership of those two risks more important, not less ([[2022-12-07-cagan-product-lessons-jobs-musk-20vc|20VC]], [[2023-05-17-cagan-10-misconceptions-startups-productx|10 Misconceptions]]).
+
 ## Anti-patterns & misunderstandings
 - **⚠️ "Five risks" / ethics as a separate risk.** Some popular framings (including [[pawel-huryn|Huryn]]'s posts) add **Ethics** as a fifth risk. Canonically Cagan keeps it to **four**, with **ethics part of business viability** ("ethical risk is part of business viability risk"). His reasoning: "once you get to more than 4, the real worry is that it just becomes a checklist and not a way of thinking." This wiki uses **four**, treating ethics — and go-to-market — as important lenses *within* viability. (Other frameworks vary: Strategyzer uses three — desirability, viability, feasibility; Torres recognizes the same five but visually emphasizes three.)
   - **Lineage note:** in his 2018 [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf|Root Causes of Product Failure]] talk Cagan framed discovery around three areas (valuable / usable / feasible-incl-stakeholder-support) and floated *ethics* as a separate "should we build it?" question — the earlier form of what later became "ethics inside viability." In the AI era he stresses that PMs are often the first to spot ethical risk and must escalate it — still *within* viability ([[2025-09-29-cagan-future-of-product-management-producttank-sydney|Sydney]]).
@@ -48,3 +51,5 @@ _Field note placeholder — which risk does your org systematically under-test? 
 - [[2024-03-21-huryn-product-model-first-principles-part-2]] — supporting explainer; Principle 10 + Cagan Q&A on taxonomy; *INSPIRED* (original four risks).
 - [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]] — the 2018 three-areas + ethics-as-a-separate-question lineage.
 - [[2025-09-29-cagan-future-of-product-management-producttank-sydney]] — ethics as part of viability; PMs first to spot AI ethical risk.
+- [[2022-12-07-cagan-product-lessons-jobs-musk-20vc]] — primary vs secondary risk; value is usually hardest; ~10× better to make people switch.
+- [[2023-05-17-cagan-10-misconceptions-startups-productx]] — customers don't know what's *just now possible*; ML raises value/viability stakes.
