@@ -4,10 +4,10 @@ type: concept
 aliases: [four-big-risks, product-risks, value-usability-feasibility-viability]
 status: drafting
 tags: [product-discovery, risk, core-concept]
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]"]
-related: ["[[assess-product-risks]]", "[[product-discovery]]", "[[product-manager]]", "[[product-designer]]", "[[engineers]]", "[[the-product-team-trio]]", "[[overview]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]"]
+related: ["[[assess-product-risks]]", "[[product-discovery]]", "[[product-manager]]", "[[product-designer]]", "[[engineers]]", "[[the-product-team-trio]]", "[[overview]]", "[[build-to-learn-vs-build-to-earn]]"]
 created: 2026-06-14
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # The Four Big Risks
@@ -29,6 +29,7 @@ The team finds its *biggest* risks and tests those first. The **PM is explicitly
 
 ## Anti-patterns & misunderstandings
 - **⚠️ "Five risks" / ethics as a separate risk.** Some popular framings (including [[pawel-huryn|Huryn]]'s posts) add **Ethics** as a fifth risk. Canonically Cagan keeps it to **four**, with **ethics part of business viability** ("ethical risk is part of business viability risk"). His reasoning: "once you get to more than 4, the real worry is that it just becomes a checklist and not a way of thinking." This wiki uses **four**, treating ethics — and go-to-market — as important lenses *within* viability. (Other frameworks vary: Strategyzer uses three — desirability, viability, feasibility; Torres recognizes the same five but visually emphasizes three.)
+  - **Lineage note:** in his 2018 [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf|Root Causes of Product Failure]] talk Cagan framed discovery around three areas (valuable / usable / feasible-incl-stakeholder-support) and floated *ethics* as a separate "should we build it?" question — the earlier form of what later became "ethics inside viability." In the AI era he stresses that PMs are often the first to spot ethical risk and must escalate it — still *within* viability ([[2025-09-29-cagan-future-of-product-management-producttank-sydney|Sydney]]).
 - Turning the risks into a tick-box checklist rather than a way of thinking.
 - Treating feasibility as the only real risk.
 
@@ -45,3 +46,5 @@ _Field note placeholder — which risk does your org systematically under-test? 
 - [[2022-09-20-moore-changing-how-you-solve-problems]] — the four risks as the empowered-team accountability set.
 - [[2020-09-04-cagan-discovery-problem-vs-solution]] — the *interplay* between the three dimensions of risk as the engine of discovery.
 - [[2024-03-21-huryn-product-model-first-principles-part-2]] — supporting explainer; Principle 10 + Cagan Q&A on taxonomy; *INSPIRED* (original four risks).
+- [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]] — the 2018 three-areas + ethics-as-a-separate-question lineage.
+- [[2025-09-29-cagan-future-of-product-management-producttank-sydney]] — ethics as part of viability; PMs first to spot AI ethical risk.

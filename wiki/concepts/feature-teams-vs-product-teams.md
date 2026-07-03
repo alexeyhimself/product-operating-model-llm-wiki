@@ -4,10 +4,10 @@ type: concept
 aliases: [feature-teams-vs-product-teams, feature-vs-product-teams, feature-team]
 status: drafting
 tags: [team-models, anti-pattern, empowerment, ownership]
-sources: ["[[transformed]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2019-08-29-cagan-product-vs-feature-teams]]", "[[2014-06-13-cagan-good-product-team-bad-product-team]]"]
-related: ["[[empowered-product-teams]]", "[[empowered-with-problems-to-solve]]", "[[outcomes-over-output]]", "[[sense-of-ownership]]", "[[feature-team-vs-empowered-team]]"]
+sources: ["[[transformed]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2019-08-29-cagan-product-vs-feature-teams]]", "[[2014-06-13-cagan-good-product-team-bad-product-team]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2023-06-02-cagan-are-roadmaps-ever-useful-talking-roadmaps]]"]
+related: ["[[empowered-product-teams]]", "[[empowered-with-problems-to-solve]]", "[[outcomes-over-output]]", "[[sense-of-ownership]]", "[[feature-team-vs-empowered-team]]", "[[product-management-theater]]"]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # Feature Teams vs Product Teams (and Project Teams)
@@ -42,7 +42,7 @@ A team can be a feature team that's durable (still bad), or a project team that'
 
 ## Anti-patterns & misunderstandings
 - **"We're a product team because we use OKRs."** OKRs over a feature-team operating model produce *feature-team OKRs*: ship X features by Y date.
-- **"We have product managers, so we're product teams."** Titles without empowerment + durability are theater. Cagan ([[2023-03-15-cagan-product-model-competencies]]): "many people have adopted the new titles of the product model, yet without learning the new competencies."
+- **"We have product managers, so we're product teams."** Titles without empowerment + durability are [[product-management-theater|theater]]. Cagan ([[2023-03-15-cagan-product-model-competencies]]): "many people have adopted the new titles of the product model, yet without learning the new competencies." A related framing Cagan uses in talks is **three models** — the agile *product owner* model, the *feature team* model, and the *empowered product team* model — the first two being where the theater lives ([[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto|Modern CTO]]).
 - **"Pool model is more efficient because engineers are fully utilized."** Only true if you're building trivial brochureware. Tech product work isn't trivial.
 - **Startups can backslide.** A startup whose early teams were de facto empowered product teams sometimes scales by setting up feature/project teams — losing the very thing that made the early years work.
 
@@ -60,3 +60,5 @@ _Field note placeholder — pick one of your teams. Are they given problems or f
 - [[2023-08-17-cagan-from-projects-to-products]] — the cultural shift away from projects.
 - [[2019-08-29-cagan-product-vs-feature-teams]] — the canonical three team types and the seven-indicator test.
 - [[2014-06-13-cagan-good-product-team-bad-product-team]] — the seventeen-bullet contrast.
+- [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] — the "three models" spoken framing; when the product model doesn't apply.
+- [[2023-06-02-cagan-are-roadmaps-ever-useful-talking-roadmaps]] — roadmaps and feature teams go hand in hand.

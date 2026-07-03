@@ -4,9 +4,9 @@ type: organization
 aliases: [svpg, silicon-valley-product-group]
 status: drafting
 tags: [organization, svpg, source-of-canon]
-related: ["[[marty-cagan]]", "[[jon-moore]]", "[[chris-jones]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[product-coach]]", "[[types-of-product-coaching]]", "[[transformation]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2022-02-11-cagan-coaching-the-coaches]]"]
+related: ["[[marty-cagan]]", "[[jon-moore]]", "[[chris-jones]]", "[[transformed]]", "[[inspired]]", "[[empowered]]", "[[overview]]", "[[model-as-product-coach]]", "[[product-coaching]]", "[[product-coach]]", "[[types-of-product-coaching]]", "[[transformation]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2022-02-11-cagan-coaching-the-coaches]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2024-05-21-cagan-moving-to-the-product-operating-model-industry]]"]
 created: 2026-06-14
-updated: 2026-06-21
+updated: 2026-07-03
 ---
 
 # Silicon Valley Product Group (SVPG)
@@ -16,8 +16,10 @@ updated: 2026-06-21
 ## Profile
 A small group of experienced product leaders who write, speak, and coach on how the best product companies work. Their published material (books + svpg.com articles) is the **"SVPG canon"** voice this wiki cites and holds the user's org against. Partners referenced across the model include [[chris-jones|Chris Jones]] (EMPOWERED co-author; the canonical *Product Designer Role* article), Christian Idiodi, Lea Hickman, Martina Lauchengco (LOVED), and [[jon-moore|Jon Moore]] (TRANSFORMED co-author; the three-part *Changing How You Build / Solve Problems / Decide Which Problems to Solve* series defining the three transformation dimensions). As a business, SVPG is itself a [[product-coach|product-coaching]] **partnership** — Cagan uses it as the example of that model in [[2023-01-11-cagan-becoming-a-product-coach|Becoming a Product Coach]] — operating mostly at the product-leadership and [[types-of-product-coaching|transformation]] altitudes.
 
+**On the name:** SVPG did not coin "product operating model" — **Atlassian** used the term first; SVPG adopted it (and "product model" for short) because a *model* is not a *process* ([[2024-05-21-cagan-moving-to-the-product-operating-model-industry|INDUSTRY]], [[2026-05-07-cagan-deep-dive-into-product-bvssh|BVSSH]]).
+
 ## Strategic pivot — model-as-product-coach (Feb 2026)
-In [[2026-02-04-cagan-product-coaching-and-ai|Cagan, Feb 2026]], SVPG announced a significant change to two decades of advocacy: foundation models (Claude / Gemini / GPT), configured with project files + project instructions + strategic context, are now their recommended primary coach for the millions of product creators without access to strong human coaching. SVPG's own human-coach network is being concentrated on product **leaders** during transformation (people problems, transformation politics, strategic context). See [[model-as-product-coach]], [[product-coaching]]. This wiki is one implementation of the project-files-and-instructions pattern Cagan prescribes.
+In [[2026-02-04-cagan-product-coaching-and-ai|Cagan, Feb 2026]], SVPG announced a significant change to two decades of advocacy: foundation models (Claude / Gemini / GPT), configured with project files + project instructions + strategic context, are now their recommended primary coach for the millions of product creators without access to strong human coaching. SVPG's own human-coach network is being concentrated on product **leaders** during transformation (people problems, transformation politics, strategic context). See [[model-as-product-coach]], [[product-coaching]]. This wiki is one implementation of the project-files-and-instructions pattern Cagan prescribes. SVPG also maintains an informal network of ~100 professional product coaches it introduces to companies weekly — genuinely helpful but "a drop in the bucket" against the millions who need help, which is exactly why model-as-coach matters ([[2026-04-14-cagan-ai-product-coaching-women-in-product|Women in Product]]).
 
 ## Earlier supply-side moves — Coach the Coaches
 SVPG's 2022 [[2022-02-11-cagan-coaching-the-coaches|Coach the Coaches]] program (free 3-day London workshop, no certification, no strings attached) was the explicit precursor to the 2026 model-as-coach pivot. The same diagnosis — coach supply doesn't meet demand; the global rise of SAFe is the proof — runs through both efforts.

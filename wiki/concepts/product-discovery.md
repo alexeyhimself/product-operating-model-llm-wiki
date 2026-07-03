@@ -5,9 +5,9 @@ aliases: [product-discovery, discovery]
 status: drafting
 tags: [product-discovery, core-concept]
 sources: ["[[transformed]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2009-10-12-cagan-product-discovery-plan]]", "[[2012-10-24-cagan-continuous-discovery]]", "[[2012-09-18-cagan-dual-track-agile]]", "[[2009-08-23-cagan-the-two-week-rule]]", "[[2012-08-21-cagan-time-boxing-product-discovery]]", "[[2012-07-24-cagan-the-opportunity-backlog]]", "[[2009-09-08-cagan-product-discovery-vs-product-optimization]]", "[[2013-11-23-cagan-product-discovery-in-established-companies]]", "[[2012-11-01-cagan-assessing-customer-impact]]", "[[2010-10-14-cagan-requirements-are-not]]", "[[2013-03-17-cagan-the-inconvenient-truth-about-product]]", "[[2006-12-13-cagan-assessing-product-opportunities]]", "[[2011-02-20-cagan-product-discovery-with-live-data-prototypes]]", "[[2007-02-23-cagan-great-products-by-design]]", "[[2009-07-06-cagan-your-business-plan-is-wrong]]"]
-related: ["[[the-four-big-risks]]", "[[minimize-waste]]", "[[embrace-rapid-experimentation]]", "[[product-delivery]]", "[[time-to-money]]", "[[empowered-engineers]]", "[[the-product-team-trio]]", "[[overview]]", "[[discovery-health]]"]
+related: ["[[the-four-big-risks]]", "[[minimize-waste]]", "[[embrace-rapid-experimentation]]", "[[product-delivery]]", "[[time-to-money]]", "[[empowered-engineers]]", "[[the-product-team-trio]]", "[[overview]]", "[[discovery-health]]", "[[prototypes]]", "[[build-to-learn-vs-build-to-earn]]"]
 created: 2026-06-14
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # Product Discovery
@@ -28,6 +28,9 @@ The [[the-product-team-trio|trio]] identifies the biggest [[the-four-big-risks|r
 
 ### The economics
 [[2022-09-20-moore-changing-how-you-solve-problems|Moore]]: any discovery idea should be **at least one order of magnitude** cheaper and faster than building, testing, deploying the real product (often two orders). This is what shrinks the iteration cycle from quarters (feature teams) to **1–2 weeks** (empowered teams) — see [[time-to-money]] for the iteration math.
+
+### Prototypes: the build-to-learn artifact
+Discovery is [[build-to-learn-vs-build-to-earn|build-to-learn]] (find a solution worth building), distinct from delivery's build-to-earn (ship a solution worth trusting). Its main tool is the [[prototypes|prototype]] — "a fraction of the work" of production — in four flavours (low-fi simulation, hi-fi simulation, live-data, feasibility). Modern AI prototyping tools let even ordinary teams run "50 prototypes in a week without breathing hard" — the pace of learning once reserved for the strongest teams.
 
 ## Anti-patterns & misunderstandings
 - **Discovery is not a phase or a gate** before delivery — it's continuous and concurrent.
@@ -53,3 +56,5 @@ _Field note placeholder — do your teams test risky ideas before building, or d
 - [[2022-09-20-moore-changing-how-you-solve-problems]] — discovery economics (prototype-vs-build cost ratio) and the time-to-money math.
 - [[2024-01-17-cagan-product-model-concepts]] — discovery as one of the five product-model concepts.
 - [[2024-03-21-huryn-product-model-first-principles-part-2]] — supporting explainer; Four Product Discovery Principles; Cagan, *Time-Boxing Product Discovery* (validated backlog).
+- [[2020-08-05-cagan-minimum-viable-product-for-platforms]] · [[2024-01-12-cagan-understanding-product-management-and-agile-design-better]] — the four prototype types; dual-track agile; the platform nuance.
+- [[2022-08-21-cagan-the-nature-of-product-lennys]] — focus less on problem discovery, more on solution discovery.

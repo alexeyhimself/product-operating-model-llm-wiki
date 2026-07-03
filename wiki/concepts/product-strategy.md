@@ -5,9 +5,9 @@ aliases: [product-strategy, strategy]
 status: drafting
 tags: [product-strategy, core-concept]
 sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]", "[[2020-02-18-cagan-product-strategy-focus]]", "[[2020-02-19-cagan-product-strategy-insights]]", "[[2020-02-20-cagan-product-strategy-actions]]", "[[2020-02-21-cagan-product-strategy-management]]", "[[2016-07-16-cagan-vision-vs-strategy]]", "[[2008-06-29-cagan-product-strategy-in-an-agile-world]]", "[[2006-01-02-cagan-the-product-manifesto]]", "[[2017-07-14-cagan-analyzing-product-strategy]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2009-06-01-cagan-the-product-scorecard]]", "[[2009-01-07-cagan-product-roadmaps]]", "[[2015-09-07-cagan-the-alternative-to-roadmaps]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]"]
-related: ["[[product-vision]]", "[[focus]]", "[[powered-by-insights]]", "[[transparency]]", "[[placing-bets]]", "[[team-objectives]]", "[[product-leadership]]", "[[overview]]", "[[product-strategy-quality]]", "[[outcome-based-roadmap]]"]
+related: ["[[product-vision]]", "[[focus]]", "[[powered-by-insights]]", "[[transparency]]", "[[placing-bets]]", "[[team-objectives]]", "[[product-leadership]]", "[[overview]]", "[[product-strategy-quality]]", "[[outcome-based-roadmap]]", "[[good-strategy-bad-strategy]]", "[[the-art-of-action]]"]
 created: 2026-06-14
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # Product Strategy
@@ -35,6 +35,11 @@ From Cagan's Q&A with Huryn:
 
 > "Product strategy is distinct from both business strategy and go-to-market strategy. Many companies have strong skills in business strategy and/or go-to-market strategy, but product strategy is often missing completely." ([[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve|Moore, "Changing How You Decide Which Problems to Solve"]])
 
+### The four elements, focus, and OKRs (the "Missing Link" talk)
+The spoken origin of this framework is [[2020-02-22-cagan-product-strategy-the-missing-link|"Product Strategy: The Missing Link"]] — strategy is the missing middle between a big objective and "a roadmap of 100 features" (the "underpants gnomes" gap). Two sharp points:
+- **[[focus|Focus]] ≠ prioritization.** The Pandora anti-pattern — giving stakeholders "funny money" to buy features — produced 60+ "must-dos," an IPO with only 40 engineers, and a salvage sale to SiriusXM. Focus means the *few* things that can actually move the needle, not a politically balanced buffet.
+- **OKRs are downstream, not a substitute.** Cagan "does not recommend OKRs anymore" unless you're *already* an empowered-team org — OKRs came *from* that model (Intel → Google); bolting them onto feature teams yields "**OKR theater**." Three requisites: empowered teams; team-level objectives only (not per-manager, not individual); and active leaders where **objectives come from leaders, key results from teams**. Strategic context is the empowered-team analogue of military "command intent." The two strategy books Cagan endorses (most are "paint-by-numbers"): *[[good-strategy-bad-strategy]]* (Rumelt) and *[[the-art-of-action]]* (Bungay).
+
 ## Anti-patterns & misunderstandings
 - Strategy as a **prioritized feature list** rather than a choice of problems.
 - Many competing "strategies" instead of one holistic one.
@@ -56,3 +61,4 @@ _Field note placeholder — is there one clear product strategy naming the few m
 - [[2024-01-17-cagan-product-model-concepts]] — strategy as one of the five product-model concepts.
 - [[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]] — insight-driven strategy as the *Decide* transformation dimension.
 - [[2024-03-16-huryn-product-model-first-principles-part-1]] — supporting explainer; *TRANSFORMED* Ch. 13 & 16; Cagan Q&A.
+- [[2020-02-22-cagan-product-strategy-the-missing-link]] — the spoken origin of focus / insights / actions / management; focus ≠ prioritization; "OKR theater"; the two endorsed strategy books.

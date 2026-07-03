@@ -13,6 +13,7 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 ✅ Created (ingest 2026-06-20, SVPG article set): `feature-teams-vs-product-teams` · `missionaries-vs-mercenaries` · `empowered-engineers` · `time-to-money` · `team-topology`.
 ✅ Created (ingest 2026-06-21, follow-up pass): `outcome-based-roadmap`.
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `transformation` · `transformation-politics` · `transformation-as-a-project` · `the-need-for-speed`.
+✅ Created (ingest 2026-07-03, Video Ingest): `product-management-theater` · `founder-style-leadership` · `product-sense` · `build-to-learn-vs-build-to-earn`.
 Still to do:
 - `product-operating-model` (top-level concept page)
 - `product-principles` · `continuous-discovery` · `dual-track` · `insights`
@@ -34,8 +35,9 @@ Still to do:
 ✅ Created (ingest 2026-06-20): `coaching-the-pm` — the PM coaching curriculum (Cagan's "The Plan").
 ✅ Created (ingest 2026-06-21, follow-up pass): `opportunity-assessment` · `high-integrity-commitments`.
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `pilot-teams` · `it-to-product-organization`.
+✅ Created (ingest 2026-07-03, Video Ingest): `prototypes` (the four prototype types).
 Still to do:
-- `product-discovery-techniques` · `prototypes`
+- `product-discovery-techniques`
 - `customer-interviews` · `okrs` · `story-mapping`
 - `product-vision-narrative` · `the-product-strategy-process` · `reference-customer-program`
 - `working-backwards` (the Amazon press-release-first method, referenced from [[amazon]])
@@ -44,11 +46,11 @@ Still to do:
 ✅ Created (ingest 2026-06-20): `pm-competency` — the first diagnostic (PM importance-vs-capability gap analysis).
 ✅ Created (ingest 2026-06-21, the Diagnostics Ingest): `feature-team-vs-empowered-team` · `discovery-health` · `delivery-health` · `product-strategy-quality` · `leadership-readiness` · `model-maturity` · `outcome-vs-output-orientation` · `stakeholder-relationship-health`.
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `transformation-readiness` — the 8 readiness lenses to apply *before* starting a transformation.
+✅ Created (ingest 2026-07-03, Video Ingest): `model-as-coach-readiness` — is your AI-as-coach setup aligned with Cagan's prescription.
 Still to do:
 - `team-collaboration-health` (trio dynamics; PM/designer/Tech Lead interplay)
 - `vision-quality` (is it inspiring? 2–5 years? a recruiting tool?)
 - `engineering-empowerment` (the "first source of just-now-possible ideas" test)
-- `model-as-coach-readiness` (project files + instructions + strategic context check — referenced from [[model-as-product-coach]])
 
 ## Case studies — `wiki/case-studies/`
 - `your-org-baseline` — assess your own organization's starting state (high value for coaching)
@@ -57,12 +59,14 @@ Still to do:
 ## Synthesis — `wiki/synthesis/`
 - `pom-vs-agile-and-safe` · `pom-vs-lean-and-design-thinking`
 - `strongest-objections-to-the-model` · `your-evolving-thesis`
+- ✅ **Created (ingest 2026-07-03, Video Ingest):** [[the-point-is-outcomes]] — now grounded in the video canon ("we get points for outcome, not output" — [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf|Root Causes]]; "why outcomes are challenging to sustain" — [[2026-05-07-cagan-deep-dive-into-product-bvssh|BVSSH]]). Captured as DEBT 2026-07-02; the failure + AI-coaching + BVSSH talks supplied the source. *Original DEBT note follows for provenance:* a synthesis page that states the *chain of subordination* explicitly in one place: **the point is to move customer and/or business outcomes — to consistently innovate on behalf of customers.** Everything else is a means, not the end. In particular, *learning is a side-effect, not the goal*: the "no success/failure, only what did we learn?" framing in [[learning-over-failure]] is scoped to **discovery experiments** — learning is the *currency* of discovery so the team can place better bets, not the purpose of the work. Likewise shipping/delivery ("learn fast and ship safely and often") is a means. The connective tissue is currently spread across [[outcomes-over-output]], [[innovation-over-predictability]], [[learning-over-failure]], [[time-to-money]], and the [[outcome-vs-output-orientation]] diagnostic, but is never said as a single hierarchy. **Do not create this page from synthesis alone** (per CLAUDE.md, this would be wiki-synthesis masquerading as canon) — hold until a raw Cagan/SVPG source arrives that states the outcomes-are-the-point / learning-is-subordinate hierarchy directly, then ingest it and build this page grounded in that source. Captured 2026-07-02 from a coaching conversation with Aleksei.
 
 ## Entities — `wiki/entities/`
 ✅ Created: `marty-cagan`, `pawel-huryn` (people); `transformed`, `inspired`, `empowered` (books); `svpg` (org).
 ✅ Created (recommended reading, 2026-06-15): `principles-life-and-work`, `build-tony-fadell`, `working-backwards`, `no-rules-rules`, `creative-selection`, `how-google-works`, `continuous-discovery-habits`, `trillion-dollar-coach`, `the-making-of-a-manager`, `the-joy-of-agility`, `accelerate` (all books) — see [[recommended-library]].
 ✅ Created (ingest 2026-06-20): **people/** `jon-moore` · `chris-jones`.
 ✅ Created (ingest 2026-06-21, follow-up pass): **organizations/** `amazon`.
+✅ Created (ingest 2026-07-03, Video Ingest): **people/** `bill-campbell` · `jeff-patton`; **books/** `good-strategy-bad-strategy` · `the-art-of-action` (see [[recommended-library]]).
 Still to do:
 - **people/** `christian-idiodi` · `lea-hickman` · `martina-lauchengco`
 - **books/** `loved`
@@ -97,3 +101,4 @@ Still to ingest — referenced from existing pages but not yet card-ified:
   - *The Rest vs. The Best* (Cagan, svpg.com) — the frame from [[2023-02-20-cagan-transformed-announcement|TRANSFORMED announcement]].
   - *The Coaching Series* (Cagan, svpg.com) — the coaching canon index.
   - *Top 10 Reasons for Slow Velocity* (Cagan, svpg.com) — referenced from [[2013-07-21-cagan-the-need-for-speed]]; complementary velocity-blocker enumeration.
+- **Referenced from the 2026-07-03 Video Ingest (SVPG articles worth card-ifying to back the new video pages):** *Product Management Theater* · *Product Leadership Theater* · *Founder Mode / Founder-Style Leadership* · *Product Sense Demystified* · *Pledge to Customers* · *The Product Model in Government* · *Devolving From Good to Bad*.

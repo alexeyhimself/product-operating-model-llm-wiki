@@ -5,10 +5,10 @@ aliases: [product-leadership, head-of-product, head-of-design, head-of-engineeri
 status: drafting
 tags: [competency, product-leadership, management, leadership, strategic-context]
 role: The managers and leaders of product management, product design, and engineering. Responsible for coaching and staffing the people, and for providing the strategic context (vision, principles, topology, strategy, team objectives, evangelism) that empowered teams need to make good decisions.
-sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2015-06-27-cagan-leadership-vs-management]]", "[[2023-12-05-cagan-alternatives-to-product-leaders]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2019-04-24-cagan-the-greatest-coach]]", "[[2024-11-21-cagan-transformation-politics]]", "[[2024-10-29-cagan-transformation-as-a-project]]"]
-related: ["[[empowered-product-teams]]", "[[product-coaching]]", "[[product-strategy]]", "[[product-vision]]", "[[team-objectives]]", "[[team-topology]]", "[[trust-over-control]]", "[[principles-over-process]]", "[[transformation]]", "[[transformation-politics]]"]
+sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2015-06-27-cagan-leadership-vs-management]]", "[[2023-12-05-cagan-alternatives-to-product-leaders]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2019-04-24-cagan-the-greatest-coach]]", "[[2024-11-21-cagan-transformation-politics]]", "[[2024-10-29-cagan-transformation-as-a-project]]", "[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[2024-04-14-cagan-escape-the-project-trap-agile-theatre]]", "[[2024-06-01-product-collective-what-every-product-leader-needs-to-know]]"]
+related: ["[[empowered-product-teams]]", "[[product-coaching]]", "[[product-strategy]]", "[[product-vision]]", "[[team-objectives]]", "[[team-topology]]", "[[trust-over-control]]", "[[principles-over-process]]", "[[transformation]]", "[[transformation-politics]]", "[[founder-style-leadership]]", "[[product-sense]]", "[[bill-campbell]]"]
 created: 2026-06-20
-updated: 2026-06-21
+updated: 2026-07-03
 ---
 
 # Product Leadership
@@ -32,6 +32,12 @@ Empowered teams need *strategic context* to make good decisions. Senior leaders 
 5. **Ongoing evangelism** — communicating the strategic context relentlessly, in recruiting, onboarding, 1:1s, all-hands, board meetings, customer briefings. Evangelism is never "done."
 
 **Lead by context, not control** (Netflix mantra Cagan endorses).
+
+### Founder-style leadership and "experts lead experts"
+Cagan's fullest recent statement of what "better leadership" means is [[founder-style-leadership]] — **[[product-sense|product sense]] + coaching** — his reframing of "Founder Mode" as neither micromanagement nor its hands-off opposite ([[2025-03-03-cagan-why-your-product-operating-model-is-broken|"Why Your Product Operating Model is Broken"]]). Corollaries:
+- **Experts lead experts.** The prerequisite for leading a craft is knowing it; the "people-only manager" who administers salaries but can't help with the actual work is a toxic anti-pattern. Domain expertise, though, must not curdle into *domain dogma* (Shreyas Doshi) — distinguish law from lore.
+- **The time split** ([[2024-04-14-cagan-escape-the-project-trap-agile-theatre|Escape the Project Trap]]): first-level leaders spend ~80% on coaching + staffing and ~20% on strategy; a CPO/CTO is the reverse (~80% strategic context). And **product strategy belongs to leaders, not teams** — 30 teams can't each own the holistic strategy without producing anarchy; teams own discovery and delivery strategy, informed by their insights.
+- **The two things that get in the way of good work** ([[2024-06-01-product-collective-what-every-product-leader-needs-to-know|breakdown of the INDUSTRY keynote]]): people don't know *how* to do good work (→ coaching), or they aren't motivated (→ vision / strategic context) — exactly the two leadership duties above. And "you cannot be a good manager without being a good coach" ([[bill-campbell]]).
 
 ## Common failure modes
 - **Empowerment-as-absence** — interpreting "empowered teams" as backing off. Empowered teams need *better* leadership, not less.
@@ -78,3 +84,6 @@ _Field note placeholder — can each product leader articulate their team's visi
 - [[2019-04-24-cagan-the-greatest-coach]] — Bill Campbell's yardstick: measure leadership by leaders produced.
 - [[2024-11-21-cagan-transformation-politics]] — the political dimensions a transforming leader must own; "judged by her weakest PM"; the sequencing refinement.
 - [[2024-10-29-cagan-transformation-as-a-project]] — the named anti-pattern leaders must avoid in how they manage transformation itself.
+- [[2025-03-03-cagan-why-your-product-operating-model-is-broken]] — founder-style leadership (product sense + coaching); experts lead experts; the people-only-manager anti-pattern.
+- [[2024-04-14-cagan-escape-the-project-trap-agile-theatre]] — the 80/20 coaching-vs-strategy split; product strategy belongs to leaders.
+- [[2024-06-01-product-collective-what-every-product-leader-needs-to-know]] — supporting breakdown of the INDUSTRY keynote; the two core leadership duties.

@@ -26,7 +26,7 @@ updated: 2026-06-20
 - concepts: [[the-four-big-risks]] (designer owns *usability*), [[product-discovery]] (designer's prototyping/user-testing as discovery techniques)
 - principles: [[collaboration]] (the designer sits with the trio, not other designers)
 - entities: [[chris-jones]] (SVPG partner, EMPOWERED co-author)
-- related linked references (not yet pages): `[[prototypes]]`, `[[user-testing]]`, `[[interaction-design]]`, `[[visual-design]]`
+- related: [[prototypes]]; linked references not yet pages: `[[user-testing]]`, `[[interaction-design]]`, `[[visual-design]]`
 
 ## Notes for the coach
 - **Five attributes** of the modern product designer (product orientation, holistic UX, prototyping, user testing, interaction+visual). Use as a designer assessment rubric, mirroring [[pm-competency]] for PMs.

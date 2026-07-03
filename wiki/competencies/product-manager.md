@@ -5,10 +5,10 @@ aliases: [product-manager, pm, product-management]
 status: drafting
 tags: [competency, product-manager, trio, discovery, value, viability]
 role: The member of the product team accountable for value and viability risk; partner to design and engineering in an empowered product team.
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]"]
-related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[delivery-manager]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]", "[[2024-03-21-cagan-product-management-rules-in-early-stage-june]]"]
+related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[delivery-manager]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]", "[[product-management-theater]]", "[[build-to-learn-vs-build-to-earn]]", "[[product-sense]]"]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # Product Manager
@@ -22,6 +22,13 @@ updated: 2026-06-20
 - **Product-owner mechanics** — the administrative/backlog responsibilities (a small subset of the role, not the role itself).
 
 > **What the PM is *not*:** a project manager, a backlog administrator, a "CEO of the product," or a feature-request router. The CSPO/product-owner responsibilities are "just a very small subset of the responsibilities of the true product manager" (Cagan).
+
+## Creator, not facilitator (and the reckoning)
+Cagan's sharpest spoken framing ([[2024-03-10-cagan-product-management-theater-lennys|Lenny's]]): a real PM is a **creator, not a facilitator** — "my job is to say why" is not a job (the *why* comes from [[product-strategy|product strategy]]). [[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016|Behind Every Great Product]] names the **three ways teams run a PM**: (a) escalate every decision to the manager; (b) call a meeting for every decision (design-by-committee); (c) actually do the job. Only (c) is product management.
+
+**The new litmus test** ([[2026-04-14-cagan-ai-product-coaching-women-in-product|AI Product Coaching]]): "we're all builders" — if you don't love prototyping and testing prototypes, product isn't the role for you. PMs now do [[build-to-learn-vs-build-to-earn|build-to-learn]] work themselves rather than delegating all of it, on a foundation of [[product-sense|product sense]]. This is the heart of the [[product-management-theater|reckoning]] Cagan warns is underway: backlog-administrator PMs are the most vulnerable roles, and with AI **viability becomes *more* important**, not less (probabilistic vs deterministic software; legal, ethical, and mission-critical questions land squarely on the PM — [[2025-09-29-cagan-future-of-product-management-producttank-sydney|Sydney]]).
+
+**Founders:** don't hire a PM too early — pre-PMF, value and viability are the founder's job; the heuristic is ~20–25 engineers, and the first product hires should own go-to-market and pricing too ([[2024-03-21-cagan-product-management-rules-in-early-stage-june|June]]).
 
 ## Competencies — weak vs strong
 Cagan assesses PM competence along three pillars — **product knowledge, process skills, people skills** ([[pm-competency]] is the assessment rubric; [[coaching-the-pm]] is how each is developed). Product knowledge is table stakes (~2–3 months to ramp); people skills separate competent from exceptional.
@@ -81,3 +88,7 @@ _Field note placeholder — rate your PMs (or yourself) against the three pillar
 - [[2019-04-08-cagan-coaching-tools-the-assessment]] — the people/process/product skills taxonomy (assessment).
 - [[2019-04-22-cagan-coaching-tools-the-plan]] — how each competency is developed.
 - [[inspired]] — supporting; the PM role and discovery craft.
+- [[2024-03-10-cagan-product-management-theater-lennys]] — creator not facilitator; the reckoning; value + viability under AI.
+- [[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]] — the "three ways" a PM works; the role more essential than ever.
+- [[2025-09-29-cagan-future-of-product-management-producttank-sydney]] — agency + prototyping; ethics/viability under AI.
+- [[2024-03-21-cagan-product-management-rules-in-early-stage-june]] — pre-PMF: founders, not PMs; discovery vs optimization.

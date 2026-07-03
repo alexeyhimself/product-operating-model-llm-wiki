@@ -174,3 +174,49 @@ User direction: the wiki is a **knowledge base used by AI agents to coach PMs wi
 7. **[[2023-02-20-cagan-transformed-announcement]]** is marked role=**supporting** (it announces the primary source TRANSFORMED) — the only non-primary source in this ingest. All others are primary.
 8. **Voice discipline:** new pages carefully distinguish canon (cited inline to source articles) from wiki-synthesis (operational rules, intervention sequencing, [[transformation-readiness]] level labels). Quotes are reproduced as quotes only, attributed to source articles per CLAUDE.md.
 9. **Not-yet-ingested transformation companions** referenced and added to backlog: *Pilot Teams* (the dedicated article), *Transformation in Action*, *Keys to Successful Transformation*, *Meaningful Transformation*, *Pledge to Customers/Stakeholders/Executives*, *Scaling With Process vs People*, *Process People*, *Transformation Fail*, *Transformation Regrets*, *Winning Hearts and Minds*, *Pilot Teams* article, *The Rest vs. The Best*, *The Coaching Series*, *Top 10 Reasons for Slow Velocity*. These would deepen the transformation canon further.
+
+## [2026-07-02] query | Agile purpose → outcomes-are-the-point debt
+Q: what is the purpose of Agile in POM, and does the wiki capture that learning is a side-effect while the point is moving customer/business outcomes (consistently innovating on behalf of customers)? Confirmed the hierarchy is present but spread across outcomes-over-output, innovation-over-predictability, learning-over-failure (scoped to discovery), time-to-money, and the outcome-vs-output-orientation diagnostic. Per user, did NOT create a new page; filed as DEBT in backlog.md Synthesis (`the-point-is-outcomes`) awaiting a proper raw source before building.
+
+## [2026-07-03] ingest | The Video Ingest — 27 Marty Cagan talks/interviews → 27 sources + 12 pages
+**Primary canon, a new medium.** User added `raw/videos/YouTube/Marty Cagan interviews/` — **27 transcripts** of Cagan YouTube interviews and conference keynotes (2016–2026). Every prior wiki source is a written article; this ingest establishes **talk / interview (video)** as a source medium. Reviewed all 27 (10 read in full — the highest-signal ones — the other 17 via frontmatter + chapter lists, which the 10 full reads already covered substantively), discussed takeaways with the user, and per the user's **"full build" + all three judgment calls** choice, built the full set. Working notes were distilled to a scratchpad during review.
+
+**Sources created (27 slim cards; all primary except #26 supporting):**
+- *Theater:* [[2024-03-10-cagan-product-management-theater-lennys]] · [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] · [[2022-12-01-cagan-the-nature-of-product-school-of-product]] · [[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]] · [[2023-01-16-cagan-master-class-context-not-control]].
+- *AI-as-coach:* [[2026-04-14-cagan-ai-product-coaching-women-in-product]].
+- *Leadership & product sense:* [[2025-03-03-cagan-why-your-product-operating-model-is-broken]].
+- *Strategy:* [[2020-02-22-cagan-product-strategy-the-missing-link]].
+- *Discovery & prototypes:* [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]] · [[2020-08-05-cagan-minimum-viable-product-for-platforms]] · [[2024-01-12-cagan-understanding-product-management-and-agile-design-better]] · [[2022-08-21-cagan-the-nature-of-product-lennys]].
+- *Roadmaps:* [[2023-06-02-cagan-are-roadmaps-ever-useful-talking-roadmaps]].
+- *Steve Jobs / discovery / transformation:* [[2025-04-21-cagan-design-a-product-like-steve-jobs]].
+- *POM overview:* [[2024-05-21-cagan-moving-to-the-product-operating-model-industry]] · [[2023-10-31-cagan-transformed-just-product]] · [[2026-05-07-cagan-deep-dive-into-product-bvssh]].
+- *Transformation / agile theater:* [[2024-04-14-cagan-escape-the-project-trap-agile-theatre]].
+- *Empowered & leadership:* [[2018-11-20-cagan-empowered-extraordinary-results-productized]] · [[2018-02-23-cagan-product-is-hard-lean-product]] · [[2026-05-15-cagan-empowered-innovation-show]] · [[2021-04-05-cagan-why-empowered-teams-make-the-best-products-entreleadership]] · [[2020-04-23-cagan-discovery-strategy-empowered-teams-product-faculty]].
+- *PM role & AI:* [[2025-09-29-cagan-future-of-product-management-producttank-sydney]] · [[2025-11-13-cagan-eriksson-fireside-producttank-london]] · [[2024-03-21-cagan-product-management-rules-in-early-stage-june]].
+- *(#26) Supporting:* [[2024-06-01-product-collective-what-every-product-leader-needs-to-know]] — a third-party breakdown of Cagan's INDUSTRY 2023 keynote (root = [[2024-05-21-cagan-moving-to-the-product-operating-model-industry]]).
+
+**Pages created (12):**
+- **Concepts (4):** [[product-management-theater]] (the deferred 2026-06-14 page; title-without-job, the reckoning, three models, agile-theater sibling), [[founder-style-leadership]] (Cagan's "Founder Mode" reframe = product sense + coaching), [[product-sense]] (earned, not innate; the "do your homework" method), [[build-to-learn-vs-build-to-earn]] (Jeff Patton).
+- **Framework (1):** [[prototypes]] (the four prototype types + the platform nuance).
+- **Diagnostic (1):** [[model-as-coach-readiness]] (is the AI-coach setup aligned with Cagan's prescription).
+- **Synthesis (1):** [[the-point-is-outcomes]] — the previously-gated DEBT page, now grounded in the video canon.
+- **Entities (4 + 1 enriched):** [[bill-campbell]] · [[jeff-patton]] (people); [[good-strategy-bad-strategy]] · [[the-art-of-action]] (books); enriched [[creative-selection]] (the Steve Jobs myth).
+
+**Pages updated (16):** [[model-as-product-coach]] (prompt keys, product-sense script, the limits, the readiness diagnostic), [[product-coaching]] (why coaching fails; "not who they hire — they coach you"), [[feature-teams-vs-product-teams]] (three models + theater link), [[product-manager]] (creator-not-facilitator; the reckoning; the litmus test; founders), [[product-leadership]] (founder-style leadership; experts-lead-experts; the 80/20 split), [[empowered-engineers]] (Bill Campbell attribution; Jobs quote), [[the-four-big-risks]] (2018 ethics lineage; AI viability), [[product-strategy]] (four elements + OKR theater + two books), [[transformation]] (three meta questions; McKinsey + agile anti-patterns; Atlassian term), [[transformation-as-a-project]] (the McKinsey sibling anti-pattern), [[product-discovery]] (prototypes + build-to-learn), [[team-topology]] (future shape of teams), [[overview]], [[marty-cagan]] (Works → talks; new positions), [[svpg]] (coach network; Atlassian naming), [[creative-selection]].
+
+**Catalog:** `index.md` (new latest-ingest banner; entries added across Concepts/Frameworks/Diagnostics/Synthesis/Entities; new "talks & interviews (video)" primary-canon Sources tier listing all 27). `overview.md` (Atlassian naming; AI-as-coach spoken mechanics; product-management-theater in "what it replaces"; new pages in the map; updated open flags). `backlog.md` (trimmed `prototypes`, `model-as-coach-readiness`, and the `the-point-is-outcomes` DEBT; logged the new concept/entity pages; added the SVPG articles worth card-ifying next).
+
+**Decisions:**
+1. **Full build**, per the user's explicit choice (consistent with every prior ingest).
+2. **Built [[the-point-is-outcomes]]** (previously DEBT, gated 2026-07-02 "until a raw source states the outcomes-are-the-point / learning-is-subordinate hierarchy directly"). The video canon now grounds it — "we get points for outcome, not output" ([[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]]); "why outcomes are challenging to sustain" ([[2026-05-07-cagan-deep-dive-into-product-bvssh]]) — and the page cites those rather than pure synthesis; the discovery-scoped role of learning is preserved.
+3. **Filename dates = each transcript's `published` date**; the actual delivery/recording venue and date are noted in each card where they differ (e.g., Behind Every Great Product delivered MtP London 2016, uploaded 2018; Moving to the POM delivered INDUSTRY 2023, uploaded 2024; MVP for Platforms content predates its 2020 upload).
+
+**Flags:**
+1. **Atlassian coined "product operating model"** — the wiki previously attributed the term vaguely; now corrected on [[overview]], [[svpg]], [[transformation]] (two talks name Atlassian).
+2. **The Steve Jobs myth** — Jobs was not a top-down dictator; teams brought him prototypes weekly. Captured on [[empowered-engineers]] and [[creative-selection]]; a strong anti-pattern callout against "act like Jobs = boss people around."
+3. **2018 ethics lineage** — Cagan's 2018 failure talk framed *ethics* as a separate "should we build it?" question, predating the canonical "ethics inside viability." Recorded as lineage (not contradiction) on [[the-four-big-risks]]; consistent with the existing four-vs-five-risks note.
+4. **"OKR theater"** — Cagan "does not recommend OKRs anymore" unless already empowered; captured on [[product-strategy]].
+5. **Voice discipline** — video cards are slim provenance (no transcript reproduction); quotes reproduced as short attributed quotes only; wiki-synthesis (e.g., the [[the-point-is-outcomes]] chain, the model-as-coach-readiness rubric labels) is labelled distinct from canon.
+6. **Known minor debt for a future lint pass:** a few pre-existing pages still show `[[product-leadership]]` / `[[leadership-readiness]]` in backticks marked "(future)" though those pages exist; the `[[product-management-theater]]` "(future)" markers were fixed on the pages touched this ingest. Also several talks reference SVPG articles not yet card-ified (see backlog).
+
+**Duplicates/notes:** "The Nature of Product" appears as two *distinct* talks (Lenny's 2022 interview `h-KVGHoQ_98` and the School of Product 2022 keynote `T3VRz18ntjQ`) — both carded. No transcripts duplicated an already-ingested source.

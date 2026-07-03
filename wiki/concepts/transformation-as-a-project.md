@@ -4,10 +4,10 @@ type: concept
 aliases: [transformation-as-a-project, transformation-project-anti-pattern, big-bang-transformation]
 status: drafting
 tags: [concept, anti-pattern, transformation, project-model]
-sources: ["[[transformed]]", "[[2024-10-29-cagan-transformation-as-a-project]]", "[[2023-08-17-cagan-from-projects-to-products]]"]
+sources: ["[[transformed]]", "[[2024-10-29-cagan-transformation-as-a-project]]", "[[2023-08-17-cagan-from-projects-to-products]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]"]
 related: ["[[transformation]]", "[[pilot-teams]]", "[[transformation-politics]]", "[[model-maturity]]", "[[feature-teams-vs-product-teams]]"]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-07-03
 ---
 
 # Transformation as a Project
@@ -52,6 +52,7 @@ Cagan's prescription: **use the product model to transform to the product model.
 - **"We're piloting, but with a project plan."** A pilot run on rails (tasks, dates, RACIs) is just a small project. Pilots must be **outcome-oriented** and run by the team, with coaching, not by a program manager.
 - **"Pilots are slower than rolling out everywhere."** Cagan: in practice, pilot-then-scale is "substantially faster" because of [[time-to-money|time-to-money]] — the same as for products.
 - **"Once the project is done, we're transformed."** Transformation is an ongoing capability change, not a destination. The org either keeps learning and improving or regresses.
+- **"Hire McKinsey to transform us."** A sibling anti-pattern ([[2025-04-21-cagan-design-a-product-like-steve-jobs|Cagan]]): the consultancy's "do it for you" model can't build the skills the company itself needs, and the consultants "have never worked in the product model — they don't know what good looks like." Millions spent, years lost. **Coaching** (build skills in-house) beats **consulting**.
 
 ## In your context
 _Field note placeholder — does your transformation have a project plan with a completion date? Do you have pilot teams, or do you have workstreams? Are you tracking task completion or business outcomes?_
@@ -64,4 +65,5 @@ _Field note placeholder — does your transformation have a project plan with a 
 ## Sources
 - [[2024-10-29-cagan-transformation-as-a-project]] — root canon for the anti-pattern.
 - [[2023-08-17-cagan-from-projects-to-products]] — the cultural shift this anti-pattern violates.
+- [[2025-04-21-cagan-design-a-product-like-steve-jobs]] — the "hire McKinsey" sibling anti-pattern; coaching beats consulting.
 - [[transformed]] — root source.

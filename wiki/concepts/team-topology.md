@@ -4,10 +4,10 @@ type: concept
 aliases: [team-topology, topology, product-org-design]
 status: drafting
 tags: [team-topology, org-design, product-leadership, empowerment]
-sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-01-17-cagan-product-model-concepts]]"]
+sources: ["[[transformed]]", "[[empowered]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]"]
 related: ["[[product-leadership]]", "[[empowered-product-teams]]", "[[product-strategy]]", "[[product-vision]]", "[[the-product-team-trio]]"]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # Team Topology
@@ -32,6 +32,9 @@ updated: 2026-06-20
 - **Team scope larger than the team can own** — too many domains; no team can become expert in any.
 - **Team scope smaller than the problem** — the team owns half a workflow; the other half is "someone else's team."
 
+## The future shape of teams (AI era)
+Two shifts Cagan flags ([[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto|Modern CTO]]): the **average number of engineers per team is going down** (smaller teams communicate better — "a four is really easy"), while the **scope of each team is going up** (GenAI raises engineers' cognitive capacity, so a team can own more end-to-end and suffer fewer painful cross-team dependencies — the most common complaint of even good empowered teams). The open question is whether companies use this to do *more* (pursue the vision faster) or the *same with fewer people*.
+
 ## In your context
 _Field note placeholder — pick a product team. Can it ship a meaningful end-to-end change without depending on another team? If no, who designed that dependency, and is it intentional?_
 
@@ -44,3 +47,4 @@ _Field note placeholder — pick a product team. Can it ship a meaningful end-to
 - [[empowered]] — long-form treatment of leadership and topology (Cagan & Jones).
 - [[2020-11-19-cagan-product-leadership-is-hard]] — topology as one of five strategic-context elements; "loosely coupled, highly aligned"; head-of-product + head-of-technology jointly own the call.
 - [[2024-01-17-cagan-product-model-concepts]] — topology named as a "supporting concept" for product strategy.
+- [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] — the AI-era shift: smaller teams, bigger scope, fewer dependencies.

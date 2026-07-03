@@ -4,10 +4,10 @@ type: concept
 aliases: [empowered-engineers, empowered-engineer]
 status: drafting
 tags: [engineers, empowerment, innovation, the-most-important-thing]
-sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2020-04-23-cagan-empowered-engineers-faq]]"]
-related: ["[[engineers]]", "[[empowered-product-teams]]", "[[missionaries-vs-mercenaries]]", "[[product-discovery]]", "[[the-four-big-risks]]"]
+sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2020-09-04-cagan-discovery-problem-vs-solution]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2020-04-23-cagan-empowered-engineers-faq]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]"]
+related: ["[[engineers]]", "[[empowered-product-teams]]", "[[missionaries-vs-mercenaries]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[bill-campbell]]"]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-03
 ---
 
 # Empowered Engineers
@@ -17,6 +17,7 @@ updated: 2026-06-20
 ## Why it matters
 - Engineers are **the single most important source of innovation** in a strong product company — they work with the enabling technology every day and are best positioned to see what's *just now possible*.
 - The Jobs line ([[2022-09-20-moore-changing-how-you-solve-problems|Moore quotes it]]): "We don't hire all these engineers to tell them what to build; we hire them to show us what's possible."
+- **[[bill-campbell|Bill Campbell]]'s formulation:** "the single most important thing in a product company is empowered engineers." The legendary coach behind Steve Jobs, Jeff Bezos, and Google's founders taught this directly ([[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto|Modern CTO]], [[2025-04-21-cagan-design-a-product-like-steve-jobs|the Steve Jobs myth]]) — which is why the Jobs quote above is really a statement about empowerment, not genius: Jobs "didn't know the solutions; he just knew what makes a great product," and teams brought him prototypes to iterate on.
 - Most breakthrough products you love originated from an empowered engineer (canon claim).
 - "If you're just using your engineers to code, you're only getting about half their value."
 
@@ -60,3 +61,4 @@ _Field note placeholder — when did your engineers last propose a solution that
 - [[2022-09-20-moore-changing-how-you-solve-problems]] — engineers as the single most important source of innovation.
 - [[2020-09-04-cagan-discovery-problem-vs-solution]] — engineers in the room during customer/discovery work.
 - [[2020-10-30-cagan-discovery-delivery]] — engineers stay engaged with discovery; the same team does both.
+- [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] · [[2025-04-21-cagan-design-a-product-like-steve-jobs]] — Bill Campbell's "most important thing"; the Steve Jobs myth (engineers show what's possible).

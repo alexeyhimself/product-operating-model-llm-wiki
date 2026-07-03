@@ -4,10 +4,10 @@ type: concept
 aliases: [model-as-coach, ai-product-coach, foundation-model-as-coach]
 status: drafting
 tags: [coaching, ai, learning, foundation-models, core-concept]
-sources: ["[[2026-02-04-cagan-product-coaching-and-ai]]"]
-related: ["[[product-coaching]]", "[[trust-over-control]]", "[[marty-cagan]]", "[[svpg]]", "[[overview]]"]
+sources: ["[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]"]
+related: ["[[product-coaching]]", "[[trust-over-control]]", "[[marty-cagan]]", "[[svpg]]", "[[overview]]", "[[model-as-coach-readiness]]", "[[product-sense]]", "[[build-to-learn-vs-build-to-earn]]"]
 created: 2026-06-14
-updated: 2026-06-14
+updated: 2026-07-03
 ---
 
 # Model as Product Coach
@@ -26,11 +26,18 @@ Configure the model with three layers of context:
 
 Use it to develop product sense, learn your company / industry / users / metrics / constraints, prepare for decisions, and seek critique. **Question its outputs; look for critique and mistakes, not affirmation.** The model is non-deterministic — the same question can yield a different (and not necessarily better) answer tomorrow.
 
+### The right bar, and building product sense fast
+Cagan says for months he asked the wrong question — "is the model a *great* product coach?" The right question is "is it **better than what they get**, and good enough to reach competence?" — a much lower bar, and the answer is yes ([[2026-04-14-cagan-ai-product-coaching-women-in-product|AI Product Coaching]]). Time to competence was ~3 months with a good manager; he now guesses less than half that, because it's 7×24 rather than one hour a week.
+
+The single most valuable first use is building [[product-sense|product sense]] fast: ask the coach to teach you your data, the KPIs that matter for your kind of business, the industry and its major players, how a company in this space judges its own health, the flywheel dynamics, and the kinds of users and their motivations. Cagan does exactly this before engaging any company he hasn't worked with. Then move to directed, problem-specific questions (e.g., "should I use the customer-discovery program here?", "how would I test this compliance viability risk?"), including techniques like Teresa Torres's opportunity solution trees.
+
+**Where it falls short (and why humans still matter):** the model is now surprisingly good at politics, but at the leadership level "there are things it doesn't even know it doesn't know" — above all, **it doesn't know *you* or your specific executives**. Cagan's example: a manager (Jennifer Bailey, herself coached by [[bill-campbell]]) explaining how each C-level peer reasons — knowledge no model has. Every product leader should use an AI coach *and*, ideally, a human leadership coach.
+
 ## What it replaces
 A weekly 1:1 with a manager who doesn't have time, didn't grow up in the product model, or both. *And* expensive external coaching that most companies won't pay for. Cagan: an aspiring product creator "in San Francisco, or Sao Paulo, or Lagos, or anywhere else in the world with an internet connection and a connected device, now has 7×24 access to the advice and assistance of an experienced product coach, representing the aggregated learnings of some of the best minds in product."
 
 ## Anti-patterns
-- **PM theater.** Using AI to *accelerate the project model* — aggregating feedback, generating roadmaps, writing PRDs or user stories — rather than to learn the product model. Cagan: "an agent — or your engineer or designer — could just as easily do this themselves." Future page: `[[product-management-theater]]`.
+- **PM theater.** Using AI to *accelerate the project model* — aggregating feedback, generating roadmaps, writing PRDs or user stories — rather than to learn the product model. Cagan: "an agent — or your engineer or designer — could just as easily do this themselves." See [[product-management-theater]].
 - **Blind acceptance.** Treating model output as canonical without questioning. The right stance is critique-seeking.
 - **No strategic context.** Generic coaching with no anchoring to your company yields generic advice.
 - **Wrong model framing.** Forgetting to instruct the model on which operating model — product vs project — you're trying to learn. Defaults are a fuzzy average.
@@ -47,7 +54,10 @@ This wiki is project files for model-as-product-coach; [`CLAUDE.md`](../../CLAUD
 - [[product-coaching]] — the broader concept; this is the AI-specific form.
 - [[trust-over-control]] — "active coaching" is the leadership behavior the model now extends to anyone with an internet connection.
 - [[marty-cagan]], [[svpg]] — the position shift.
-- diagnostics: `[[model-as-coach-readiness]]` (future — is your setup aligned with Cagan's prescription?)
+- [[product-sense]] — the judgment the model helps you build fast; [[build-to-learn-vs-build-to-earn]] — the discovery work it supports.
+- diagnostics: [[model-as-coach-readiness]] — is your setup aligned with Cagan's prescription?
 
 ## Sources
 - [[2026-02-04-cagan-product-coaching-and-ai]] — Cagan/SVPG, Feb 2026; primary canon for this concept.
+- [[2026-04-14-cagan-ai-product-coaching-women-in-product]] — the spoken how-to: the prompt keys, strategic-context inputs, the "better than what they get" bar, the product-sense script, and the limits.
+- [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] — prompting for the product (not project) model; the theater anti-pattern.
