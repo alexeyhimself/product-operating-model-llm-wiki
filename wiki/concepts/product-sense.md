@@ -4,10 +4,10 @@ type: concept
 aliases: [product-judgment, doing-your-homework, product-intuition]
 status: drafting
 tags: [product-sense, judgment, onboarding, product-manager, coaching, discovery]
-sources: ["[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2020-02-22-cagan-product-strategy-the-missing-link]]"]
-related: ["[[founder-style-leadership]]", "[[product-manager]]", "[[product-coaching]]", "[[model-as-product-coach]]", "[[product-discovery]]", "[[powered-by-insights]]", "[[the-four-big-risks]]"]
+sources: ["[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2020-02-22-cagan-product-strategy-the-missing-link]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]"]
+related: ["[[founder-style-leadership]]", "[[product-manager]]", "[[product-coaching]]", "[[model-as-product-coach]]", "[[product-discovery]]", "[[powered-by-insights]]", "[[the-four-big-risks]]", "[[amazon-prime]]"]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Product Sense
@@ -15,7 +15,7 @@ updated: 2026-07-03
 > The judgment that lets a product person make good decisions about what's worth building and why — deep, working knowledge of your users, data, business, industry, and enabling technology. Cagan's core claim: **product sense is not innate; it is earned** by "doing your homework."
 
 ## Why it matters
-Product sense is what powers [[founder-style-leadership|founder-style leadership]] and separates a real [[product-manager|product manager]] from a backlog administrator. Without it you cannot own value and viability, you can't have a useful conversation with a VP or a skeptical stakeholder, and — Cagan's blunt version — "you're useless, really, to everybody." Most heads of product who lack it "are scared to death to do anything" because they don't want to break things. The reassuring half of the claim: because it's *earned*, anyone willing to do the work can develop it. Cagan rejects the "some people just have it" story explicitly.
+Product sense is what powers [[founder-style-leadership|founder-style leadership]] and separates a real [[product-manager|product manager]] from a backlog administrator. Without it you cannot own value and viability, you can't have a useful conversation with a VP or a skeptical stakeholder, and — Cagan's blunt version — "you're useless, really, to everybody." Most heads of product who lack it "are scared to death to do anything" because they don't want to break things. The reassuring half of the claim: because it's *earned*, anyone willing to do the work can develop it. Cagan rejects the "some people just have it" story explicitly. In the exemplars, this is exactly what [[amazon-prime|Amazon's Single-Threaded Leaders]] bring — "strong product sense: deep knowledge of customers & data, their business, and the industry" — which Cagan calls, more than anything else, the key to Amazon's ongoing success.
 
 ## How it works — earning it ("doing your homework")
 From [[2025-03-03-cagan-why-your-product-operating-model-is-broken|"Why Your Product Operating Model is Broken"]], the components — pursued at **every** level, up to and including the CEO:
@@ -49,3 +49,4 @@ _Field note: how deliberately do your PMs build product sense in their first 90 
 - [[2025-03-03-cagan-why-your-product-operating-model-is-broken]] — root; the fullest account of how product sense is earned.
 - [[2026-04-14-cagan-ai-product-coaching-women-in-product]] — the "build product sense fast" script via a foundation model.
 - [[2020-02-22-cagan-product-strategy-the-missing-link]] — leaders as a "learning distribution machine"; product sense as connecting the dots.
+- [[2024-03-26-cagan-russell-product-model-at-amazon]] — STLs' strong product sense as the key to Amazon's success; backs [[amazon-prime]].

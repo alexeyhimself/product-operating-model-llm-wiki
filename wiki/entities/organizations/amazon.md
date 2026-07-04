@@ -2,11 +2,11 @@
 title: Amazon
 type: organization
 aliases: [amazon, aws]
-status: stub
-tags: [organization, exemplar, customer-obsession, day-one, written-narrative]
-related: ["[[svpg]]", "[[product-vision]]", "[[product-culture]]", "[[2019-03-11-cagan-coaching-tools-the-narrative]]", "[[2009-08-03-cagan-lessons-from-amazon]]", "[[trillion-dollar-coach]]", "[[working-backwards]]"]
+status: drafting
+tags: [organization, exemplar, customer-obsession, day-one, written-narrative, prime, single-threaded-leaders]
+related: ["[[svpg]]", "[[amazon-prime]]", "[[product-vision]]", "[[product-culture]]", "[[product-leadership]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]", "[[2019-03-11-cagan-coaching-tools-the-narrative]]", "[[2009-08-03-cagan-lessons-from-amazon]]", "[[trillion-dollar-coach]]", "[[working-backwards]]"]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-07-04
 ---
 
 # Amazon
@@ -23,20 +23,29 @@ A consumer-and-platform tech company with multiple distinct business units (Amaz
 - **Owner mindset compensation** — Bezos's 1997 shareholder letter quote on stock-options-over-cash is the canonical Cagan citation for owner-mindset ([[2019-06-24-cagan-coaching-owner-vs-employee|canon]]).
 - **Working Backwards** — the press-release-first product-definition method is foundational; see [[working-backwards|*Working Backwards*]] (the book by Bryar & Carr).
 
+## The product model at Amazon (Prime)
+The [[amazon-prime|Amazon Prime case study]] ([[2024-03-26-cagan-russell-product-model-at-amazon|Cagan & Russell, 2024]]) is the canonical worked example: **[[focus|strategic focus]]** on shipping from customer insight, 2+ years of **[[embrace-rapid-experimentation|meaningful experiments]]** (not optimization), an **[[empowered-engineers|empowered engineer]]** (Charlie Ward) connecting subscription tech to free shipping, and a **dedicated empowered team** that shipped the first Prime in ~3 months. Cagan's thesis: Amazon isn't *unique* — it's "especially good at working like the best."
+
 ## Notable practices the wiki uses
 - **Written narratives** ([[2019-03-11-cagan-coaching-tools-the-narrative]]) — the favorite coaching tool for PM thinking.
+- **PRFAQ** — press-release + FAQ as the [[product-vision|vision]] technique: keeps the vision customer-centric and aligns multiple teams to a common goal.
 - **Working Backwards** — start with the press release, work backwards to the product.
-- **Single-threaded leaders** — durable ownership; conceptual relative of [[empowered-product-teams|empowered teams]].
+- **Single-Threaded Leaders (STLs)** — durable, empowered leaders with strong [[product-sense|product sense]]; "leaders develop leaders." Cagan: the key to Amazon's ongoing success. Conceptual relative of [[empowered-product-teams|empowered teams]] + [[product-leadership|product leadership]].
+- **Meaningful experimentation** — experiments that address real value/viability risk (the Prime shipping experiments), not just A/B optimization.
+- **Manage inputs, not outputs** — Amazon optimizes *input metrics* (selection, price, convenience) that drive *output metrics* (orders, revenue, profit). Cagan & Castro note this "inputs vs outputs" language means managing *causes, not effects* — **not** to be confused with the [[outcomes-over-output|output-vs-outcome]] distinction ([[2025-03-17-cagan-castro-outcomes-are-hard|Outcomes Are Hard]]).
 - **Bar Raisers** in hiring — disciplined, high-bar staffing.
 
 ## Related
+- case-studies: [[amazon-prime]]
 - entity books: [[working-backwards]]
 - concepts: [[product-vision]], [[product-culture]], [[empowered-product-teams]]
 - diagnostics: [[model-maturity]] (Level-4 exemplar)
 - resources: [[recommended-library]]
 
 ## Sources
+- [[2024-03-26-cagan-russell-product-model-at-amazon]] — the canonical account of the product model at Amazon (Cagan & Richard Russell); the Prime origin story. Backs [[amazon-prime]].
 - [[2009-08-03-cagan-lessons-from-amazon]] — the four Bezos lessons (customer obsession, invent on behalf of customers, long-term thinking, always Day 1).
+- [[2025-03-17-cagan-castro-outcomes-are-hard]] — the Amazon "manage inputs, not outputs" nuance (causes vs effects; not the output-vs-outcome distinction).
 - [[2019-03-11-cagan-coaching-tools-the-narrative]] — the written-narrative practice as Cagan's favorite coaching tool.
 - [[2019-06-24-cagan-coaching-owner-vs-employee]] — Bezos's owner-mindset shareholder-letter quote.
 - [[working-backwards]] — Bryar & Carr (Amazon insiders) on the operating principles.

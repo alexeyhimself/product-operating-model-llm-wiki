@@ -4,10 +4,10 @@ type: concept
 aliases: [missionaries-vs-mercenaries, missionaries, mercenaries]
 status: drafting
 tags: [team-culture, motivation, ownership, missionaries, mercenaries]
-sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2015-11-25-cagan-missionaries-vs-mercenaries]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2014-06-13-cagan-good-product-team-bad-product-team]]"]
-related: ["[[empowered-product-teams]]", "[[sense-of-ownership]]", "[[product-vision]]", "[[empowered-engineers]]", "[[trust-over-control]]"]
+sources: ["[[transformed]]", "[[2020-04-20-cagan-the-most-important-thing]]", "[[2022-09-20-moore-changing-how-you-solve-problems]]", "[[2021-04-27-cagan-product-vs-project-teams]]", "[[2015-11-25-cagan-missionaries-vs-mercenaries]]", "[[2018-10-31-cagan-empowered-product-teams]]", "[[2014-06-13-cagan-good-product-team-bad-product-team]]", "[[2025-12-19-cagan-lieberich-product-model-at-google]]"]
+related: ["[[empowered-product-teams]]", "[[sense-of-ownership]]", "[[product-vision]]", "[[empowered-engineers]]", "[[trust-over-control]]", "[[google-product-model]]"]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-04
 ---
 
 # Missionaries vs Mercenaries
@@ -18,6 +18,7 @@ updated: 2026-06-20
 - Missionaries take ownership ([[sense-of-ownership]]) — they keep iterating after launch and care about the outcome, not just the output.
 - Missionaries surface ideas about *what's just now possible* — innovation depends on engineers (and the rest of the trio) caring about the problem.
 - Mercenaries do exactly what's specified, no more — the org gets at most half the value of its engineers, and zero innovation from them ([[empowered-engineers]]).
+- **In practice:** at [[google-product-model|Google]], the Group Product Managers who form "the nucleus of value creation" are described as **true missionaries** who reached their positions through product success over many years.
 
 ## What makes a missionary team
 - A compelling **[[product-vision|product vision]]** they actually believe in — Cagan's "single most powerful recruiting tool."
@@ -44,3 +45,4 @@ _Field note placeholder — would your engineers describe themselves as missiona
 - [[2020-04-20-cagan-the-most-important-thing]] — "the engineers are the easiest way to tell if the company has teams of missionaries or teams of mercenaries."
 - [[2022-09-20-moore-changing-how-you-solve-problems]] — feature-team engineers as effectively mercenaries; outsourced engineers as quite literally so.
 - [[2021-04-27-cagan-product-vs-project-teams]] — project-team durability gap produces teams of mercenaries.
+- [[2025-12-19-cagan-lieberich-product-model-at-google]] — Google GPMs as "true missionaries"; backs [[google-product-model]].

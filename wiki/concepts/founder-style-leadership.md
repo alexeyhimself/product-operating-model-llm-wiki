@@ -4,10 +4,10 @@ type: concept
 aliases: [founder-mode, founder-style, leading-with-context, product-sense-plus-coaching]
 status: drafting
 tags: [leadership, founder-mode, product-sense, coaching, strategic-context, scaling]
-sources: ["[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[empowered]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]"]
-related: ["[[product-sense]]", "[[product-leadership]]", "[[product-coaching]]", "[[bill-campbell]]", "[[principles-over-process]]", "[[transformation]]", "[[trust-over-control]]"]
+sources: ["[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[empowered]]", "[[2025-04-21-cagan-design-a-product-like-steve-jobs]]", "[[2015-08-03-cagan-the-role-of-product-at-apple]]", "[[2023-10-19-cagan-sunden-product-model-at-spotify]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]"]
+related: ["[[product-sense]]", "[[product-leadership]]", "[[product-coaching]]", "[[bill-campbell]]", "[[principles-over-process]]", "[[transformation]]", "[[trust-over-control]]", "[[apple-role-of-product]]", "[[spotify-discover-weekly]]", "[[amazon-prime]]"]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Founder-Style Leadership
@@ -26,6 +26,11 @@ It is **not** micromanagement, and it is **not** the opposite of micromanagement
 **In practice** ([[2025-03-03-cagan-why-your-product-operating-model-is-broken|the talk]]): assign problems to solve (not features to build) with a clear outcome and measure; prepare intentional [[coaching-the-pm|one-on-ones]] with real questions (the Mike Fisher example); *expect good answers* and recognize a weak one ("experts lead experts"); teach the techniques when the person can't yet get to the answer; and stay hands-on removing obstacles. Cagan: "lead with context" — short for **strategic context** (Netflix / Leslie Kilgore) — vision, strategy, team topology, objectives, principles.
 
 **Named institutional echoes:** Amazon's "dive deep" and "hire and develop the best"; Apple's "experts lead experts" and "deep expertise"; Google's "substance first, develop others through coaching." Cagan credits much of this lineage to [[bill-campbell]].
+
+### In the exemplars (case studies)
+- **Apple — the founder as head of product, and its risk.** During Jobs's tenure the visionary CEO *was* the effective head of product; the [[apple-role-of-product|Role of Product at Apple]] case is Cagan's warning about what happens when that judgment isn't succession-planned into a durable [[product-leadership|product competency]] — the same lesson as the Sculley cautionary tale above.
+- **Spotify — founder-style leadership done right.** Daniel Ek was openly skeptical of Discover Weekly, but **led with context, not control**: he gave the team a problem, not a solution, and let the evidence decide ([[spotify-discover-weekly]]).
+- **Amazon — institutionalized.** Single-Threaded Leaders with strong [[product-sense|product sense]]; "leaders develop leaders and take seriously their role in coaching others" ([[amazon-prime]]).
 
 ## Anti-patterns & misunderstandings
 - **Founder Mode ≠ micromanagement.** The most common misread. Going *deep* (asking hard questions, demanding good answers, teaching techniques) is not telling people how to build.
@@ -49,4 +54,7 @@ _Field note: do your leaders lead with strategic context and coach weekly, or de
 - [[2025-03-03-cagan-why-your-product-operating-model-is-broken]] — root; the whole talk develops this concept.
 - [[empowered]] — "better leadership, not less"; leading with strategic context.
 - [[2025-04-21-cagan-design-a-product-like-steve-jobs]] — the Steve-Jobs-as-coach (not dictator) evidence; Bill Campbell.
+- [[2015-08-03-cagan-the-role-of-product-at-apple]] — the CEO-as-head-of-product model and its succession risk; backs [[apple-role-of-product]].
+- [[2023-10-19-cagan-sunden-product-model-at-spotify]] — Ek leading with context, not control; backs [[spotify-discover-weekly]].
+- [[2024-03-26-cagan-russell-product-model-at-amazon]] — Single-Threaded Leaders; leaders develop leaders; backs [[amazon-prime]].
 - _Backlog: Cagan's SVPG "Founder Mode" / "Product Leadership" articles (not yet ingested)._

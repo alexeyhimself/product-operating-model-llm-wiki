@@ -15,9 +15,10 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `transformation` · `transformation-politics` · `transformation-as-a-project` · `the-need-for-speed`.
 ✅ Created (ingest 2026-07-03, Video Ingest): `product-management-theater` · `founder-style-leadership` · `product-sense` · `build-to-learn-vs-build-to-earn`.
 ✅ Created (ingest 2026-07-04, Video Ingest II): `data-product-management` (data/AI/platform; the "is it a product?" litmus test).
+✅ Created (2026-07-04, from a coaching query): `product-principles` — built from already-ingested sources (Manifesto + Coaching: Strategic Context + EMPOWERED); disambiguated from the 20 first principles.
 Still to do:
 - `product-operating-model` (top-level concept page)
-- `product-principles` · `continuous-discovery` · `dual-track` · `insights`
+- `continuous-discovery` · `dual-track` · `insights`
 - (Note: `the-product-model-vs-the-it-model` is partially covered by [[it-to-product-organization]] + [[transformation]] now; possibly redundant.)
 - (Note: `outcomes-over-output` exists as a **principle**, not a concept, to avoid duplication.)
 
@@ -40,7 +41,7 @@ Still to do:
 ✅ Created (ingest 2026-07-04, Video Ingest II): `hiring-and-onboarding` (first hire; potential; assessment → coaching plan → competence).
 Still to do:
 - `product-discovery-techniques`
-- `customer-interviews` · `okrs` · `story-mapping`
+- `customer-interviews` · `story-mapping`. ✅ `okrs` created (ingest 2026-07-04, OKRs). *The complete 9-part Team Objectives series + "Outcomes Are Hard" are ingested. Still to card: `Managing Commitments in an Agile Team` (root of high-integrity commitments); and person entities Felipe Castro / Christina Wodtke.*
 - `product-vision-narrative` · `the-product-strategy-process` · `reference-customer-program`
 - `working-backwards` (the Amazon press-release-first method, referenced from [[amazon]])
 
@@ -55,8 +56,9 @@ Still to do:
 - `engineering-empowerment` (the "first source of just-now-possible ideas" test)
 
 ## Case studies — `wiki/case-studies/`
+✅ Created (ingest 2026-07-04, Real Examples): `amazon-prime` (Prime) · `spotify-discover-weekly` (Discover Weekly) · `google-product-model` · `apple-role-of-product` — the first four SVPG company case studies.
 - `your-org-baseline` — assess your own organization's starting state (high value for coaching)
-- SVPG-published transformation stories as you encounter them
+- more SVPG-published company / transformation stories as you encounter them (e.g. `netflix`)
 
 ## Synthesis — `wiki/synthesis/`
 - `pom-vs-agile-and-safe` · `pom-vs-lean-and-design-thinking`
@@ -71,7 +73,7 @@ Still to do:
 ✅ Created (ingest 2026-07-03, Video Ingest): **people/** `bill-campbell` · `jeff-patton`; **books/** `good-strategy-bad-strategy` · `the-art-of-action` (see [[recommended-library]]).
 ✅ Created (ingest 2026-07-04, Video Ingest II): **people/** `christian-idiodi` · `lea-hickman` · `martina-lauchengco`; **books/** `loved`.
 Still to do:
-- **organizations/** `your-company`; other exemplars `google` · `apple` · `netflix` · `spotify` (linked from [[recommended-library]])
+- **organizations/** `your-company`; `netflix` exemplar still to do. ✅ `google` · `apple` · `spotify` created (ingest 2026-07-04, Real Examples).
 
 ## Resources — `wiki/resources/`
 ✅ Created (2026-06-15): `recommended-library` — SVPG/Cagan-recommended books + videos, mapped by topic/problem.
@@ -96,11 +98,11 @@ Still to ingest — referenced from existing pages but not yet card-ified:
   - *Pilot Teams* (svpg.com) — the dedicated article; referenced from [[2024-10-29-cagan-transformation-as-a-project|Transformation as a Project]] and [[2024-11-21-cagan-transformation-politics|Transformation Politics]].
   - *Transformation in Action* / *Keys to Successful Transformation* / *Meaningful Transformation* (Moore, svpg.com) — referenced from [[2022-09-18-moore-the-transformation-series]].
   - *Pledge to Customers* / *Pledge to Stakeholders* / *Pledge to Executives* (Moore, svpg.com) — the "key constituencies" series.
-  - *Scaling With Process vs People* / *Process People* (Moore, svpg.com) — transformation pitfalls.
+  - *Scaling With Process vs People* (Moore, svpg.com) — transformation pitfalls. ~~*Process People* (Cagan, 2021)~~ ✅ ingested 2026-07-04 as [[2021-10-28-cagan-process-people]] alongside [[2018-07-26-cagan-tools-and-processes]].
   - *Transformation Regrets* (Cagan, svpg.com) — referenced from [[2024-11-21-cagan-transformation-politics|Transformation Politics]].
   - *Winning Hearts and Minds* (Cagan, svpg.com) — referenced from [[2024-11-21-cagan-transformation-politics|Transformation Politics]].
   - *The Rest vs. The Best* (Cagan, svpg.com) — the frame from [[2023-02-20-cagan-transformed-announcement|TRANSFORMED announcement]].
   - *The Coaching Series* (Cagan, svpg.com) — the coaching canon index.
   - *Top 10 Reasons for Slow Velocity* (Cagan, svpg.com) — referenced from [[2013-07-21-cagan-the-need-for-speed]]; complementary velocity-blocker enumeration.
 - **Referenced from the 2026-07-03 Video Ingest (SVPG articles worth card-ifying to back the new video pages):** *Product Management Theater* · *Product Leadership Theater* · *Founder Mode / Founder-Style Leadership* · *Product Sense Demystified* · *Pledge to Customers* · *The Product Model in Government* · *Devolving From Good to Bad*.
-- **Referenced from the 2026-07-04 Video Ingest II (SVPG articles worth card-ifying to back the new pages):** *Keys to Successful Transformation* (Cagan + [[lea-hickman|Hickman]] — the ten keys, backs [[transformation]] / [[transformation-readiness]]) · the *Product Ops* article(s) (backs [[product-ops]]) · *Transformation Theater* (Cagan) · the *Amazon Prime / experimentation* article Cagan co-wrote with an Amazon leader (backs [[product-discovery]] / [[data-product-management]]) · *The Product Model at Amazon* & *…at Spotify* (already linked from [[recommended-library]]). New candidate pages the canon now supports: `group-product-manager` (the player-coach role), `reference-customers` (the customer-development program / leading indicator of PMF).
+- **Referenced from the 2026-07-04 Video Ingest II (SVPG articles worth card-ifying to back the new pages):** *Keys to Successful Transformation* (Cagan + [[lea-hickman|Hickman]] — the ten keys, backs [[transformation]] / [[transformation-readiness]]) · ✅ the *Product Ops* article(s) — *Product Ops Overview* (2021) + *Revenge of the PMO* (2018), plus the *Straight Talk* talk & the Torres/Wille discussion — ingested 2026-07-04 → [[product-ops]] · *Transformation Theater* (Cagan) · the *Amazon Prime / experimentation* article Cagan co-wrote with an Amazon leader (backs [[product-discovery]] / [[data-product-management]]) · ✅ *The Product Model at Amazon*, *…at Spotify*, *…at Google*, *The Role of Product at Apple*, and *Lessons from Apple* ingested 2026-07-04 (Real Examples) → [[amazon-prime]], [[spotify-discover-weekly]], [[google-product-model]], [[apple-role-of-product]]. New candidate pages the canon now supports: `group-product-manager` (the player-coach role), `reference-customers` (the customer-development program / leading indicator of PMF).

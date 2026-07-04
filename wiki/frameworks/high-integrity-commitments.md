@@ -4,10 +4,10 @@ type: framework
 aliases: [high-integrity-commitments, hi-commitments, managing-commitments-in-agile]
 status: drafting
 tags: [framework, commitments, dates, agile, discovery]
-sources: ["[[transformed]]", "[[2012-12-15-cagan-high-integrity-commitments]]", "[[2015-09-07-cagan-the-alternative-to-roadmaps]]", "[[2022-09-17-moore-changing-how-you-build]]"]
-related: ["[[time-to-money]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[delivery-manager]]", "[[product-manager]]"]
+sources: ["[[transformed]]", "[[2012-12-15-cagan-high-integrity-commitments]]", "[[2015-09-07-cagan-the-alternative-to-roadmaps]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2020-03-04-cagan-team-objectives-commitments]]"]
+related: ["[[time-to-money]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[delivery-manager]]", "[[product-manager]]", "[[okrs]]", "[[team-objectives]]"]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-07-04
 ---
 
 # High-Integrity Commitments
@@ -38,7 +38,7 @@ updated: 2026-06-21
 - **Discovery time without homework.** A 3-week window with no real customer contact or prototype isn't discovery — it's a delay.
 
 ## How it relates to outcomes
-[[outcomes-over-output]] is the default operating mode (problems with measurable outcomes); high-integrity commitments are the **exception path** the business uses when a date or deliverable is materially required. Both can live in the same operating model — most teams default to outcome objectives, with a small number of high-integrity commitments tracked separately ([[2015-09-07-cagan-the-alternative-to-roadmaps|canon]]).
+[[outcomes-over-output]] is the default operating mode (problems with measurable outcomes); high-integrity commitments are the **exception path** the business uses when a date or deliverable is materially required. Both can live in the same operating model — most teams default to outcome objectives, with a small number of high-integrity commitments tracked separately ([[2015-09-07-cagan-the-alternative-to-roadmaps|canon]]). Within the [[okrs|OKR system]], a high-integrity commitment is distinct from a [[team-objectives|team objective]]'s level of *ambition* (roof/moon shot): it's **binary**, tracked *independently of the key results*, and often requires CTO sign-off ([[2020-03-04-cagan-team-objectives-commitments|Team Objectives – Commitments]]).
 
 ## Example
 *Field note placeholder — pick the next "we need this by Friday" ask. Did the team negotiate a discovery window? Was the eventual commitment honored? If no to either, the framework isn't operating yet.*
@@ -51,6 +51,7 @@ updated: 2026-06-21
 
 ## Sources
 - [[2012-12-15-cagan-high-integrity-commitments]] — root canon for the framework.
+- [[2020-03-04-cagan-team-objectives-commitments]] — the high-integrity commitment inside the OKR / [[team-objectives]] system (binary; tracked separately from KRs; CTO sign-off; the exception not the rule).
 - [[2015-09-07-cagan-the-alternative-to-roadmaps]] — high-integrity commitments as the alternative to date-driven roadmaps.
 - [[2022-09-17-moore-changing-how-you-build]] — the Build dimension's three reasons for small/frequent/reliable releases (which is what makes commitments honorable).
 - [[transformed]] — root source.

@@ -4,10 +4,10 @@ type: concept
 aliases: [product-strategy, strategy]
 status: drafting
 tags: [product-strategy, core-concept]
-sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]", "[[2020-02-18-cagan-product-strategy-focus]]", "[[2020-02-19-cagan-product-strategy-insights]]", "[[2020-02-20-cagan-product-strategy-actions]]", "[[2020-02-21-cagan-product-strategy-management]]", "[[2016-07-16-cagan-vision-vs-strategy]]", "[[2008-06-29-cagan-product-strategy-in-an-agile-world]]", "[[2006-01-02-cagan-the-product-manifesto]]", "[[2017-07-14-cagan-analyzing-product-strategy]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2009-06-01-cagan-the-product-scorecard]]", "[[2009-01-07-cagan-product-roadmaps]]", "[[2015-09-07-cagan-the-alternative-to-roadmaps]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction]]", "[[2024-06-24-cagan-pm-and-experimentation-testing-insights]]"]
-related: ["[[product-vision]]", "[[focus]]", "[[powered-by-insights]]", "[[transparency]]", "[[placing-bets]]", "[[team-objectives]]", "[[product-leadership]]", "[[overview]]", "[[product-strategy-quality]]", "[[outcome-based-roadmap]]", "[[good-strategy-bad-strategy]]", "[[the-art-of-action]]"]
+sources: ["[[transformed]]", "[[2020-02-17-cagan-product-strategy-overview]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2022-09-23-moore-changing-how-you-decide-which-problems-to-solve]]", "[[2024-03-16-huryn-product-model-first-principles-part-1]]", "[[2020-02-18-cagan-product-strategy-focus]]", "[[2020-02-19-cagan-product-strategy-insights]]", "[[2020-02-20-cagan-product-strategy-actions]]", "[[2020-02-21-cagan-product-strategy-management]]", "[[2016-07-16-cagan-vision-vs-strategy]]", "[[2008-06-29-cagan-product-strategy-in-an-agile-world]]", "[[2006-01-02-cagan-the-product-manifesto]]", "[[2017-07-14-cagan-analyzing-product-strategy]]", "[[2020-01-09-cagan-coaching-strategic-context]]", "[[2009-06-01-cagan-the-product-scorecard]]", "[[2009-01-07-cagan-product-roadmaps]]", "[[2015-09-07-cagan-the-alternative-to-roadmaps]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction]]", "[[2024-06-24-cagan-pm-and-experimentation-testing-insights]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]", "[[2023-10-19-cagan-sunden-product-model-at-spotify]]", "[[2025-12-19-cagan-lieberich-product-model-at-google]]"]
+related: ["[[product-vision]]", "[[focus]]", "[[powered-by-insights]]", "[[transparency]]", "[[placing-bets]]", "[[team-objectives]]", "[[product-leadership]]", "[[overview]]", "[[product-strategy-quality]]", "[[outcome-based-roadmap]]", "[[good-strategy-bad-strategy]]", "[[the-art-of-action]]", "[[amazon-prime]]", "[[spotify-discover-weekly]]", "[[google-product-model]]", "[[okrs]]"]
 created: 2026-06-14
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Product Strategy
@@ -24,7 +24,7 @@ Cagan's foundational essay [[2020-02-17-cagan-product-strategy-overview|Product 
 
 1. **Focus** — willingness to make tough choices on what's really important (and therefore everything you won't do).
 2. **Insights** — generating and identifying insights from study and thought, across data, customers, enabling technology, the industry.
-3. **Action** — converting insights into [[team-objectives|team objectives]] for specific teams.
+3. **Action** — converting insights into [[team-objectives|team objectives]] for specific teams (leaders decide which problem goes to which team — the [[okrs|OKR]] "action" step).
 4. **Management** — active stewardship without micromanagement; product strategy is never static.
 
 From Cagan's Q&A with Huryn:
@@ -48,6 +48,11 @@ The spoken origin of this framework is [[2020-02-22-cagan-product-strategy-the-m
 - **Assign the same problem to multiple teams** — an underused technique. Not a competition (different people, data, technology) but a way to raise the odds that at least one team cracks a hard problem; in the ideal case you get the cumulative win.
 - **Set aggressiveness explicitly.** When you hand a team a problem, state the **confidence level** you want — ~50% (a real stretch / moonshot) vs ~90% (near-certain / roofshot).
 - **Strategy outranks discovery in importance.** "Even if you're terrible at discovery, as long as the money doesn't run out you might get there; if the strategy is bad, it almost never works out."
+
+### Focus in practice (case studies)
+- [[amazon-prime|Amazon — Prime]]: made **shipping** a multi-year focus from customer insight, and said no to advertising *and much else* — "most companies would have chosen to spread their resources across a much larger set of initiatives."
+- [[spotify-discover-weekly|Spotify — Discover Weekly]]: focused teams on the **lean-back listener** problem and *shut down a big video-streaming initiative*, reallocating the people — [[focus|focus]] as saying no, driven by [[powered-by-insights|insight]] (lean-forward vs lean-back; "Moments").
+- [[google-product-model|Google]]: leaders name the hardest problems (PageRank, AdWords, Waymo), sometimes **broadcast** them for teams to opt into, and often run **multiple teams on one problem** — the same-problem-to-multiple-teams technique at planet scale.
 
 ## Anti-patterns & misunderstandings
 - Strategy as a **prioritized feature list** rather than a choice of problems.
@@ -74,3 +79,8 @@ _Field note placeholder — is there one clear product strategy naming the few m
 - [[2020-02-22-cagan-product-strategy-the-missing-link]] — the spoken origin of focus / insights / actions / management; focus ≠ prioritization; "OKR theater"; the two endorsed strategy books.
 - [[2024-03-28-cagan-hardest-challenges-product-strategy-product-direction]] — flight levels (business/product/discovery); peanut-butter strategy; leaders pick outcomes, product finds levers and places bets; same problem to multiple teams; confidence levels; strategy > discovery.
 - [[2024-06-24-cagan-pm-and-experimentation-testing-insights]] — strategy vs the pricing page; levers via experimentation; talk to customers who churned.
+- [[2024-03-26-cagan-russell-product-model-at-amazon]] — shipping as multi-year focus; saying no; backs [[amazon-prime]].
+- [[2023-10-19-cagan-sunden-product-model-at-spotify]] — lean-back focus; killing the video bet; backs [[spotify-discover-weekly]].
+- [[2025-12-19-cagan-lieberich-product-model-at-google]] — leaders pick hard problems; broadcast; multiple teams on one problem; backs [[google-product-model]].
+- [[2020-03-04-cagan-team-objectives-action]] — the "action" step: leaders assign problems to teams (a function of strategy + topology). See [[okrs]].
+- [[2025-03-17-cagan-castro-outcomes-are-hard]] — the need for an *intentional* product strategy; define the problem before the metric.

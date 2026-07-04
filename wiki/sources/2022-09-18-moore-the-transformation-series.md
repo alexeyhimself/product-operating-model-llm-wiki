@@ -32,10 +32,10 @@ updated: 2026-06-21
 - **Transformation Strategies:** *Transformation in Action* (not ingested) · *Keys to Successful Transformation* (not ingested) · *Meaningful Transformation* (not ingested)
 - **Working With Key Constituencies:** *Pledge to Customers* / *Pledge to Stakeholders* / *Pledge to Executives* (not ingested — added to backlog)
 - **Transformation Assistance:** [[types-of-product-coaching|Types of Product Coaches]]
-- **Transformation Pitfalls:** *Scaling With Process vs People* (not ingested) · *Process People* (not ingested)
+- **Transformation Pitfalls:** *Scaling With Process vs People* (not ingested) · *Process People* → ingested 2026-07-04 as [[2021-10-28-cagan-process-people]] (concept: [[process-people]])
 - **Books to Inspire:** [[build-tony-fadell|Build (Fadell)]] · [[no-rules-rules|No Rules Rules (Hastings)]]
 
 ## Notes for the coach
 - **Reference this when the user asks "where do I start with transformation reading?"** — point to Transformation Defined first, then the three deep-dives, then Cagan's later politics articles.
-- **Backlog of not-yet-ingested transformation articles** is recorded in [`backlog.md`](../../backlog.md): Transformation in Action, Keys to Successful Transformation, Meaningful Transformation, the three Pledges, Scaling With Process vs People, Process People, Transformation Fail, Pilot Teams (article). Several of these are referenced from new wiki pages with `not-yet-ingested` notes.
+- **Backlog of not-yet-ingested transformation articles** is recorded in [`backlog.md`](../../backlog.md): Transformation in Action, Keys to Successful Transformation, Meaningful Transformation, the three Pledges, Scaling With Process vs People, Transformation Fail, Pilot Teams (article). Several of these are referenced from new wiki pages with `not-yet-ingested` notes. (*Process People* was ingested 2026-07-04 — see [[2021-10-28-cagan-process-people]].)
 - **The series is an index, not a deep-dive** — when citing transformation claims, prefer the underlying article over this hub.

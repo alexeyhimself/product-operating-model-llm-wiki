@@ -5,10 +5,10 @@ aliases: [product-manager, pm, product-management]
 status: drafting
 tags: [competency, product-manager, trio, discovery, value, viability]
 role: The member of the product team accountable for value and viability risk; partner to design and engineering in an empowered product team.
-sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]", "[[2024-03-21-cagan-product-management-rules-in-early-stage-june]]", "[[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]]", "[[2022-12-07-cagan-product-lessons-jobs-musk-20vc]]", "[[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]]"]
-related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[delivery-manager]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]", "[[product-management-theater]]", "[[build-to-learn-vs-build-to-earn]]", "[[product-sense]]"]
+sources: ["[[transformed]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2020-06-12-cagan-product-management-start-here]]", "[[2019-04-08-cagan-coaching-tools-the-assessment]]", "[[2019-04-22-cagan-coaching-tools-the-plan]]", "[[inspired]]", "[[2007-09-11-cagan-recruiting-product-managers]]", "[[2016-12-13-cagan-product-manager-vs-product-owner-revisited]]", "[[2010-01-13-cagan-product-management-as-a-service-organization]]", "[[2021-10-28-cagan-process-people]]", "[[2019-06-24-cagan-coaching-owner-vs-employee]]", "[[2019-06-28-cagan-coaching-managing-time]]", "[[2019-07-16-cagan-coaching-thinking]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2025-09-29-cagan-future-of-product-management-producttank-sydney]]", "[[2024-03-21-cagan-product-management-rules-in-early-stage-june]]", "[[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]]", "[[2022-12-07-cagan-product-lessons-jobs-musk-20vc]]", "[[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]]", "[[2025-12-19-cagan-lieberich-product-model-at-google]]", "[[2015-08-03-cagan-the-role-of-product-at-apple]]"]
+related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-designer]]", "[[engineers]]", "[[product-leadership]]", "[[delivery-manager]]", "[[coaching-the-pm]]", "[[pm-competency]]", "[[product-coaching]]", "[[marty-cagan]]", "[[product-management-theater]]", "[[build-to-learn-vs-build-to-earn]]", "[[product-sense]]", "[[google-product-model]]", "[[apple-role-of-product]]"]
 created: 2026-06-20
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Product Manager
@@ -21,7 +21,7 @@ updated: 2026-07-03
 - **Bringing the business context into discovery** — translating company strategy, [[team-objectives|objectives]], and constraints into the problems the team tackles, and feeding [[powered-by-insights|insights]] back up.
 - **Product-owner mechanics** — the administrative/backlog responsibilities (a small subset of the role, not the role itself).
 
-> **What the PM is *not*:** a project manager, a backlog administrator, a "CEO of the product," or a feature-request router. The CSPO/product-owner responsibilities are "just a very small subset of the responsibilities of the true product manager" (Cagan).
+> **What the PM is *not*:** a project manager, a backlog administrator, a "CEO of the product," or a feature-request router. The CSPO/product-owner responsibilities are "just a very small subset of the responsibilities of the true product manager" (Cagan). The Product Owner is a **process role** (Scrum ceremony); the PM is a *product* job — see [[process-people]] and [[2021-10-28-cagan-process-people|Process People (2021)]] for why asking one to cover the other is the "CSPO pathology." Cagan's regional pattern: the PO problem is concentrated in Europe.
 
 ## Creator, not facilitator (and the reckoning)
 Cagan's sharpest spoken framing ([[2024-03-10-cagan-product-management-theater-lennys|Lenny's]]): a real PM is a **creator, not a facilitator** — "my job is to say why" is not a job (the *why* comes from [[product-strategy|product strategy]]). [[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016|Behind Every Great Product]] names the **three ways teams run a PM**: (a) escalate every decision to the manager; (b) call a meeting for every decision (design-by-committee); (c) actually do the job. Only (c) is product management.
@@ -57,6 +57,10 @@ Cagan assesses PM competence along three pillars — **product knowledge, proces
 | Stakeholder management | Stakeholders feel unheard; surprises them | Mutual trust; understands each stakeholder's constraints; previews anything of concern before building |
 | Evangelism | Can't get the team or company behind the work | Shares vision/strategy persuasively; motivates team and stakeholders |
 | Leadership | Relies on the title (which grants nothing) | Earns influence over people who don't report to them; looked to under pressure |
+
+## In the exemplars (case studies)
+- **Google — a high bar.** PMs are expected to have business acumen, a technical foundation, and the ability to drive hard problems to outcomes, plus an **entrepreneur mindset** (many leave to found startups — treated as a signal Google hired right; acquired-company CEOs often become the PM). The **[[product-leadership|Group Product Manager]]** player-coach is a Google staple, and strong [[engineers|Tech Leads]] are why many Google PMs "haven't touched a ticket in years" ([[google-product-model]]).
+- **Apple — the true product role vs "fill the white space."** Historically product-definition sat with Jobs and "Product Marketing Managers" took products to market ([[product-marketing]]). Cagan pushes back on defining the PM as "**do whatever needs to be done to get the product out**" — admirable in startups, but it "misses the primary point of the product role: to ensure the team is building a product that has the necessary **[[the-four-big-risks|value]]**" ([[apple-role-of-product]]).
 
 ## Common failure modes
 - **The feature-team PM** — a backlog administrator / project manager taking orders from stakeholders, not owning value and viability. The default in the project model; see [[feature-team-vs-empowered-team]].
@@ -99,3 +103,5 @@ _Field note placeholder — rate your PMs (or yourself) against the three pillar
 - [[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]] — "CEO of the product" (not the boss); the group-PM player-coach; ~4 hrs/day of discovery.
 - [[2022-12-07-cagan-product-lessons-jobs-musk-20vc]] — hire for potential; sales is the product team's responsibility; the product-marketing partner.
 - [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]] — PMs as the "weakest link" once the CEO is on board; hire on potential.
+- [[2025-12-19-cagan-lieberich-product-model-at-google]] — Google's high PM bar; entrepreneur mindset; GPM player-coach; backs [[google-product-model]].
+- [[2015-08-03-cagan-the-role-of-product-at-apple]] — the true product role vs "fill the white space"; the historic Apple PMM title; backs [[apple-role-of-product]].

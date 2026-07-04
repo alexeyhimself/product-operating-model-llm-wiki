@@ -4,10 +4,10 @@ type: concept
 aliases: [product-delivery, delivery]
 status: drafting
 tags: [product-delivery, engineering, core-concept]
-sources: ["[[transformed]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2010-11-10-cagan-big-bang-releases]]", "[[2006-02-15-cagan-gentle-deployment]]", "[[2012-11-01-cagan-assessing-customer-impact]]", "[[2012-10-24-cagan-continuous-discovery]]", "[[2010-10-14-cagan-requirements-are-not]]"]
-related: ["[[small-frequent-uncoupled-releases]]", "[[instrumentation]]", "[[monitoring]]", "[[deployment-infrastructure]]", "[[product-discovery]]", "[[engineers]]", "[[overview]]", "[[delivery-health]]"]
+sources: ["[[transformed]]", "[[2022-09-17-moore-changing-how-you-build]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2020-10-30-cagan-discovery-delivery]]", "[[2024-03-21-huryn-product-model-first-principles-part-2]]", "[[2010-11-10-cagan-big-bang-releases]]", "[[2006-02-15-cagan-gentle-deployment]]", "[[2012-11-01-cagan-assessing-customer-impact]]", "[[2012-10-24-cagan-continuous-discovery]]", "[[2010-10-14-cagan-requirements-are-not]]", "[[2023-10-19-cagan-sunden-product-model-at-spotify]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]", "[[2025-12-19-cagan-lieberich-product-model-at-google]]"]
+related: ["[[small-frequent-uncoupled-releases]]", "[[instrumentation]]", "[[monitoring]]", "[[deployment-infrastructure]]", "[[product-discovery]]", "[[engineers]]", "[[overview]]", "[[delivery-health]]", "[[amazon-prime]]", "[[spotify-discover-weekly]]", "[[google-product-model]]"]
 created: 2026-06-14
-updated: 2026-06-20
+updated: 2026-07-04
 ---
 
 # Product Delivery
@@ -29,6 +29,11 @@ Three foundational principles underlie the *Build* dimension:
 
 The mechanism that serves all three: **small, frequent, reliable releases.** Smaller release increments make new-capability QA faster, surface regressions sooner, and shrink the search space when something breaks.
 
+### In practice (case studies)
+- [[amazon-prime|Amazon — Prime]]: a **dedicated, empowered team** shipped the first productized Prime in **~3 months**, largely by leveraging infrastructure built during prior shipping experiments — delivery speed as a product of prior investment + focus.
+- [[spotify-discover-weekly|Spotify — Discover Weekly]]: early, sustained investment in **instrumentation, telemetry, monitoring, and a dedicated A/B-testing platform team**, plus [[small-frequent-uncoupled-releases|small, frequent, uncoupled releases]] — the machinery that lets empowered teams ship [[outcomes-over-output|outcomes]], not just output.
+- [[google-product-model|Google]]: "**planet scale**" infrastructure, and a cultural choice — **teams figure out their own architecture and are on the hook when it breaks.**
+
 ## Anti-patterns & misunderstandings
 - Treating delivery as a separate "dev team" downstream of a "product team" — breaks [[sense-of-ownership]]; same anti-pattern as a "delivery team" doing what a "discovery team" handed over ([[2020-10-30-cagan-discovery-delivery]]).
 - **Big-bang releases** — Cagan/Moore: notorious for delays of weeks/months getting back to releasable state; in many cases the product never reaches solid quality.
@@ -49,3 +54,6 @@ _Field note placeholder — how often do your teams release, and can they measur
 - [[2024-01-17-cagan-product-model-concepts]] — delivery as one of the five product-model concepts.
 - [[2020-10-30-cagan-discovery-delivery]] — one team owns both; no split.
 - [[2024-03-21-huryn-product-model-first-principles-part-2]] — supporting explainer; Four Product Delivery Principles.
+- [[2023-10-19-cagan-sunden-product-model-at-spotify]] — instrumentation + A/B platform team + small frequent releases; backs [[spotify-discover-weekly]].
+- [[2024-03-26-cagan-russell-product-model-at-amazon]] — the 3-month Prime build on pre-existing infrastructure; backs [[amazon-prime]].
+- [[2025-12-19-cagan-lieberich-product-model-at-google]] — planet-scale infra; teams own their architecture; backs [[google-product-model]].
