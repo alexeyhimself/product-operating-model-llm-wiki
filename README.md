@@ -10,7 +10,7 @@ This repo is **open and community-maintained**. The easiest way to use it is one
 
 The recommended path is one of the **product-coach plugins**, which bundle this wiki. No clone, no folder attach, no `git pull` — the plugin stays in sync with `main` automatically (see [Plugin sync](#plugin-sync)), so what your agent reads is always fresh.
 
-- **Claude Code / Cowork:** [`alexeyhimself/product-operating-model-claude-plugin`](https://github.com/alexeyhimself/product-operating-model-claude-plugin)
+- **Claude Code:** [`alexeyhimself/product-operating-model-claude-plugin`](https://github.com/alexeyhimself/product-operating-model-claude-plugin)
 - **Codex CLI:** [`alexeyhimself/product-operating-model-codex-plugin`](https://github.com/alexeyhimself/product-operating-model-codex-plugin)
 
 ### 1. Install the plugin
