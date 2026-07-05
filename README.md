@@ -4,42 +4,40 @@ A persistent, compounding **knowledge base** on the Product Operating Model ([Ma
 
 **Why this wiki exists.** Marty Cagan's [*Product Coaching and AI*](https://www.svpg.com/product-coaching-and-ai/) (SVPG, Feb 2026) argues that the lack of effective product coaching is "the primary obstacle" to PMs becoming strong at product, and prescribes a scalable answer: a foundation model configured with **project files + project instructions + your company's strategic context**, used as a personal product coach. This repo is one implementation of that prescription — the [`wiki/`](wiki/) body is the project files; [`CLAUDE.md`](CLAUDE.md) is the project instructions; you supply your company's strategic context as field notes. See [`wiki/concepts/model-as-product-coach.md`](wiki/concepts/model-as-product-coach.md) for the concept page and [`wiki/sources/2026-02-04-cagan-product-coaching-and-ai.md`](wiki/sources/2026-02-04-cagan-product-coaching-and-ai.md) for provenance.
 
-This repo is **open and community-maintained**. Clone it, point an agent at it, and ask — or help make it richer by contributing pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
+This repo is **open and community-maintained**. The easiest way to use it is the **[product-coach Claude plugin](https://github.com/alexeyhimself/product-operating-model-claude-plugin)**, which bundles this wiki and keeps it in sync — install it, ask your questions, and the agent has the wiki as grounding without any clone or setup. To help make it richer, contribute pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
 
 ## Use it with an AI agent
 
-You don't need to add anything to get value — clone, attach, ask. The wiki is **read-only for most users**: updates come from `git pull`. (See [How to contribute](#how-to-contribute) before you change anything — writes from a local clone will collide with future `git pull`s and break your copy.)
+The recommended path is the **[product-coach Claude plugin](https://github.com/alexeyhimself/product-operating-model-claude-plugin)**, which bundles this wiki. No clone, no folder attach, no `git pull` — the plugin stays in sync with `main` automatically (see [Plugin sync](#plugin-sync)), so what your agent reads is always fresh.
 
-### 1. Clone
+### 1. Install the plugin
 
-```bash
-git clone <this-repo-url>
-cd product-operating-model-llm-wiki
-```
+Follow the install steps in the [plugin repo README](https://github.com/alexeyhimself/product-operating-model-claude-plugin). It works in Claude Code and Cowork; the wiki, [`CLAUDE.md`](CLAUDE.md) conventions, and templates all ship with it.
 
-### 2. Attach it to your Claude client
-
-**Claude Code (terminal):** run `claude` from inside the repo. [`CLAUDE.md`](CLAUDE.md) auto-loads as the agent's working instructions — no other setup needed.
-
-**[Cowork](https://claude.com/) (desktop app):** open Cowork → **New project** → attach this folder. Mark it **read-only** in the folder picker so the agent can read and cite pages but can't write to your clone. `CLAUDE.md` auto-loads as project instructions.
-
-**Claude.ai Projects — not recommended.** Project knowledge is injected into the context of *every* message in that project, so attaching the whole wiki (~80+ pages and growing) burns a lot of tokens per turn and slows replies, even when the question only touches one page. Cowork and Claude Code read pages on demand, which is the right model for a wiki this size. If you must use this path: add **only [`CLAUDE.md`](CLAUDE.md) and [`index.md`](index.md)** to the Project files (skip the wiki body) and paste the starter prompt below at the top of each new chat — the agent will then know the map but will read individual pages from links you paste in. Expect a degraded experience.
-
-### 3. Ask a real question
+### 2. Ask a real question
 
 Bring a real situation — your team, your role, a decision you're facing — not just a definition. Frame the session however you want (coaching, lookup, draft a strategy, critique a doc); the wiki gives the agent its grounding, your prompt gives it its stance. For a coaching session, this works as a starter prompt:
 
-> *Use this folder as your reference on the Product Operating Model. First read [`CLAUDE.md`](CLAUDE.md) to learn the wiki's conventions, then act as my product coach: ground every observation in the relevant pages, cite them with `[[page-name]]`, and end with one concrete next step. My situation is: …*
+> *Act as my product coach, grounded in the Product Operating Model wiki bundled with this plugin. Ground every observation in the relevant pages, cite them, and end with one concrete next step. My situation is: …*
 
-With `CLAUDE.md` auto-loaded (Claude Code, Cowork), a capable agent picks the grounding up on its own — after the first session you can drop the preamble and just ask. With Claude.ai Projects (no auto-load), paste this prompt at the top of each new chat.
+After the first session you can drop the preamble and just ask.
 
-### 4. Stay current
+### Alternative: clone the repo directly
+
+If you'd rather not use the plugin, you can still clone and attach the folder. This works but you have to manage updates yourself (`git pull`), and writes from a local clone will collide with future pulls — see [How to contribute](#how-to-contribute) before you change anything.
 
 ```bash
-git pull
+git clone https://github.com/alexeyhimself/product-operating-model-llm-wiki
+cd product-operating-model-llm-wiki
 ```
 
-The agent picks up new and updated pages automatically on the next session — no re-install, no re-attach.
+**Claude Code (terminal):** run `claude` from inside the repo. [`CLAUDE.md`](CLAUDE.md) auto-loads as the agent's working instructions.
+
+**[Cowork](https://claude.com/) (desktop app):** open Cowork → **New project** → attach this folder. Mark it **read-only** in the folder picker so the agent can read and cite pages but can't write to your clone. `CLAUDE.md` auto-loads as project instructions.
+
+**Claude.ai Projects — not recommended.** Project knowledge is injected into the context of *every* message in that project, so attaching the whole wiki (~80+ pages and growing) burns a lot of tokens per turn and slows replies, even when the question only touches one page. Cowork and Claude Code read pages on demand, which is the right model for a wiki this size. If you must use this path: add **only [`CLAUDE.md`](CLAUDE.md) and [`index.md`](index.md)** to the Project files (skip the wiki body) and paste the starter prompt at the top of each new chat.
+
+To stay current on the clone path, run `git pull` — the agent picks up new and updated pages automatically on the next session.
 
 ## Grow & maintain it (advanced — most readers can skip)
 
