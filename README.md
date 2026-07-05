@@ -83,6 +83,10 @@ Workflow:
 
 A fuller `CONTRIBUTING.md` checklist can follow as the project grows.
 
+## Plugin sync
+
+Pushes to `main` trigger [`.github/workflows/notify-plugin.yml`](.github/workflows/notify-plugin.yml), which pings the [product-coach plugin repo](https://github.com/alexeyhimself/product-operating-model-claude-plugin) to re-sync its bundled copy of the wiki. Requires a `PLUGIN_REPO_TOKEN` repository secret containing a fine-grained PAT with **Contents: Read and write** access to `alexeyhimself/product-operating-model-claude-plugin`.
+
 ## Sources & copyright
 
 The wiki holds **original summaries, synthesis, and commentary with citations** — never reproductions of Cagan/SVPG books or articles. The contents of [`raw/`](raw/) are **gitignored by default**: your source documents stay on your machine and are never published. What *is* published is each source's provenance — the [`wiki/sources/`](wiki/sources/) page records the citation and link you provide at ingest. In short, the wiki **cites and links** sources; it never reproduces them. Keep any quotes short. The original work — and the value — is the structured, cross-linked synthesis an agent can reason from.

@@ -1,0 +1,16 @@
+name: Notify plugin repo
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch wiki-updated event
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PLUGIN_REPO_TOKEN }}
+          repository: alexeyhimself/product-operating-model-claude-plugin
+          event-type: wiki-updated
