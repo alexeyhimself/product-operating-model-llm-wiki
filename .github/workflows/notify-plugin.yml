@@ -1,4 +1,4 @@
-name: Notify plugin repo
+name: Notify plugin repos
 
 on:
   push:
@@ -7,10 +7,16 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        repo:
+          - alexeyhimself/product-operating-model-claude-plugin
+          - alexeyhimself/product-operating-model-codex-plugin
     steps:
-      - name: Dispatch wiki-updated event
+      - name: Dispatch wiki-updated event to ${{ matrix.repo }}
         uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.PLUGIN_REPO_TOKEN }}
-          repository: alexeyhimself/product-operating-model-claude-plugin
+          repository: ${{ matrix.repo }}
           event-type: wiki-updated

@@ -1,18 +1,21 @@
 # Product Operating Model — LLM Wiki
 
-A persistent, compounding **knowledge base** on the Product Operating Model ([Marty Cagan](https://www.linkedin.com/in/cagan) / [Silicon Valley Product Group](https://www.svpg.com/)), structured so AI agents (Claude Code, Cowork, etc.) can use it as authoritative context — for coaching, lookup, drafting, critique, or whatever you frame the session around. Built on the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): you curate the sources; an LLM reads, integrates, and cross-references the wiki against the conventions in [`CLAUDE.md`](CLAUDE.md). The wiki itself is neutral reference — *what* the agent grounds its reasoning in is this wiki, *how* it responds is set by your prompt.
+A persistent, compounding **knowledge base** on the Product Operating Model ([Marty Cagan](https://www.linkedin.com/in/cagan) / [Silicon Valley Product Group](https://www.svpg.com/)), structured so AI agents (Claude Code, Cowork, Codex CLI, etc.) can use it as authoritative context — for coaching, lookup, drafting, critique, or whatever you frame the session around. Built on the [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): you curate the sources; an LLM reads, integrates, and cross-references the wiki against the conventions in [`CLAUDE.md`](CLAUDE.md). The wiki itself is neutral reference — *what* the agent grounds its reasoning in is this wiki, *how* it responds is set by your prompt.
 
 **Why this wiki exists.** Marty Cagan's [*Product Coaching and AI*](https://www.svpg.com/product-coaching-and-ai/) (SVPG, Feb 2026) argues that the lack of effective product coaching is "the primary obstacle" to PMs becoming strong at product, and prescribes a scalable answer: a foundation model configured with **project files + project instructions + your company's strategic context**, used as a personal product coach. This repo implements the first two layers — the [`wiki/`](wiki/) body is the project files; [`CLAUDE.md`](CLAUDE.md) is the project instructions. It is deliberately **org-agnostic**: the third layer, your company's own strategic context (its [strategic-context baseline](wiki/concepts/strategic-context.md)), lives in your *own* store and is supplied to the agent alongside this wiki — it is never kept here. See [`wiki/concepts/model-as-product-coach.md`](wiki/concepts/model-as-product-coach.md) for the concept page and [`wiki/sources/2026-02-04-cagan-product-coaching-and-ai.md`](wiki/sources/2026-02-04-cagan-product-coaching-and-ai.md) for provenance.
 
-This repo is **open and community-maintained**. The easiest way to use it is the **[product-coach Claude plugin](https://github.com/alexeyhimself/product-operating-model-claude-plugin)**, which bundles this wiki and keeps it in sync — install it, ask your questions, and the agent has the wiki as grounding without any clone or setup. To help make it richer, contribute pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
+This repo is **open and community-maintained**. The easiest way to use it is one of the **product-coach plugins** — [for Claude Code / Cowork](https://github.com/alexeyhimself/product-operating-model-claude-plugin) or [for Codex CLI](https://github.com/alexeyhimself/product-operating-model-codex-plugin) — each of which bundles this wiki and keeps it in sync. Install the one that matches your agent, ask your questions, and the agent has the wiki as grounding without any clone or setup. To help make it richer, contribute pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
 
 ## Use it with an AI agent
 
-The recommended path is the **[product-coach Claude plugin](https://github.com/alexeyhimself/product-operating-model-claude-plugin)**, which bundles this wiki. No clone, no folder attach, no `git pull` — the plugin stays in sync with `main` automatically (see [Plugin sync](#plugin-sync)), so what your agent reads is always fresh.
+The recommended path is one of the **product-coach plugins**, which bundle this wiki. No clone, no folder attach, no `git pull` — the plugin stays in sync with `main` automatically (see [Plugin sync](#plugin-sync)), so what your agent reads is always fresh.
+
+- **Claude Code / Cowork:** [`alexeyhimself/product-operating-model-claude-plugin`](https://github.com/alexeyhimself/product-operating-model-claude-plugin)
+- **Codex CLI:** [`alexeyhimself/product-operating-model-codex-plugin`](https://github.com/alexeyhimself/product-operating-model-codex-plugin)
 
 ### 1. Install the plugin
 
-Follow the install steps in the [plugin repo README](https://github.com/alexeyhimself/product-operating-model-claude-plugin). It works in Claude Code and Cowork; the wiki, [`CLAUDE.md`](CLAUDE.md) conventions, and templates all ship with it.
+Follow the install steps in the plugin repo README for your agent — [Claude](https://github.com/alexeyhimself/product-operating-model-claude-plugin) or [Codex](https://github.com/alexeyhimself/product-operating-model-codex-plugin). Either way, the wiki, [`CLAUDE.md`](CLAUDE.md) conventions, and templates all ship with it.
 
 ### 2. Ask a real question
 
@@ -34,6 +37,8 @@ cd product-operating-model-llm-wiki
 **Claude Code (terminal):** run `claude` from inside the repo. [`CLAUDE.md`](CLAUDE.md) auto-loads as the agent's working instructions.
 
 **[Cowork](https://claude.com/) (desktop app):** open Cowork → **New project** → attach this folder. Mark it **read-only** in the folder picker so the agent can read and cite pages but can't write to your clone. `CLAUDE.md` auto-loads as project instructions.
+
+**Codex CLI (terminal):** run `codex` from inside the repo. [`AGENTS.md`](AGENTS.md) auto-loads and points at [`CLAUDE.md`](CLAUDE.md), so the same conventions apply.
 
 **Claude.ai Projects — not recommended.** Project knowledge is injected into the context of *every* message in that project, so attaching the whole wiki (~80+ pages and growing) burns a lot of tokens per turn and slows replies, even when the question only touches one page. Cowork and Claude Code read pages on demand, which is the right model for a wiki this size. If you must use this path: add **only [`CLAUDE.md`](CLAUDE.md) and [`index.md`](index.md)** to the Project files (skip the wiki body) and paste the starter prompt at the top of each new chat.
 
@@ -77,7 +82,7 @@ A fuller `CONTRIBUTING.md` checklist can follow as the project grows.
 
 ## Plugin sync
 
-Pushes to `main` trigger [`.github/workflows/notify-plugin.yml`](.github/workflows/notify-plugin.yml), which pings the [product-coach plugin repo](https://github.com/alexeyhimself/product-operating-model-claude-plugin) to re-sync its bundled copy of the wiki. Requires a `PLUGIN_REPO_TOKEN` repository secret containing a fine-grained PAT with **Contents: Read and write** access to `alexeyhimself/product-operating-model-claude-plugin`.
+Pushes to `main` trigger [`.github/workflows/notify-plugin.yml`](.github/workflows/notify-plugin.yml), which pings both product-coach plugin repos — [Claude](https://github.com/alexeyhimself/product-operating-model-claude-plugin) and [Codex](https://github.com/alexeyhimself/product-operating-model-codex-plugin) — to re-sync their bundled copies of the wiki. Requires a `PLUGIN_REPO_TOKEN` repository secret containing a fine-grained PAT with **Contents: Read and write** access to *both* `alexeyhimself/product-operating-model-claude-plugin` and `alexeyhimself/product-operating-model-codex-plugin`.
 
 ## Sources & copyright
 
