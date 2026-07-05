@@ -16,6 +16,7 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 ✅ Created (ingest 2026-07-03, Video Ingest): `product-management-theater` · `founder-style-leadership` · `product-sense` · `build-to-learn-vs-build-to-earn`.
 ✅ Created (ingest 2026-07-04, Video Ingest II): `data-product-management` (data/AI/platform; the "is it a product?" litmus test).
 ✅ Created (2026-07-04, from a coaching query): `product-principles` — built from already-ingested sources (Manifesto + Coaching: Strategic Context + EMPOWERED); disambiguated from the 20 first principles.
+✅ Created (2026-07-05, org-agnostic clarification): `strategic-context` — the org's baseline (the six elements); the home for "why the org must author/maintain it and supply it to agents separately." This wiki teaches *about* the baseline; it never stores one.
 Still to do:
 - `product-operating-model` (top-level concept page)
 - `continuous-discovery` · `dual-track` · `insights`
@@ -57,8 +58,8 @@ Still to do:
 
 ## Case studies — `wiki/case-studies/`
 ✅ Created (ingest 2026-07-04, Real Examples): `amazon-prime` (Prime) · `spotify-discover-weekly` (Discover Weekly) · `google-product-model` · `apple-role-of-product` — the first four SVPG company case studies.
-- `your-org-baseline` — assess your own organization's starting state (high value for coaching)
-- more SVPG-published company / transformation stories as you encounter them (e.g. `netflix`)
+- more SVPG-published / named-company stories as you encounter them (e.g. `netflix`).
+- ⛔ **Out of scope:** `your-org-baseline` / any assessment of the user's own org. This wiki is **org-agnostic**; the org's baseline lives in its own store (see [[strategic-context]]), not here. (Superseded by the 2026-07-05 org-agnostic clarification.)
 
 ## Synthesis — `wiki/synthesis/`
 - `pom-vs-agile-and-safe` · `pom-vs-lean-and-design-thinking`
@@ -73,7 +74,7 @@ Still to do:
 ✅ Created (ingest 2026-07-03, Video Ingest): **people/** `bill-campbell` · `jeff-patton`; **books/** `good-strategy-bad-strategy` · `the-art-of-action` (see [[recommended-library]]).
 ✅ Created (ingest 2026-07-04, Video Ingest II): **people/** `christian-idiodi` · `lea-hickman` · `martina-lauchengco`; **books/** `loved`.
 Still to do:
-- **organizations/** `your-company`; `netflix` exemplar still to do. ✅ `google` · `apple` · `spotify` created (ingest 2026-07-04, Real Examples).
+- **organizations/** `netflix` exemplar still to do. ✅ `google` · `apple` · `spotify` created (ingest 2026-07-04, Real Examples). ⛔ `your-company` is **out of scope** (org-agnostic wiki; the org's baseline lives elsewhere — see [[strategic-context]]).
 
 ## Resources — `wiki/resources/`
 ✅ Created (2026-06-15): `recommended-library` — SVPG/Cagan-recommended books + videos, mapped by topic/problem.
