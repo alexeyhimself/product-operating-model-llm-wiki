@@ -39,17 +39,6 @@ cd product-operating-model-llm-wiki
 
 To stay current on the clone path, run `git pull` — the agent picks up new and updated pages automatically on the next session.
 
-## Grow & maintain it (advanced — most readers can skip)
-
-> **Warning.** Ingesting and writing into a local clone diverges your working copy from upstream, so the next `git pull` will collide with the shared wiki and your copy may break in ways that are hard to undo. Only do this if you're comfortable resolving git merge conflicts — and even then, prefer working in a **fork** and opening a PR (see [How to contribute](#how-to-contribute)) so the work flows back into the shared wiki instead of stranding on your machine.
-
-To make the wiki richer, feed it. This needs **read-write** access (your own clone or fork):
-
-1. Drop a source into [`raw/`](raw/) and say *"ingest this,"* **giving the citation/link** for it. The agent summarizes it into [`wiki/sources/`](wiki/sources/) (recording that provenance), updates the affected pages, refreshes [`index.md`](index.md), and logs it in [`log.md`](log.md).
-2. Ask questions; when a session produces a new insight, let the agent **file it back** as a `synthesis/` or `case-study/` page so it compounds.
-3. Periodically say *"lint the wiki"* to catch contradictions, stale claims, and orphan pages.
-4. See [`backlog.md`](backlog.md) for suggested starter pages, and [`CLAUDE.md`](CLAUDE.md) for the full conventions.
-
 ## Layout
 
 | Path | What |
@@ -65,19 +54,24 @@ To make the wiki richer, feed it. This needs **read-write** access (your own clo
 
 ## How to contribute
 
-Pull requests welcome — the goal is a living, community-maintained knowledge base that gets richer as more of the SVPG body of knowledge is captured. The most valuable contributions:
+Pull requests welcome — the goal is a living, community-maintained knowledge base that gets richer as more of the SVPG body of knowledge is captured. The bar is **quality**: an ingest touches 10–15 pages, and a careless one silently degrades everything downstream. The most valuable contributions:
 
 - **Sources, ingested.** Summarize a Cagan/SVPG article, talk, or book chapter into a [`wiki/sources/`](wiki/sources/) page (with its citation/link) and wire it into the concept/principle/diagnostic pages it touches.
 - **New or sharper pages.** Concepts, principles, frameworks — and especially **diagnostics**, the rubrics for assessing teams/orgs against the model.
 - **Corrections & connections.** Fix a misreading, add citations, link orphan pages.
 
+**Model recommendation.** For ingests, use at least **Claude Opus 4.7 with High reasoning effort**. The [`CLAUDE.md`](CLAUDE.md) conventions (root vs supporting source, three voices, wiki-wide integration) are subtle, and smaller/faster models tend to reproduce source text, mis-attribute claims, or silently overwrite contradictions.
+
 Workflow:
 
 1. **Fork** and create a branch.
 2. **Follow [`CLAUDE.md`](CLAUDE.md):** copy the right [`template`](templates/), use kebab-case filenames, YAML frontmatter, and `[[wikilinks]]`, and cite sources — keeping the three voices distinct (**SVPG canon** vs **field note** vs **wiki synthesis**).
-3. *(Optional, easiest path)* Attach your fork to Claude read-write, drop your source in [`raw/`](raw/), say *"ingest this,"* and review the diff the agent produces.
+3. **Ingest.** Attach your fork to Claude read-write, drop your source in [`raw/`](raw/), say *"ingest this,"* and review the diff the agent produces — carefully. Fix anything that violates [`CLAUDE.md`](CLAUDE.md) before committing.
 4. **Update [`index.md`](index.md)** and append a one-line entry to [`log.md`](log.md).
-5. **Open a PR** describing what you added and which pages it touches.
+5. **Open a PR** with a description that includes:
+   - **Source added** — citation and public link.
+   - **Model + reasoning effort used** — e.g. *Claude Opus 4.7, High reasoning effort*.
+   - **What changed and why** — new pages, edits to existing pages, any contradictions with prior canon and how you resolved them.
 
 A fuller `CONTRIBUTING.md` checklist can follow as the project grows.
 
