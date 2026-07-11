@@ -17,6 +17,7 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 ✅ Created (ingest 2026-07-04, Video Ingest II): `data-product-management` (data/AI/platform; the "is it a product?" litmus test).
 ✅ Created (2026-07-04, from a coaching query): `product-principles` — built from already-ingested sources (Manifesto + Coaching: Strategic Context + EMPOWERED); disambiguated from the 20 first principles.
 ✅ Created (2026-07-05, org-agnostic clarification): `strategic-context` — the org's baseline (the six elements); the home for "why the org must author/maintain it and supply it to agents separately." This wiki teaches *about* the baseline; it never stores one.
+✅ Created (ingest 2026-07-11, TRANSFORMED Pass 3): `cross-functional-partnering` — the Part VI hub (Chs 21–26).
 Still to do:
 - `product-operating-model` (top-level concept page)
 - `continuous-discovery` · `dual-track` · `insights`
@@ -40,6 +41,9 @@ Still to do:
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `pilot-teams` · `it-to-product-organization`.
 ✅ Created (ingest 2026-07-03, Video Ingest): `prototypes` (the four prototype types).
 ✅ Created (ingest 2026-07-04, Video Ingest II): `hiring-and-onboarding` (first hire; potential; assessment → coaching plan → competence).
+✅ Created (ingest 2026-07-11, TRANSFORMED Pass 3): `partnering-with-executives` — the Ch 26 six-element trust model (Decisions · Outcomes · Disagreements · Promises · Surprises · Trust).
+✅ Created (ingest 2026-07-11, TRANSFORMED Pass 4): `keys-to-successful-transformation` — Cagan & Hickman's ten keys (Ch 48) as a coaching artifact + concept `corporate-courage` (Key #10). Also updated diagnostics `transformation-readiness` and `model-maturity` with the book's own Ch 29 self-conducted assessment instrument.
+✅ Created (ingest 2026-07-11, TRANSFORMED Pass 5): person entities `gabrielle-bufrem` · `hope-gurion` · `margaret-hollendoner` · `stacey-langer` · `marily-nika` · `phyl-terry` · `petra-wille` — the seven product coaches Cagan profiles in Ch 34. Also deepened `product-coach` with the four coach types + hiring criteria, `product-leadership` with Ch 5 "Role of the CEO", `transformation` with the Ch 4 composite-failed-transformation narrative.
 Still to do:
 - `product-discovery-techniques`
 - `customer-interviews` · `story-mapping`. ✅ `okrs` created (ingest 2026-07-04, OKRs). *The complete 9-part Team Objectives series + "Outcomes Are Hard" are ingested. Still to card: `Managing Commitments in an Agile Team` (root of high-integrity commitments); and person entities Felipe Castro / Christina Wodtke.*
@@ -58,12 +62,13 @@ Still to do:
 
 ## Case studies — `wiki/case-studies/`
 ✅ Created (ingest 2026-07-04, Real Examples): `amazon-prime` (Prime) · `spotify-discover-weekly` (Discover Weekly) · `google-product-model` · `apple-role-of-product` — the first four SVPG company case studies.
+✅ Created (ingest 2026-07-11, TRANSFORMED Pass 2): `almosafer` · `carmax` · `trainline-transformation` (+ Ch 49 innovation) · `gympass-wellness-pivot` · `datasite-transformation` (+ Ch 35 innovation) · `kaiser-permanente-get-care-now` · `adobe-creative-cloud-transformation` — all seven of the book's own company examples.
 - more SVPG-published / named-company stories as you encounter them (e.g. `netflix`).
 - ⛔ **Out of scope:** `your-org-baseline` / any assessment of the user's own org. This wiki is **org-agnostic**; the org's baseline lives in its own store (see [[strategic-context]]), not here. (Superseded by the 2026-07-05 org-agnostic clarification.)
 
 ## Synthesis — `wiki/synthesis/`
 - `pom-vs-agile-and-safe` · `pom-vs-lean-and-design-thinking`
-- `strongest-objections-to-the-model` · `your-evolving-thesis`
+- ~~`strongest-objections-to-the-model`~~ ✅ **Created 2026-07-11** as [[overcoming-objections]] (grounded in *TRANSFORMED* Part X, Chs 36–46). · `your-evolving-thesis`
 - ✅ **Created (ingest 2026-07-03, Video Ingest):** [[the-point-is-outcomes]] — now grounded in the video canon ("we get points for outcome, not output" — [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf|Root Causes]]; "why outcomes are challenging to sustain" — [[2026-05-07-cagan-deep-dive-into-product-bvssh|BVSSH]]). Captured as DEBT 2026-07-02; the failure + AI-coaching + BVSSH talks supplied the source. *Original DEBT note follows for provenance:* a synthesis page that states the *chain of subordination* explicitly in one place: **the point is to move customer and/or business outcomes — to consistently innovate on behalf of customers.** Everything else is a means, not the end. In particular, *learning is a side-effect, not the goal*: the "no success/failure, only what did we learn?" framing in [[learning-over-failure]] is scoped to **discovery experiments** — learning is the *currency* of discovery so the team can place better bets, not the purpose of the work. Likewise shipping/delivery ("learn fast and ship safely and often") is a means. The connective tissue is currently spread across [[outcomes-over-output]], [[innovation-over-predictability]], [[learning-over-failure]], [[time-to-money]], and the [[outcome-vs-output-orientation]] diagnostic, but is never said as a single hierarchy. **Do not create this page from synthesis alone** (per CLAUDE.md, this would be wiki-synthesis masquerading as canon) — hold until a raw Cagan/SVPG source arrives that states the outcomes-are-the-point / learning-is-subordinate hierarchy directly, then ingest it and build this page grounded in that source. Captured 2026-07-02 from a coaching conversation with Aleksei.
 
 ## Entities — `wiki/entities/`
@@ -73,8 +78,9 @@ Still to do:
 ✅ Created (ingest 2026-06-21, follow-up pass): **organizations/** `amazon`.
 ✅ Created (ingest 2026-07-03, Video Ingest): **people/** `bill-campbell` · `jeff-patton`; **books/** `good-strategy-bad-strategy` · `the-art-of-action` (see [[recommended-library]]).
 ✅ Created (ingest 2026-07-04, Video Ingest II): **people/** `christian-idiodi` · `lea-hickman` · `martina-lauchengco`; **books/** `loved`.
+✅ Created (ingest 2026-07-11, TRANSFORMED Pass 2): **organizations/** `almosafer` · `carmax` · `trainline` · `gympass` · `datasite` · `kaiser-permanente` — six org stubs backing the seven book case studies.
 Still to do:
-- **organizations/** `netflix` exemplar still to do. ✅ `google` · `apple` · `spotify` created (ingest 2026-07-04, Real Examples). ⛔ `your-company` is **out of scope** (org-agnostic wiki; the org's baseline lives elsewhere — see [[strategic-context]]).
+- **organizations/** `netflix` exemplar still to do. ✅ `google` · `apple` · `spotify` created (ingest 2026-07-04, Real Examples). Adobe still deferred as a stub (indirect via [[lea-hickman]]). ⛔ `your-company` is **out of scope** (org-agnostic wiki; the org's baseline lives elsewhere — see [[strategic-context]]).
 
 ## Resources — `wiki/resources/`
 ✅ Created (2026-06-15): `recommended-library` — SVPG/Cagan-recommended books + videos, mapped by topic/problem.

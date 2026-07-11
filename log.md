@@ -352,3 +352,175 @@ Two SVPG articles the user filed in `raw/Product Operations/`, both directly cro
 **Decisions:** (1) Created one new concept page rather than only editing — the org-baseline guidance needed a positive, canon-grounded home, and "strategic context" is the established Cagan term (six elements). (2) Did **not** sweep the ~40 `## In your context` field-note placeholders individually; instead reframed them centrally in `CLAUDE.md` as agent prompts (proportionate); a future pass could reword the placeholders themselves if desired.
 
 **No contradictions introduced.** The change tightens a prior ambiguity: earlier `CLAUDE.md` text said "the user supplies their company's strategic context as a field note" and implied the user's org case studies could live here — now corrected to org-agnostic.
+
+## [2026-07-11] ingest | TRANSFORMED (book) — Part X · Overcoming Objections (Chs 36–46)
+**Primary canon; the first direct book-ingest pass.** Per the maintainer's ingest playbook, we're now ingesting *[[transformed|TRANSFORMED]]* itself chapter-by-chapter (poppler installed on the Mac; PDF converted to text and read via line-offset). Pass 1 covers **Part X — Overcoming Objections (Chs 36–46)**, the biggest book-exclusive gap and the resolution of the long-standing `strongest-objections-to-the-model` backlog item.
+
+**Pages created (1):**
+- **Synthesis:** [[overcoming-objections]] — the 11-constituency hub (Ch 36 Customers · Ch 37 Sales · Ch 38 CEO & Board · Ch 39 Line of Business · Ch 40 Customer Success · Ch 41 Marketing · Ch 42 Finance · Ch 43 HR/People Ops · Ch 44 CIO · Ch 45 PMO · Ch 46 Inside Product). Structure: framing + summary table + 7 cross-cutting themes + per-constituency detail. Deliberately synthesises the *patterns* and Cagan's response moves in the wiki's voice; does **not** reproduce the book. Short attributed teaching quotes only, per playbook rule 1.
+
+**Pages updated (7):**
+- [[transformed]] — replaced the "None as a primary document yet" stub with a **Chapters ingested** section (Part X first entry; template for future passes).
+- [[transformation]] — new "Common objections (Part X)" section pointing to [[overcoming-objections]] as the coaching companion.
+- [[transformation-politics]] — new "Working with specific constituencies" section framing Part X as the per-constituency layer under the 8-dimension political frame.
+- [[stakeholder-relationship-health]] — new "When a specific stakeholder is objecting" note; synthesis added to Related.
+- [[product-leadership]] — deepened "In transformation contexts" with Ch 38 (CEO/Board) and Ch 44 (CIO) specifics.
+- [[product-manager]] — new "Common frictions inside product (Ch 46)" section (the largest chapter of the Part); synthesis added to Related.
+- [[product-marketing]] — new "When marketing objects to the model" section (Ch 41).
+
+**Catalog updates:** `index.md` (new latest-ingest banner; [[overcoming-objections]] added to Synthesis section), `wiki/overview.md` (Synthesis line extended), `backlog.md` (`strongest-objections-to-the-model` marked done).
+
+**Provenance strategy for book ingests (established this pass):** Per CLAUDE.md § "Reference, don't reproduce": no per-chapter source cards are being created. The book *is* the root source at `[[transformed]]`; chapter attributions live **inline** (`[[transformed|TRANSFORMED]]` Ch N) on the pages that use them. The `[[transformed]]` entity page's new "Chapters ingested" section is the tracking mechanism. This matches the model already used for the other 40+ articles cited across the wiki.
+
+**Decisions:**
+1. **Synthesis, not concept.** [[overcoming-objections]] filed under `wiki/synthesis/` because it is Cagan's argument *plus* the wiki's cross-cutting-themes analysis of his recurring response moves — the two voices are labelled distinctly on the page.
+2. **Did not create 11 separate constituency pages.** Would duplicate the natural structure of Part X and split what an agent needs into fragments; a single hub with a summary table + per-constituency detail scales better for coaching.
+3. **Voice discipline:** the summary table is fully SVPG canon (Cagan's answer paraphrased); the "cross-cutting themes across all 11 chapters" section is labelled wiki synthesis (a rollup pattern the book states across chapters but not in one place); per-constituency detail keeps canon and synthesis inline (Cagan's answers → canon; the wiki's "see also" links → synthesis).
+4. **Did not touch competency/framework/diagnostic pages that Part X only glancingly references.** Verifying every reference across Chs 36–46 would exceed the value of Pass 1; a lint pass at the very end catches drift.
+
+**Flags & attribution notes:**
+1. **Ch 36 references "chapter 4, 'Changing How You Build'"** — this is a **book typo**: the actual "Changing How You Build" is Ch 7 (Part II). Noted and not propagated. The wiki cites the correct chapter (Ch 7).
+2. **Ch 43 (HR): three-months-to-competence** — Cagan states this in Part X as a rule of thumb for coaching a reasonable PM candidate; matches the existing [[hiring-and-onboarding]] framework. No contradiction.
+3. **Ch 46 (Inside Product) KTLO percentages** — Cagan gives ≤30% for experience teams, ≤50% for platform teams as norms. Newly captured on [[overcoming-objections]]; not previously in the wiki. Consider promoting to a note on [[team-topology]] or [[team-objectives]] in a follow-up pass.
+4. **Ch 40 (CS) live top-10 list** — a small, actionable canon-grounded pattern not yet reflected anywhere else in the wiki; captured only on [[overcoming-objections]] for now. Consider surfacing on [[stakeholder-relationship-health]] in a lint pass.
+5. **Ch 42 (Finance) "fund teams, not projects"** — the strongest single canonical statement of what already lives on [[transformation]] as "fund teams for quarters, not projects." Now sourced directly to the book (Ch 42) rather than solely to Melissa Perri interview. Consider a source enrichment on [[transformation]] in a lint pass.
+6. **Ch 46's answer on POs and BAs is stark:** *"they don't"* fit — PO is a role covered by PM; BA responsibilities split across PM and designer. Consistent with existing [[product-manager]] and [[process-people]] framing; the book's directness is worth remembering when coaching on retitle-only transformations.
+7. **No book text was reproduced.** All canon claims are either paraphrased in the wiki's voice or reproduced as short attributed quotes (≤1 sentence) where the exact wording is teaching-critical (e.g., *"if it hurts, do it more often"*).
+
+## [2026-07-11] ingest | TRANSFORMED (book) — Pass 2 · the seven company examples
+**Primary canon.** Ingested the book's seven company examples: three long **Transformation Stories** (Parts V, VII, IX) and six **Innovation Stories** (Chs 14, 20, 27, 35, 47, 49). Datasite and Trainline each appear twice (as full Transformation Story + shorter Innovation Story chapter); Adobe only as a Transformation Story. Populates the previously-thin `case-studies/` section with the book's own worked examples — deliberately non-Silicon-Valley (the whole point of the book, per Cagan's framing).
+
+**Pages created (13):**
+- **Case studies (7):** [[almosafer]] · [[carmax]] · [[trainline-transformation]] (combines Part V + Ch 49) · [[gympass-wellness-pivot]] · [[datasite-transformation]] (combines Part VII + Ch 35) · [[kaiser-permanente-get-care-now]] · [[adobe-creative-cloud-transformation]].
+- **Org entity stubs (6):** [[almosafer|almosafer (org)]] · [[carmax|carmax (org)]] · [[trainline|trainline (org)]] · [[gympass|gympass (org)]] · [[datasite|datasite (org)]] · [[kaiser-permanente|kaiser-permanente (org)]]. Adobe left indirect via [[lea-hickman]] (org stub deferred; existing pages already carry the substance).
+
+**Pages updated (5):**
+- [[transformed]] — expanded "Chapters ingested"; added the **attribution correction** described below.
+- [[transformation]] — added a "Real transformation stories in the book" section pointing at the three long stories + the four crisis-response innovation examples.
+- [[jon-moore]] — now confirmed: Trainline is the transformation he led before joining SVPG (KKR-to-IPO in ~4 years).
+- [[christian-idiodi]] — now confirmed: Merrill Corporation → Datasite is his transformation (sales-driven financial-services legacy).
+- [[lea-hickman]] — now confirmed and detailed: Adobe Creative Suite → Creative Cloud, including the **Marissa visiontype** and the CEO/CFO conversion mechanics.
+
+**Catalog updates:** `index.md` (new latest-ingest banner; Case studies section split into "from SVPG articles" and "from *TRANSFORMED*"; org entities extended with the six new stubs), `wiki/overview.md` (Case-studies map line extended), `backlog.md` (all seven case studies + six org stubs marked done). `wiki/entities/organizations/kaiser-permanente.md` cross-references [[overcoming-objections]] as its role in the Part X regulated-industry answer.
+
+**Decisions:**
+1. **Combined Trainline (Part V + Ch 49) and Datasite (Part VII + Ch 35) each into single case-study pages** rather than two per company. Both are one narrative arc (transformation → post-transformation innovation); splitting would fragment the coaching value. The combined pages label the Part-story vs Ch-innovation sections explicitly.
+2. **Named the Trainline case-study page `trainline-transformation`** to distinguish it from the org entity `trainline` (per the wiki's `apple-role-of-product` / `apple` precedent).
+3. **Named the Datasite case-study page `datasite-transformation`** for the same reason.
+4. **Adobe left as an indirect org** for now — the book has no independent org-facing content about Adobe beyond Hickman's Part IX, which is now on the case-study page and cross-linked from [[lea-hickman]]. Adding a standalone `adobe.md` entity was low-yield vs the seven other pages. Noted in backlog as deferred, not done.
+5. **Naming: `kaiser-permanente-get-care-now`** because Get Care Now is the specific illustrative product (like `amazon-prime`, `spotify-discover-weekly`); the org entity is just `kaiser-permanente`.
+6. **Voice discipline:** each case-study page follows the template (starting state → what changed → outcome → what it illustrates → transferable lesson). Book quotes are short and attributed (Cagan/Moore/Idiodi/Hickman as appropriate); wiki-synthesis lessons are in the "Transferable lessons" and "In your context" sections, distinct from the SVPG canon material.
+
+**Attribution correction (surfaced this pass):** the wiki's [[transformed]] entity previously carried a note (from the 2023 pre-launch announcement) saying the book contained "three first-person case studies (Hickman, Idiodi, Moore)." The people were correct but the companies were unresolved. Now confirmed: **Adobe (Hickman, Part IX)**, **Datasite (Idiodi, Part VII)**, **Trainline (Moore, Part V)**. Reconciled on [[transformed]] and on each person entity.
+
+**Flags & notes:**
+1. **The book's *"non-Silicon-Valley"* frame is deliberate.** Almosafer (KSA), Trainline (UK), Datasite/Merrill (MN), Adobe (industry-changer via SaaS transition), Gympass (Brazil), Kaiser Permanente (US healthcare), CarMax (VA used-car retail). Cagan is explicitly answering "the model won't work outside Silicon Valley" with the entire case-study set.
+2. **Product coach mentions in the book.** Hope Gurion is named as Almosafer's coach on the istiraha work; the seven coaches profiled in Ch 34 include her (also Bufrem, Hollendoner, Langer, Nika, Terry, Wille) — deferred to Pass 5 (Ch 34) per the plan.
+3. **CarMax's transformation began pre-pandemic under Ann Yauger** (carmax.com team). Named in Ch 20 and now on the case-study page + org stub. She hasn't surfaced elsewhere in the wiki.
+4. **Datasite/Merrill scale detail:** 4,000+ employees, 23 countries, grown by acquisition without unifying synergies — the "focus problem" root cause is size-specific and worth remembering when coaching larger legacy orgs.
+5. **The Ch 46 objection "we're in a regulated industry" is answered directly by Kaiser Permanente's Get Care Now** (Ch 47 — deliberately following Part X in the book). The wiki's Kaiser page cross-references [[overcoming-objections]].
+6. **The "sales-owns-everything" root-cause diagnosis** (Datasite Part VII) is a load-bearing coaching pattern the wiki now captures in one place — worth surfacing on [[stakeholder-relationship-health]] and [[transformation-politics]] in a lint pass; deferred to keep this pass focused.
+7. **The Marissa visiontype** (Adobe Part IX) is a canonical artifact type worth promoting to [[product-vision]] itself; deferred to the verify-only pass (Pass 5).
+8. **No book text was reproduced.** Short attributed quotes (≤1 sentence) where teaching-critical; the rest paraphrased in the wiki's voice.
+
+## [2026-07-11] ingest | TRANSFORMED (book) — Pass 3 · Part VI Cross-Functional Partnering (Chs 21–26)
+**Primary canon.** Ingested Cagan's Part VI — *"The Product Model in Action"* — the six *"Partnering with…"* chapters (Customers · Sales · Product Marketing · Finance · Stakeholders · Executives). This is the **"what healthy looks like"** complement to [[overcoming-objections|Part X (Pass 1)]]'s "what surfaces when it isn't."
+
+**Pages created (2):**
+- **Concept hub:** [[cross-functional-partnering]] — one section per constituency (Chs 21–26), cross-cutting patterns across all six chapters, anti-patterns, and cross-links out. Grounded inline in each chapter with short attributed quotes.
+- **Framework:** [[partnering-with-executives]] — the Ch 26 six-element trust model (**Decisions · Outcomes · Disagreements · Promises · Surprises · Trust**) as a standalone coaching artifact. Includes when-to-use, mutual commitments per element, inputs/outputs, pitfalls, and a kickoff example.
+
+**Pages updated (6):**
+- [[transformed]] — expanded "Chapters ingested" with the Part VI row.
+- [[product-leadership]] — new "The executive partnership (Ch 26 → framework page)" section pointing at [[partnering-with-executives]].
+- [[product-manager]] — new "The PM's partnership job (Part VI)" section framing Chs 21–26 as the *PM's* operational job.
+- [[product-marketing]] — added the **eight PM ↔ PMM collaboration areas** of Ch 23 in full.
+- [[stakeholder-relationship-health]] — new "What 'healthy' looks like (Ch 25 → partnership hub)" section — Cagan's positive-case picture as the rubric target.
+- [[transformation-politics]] — reframed "Working with specific constituencies" to name **both** Part VI (healthy target) and Part X (objection patterns) as the two sides of the political work.
+
+**Catalog updates:** `index.md` (new latest-ingest banner; [[cross-functional-partnering]] added to Concepts; [[partnering-with-executives]] added to Frameworks), `wiki/overview.md` (Concepts line extended; new "Cross-functional partnering (Part VI)" map entry), `backlog.md` (both new pages marked done).
+
+**Decisions:**
+1. **One concept hub + one framework**, not six per-constituency pages. Each of the six chapters is already deeply cross-referenced with existing competency and diagnostic pages ([[product-manager]], [[product-marketing]], [[stakeholder-relationship-health]], [[product-leadership]]); the hub gives an agent a single page to reach for; the framework specifically peels Ch 26 out because the six-element trust model is a distinct enough coaching artifact to warrant its own page.
+2. **Did *not* create `frameworks/partnering-with-product-marketing.md`** even though Ch 23 has eight subsections. Cagan explicitly refers readers to [[loved|LOVED]] for the deeper treatment; the eight-area list lives on [[product-marketing]] + [[cross-functional-partnering]]. Creating a third page would fragment.
+3. **Did *not* create `frameworks/customer-discovery-program.md`** — Cagan names it in Ch 23 but explicitly points to [[inspired|INSPIRED]] for the technique. That framework page belongs to a future *INSPIRED* ingest, not this pass.
+4. **Voice discipline:** each per-constituency section on [[cross-functional-partnering]] leads with the SVPG canon (Cagan's frame + short attributed quotes) and closes with cross-links to related wiki pages. The "cross-cutting patterns across Part VI" section is labelled wiki synthesis — it's a rollup pattern the book makes only across chapters, not in one place. On [[partnering-with-executives]] the two "premises" and the six elements are direct SVPG canon; the "example" kickoff paragraph is wiki-synthesis (a coaching-usage suggestion).
+
+**Flags & attribution notes:**
+1. **Ch 25 "committees don't innovate" is the strongest single Cagan line** on why design-by-committee is fatal. Now sourced directly to the book on [[stakeholder-relationship-health]] (previously via [[2016-05-03-cagan-product-success]] only).
+2. **Ch 21's "customer" is deliberately broad** — users, buyers, approvers, influencers, internal colleagues using tech to serve end customers. The Part VI patterns generalize past the retail-B2C default.
+3. **Ch 22 (Sales) explicitly limits its scope** — *"this chapter does not apply to all companies and all types of products… when the company has a direct or channel sales force"* — the wiki notes this on [[cross-functional-partnering]] and [[product-marketing]] to avoid overgeneralizing.
+4. **Ch 24 (Finance) contains what may be the book's clearest positive articulation of "fund teams, not projects"** — already noted in Pass 1's flag #5. Now grounded on [[cross-functional-partnering]] with the additional context that the *pitch to finance* is "test the model" — a small number of teams — not "throw out the current model." Useful when coaching an early-stage transformation.
+5. **Ch 26's six elements are a genuinely new framework** for the wiki — no prior page enumerates them. Previously [[stakeholder-relationship-health]] and [[product-leadership]] covered adjacent material. Adding [[partnering-with-executives]] as its own framework page is the right level of granularity because it's the coaching artifact a product leader would actually use in an executive conversation.
+6. **No book text was reproduced.** Short attributed quotes where the wording is teaching-critical (e.g., the "please just back off" / "surprises are one of the worst forms of waste" pattern from Ch 26); rest paraphrased in the wiki's voice.
+
+## [2026-07-11] ingest | TRANSFORMED (book) — Pass 4 · Ch 48 Ten Keys + Ch 29 Assessment
+**Primary canon; the book's conclusion + its own diagnostic instrument.** Ingested Ch 48 (Part XI *Conclusion*: Keys to Successful Transformation) and Ch 29 (Part VIII: Transformation Assessment). These are the highest-density chapters in the book — Ch 48 is Cagan's ten-item ranked list of what actually makes transformation succeed, and Ch 29 is his own self-conducted assessment instrument (~1 day for a coach, few days for a self-assessor).
+
+**Pages created (2):**
+- **Framework:** [[keys-to-successful-transformation]] — the ten keys as coaching artifact: CEO · Role of Technology · Strong Product Leaders · True PMs · Professional Designers · Empowered Engineers · Insights-Based Strategy · Stakeholder Collaboration · Continuous Evangelization of Outcomes · Corporate Courage. Per-key detail with attributed short quotes and cross-links out; wiki-synthesized dependency structure across the ten; the Ch 48 "But What Can I Do?" bottom-up appendix; pitfalls.
+- **Concept:** [[corporate-courage]] — Key #10 as its own idea. Cross-links to older Cagan canon (Reason #9 on the Ten Reasons for Weak Product) to make the concept older-than-the-book. Explicitly names what "courage present" and "courage absent" look like as concrete decisions.
+
+**Pages updated (5):**
+- [[transformed]] — expanded "Chapters ingested" with Pass 4's row.
+- [[transformation]] — deepened the "ten keys" section: now cites Ch 48 directly for Keys #1, #2, #10; folds in the wiki's older [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri|Perri interview]] framing as complement (The Guardian, cost-vs-profit-center).
+- [[transformation-readiness]] — added a large section "The book's own assessment instrument (Ch 29)" with Cagan's caveats (be realistic, talk to all levels, look for evidence, look below the surface, be kind), the timing benchmarks, and the high-level + detailed-assessment structure (three-dimensions + four-competencies + five-concepts + the Innovation-Theatre callout).
+- [[model-maturity]] — added a parallel "The book's own assessment instrument" note that defers to [[transformation-readiness]] for the full instrument, plus this diagnostic's specific applications: the "look for evidence" coaching move, the "no single right way" caveat as protection against Level-2 checkbox transformation self-scoring, and the Innovation-Theatre callout as a scoring symptom.
+- [[transformation-politics]] — untouched this pass; Pass 3 covers.
+
+**Catalog updates:** `index.md` (new latest-ingest banner; [[corporate-courage]] added to Concepts; [[keys-to-successful-transformation]] added to Frameworks), `wiki/overview.md` (Transformation-hub map line rewritten to include the new concept, framework, and diagnostic-source note), `backlog.md` (both new pages + the diagnostic updates marked done).
+
+**Provenance strategy:** consistent with Passes 1–3. No new source cards. Ch 48 and Ch 29 are cited **inline** as `[[transformed|TRANSFORMED]]` Ch N; the ten-keys page also cites [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri]] as the complementary source (that interview was the wiki's prior indirect route to the ten-keys material). [[transformed]]'s "Chapters ingested" tracks the coverage.
+
+**Decisions:**
+1. **Framework, not concept, for the ten keys.** The ten keys *"are what SVPG found across the ones that succeeded"* — a coaching / assessment artifact more than a concept. Filed under `frameworks/`.
+2. **Concept, not framework, for corporate courage.** It's a *leadership disposition*, not a technique. The framework page is about how to score / sequence the ten; the corporate-courage page is about what Key #10 *is*.
+3. **Ch 29 instrument goes primarily on [[transformation-readiness]]** with a shorter deferral note on [[model-maturity]] — avoids duplicating the full instrument on two pages. [[transformation-readiness]] is the natural home because Ch 29's *"look for evidence"* posture is about pre-scoring, not just current-state.
+4. **Voice discipline:** the ten keys are canon, structured verbatim to match Ch 48's ordering + subheads. The dependency structure across the ten is explicitly labelled wiki synthesis. On [[corporate-courage]], the six "shows up" examples pull from earlier ingested chapters/cases (Datasite divestments, Adobe bet-the-company decision, killed low-ROI initiatives) — those are wiki synthesis grounded in already-ingested canon, labelled as such.
+5. **Did *not* attempt to reconcile [[model-maturity]]'s 4-level rubric against Ch 29 line-by-line.** The wiki rubric remains useful as a *scoring layer on top of* Ch 29's assessment; the note says "prefer the book where they diverge" without rewriting the rubric. A future lint pass could deepen this.
+
+**Flags & attribution notes:**
+1. **The wiki's older attribution of the ten keys was correct in substance but incomplete.** [[transformation]], [[transformation-readiness]], [[model-maturity]] all previously mentioned "ten keys" via Cagan's [[2024-02-14-cagan-getting-leadership-up-to-speed-melissa-perri|Perri interview]]. That interview describes the Cagan + Hickman *article*; Ch 48 of the book is the same list. Now direct grounding at [[keys-to-successful-transformation]].
+2. **Ch 48 Key #1 explicitly names the *"designate a digital transformation VP"* anti-pattern** — worth remembering when coaching orgs whose CEO commitment is nominal. The exact framing joins [[transformation]]'s existing "checkbox transformation" and [[transformation-as-a-project]] anti-patterns.
+3. **Ch 29 "Innovation Theatre" callout** (corporate innovation labs that split discovery from delivery; acquisitions as innovation-shopping) is now grounded on [[model-maturity]]. Previously only present via [[product-management-theater]] (a different theater — the PM role) and [[2024-04-14-cagan-escape-the-project-trap-agile-theatre|Agile Theater]] (a third one). Consider a small synthesis in a lint pass connecting the three "theater" variants.
+4. **Key #10 (Corporate Courage) now has three grounding points across the wiki**: Ch 48 (this pass), [[2010-08-16-cagan-top-10-reasons-for-weak-product|Reason #9]] (older canon), and [[model-maturity|Level-3 → Level-4 sustaining work]] (existing rubric). Making the concept explicit lets an agent name it in coaching rather than gesturing at it.
+5. **Ch 29's "look below the surface — no single right way" caveat** aligns tightly with [[principles-over-process]] and [[process-people]] — worth cross-linking in a future lint. Held for Pass 5.
+6. **No book text was reproduced.** Short attributed quotes where teaching-critical (e.g., *"a leap of faith"*, *"you won't have empowered engineers if you outsource your engineers"*, *"product leaders will be judged based on their weakest product manager"*); rest paraphrased in the wiki's voice.
+
+## [2026-07-11] ingest | TRANSFORMED (book) — Pass 5 · Ch 4 · Ch 5 · Ch 34 verify + deepen
+**Primary canon; verify-only pass with targeted deepening.** Per the ingest playbook, Pass 5 verifies chapter attributions on already-covered material (Parts II/III/IV) and deepens three chapters the earlier passes touched but didn't fully mine: Ch 4 (*A Typical Transformation*), Ch 5 (*The Role of the CEO*), Ch 34 (*Transformation Help*).
+
+**Pages created (7):** seven **person entity stubs** for the product coaches Cagan personally profiles in Ch 34:
+- [[gabrielle-bufrem]] — Brazilian; 10 countries + 9 industries; Google intern → Education First → Pivotal Labs → Little Otter Health → full-time product leadership coach.
+- [[hope-gurion]] — CareerBuilder + Beachbody transformations; Fearless Product Leadership podcast; discovery coaching with Teresa Torres; **worked with the [[almosafer]] team on the istiraha innovation** (this cross-reference now appears both on her page and on [[almosafer]]).
+- [[margaret-hollendoner]] — 18 years at [[google|Google]] (AdSense, YouTube, Google Fit; the "person who crossed the street"); Stanford ME by training; England-based; peer-community builder.
+- [[stacey-langer]] — 20 years at Best Buy (through SVP of product) → **US Digital Service / VA deputy CTO**; transformation coach.
+- [[marily-nika]] — PhD ML Imperial College; 8y at Google (AI + AR/VR); 2y at Meta Reality Labs; teaches AI PM at **Harvard Business School**.
+- [[phyl-terry]] — Amazon's first acquisition; McKinsey; Creative Good CEO 15y; founded **Collaborative Gain** (2003) — largest peer-network of product leaders; author of *Customers Included* and *Never Search Alone*.
+- [[petra-wille]] — Germany-based; XING + tolingo product leader; author of ***STRONG Product People*** (2020); European product-community leader. Already indirectly on the wiki via [[2025-06-10-torres-wille-what-is-product-ops|Torres & Wille product-ops discussion]] — now with her own entity.
+
+**Pages updated (4):**
+- [[transformation]] — new "A typical *failed* transformation (Ch 4)" section: the seven-beat composite arc (specials → aggressive acquisitions → CDO-led "digital transformation" → retitle BAs as PMs → predictability-focused engineering process → PMO governance layer → attrition → board withdrawal). Cross-linked to [[keys-to-successful-transformation|Key #1 delegation anti-pattern]], [[transformation-as-a-project|the named PMO anti-pattern]], [[overcoming-objections|the HR retitle-only anti-pattern]]. Coaches will use this arc when an org's plan starts resembling any single step.
+- [[product-leadership]] — new "The CEO's role — Ch 5" section: the *support ≠ time* nuance; the [[bill-campbell|Bill Campbell]] line *"the company cares about what the leader cares about"*; the delegation-to-CIO/CDO/CTO anti-pattern; the blunt "reassess your readiness" guidance if the CEO won't lead evangelism; the upside case for the CEO's active support.
+- [[product-coach]] — restructured "Types of product coach" to the **four Ch 34 types** (delivery / discovery / product leadership / transformation) — previously three altitudes; **added hiring criteria per type**; **added an in-house vs external section**; new **"Managers as coaches"** section carrying the Ch 34 opening frame; added the seven coach entities to Related.
+- [[transformed]] — expanded Chapters ingested with the Pass 5 row (Ch 4 · Ch 5 · Ch 34 + the seven coach entities).
+
+**Catalog updates:** `index.md` (new latest-ingest banner; the seven coach entities added to People — grouped as "the seven Ch 34 coaches"), `wiki/overview.md` (untouched this pass — the deepening happens on existing pages, not new map entries), `backlog.md` (Pass 5 row appended).
+
+**Provenance strategy:** consistent with Passes 1–4. Ch 4, Ch 5, Ch 34 cited inline as `[[transformed|TRANSFORMED]] Ch N`. The seven coach entities each carry `sources: ["[[transformed]]"]` implicitly (via the frontmatter Related field).
+
+**Decisions:**
+1. **Seven separate person stubs, not one Ch 34 summary page.** The wiki's precedent is one page per named person (already true for Bufrem/Gurion/Hollendoner-scale profiles). Stubs are cheap and the graph enrichment is real — each of the seven is a distinct coaching profile with distinct expertise, location, and industry background.
+2. **Did *not* attempt to enumerate the four coach types on the [[types-of-product-coaching]] concept page** — that page still refers to the earlier three altitudes; a future lint could reconcile it with Ch 34's fourth (delivery). The wiki's *"altitude"* framing is orthogonal to Ch 34's *"type"* framing but not contradictory.
+3. **Ch 4's failed-transformation arc goes on [[transformation]] rather than [[transformation-as-a-project]]** because it walks *multiple* anti-patterns, not just the project one. The single-anti-pattern coaching pages remain narrower.
+4. **Voice discipline:** each Ch 34 coach's mini-profile paraphrases the book (Path to Product + Journey to Coaching structure); short attributed quotes only where the wording matters (e.g., Petra Wille's philosophy; Phyl Terry's view on coaching). Ch 5 canon is heavily quoted because Cagan's phrasing (Bill Campbell line; "the company cares about what the leader cares about") is teaching-critical. Ch 4's arc is paraphrased in the wiki's voice as a coaching cautionary tale — no long book text reproduced.
+
+**Flags & attribution notes:**
+1. **The Ch 34 coach hiring criteria are usable as a coaching checklist.** Now on [[product-coach]] verbatim: track record for delivery coach (CI/CD), real discovery experience for discovery coach, real leadership experience for product leadership coach, real transformation experience for transformation coach. Cagan's own line: *"most of the people who try to sell you their services literally do not have this experience"* — useful when coaching a client through vendor selection.
+2. **[[bill-campbell]] line "the company cares about what the leader cares about"** — grounded across [[product-leadership]] and *TRANSFORMED* Ch 5. Complements the Campbell quotes already on [[product-coach]] and [[empowered-engineers]].
+3. **[[hope-gurion]] ↔ [[almosafer]] cross-reference now closed** — the case-study page said "Hope Gurion" but had no entity; Ch 34's profile is the grounding. Now bidirectional.
+4. **[[petra-wille]] duplicates an entity not previously created**, but she was already referenced across the wiki via [[2025-06-10-torres-wille-what-is-product-ops]]. Her entity page notes this prior indirect grounding.
+5. **[[marily-nika]] is an AI-PM specialist** — the wiki's [[data-product-management]] page now cross-references her, closing a gap between the AI-PM concept and a named practitioner.
+6. **Parts II / III / IV verification (playbook item):** spot-checked the earlier attribution notes and found no material contradictions with the book. The prior inference from Huryn (Ch 15–19 for the concepts; Ch 10–13 for the competencies) is confirmed. Chs 8, 10, 13, 16 attributions on [[transformed]] entity are correct. No page-level rewrites needed. If a lint pass surfaces any drift, log it as a fresh entry.
+7. **Ch 29 aligns with [[principles-over-process]] and [[process-people]]** (flagged in Pass 4) — the *"no single right way"* + *"look below the surface"* framing is a natural cross-reference to add on those pages; **held for a future lint pass** to avoid inflating this pass.
+8. **No book text was reproduced.** Short attributed quotes only where teaching-critical (e.g., *"the company cares about what the leader cares about"*, *"a coaching industry that comes not from product companies, but instead from either specific software processes or management consultancies"*).
