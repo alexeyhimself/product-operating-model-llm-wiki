@@ -44,10 +44,11 @@ Still to do:
 ✅ Created (ingest 2026-07-11, TRANSFORMED Pass 3): `partnering-with-executives` — the Ch 26 six-element trust model (Decisions · Outcomes · Disagreements · Promises · Surprises · Trust).
 ✅ Created (ingest 2026-07-11, TRANSFORMED Pass 4): `keys-to-successful-transformation` — Cagan & Hickman's ten keys (Ch 48) as a coaching artifact + concept `corporate-courage` (Key #10). Also updated diagnostics `transformation-readiness` and `model-maturity` with the book's own Ch 29 self-conducted assessment instrument.
 ✅ Created (ingest 2026-07-11, TRANSFORMED Pass 5): person entities `gabrielle-bufrem` · `hope-gurion` · `margaret-hollendoner` · `stacey-langer` · `marily-nika` · `phyl-terry` · `petra-wille` — the seven product coaches Cagan profiles in Ch 34. Also deepened `product-coach` with the four coach types + hiring criteria, `product-leadership` with Ch 5 "Role of the CEO", `transformation` with the Ch 4 composite-failed-transformation narrative.
+✅ Created (ingest 2026-07-12, INSPIRED 1st ed): `reference-customer-program` — the 2008 Charter User Program (INSPIRED Ch 15) = the modern Customer Discovery Program (TRANSFORMED Ch 23). Cross-linked from product-marketing, cross-functional-partnering, stakeholder-relationship-health, overcoming-objections, plus case studies.
+✅ Created (ingest 2026-07-12, INSPIRED 2nd ed follow-up): `product-discovery-techniques` — the hub / catalog covering framing (opportunity assessment · customer letter · startup canvas), planning (story map · customer discovery program), ideation (customer interviews · concierge test · customer misbehavior · hack days), prototyping (the four types), testing (feasibility · usability · value demand/qual/quant · viability + user-test-vs-demo-vs-walkthrough), and transformation (discovery sprint · pilot team). Includes the "how to pick" coaching algorithm and the ethics-as-separate-risk lineage note (Ch 33, 2017).
 Still to do:
-- `product-discovery-techniques`
 - `customer-interviews` · `story-mapping`. ✅ `okrs` created (ingest 2026-07-04, OKRs). *The complete 9-part Team Objectives series + "Outcomes Are Hard" are ingested. Still to card: `Managing Commitments in an Agile Team` (root of high-integrity commitments); and person entities Felipe Castro / Christina Wodtke.*
-- `product-vision-narrative` · `the-product-strategy-process` · `reference-customer-program`
+- `product-vision-narrative` · `the-product-strategy-process`
 - `working-backwards` (the Amazon press-release-first method, referenced from [[amazon]])
 
 ## Diagnostics — `wiki/diagnostics/`
@@ -90,6 +91,8 @@ Still to do: add per-topic deep-links from each principle page into the library;
 ✅ Ingested 2026-06-21 (the Diagnostics Ingest): *Coaching Tools – The One-on-One*, *Coaching Tools – The Narrative*.
 ✅ Ingested 2026-06-21 (follow-up pass): all 19 backlogged raw files — coaching mindset trilogy, discovery techniques, designer canon, roadmaps & metrics, PM-role deep-dives, role-specific essays, exemplar.
 ✅ Ingested 2026-06-21 (Transformation Ingest): *Transformation Defined* · *The Transformation Series* · *TRANSFORMED (pre-launch announcement)* · *Transformation as a Project* · *Transformation Politics* · *Moving from an IT to a Product Organization* · *Epic Waste* · *The Need for Speed* · *Who Is Product Operating Model For?* · *Coaching the Coaches*.
+
+✅ **Ingested 2026-07-12:** *INSPIRED* 1st ed (2008) — deep on Chs 11, 13, 15, 12, 8; flag-and-note on Chs 14, 9, 21, 20. Closed the `reference-customer-program` / `reference-customers` dead-end (now `[[reference-customer-program]]`). Corrected: Ch 8 uses General George S. Patton (WWII), not Jeff Patton. Captured the 3-then-4 risks lineage on [[the-four-big-risks]]. Retired the Product Council (Ch 14) with an explicit note on [[product-leadership]]. Ingest plan file `INSPIRED-1ST-ED-INGEST-PLAN.md` deleted post-ingest.
 
 Still to ingest — referenced from existing pages but not yet card-ified:
 - *Developing Strong Product Managers* (svpg.com) — the older gap-analysis tool that [[2019-04-08-cagan-coaching-tools-the-assessment|The Assessment]] updates.
