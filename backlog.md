@@ -18,9 +18,8 @@ The fastest way to start: ingest one source (e.g. a chapter of *TRANSFORMED*) an
 ✅ Created (2026-07-04, from a coaching query): `product-principles` — built from already-ingested sources (Manifesto + Coaching: Strategic Context + EMPOWERED); disambiguated from the 20 first principles.
 ✅ Created (2026-07-05, org-agnostic clarification): `strategic-context` — the org's baseline (the six elements); the home for "why the org must author/maintain it and supply it to agents separately." This wiki teaches *about* the baseline; it never stores one.
 ✅ Created (ingest 2026-07-11, TRANSFORMED Pass 3): `cross-functional-partnering` — the Part VI hub (Chs 21–26).
+✅ Created (2026-07-12, fixing flagged gaps): `product-operating-model` (top-level concept page) · `continuous-discovery` (carries the `dual-track` / `dual-track-agile` naming lineage as an alias — no separate page) · `insights`.
 Still to do:
-- `product-operating-model` (top-level concept page)
-- `continuous-discovery` · `dual-track` · `insights`
 - (Note: `the-product-model-vs-the-it-model` is partially covered by [[it-to-product-organization]] + [[transformation]] now; possibly redundant.)
 - (Note: `outcomes-over-output` exists as a **principle**, not a concept, to avoid duplication.)
 
@@ -56,10 +55,8 @@ Still to do:
 ✅ Created (ingest 2026-06-21, the Diagnostics Ingest): `feature-team-vs-empowered-team` · `discovery-health` · `delivery-health` · `product-strategy-quality` · `leadership-readiness` · `model-maturity` · `outcome-vs-output-orientation` · `stakeholder-relationship-health`.
 ✅ Created (ingest 2026-06-21, Transformation Ingest): `transformation-readiness` — the 8 readiness lenses to apply *before* starting a transformation.
 ✅ Created (ingest 2026-07-03, Video Ingest): `model-as-coach-readiness` — is your AI-as-coach setup aligned with Cagan's prescription.
-Still to do:
-- `team-collaboration-health` (trio dynamics; PM/designer/Tech Lead interplay)
-- `vision-quality` (is it inspiring? 2–5 years? a recruiting tool?)
-- `engineering-empowerment` (the "first source of just-now-possible ideas" test)
+✅ Created (2026-07-12, fixing flagged gaps): `team-collaboration-health` (trio dynamics; PM/designer/Tech Lead interplay) · `vision-quality` (formalizes the Product Vision FAQ's criteria) · `engineering-empowerment` (formalizes the sprint-planning-first test).
+Still to do: (none currently flagged)
 
 ## Case studies — `wiki/case-studies/`
 ✅ Created (ingest 2026-07-04, Real Examples): `amazon-prime` (Prime) · `spotify-discover-weekly` (Discover Weekly) · `google-product-model` · `apple-role-of-product` — the first four SVPG company case studies.
@@ -68,8 +65,8 @@ Still to do:
 - ⛔ **Out of scope:** `your-org-baseline` / any assessment of the user's own org. This wiki is **org-agnostic**; the org's baseline lives in its own store (see [[strategic-context]]), not here. (Superseded by the 2026-07-05 org-agnostic clarification.)
 
 ## Synthesis — `wiki/synthesis/`
-- `pom-vs-agile-and-safe` · `pom-vs-lean-and-design-thinking`
-- ~~`strongest-objections-to-the-model`~~ ✅ **Created 2026-07-11** as [[overcoming-objections]] (grounded in *TRANSFORMED* Part X, Chs 36–46). · `your-evolving-thesis`
+✅ **Created (2026-07-12, fixing flagged gaps):** [[pom-vs-agile-and-safe]] · [[pom-vs-lean-and-design-thinking]] · [[your-evolving-thesis]] (wiki-voice; a chronological thread through the wiki's own corrections).
+- ~~`strongest-objections-to-the-model`~~ ✅ **Created 2026-07-11** as [[overcoming-objections]] (grounded in *TRANSFORMED* Part X, Chs 36–46).
 - ✅ **Created (ingest 2026-07-03, Video Ingest):** [[the-point-is-outcomes]] — now grounded in the video canon ("we get points for outcome, not output" — [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf|Root Causes]]; "why outcomes are challenging to sustain" — [[2026-05-07-cagan-deep-dive-into-product-bvssh|BVSSH]]). Captured as DEBT 2026-07-02; the failure + AI-coaching + BVSSH talks supplied the source. *Original DEBT note follows for provenance:* a synthesis page that states the *chain of subordination* explicitly in one place: **the point is to move customer and/or business outcomes — to consistently innovate on behalf of customers.** Everything else is a means, not the end. In particular, *learning is a side-effect, not the goal*: the "no success/failure, only what did we learn?" framing in [[learning-over-failure]] is scoped to **discovery experiments** — learning is the *currency* of discovery so the team can place better bets, not the purpose of the work. Likewise shipping/delivery ("learn fast and ship safely and often") is a means. The connective tissue is currently spread across [[outcomes-over-output]], [[innovation-over-predictability]], [[learning-over-failure]], [[time-to-money]], and the [[outcome-vs-output-orientation]] diagnostic, but is never said as a single hierarchy. **Do not create this page from synthesis alone** (per CLAUDE.md, this would be wiki-synthesis masquerading as canon) — hold until a raw Cagan/SVPG source arrives that states the outcomes-are-the-point / learning-is-subordinate hierarchy directly, then ingest it and build this page grounded in that source. Captured 2026-07-02 from a coaching conversation with Aleksei.
 
 ## Entities — `wiki/entities/`
@@ -94,6 +91,12 @@ Still to do: add per-topic deep-links from each principle page into the library;
 
 ✅ **Ingested 2026-07-12:** *INSPIRED* 1st ed (2008) — deep on Chs 11, 13, 15, 12, 8; flag-and-note on Chs 14, 9, 21, 20. Closed the `reference-customer-program` / `reference-customers` dead-end (now `[[reference-customer-program]]`). Corrected: Ch 8 uses General George S. Patton (WWII), not Jeff Patton. Captured the 3-then-4 risks lineage on [[the-four-big-risks]]. Retired the Product Council (Ch 14) with an explicit note on [[product-leadership]]. Ingest plan file `INSPIRED-1ST-ED-INGEST-PLAN.md` deleted post-ingest.
 
+**⚠️ Highest-priority gap (2026-07-12 lint): EMPOWERED raw text is only ~10% present.** `raw/books/SVPG/EMPOWERED.txt` has body content through Ch 8 of 81 only (TOC lists all 81). Chs 9–81 — the full coaching mechanics, all of Staffing, Vision & Principles, the rest of Topology/Strategy/Objectives, the **Part VIII fictional-company case study**, Business Collaboration, and Part X (incl. *Meaningful Transformation* / *Transformation in Action*) — cannot be ingested until Aleksei adds the rest of the book text to the raw file. This blocks the wiki's single biggest available content gain. See [[empowered]] and the 2026-07-12 lint log entry.
+
+✅ **Ingested 2026-07-12** (lint follow-up): `Alternatives To Product Managers` (Cagan, 2023) · `When Performance Is Measured By Results` (Cagan/Wodtke foreword, 2016) · `Product Management vs. Project Management` (Cagan, 2007) · `Product Discovery` (Cagan, 2007 — the term's origin). All four carded as sources and integrated into [[product-manager]], [[apple]], [[apple-role-of-product]], [[product-leadership]], [[feature-teams-vs-product-teams]], [[delivery-manager]], [[okrs]], [[outcomes-over-output]], [[product-discovery]], [[minimize-waste]], and [[marty-cagan]]. See the 2026-07-12 log entry.
+
+**Still open — judgment call, not default full-build:** `raw/Product Managers/Good Product Manager Bad Product Manager.md` — this is Ben Horowitz / a16z (2012), not Cagan/SVPG. Would need explicit `role: supporting`/non-canon treatment per `CLAUDE.md`'s root-source discipline (same pattern as the Toxboe ingest) — ask Aleksei before including.
+
 Still to ingest — referenced from existing pages but not yet card-ified:
 - *Developing Strong Product Managers* (svpg.com) — the older gap-analysis tool that [[2019-04-08-cagan-coaching-tools-the-assessment|The Assessment]] updates.
 - *Customer-Inspired, Technology-Enabled* (svpg.com) — referenced from [[empowered-engineers]].
@@ -101,7 +104,7 @@ Still to ingest — referenced from existing pages but not yet card-ified:
 - *Behind Every Great Product* (svpg.com) — referenced from the PM-vs-PO source notes; Cagan's full-scope PM reminder.
 - *Transformation Fail* (svpg.com) — referenced from [[2023-12-05-cagan-alternatives-to-product-leaders]] (the "peanut-butter strategy"); the failure-case companion to [[transformation-readiness]].
 - *Product vs. Feature Teams* (svpg.com) — referenced extensively from [[2021-04-27-cagan-product-vs-project-teams]] and [[feature-teams-vs-product-teams]]; would deepen the *empowerment* axis distinction.
-- *Customer-Inspired, Technology-Enabled* (svpg.com) — referenced from [[empowered-engineers]] and [[2020-09-04-cagan-discovery-problem-vs-solution]].
+- ~~*Customer-Inspired, Technology-Enabled* (svpg.com)~~ ✅ ingested 2026-07-04 as [[2020-05-20-cagan-customer-inspired-technology-enabled]] (found stale in a 2026-07-12 lint pass; corrected here).
 - *Managing Commitments in an Agile Team* (svpg.com) — for high-integrity commitments, referenced from [[time-to-money]] and [[2022-09-17-moore-changing-how-you-build]].
 - *Empowered Engineers FAQ* (svpg.com) — would extend [[empowered-engineers]].
 - **Transformation companions (referenced from new transformation pages, would deepen the canon further):**
