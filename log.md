@@ -652,3 +652,66 @@ Two SVPG articles the user filed in `raw/Product Operations/`, both directly cro
 10. **Ch 58's Discovery Coaches sidebar** — grounded on [[types-of-product-coaching]] and [[product-coach]] already; the hub cross-references but doesn't restate.
 11. **No book text was reproduced.** Chs 33, 34, 36, 37, 38, 41, 42, 43, 44, 45, 50, 51, 52, 53, 54, 55, 56, 58 read in full via line-offset reads. All content paraphrased into the wiki's voice; short attributed quotes only.
 12. **No contradictions introduced.** The hub tightens material that was previously scattered across the principle pages and the individual framework pages ([[opportunity-assessment]], [[prototypes]], [[reference-customer-program]], [[pilot-teams]]) rather than restating it.
+
+## [2026-07-12] ingest | Continuous Discovery Habits (Torres, 2021) — Cagan-endorsed via Foreword
+**First non-SVPG book brought into the wiki as *primary-adjacent* canon.** [[teresa-torres|Teresa Torres]] is Cagan's public go-to product coach; *[[continuous-discovery-habits|CDH]]* carries a Foreword by [[marty-cagan|Cagan]] — his strongest endorsement of a non-SVPG discovery book. The book is the industry's most-used *operational* how-to for the discovery discipline SVPG canonically articulates.
+
+**Attribution rule established:**
+- *What discovery is + why it matters* → **Cagan/SVPG root** ([[inspired]] Chs 33–58, [[transformed]] Chs 10, 18).
+- *Specific operational techniques (OST, weekly interviews as keystone habit, assumption-testing discipline)* → **Torres/CDH root**.
+- *Where the two frame the same idea differently* (opportunities vs problems-to-solve; ethics-separate vs ethics-inside-viability; "change in human behavior" outcomes) → name the difference explicitly; neither is wrong.
+
+**Pages created (4):**
+- **Person entity:** [[teresa-torres]] — full profile including the Cagan-endorsement provenance, the six prerequisite mindsets, OST origin (2016 coaching moment), keystone-habit framing, the five-category assumption taxonomy, the *"opportunities include desires"* widening of problems-to-solve, the Josh-Seiden-not-Torres outcomes attribution correction, and collaborators (Hope Gurion, Petra Wille, Cagan, Jeff Merrell).
+- **Framework:** [[opportunity-solution-tree]] — outcome → opportunities → solutions → assumption tests; the seven benefits (Ch 2); distinct branches / parent-child / sibling structure (Ch 6); top-down + bottom-up dynamics; the 10-step build; the anti-patterns; a comparison table vs [[opportunity-assessment|Cagan's 10 questions]] ("use both — assessment for the entry gate, tree for the ongoing structure").
+- **Framework:** [[continuous-interviewing]] — the four-clause continuous-discovery definition (Ch 1); the **keystone habit** framing (Ch 14, Duhigg); story-based *"tell me about the last time…"* interviewing (Ch 5) grounded in Gazzaniga's left-brain interpreter + Kahneman's confidence-≠-truth; interview snapshots; distinguishing research questions from interview questions; recruiting and cadence; anti-patterns; a Cagan-vs-Torres alignment note (Ch 41 INSPIRED = same discipline, Torres adds keystone framing + story-based technique + snapshot artifact).
+- **Framework:** [[assumption-testing]] — the **five assumption categories** with **ethics kept separate** (Ch 9) — flagged as a lineage data point aligned with Cagan's pre-2017 ethics-as-separate framing (see below); story-map ideas to surface assumptions; the assumption map (importance × known-ness); simulate-experience-evaluate-behavior; specific-numbers success criteria (not percentages); early signals then larger tests; false positives vs false negatives; unmoderated user testing + one-question surveys as workhorses; Torres's *"we're not scientists — we're mitigating risk"* stance.
+
+**Pages promoted (1):**
+- [[continuous-discovery-habits]] — stub → drafting. Full 15-chapter tracker (depth-per-chapter table). Cagan-Foreword attribution. Key contributions section. Cross-references to existing SVPG canon (INSPIRED Ch 41, Ch 33 ethics). Case-study cross-attributions: [[almosafer]] via Ahmed Guijou at Seera Group (CDH Ch 6 opens with the *same* pivot Cagan tells in TRANSFORMED Ch 14); [[carmax]] via Victoria Lawson (CDH Ch 12 tells a within-CarMax discovery that complements Cagan's Ch 20 pandemic-transformation story).
+
+**Pages enriched (8):**
+- **[[outcomes-over-output]]** — **Torres attribution corrected:** *"outcome = a change in human behavior"* is **Josh Seiden**'s phrasing, quoted by Torres in the Ch 3 epigraph — **not Torres's own definition.** Torres's operational definition of a product outcome is *"a metric the trio can influence"* — very close to Cagan's usage; the wiki previously read as if Torres was strictly narrower than Cagan. Also added the **Ch 3 business/product/traction three-tier** taxonomy (with leading vs lagging + the Sonja Martin/tails.com worked example) and the **two-way negotiation** of the outcome between product leader and trio (parallels Cagan's KRs-from-team).
+- **[[team-objectives]]** — Torres taxonomy for the *right altitude of metric*; the two-way negotiation parallel; nuance correction propagated.
+- **[[the-four-big-risks]]** — Torres-2021 data point in the ethics-as-separate lineage note: CDH Ch 9 explicitly keeps ethics as its own category, aligned with Cagan's *pre-2017/2018* framing. Since Cagan wrote the CDH Foreword, this is a **legitimate alternative categorization** (not a contradiction) that has continued adjacent adoption. When coaching an SVPG-canon-oriented team use four-with-ethics-inside-viability; when a team is running Torres's five-category assumption map, don't force a re-categorization — the practical question ("is there potential harm?") is the same.
+- **[[empowered-with-problems-to-solve]]** — Torres's *"opportunities include desires"* widening of Cagan's *problems-to-solve* (Disneyland, ice cream, mountain biking are opportunities, not problems). Terminology-only; both frame the trio's charter the same way.
+- **[[product-discovery]]** — added Torres's four-clause operational definition of *continuous* discovery + the three complementary frameworks (OST · continuous interviewing · assumption testing) that operationalize discovery beneath the definition.
+- **[[product-discovery-techniques]]** — division of labor: **Torres = discipline for picking + sequencing tests; Cagan = the technique menu**. Cross-links to OST/continuous-interviewing/assumption-testing on the customer-interviews line.
+- **[[opportunity-assessment]]** — comparison table vs OST. Use both together (assessment for the entry gate on a specific opportunity; tree for the ongoing discovery structure once the trio has an outcome).
+- **[[almosafer]]** — CDH Ch 6 opens with the **same** istiraha marketplace pivot Cagan tells in TRANSFORMED Ch 14, through **Ahmed Guijou at Seera Group** (Almosafer's parent company). Torres adds operational detail on the two-sided OST mapping method the team used.
+- **[[carmax]]** — CDH Ch 12 tells the **Victoria Lawson / Digital Merchandising Experience** story: a discovery *within* the CarMax transformation, on how to communicate the reconditioning value proposition. Reveals the *"not now"* dimension of opportunity selection.
+- **[[recommended-library]]** — CDH entry enriched with Cagan-Foreword attribution, links to the three new framework pages, and pointer to the outcomes-attribution correction.
+- **[[marty-cagan]]** — Works section now includes the CDH Foreword.
+
+**Catalog updates:** `index.md` (latest-ingest banner; new Frameworks entries; new person + book + primary-adjacent entries; sources section) and `log.md` (this entry).
+
+**Decisions:**
+1. **Primary-adjacent, not primary.** Torres isn't SVPG; the book isn't SVPG canon. But Cagan's Foreword is the strongest possible endorsement short of co-authorship. The wiki treats CDH as *primary-adjacent* — cite alongside SVPG canon, don't rename it "SVPG canon."
+2. **Three separate frameworks, not one.** OST, continuous interviewing, and assumption testing each merit their own page because each is a full technique with its own steps, anti-patterns, and coaching moments. Bundling them would make each unreachable when a coach needs one.
+3. **Torres and Cagan's discovery frames are complementary, not competing.** The "opportunities vs problems" and "ethics separate vs inside viability" differences are legitimate framings that can coexist; the wiki names both.
+4. **The outcomes attribution correction is a lint moment.** The wiki had propagated *"Torres defines outcomes as changes in human behavior"* on [[outcomes-over-output]] and [[team-objectives]]. Direct reading of Ch 3 shows this wording is Seiden's epigraph, not Torres's operational definition. Both pages corrected on this pass; the correction is also mirrored on [[teresa-torres]], [[continuous-discovery-habits]], and [[recommended-library]] so any future grep for the phrase lands on the corrected framing.
+5. **Voice discipline:** no book text reproduced. Short attributed quotes only. The book is Torres's IP — the wiki *references* it (links to Amazon page, cites chapters, teaches about the frameworks) but does not reproduce it.
+
+**Facts captured:**
+- The **four-clause operational definition** of continuous discovery (Ch 1): weekly · by the team · small · in pursuit of an outcome.
+- Torres's **six prerequisite mindsets** (Ch 1): outcome-oriented · customer-centric · collaborative · visual · experimental · continuous.
+- Torres's **OST origin note** (2016 coaching moment; ProductTalk.org/ost-origin).
+- The **keystone habit** framing (Duhigg, Ch 14): weekly interviews unlock the other discovery habits.
+- **Direct questions produce ideal-self answers** (Ch 5): grounded in Gazzaniga's left-brain-interpreter studies and Kahneman's *"confidence is a feeling"*.
+- **Individuals outperform brainstorming groups** (Ch 8, Nijstad's *illusion of group productivity*).
+- **Cagan quoted directly in the CDH Ch 9 epigraph**: *"teams competent in modern discovery techniques can generally test on the order of 10–20 iterations per week"* — the target Torres's assumption-testing framework unlocks.
+- Torres's *"we're not scientists — we're mitigating risk"* stance (Ch 10 sidebar).
+- **The Almosafer istiraha pivot appears in both Cagan (TRANSFORMED Ch 14) and Torres (CDH Ch 6)** — SVPG-adjacent canon overlap.
+
+**Flags & attribution notes:**
+1. **Outcomes attribution correction propagated to three pages** — see decision 4.
+2. **Ethics-as-separate-risk lineage note updated** on [[the-four-big-risks]] to include Torres-2021 as evidence of continued adjacent adoption of the pre-modern framing.
+3. **No SVPG contradictions introduced.** Torres and Cagan differ in emphasis and terminology; the substantive discovery discipline is the same.
+4. **The [[2025-06-10-torres-wille-what-is-product-ops]] source card already existed** — Torres was previously in the wiki only via that product-ops podcast card. This ingest properly grounds her as a person entity and cross-links.
+
+**Next possible moves (backlog):**
+1. **`story-mapping`** — Jeff Patton's technique used by Torres in Ch 9 to surface assumptions. Could be its own framework page.
+2. **`customer-interviews`** as a dedicated framework page distinct from the [[continuous-interviewing|CDH-based]] one, if the wiki needs a Cagan-Ch-41 anchor for interviews-in-general (not just the weekly-cadence discipline).
+3. **`discovery-cycles`** — a synthesis page on Torres's Ch 12 *"managing the cycles"* (Simply Business · CarMax · FCSAmerica · Snagajob) if a coaching pattern emerges from re-reading those cases together.
+4. **Extend [[discovery-health]] diagnostic** with Torres's four-clause definition as a specific rubric (weekly? by the team? small? in pursuit of outcome?).
+5. **Cross-reference from [[overcoming-objections]]** — CDH Ch 14 is the industry's clearest "my company doesn't work this way" answer, aligned with the transformation-politics work.
