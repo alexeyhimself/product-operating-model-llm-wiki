@@ -6,12 +6,25 @@ A persistent, compounding **knowledge base** on the Product Operating Model ([Ma
 
 This repo is **open and community-maintained**. The easiest way to use it is one of the **product-coach plugins** — [for Claude Code / Cowork](https://github.com/alexeyhimself/product-operating-model-claude-plugin) or [for Codex CLI](https://github.com/alexeyhimself/product-operating-model-codex-plugin) — each of which bundles this wiki and keeps it in sync. Install the one that matches your agent, ask your questions, and the agent has the wiki as grounding without any clone or setup. To help make it richer, contribute pages back via pull request (see [How to contribute](#how-to-contribute)). It started as structure-only — schema, taxonomy, templates — and grows as sources are ingested and synthesized into the [`wiki/`](wiki/).
 
+## Wiki state
+
+_As of July 12, 2026._
+
+| Item | Amount |
+|---|---|
+| Sources ingested | 181 |
+| Concepts | 47 |
+| Frameworks | 20 |
+| People | 18 |
+| Books | 17 |
+| **Total wiki pages** | **355** |
+
 ## Use it with an AI agent
 
 The recommended path is one of the **product-coach plugins**, which bundle this wiki. No clone, no folder attach, no `git pull` — the plugin stays in sync with `main` automatically (see [Plugin sync](#plugin-sync)), so what your agent reads is always fresh.
 
-- **Claude Code:** [`alexeyhimself/product-operating-model-claude-plugin`](https://github.com/alexeyhimself/product-operating-model-claude-plugin)
-- **Codex CLI:** [`alexeyhimself/product-operating-model-codex-plugin`](https://github.com/alexeyhimself/product-operating-model-codex-plugin)
+- **Claude:** [`alexeyhimself/product-operating-model-claude-plugin`](https://github.com/alexeyhimself/product-operating-model-claude-plugin)
+- **Codex:** [`alexeyhimself/product-operating-model-codex-plugin`](https://github.com/alexeyhimself/product-operating-model-codex-plugin)
 
 ### 1. Install the plugin
 
@@ -38,11 +51,9 @@ cd product-operating-model-llm-wiki
 
 **[Cowork](https://claude.com/) (desktop app):** open Cowork → **New project** → attach this folder. Mark it **read-only** in the folder picker so the agent can read and cite pages but can't write to your clone. `CLAUDE.md` auto-loads as project instructions.
 
-**Codex CLI (terminal):** run `codex` from inside the repo. [`AGENTS.md`](AGENTS.md) auto-loads and points at [`CLAUDE.md`](CLAUDE.md), so the same conventions apply.
+**Codex:** run `codex` from inside the repo. [`AGENTS.md`](AGENTS.md) auto-loads and points at [`CLAUDE.md`](CLAUDE.md), so the same conventions apply.
 
-**Claude.ai Projects — not recommended.** Project knowledge is injected into the context of *every* message in that project, so attaching the whole wiki (~80+ pages and growing) burns a lot of tokens per turn and slows replies, even when the question only touches one page. Cowork and Claude Code read pages on demand, which is the right model for a wiki this size. If you must use this path: add **only [`CLAUDE.md`](CLAUDE.md) and [`index.md`](index.md)** to the Project files (skip the wiki body) and paste the starter prompt at the top of each new chat.
-
-To stay current on the clone path, run `git pull` — the agent picks up new and updated pages automatically on the next session.
+To stay up to date on the clone path, run `git pull` — the agent picks up new and updated pages automatically on the next session.
 
 ## Layout
 
