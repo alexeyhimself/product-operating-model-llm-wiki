@@ -8,16 +8,16 @@ This repo is **open and community-maintained**. The easiest way to use it is one
 
 ## Wiki state
 
-_As of July 12, 2026._
+_As of August 30, 2026._
 
 | Item | Amount |
 |---|---|
-| Sources ingested | 181 |
-| Concepts | 47 |
-| Frameworks | 20 |
-| People | 18 |
-| Books | 17 |
-| **Total wiki pages** | **355** |
+| Sources ingested | 228 |
+| Concepts | 60 |
+| Frameworks | 26 |
+| People | 26 |
+| Books | 18 |
+| **Total wiki pages** | **441** |
 
 ## Use it with an AI agent
 
@@ -66,7 +66,6 @@ To stay up to date on the clone path, run `git pull` — the agent picks up new 
 | [`templates/`](templates/) | One template per page type |
 | [`index.md`](index.md) | Catalog of all pages |
 | [`log.md`](log.md) | Chronological record of ingests, queries, lints |
-| [`backlog.md`](backlog.md) | Suggested pages to create |
 
 ## How to contribute
 
