@@ -243,14 +243,14 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[build-tony-fadell]] — 🌱 Fadell; making things worth making.
 - [[working-backwards]] — 🌱 Amazon mechanisms.
 - [[no-rules-rules]] — 🌱 Netflix; context over control.
-- [[creative-selection]] — 🌱 Apple; discovery by demo.
+- [[creative-selection]] — 📝 Apple; discovery by demo.
 - [[how-google-works]] — 🌱 Google; empowering smart creatives.
 - [[continuous-discovery-habits]] — 📝 [[teresa-torres|Torres]] (2021); continuous discovery how-to; **Cagan wrote the Foreword**. Root source for [[opportunity-solution-tree]], [[continuous-interviewing]], [[assumption-testing]]. Primary-adjacent canon.
 - [[trillion-dollar-coach]] — 🌱 Campbell; coaching leaders.
 - [[the-making-of-a-manager]] — 🌱 Zhuo; for new managers.
 - [[the-joy-of-agility]] — 🌱 Kerievsky; real agility.
 - [[accelerate]] — 🌱 DORA; delivery performance.
-- [[good-strategy-bad-strategy]] — 🌱 Rumelt; real strategy vs fluff (Cagan pick); focus ≠ prioritization.
+- [[good-strategy-bad-strategy]] — 📝 Rumelt; real strategy vs fluff (Cagan pick); focus ≠ prioritization.
 - [[the-art-of-action]] — 🌱 Bungay; military "command intent" = strategic context / OKRs done right (Cagan pick).
 - [[hiring-product-managers]] — 🌱 [[kate-leto|Leto]] (2021); the *Product EQ* frame — hiring and developing PMs on the human-skills dimensions that culture-fit + skills-check systematically miss.
 
