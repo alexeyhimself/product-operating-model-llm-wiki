@@ -432,3 +432,4 @@ _Each line preserves the exact `## [date] type | title` shape so `grep "^## \[" 
 ## [2026-08-31] revise | Batch B — alias-gap sweep (13 wikilinks)
 ## [2026-08-31] revise | Batch C — stub status bumps (lea-hickman + 2 book entities)
 ## [2026-08-31] revise | Batch D — index.md reconciliation + product-matters/workiva stubs
+## [2026-08-31] revise | Batch E — product-ethics vs the-four-big-risks contradiction
