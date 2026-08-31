@@ -1,14 +1,12 @@
 # OS cruft
 **/.DS_Store
-Thumbs.db
+**/Thumbs.db
 
 # Obsidian (vault config kept local, not shared)
 **/.obsidian
-.trash/
 
 # Editor / temp
 *.tmp
-*~
 .idea/
 .vscode/
 
@@ -18,3 +16,8 @@ Thumbs.db
 !/raw/assets/
 /raw/assets/*
 !/raw/assets/.gitkeep
+
+# AI agents local specific
+.claude
+.codex
+.agents
