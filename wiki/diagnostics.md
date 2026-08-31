@@ -4,7 +4,7 @@ type: overview
 aliases: [diagnostics, the-diagnostics, diagnostic-rubrics, assessment-rubrics]
 status: drafting
 tags: [diagnostics, hub, index, coaching, assessment]
-related: ["[[overview]]", "[[product-coaching]]", "[[model-as-product-coach]]", "[[CLAUDE]]"]
+related: ["[[overview]]", "[[product-coaching]]", "[[model-as-product-coach]]"]
 created: 2026-06-21
 updated: 2026-08-31
 ---
