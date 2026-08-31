@@ -21,9 +21,9 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 | [Synthesis](#synthesis) | 6 | Cross-cutting essays: the-point-is-outcomes, overcoming-objections, POM vs Agile/SAFe/Lean/Design-Thinking, evolving thesis, product-myths. |
 | [Resources](#resources-trusted-recommendations) | 1 | Recommendation engine mapping problems → SVPG-endorsed books/videos. |
 | [Sources](wiki/sources/INDEX.md) | 59 → | Moved to its own file to keep this catalog scan-cheap; open only for provenance ("where does X come from?"). |
-| [Entities — People](#entities--people) | 20 | Cagan, Moore, Jones, Idiodi, Hickman, Lauchengco, Torres, Patton, Campbell, Leto, Cullen, Fredell + 6 new Batch-3 externals (Shreyas Doshi, Gabrielle Bufrem, Anuar Chapur, Elias Lieberich, Marcus Castenfors, Mike Fisher) + the 7 *TRANSFORMED* Ch 34 coaches. |
+| [Entities — People](#entities--people) | 26 | Cagan, Moore, Jones, Idiodi, Hickman, Lauchengco, Torres, Patton, Campbell, Leto, Cullen, Fredell + 6 new Batch-3 externals (Shreyas Doshi, Gabrielle Bufrem, Anuar Chapur, Elias Lieberich, Marcus Castenfors, Mike Fisher) + the 7 *TRANSFORMED* Ch 34 coaches. |
 | [Entities — Books](#entities--books) | 18 | The 4 SVPG core (INSPIRED · EMPOWERED · TRANSFORMED · LOVED) + 13 recommended-reading titles + Leto's *Hiring Product Managers* stub. |
-| [Entities — Organizations](#entities--organizations) | 7 | SVPG + 6 named exemplar orgs (Amazon, Apple, Google, Spotify, Datasite, Palace Company). |
+| [Entities — Organizations](#entities--organizations) | 15 | SVPG + 14 named orgs — SVPG-article exemplars (Amazon, Apple, Google, Spotify); *TRANSFORMED* case-study orgs (Almosafer, CarMax, Trainline, Gympass, Datasite, Kaiser Permanente); Palace Company (hospitality exemplar); Learning Loop (Toxboe's discovery-technique publisher, supporting/non-SVPG); Product Matters (Elias Lieberich's coaching company, external); Workiva (Cagan-coached precedent mentioned via Datasite). |
 
 **How to use this catalog.** Skim the jump table → open the relevant section(s) → scan the one-line entries for the pages worth reading. Wikilinks resolve inside the vault; from a chat reply, cite pages as `wiki/<subdir>/<page>.md` (see `CLAUDE.md` §3 *Answer*).
 
@@ -262,3 +262,6 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[spotify]] — 📝 exemplar; the four-risks worked example (Discover Weekly); corrects "The Spotify Model" myth.
 - **From *TRANSFORMED* (Pass 2 ingest 2026-07-11):** [[almosafer]] · [[carmax]] · [[trainline]] · [[gympass]] · [[datasite]] · [[kaiser-permanente]] — six new org entities backing the seven book case studies. Adobe stays via [[lea-hickman]] and the [[adobe-creative-cloud-transformation|Adobe case study]] pending a dedicated Adobe entity.
 - **From *Product Therapy* (Batch 3 ingest 2026-08-30):** [[palace-company]] — Mexico-based hospitality group; the wiki's first hospitality / non-US / family-run exemplar; backs the [[palace-resorts-transformation]] case study.
+- [[learning-loop]] — 📝 Copenhagen-based product-education publisher (learningloop.io) run by [[anders-toxboe]]; supporting/non-SVPG source of the 89-play Idea Validation Playbook behind [[discovery-techniques-catalog]].
+- [[product-matters]] — 🌱 [[elias-lieberich|Elias Lieberich]]'s product coaching company (Europe); external to SVPG.
+- [[workiva]] — 🌱 the Cagan-coached disruption precedent that convinced Rusty Wiley the product model would work at [[datasite]]; single explanatory aside, minimal stub.
