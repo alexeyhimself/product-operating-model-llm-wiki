@@ -435,3 +435,4 @@ _Each line preserves the exact `## [date] type | title` shape so `grep "^## \[" 
 ## [2026-08-31] revise | Batch E — product-ethics vs the-four-big-risks contradiction
 ## [2026-08-31] revise | Batch F — psychological-safety grounding pass
 ## [2026-08-31] revise | Batch G — hygiene + orphan-link fixes
+## [2026-08-31] revise | Batch D follow-up — finish index.md reconciliation (jump-table counts + Entities—Organizations section)
