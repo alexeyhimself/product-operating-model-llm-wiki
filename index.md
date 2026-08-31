@@ -12,11 +12,11 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 | Section | Count | What it holds |
 |---|---:|---|
 | [Overview](#overview) | 1 | The Product Operating Model + 20 first principles in one page. |
-| [Concepts](#concepts) | 60 | Core ideas: discovery, delivery, the four risks, empowered teams, transformation, coaching mindset, PMM fundamentals, psychological-safety, AI-and-product-teams, remote-collaboration, product-in-startups, coaching-up, cultural-debt, transformation-anti-patterns, etc. |
+| [Concepts](#concepts) | 61 | Core ideas: discovery, delivery, the four risks, empowered teams, transformation, coaching mindset, PMM fundamentals, psychological-safety, AI-and-product-teams, remote-collaboration, product-in-startups, coaching-up, cultural-debt, transformation-anti-patterns, keep-the-lights-on, etc. |
 | [Principles](#principles) | 5 | The 20 first principles grouped by the 5 areas (teams · strategy · discovery · delivery · culture). |
 | [Competencies](#competencies) | 10 | Roles & skills: PM, designer, engineers, leadership, trio, delivery manager, coach, ops, PMM. |
 | [Frameworks](#frameworks) | 26 | Techniques & tools: opportunity assessment, OKRs, OST, continuous interviewing, prototypes, pilot teams, transformation ten keys, decision-making, strategy-jumpstart, etc. |
-| [Diagnostics](#diagnostics) | 15 | Rubrics to score a team / org / leader / setup against the model. |
+| [Diagnostics](#diagnostics) | 17 | Rubrics to score a team / org / leader / setup against the model. |
 | [Case studies](#case-studies) | 12 | Public exemplars from SVPG canon (Amazon, Spotify, Google, Apple + 7 from *TRANSFORMED* + Palace Resorts hospitality transformation). Org-agnostic. |
 | [Synthesis](#synthesis) | 6 | Cross-cutting essays: the-point-is-outcomes, overcoming-objections, POM vs Agile/SAFe/Lean/Design-Thinking, evolving thesis, product-myths. |
 | [Resources](#resources-trusted-recommendations) | 1 | Recommendation engine mapping problems → SVPG-endorsed books/videos. |
@@ -94,6 +94,7 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[coaching-up]] — 📝 the IC's craft of developing their own manager — exposing information the leader might not see so behavior can change, without a career-progression motive. Primary root: Hickman on *Product Therapy* Ep 27. Coaching-up vs managing-up distinction; if-your-manager-doesn't-coach-you sequence (ask directly · model the framework · celebrate when they try); jiu-jitsu for the always-right manager (ask for help); name-the-pattern with positive intent for the checked-out manager; Idiodi's **User Manual** technique (both write-one-about-your-manager and give-your-reports-one-about-you).
 - [[transformation-anti-patterns]] — 📝 the wiki's canonical named catalog of transformation anti-patterns. Primary root: Castenfors on *Product Therapy* Ep 38 (author of *10 Anti-Patterns When Moving to the Product Model*), with Hickman on Ep 37. Includes the *loop of transformation failure* (six-step), the *air sandwich* (vision above, backlog below, gap in the middle), *17 North Stars*, *transformation in a bubble*, *autonomy too soon*, the *three value buckets* (new / existing / protect), pilot theater / pilot-team factory / sacred golden child, *dependencies are the root of all evil*.
 - [[cultural-debt]] — 📝 the hidden cost of neglecting the system that governs how people work together — analog to tech debt; interest compounds silently. Primary root: Fisher on *Product Therapy* Ep 43. *What you reward always beats what you say* (Wells Fargo); wartime rationalizations become the culture; silence in rooms + "what he really meant" translation work as signals; Boeing (decades → 737 Max crashes → Alaska Airlines door bolts years later) as the long-tail example; blameless postmortem for cultural failures; **culture is a C-suite responsibility, not an HR problem**; avoidance disguised as kindness ("No More Mr. Nice Guy").
+- [[keep-the-lights-on]] — 📝 maintenance / compliance / bug-fixing / tech-debt work — separate from and not stopped by strategic focus ("would be suicide" — Cagan). Castenfors's three-buckets frame (new value / existing value / protect value); Idiodi's first rule of tech debt: talk about tech debt.
 
 ## Principles
 **Product Teams** — [[principles-of-product-teams]] (🌳 index)
@@ -161,11 +162,13 @@ Catalog of every page in the wiki, by category. **The coach reads this first whe
 - [[discovery-health]] — 📝 is discovery tackling the four risks fast and cheap, or theater? Nine weekly oversight questions + the two-week rule.
 - [[delivery-health]] — 📝 small/frequent/reversible/instrumented releases — or big-bang. Customer-impact assessment + gentle deployment.
 - [[product-strategy-quality]] — 📝 org-level: real strategy = focus + insights + actions + management. Or stakeholder roadmap dressed up.
+- [[strategy-and-focus-health]] — 📝 the *"we have a prioritization problem"* tell (it's actually a strategy problem); the four roadmap anti-patterns (stakeholder-driven / executive-driven / fill-the-bucket / feature-factory); the 12-big-rocks / best-in-class-everything pattern; the grandfather test. Faster, symptom-based companion to [[product-strategy-quality]].
 - [[leadership-readiness]] — 📝 does product leadership deliver strategic context and weekly coaching? The three documented failure modes.
 - [[model-maturity]] — 📝 whole-org rollup against the three transformation dimensions (build / solve / decide). Project model → exemplary.
 - [[outcome-vs-output-orientation]] — 📝 do you celebrate shipping or moving the KPI? The behavioral test of empowerment.
 - [[stakeholder-relationship-health]] — 📝 PM/stakeholder trust as the wall under viability; written-narrative discipline; the mojo moves.
 - [[transformation-readiness]] — 📝 **before** starting a transformation: 8 readiness lenses (scope clarity, leadership, coaching, pilot strategy, political plan, comms cadence, KTLO budget, patience). Distinct from [[model-maturity]] (current state).
+- [[transformation-execution-health]] — 📝 once a transformation/pilot is running: installation-vs-adoption; the leadership-intention-vs-team-reality gap; pilot theater / pilot-team factory / sacred golden child; the loop of transformation failure; 17 North Stars; the air sandwich; autonomy-too-soon-without-coaching. Distinct from [[transformation-readiness]] (preconditions to start).
 - [[model-as-coach-readiness]] — 📝 is your AI-as-product-coach setup aligned with Cagan's prescription (product-not-project framing, coach stance, strategic context, critique-seeking)? Protects coaching-not-contracting.
 
 ## Case studies
