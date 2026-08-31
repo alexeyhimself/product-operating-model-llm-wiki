@@ -429,3 +429,4 @@ _Each line preserves the exact `## [date] type | title` shape so `grep "^## \[" 
 ## [2026-07-12] ingest | LOVED Pass 1 — Part One Chs 1–6 (the Four Fundamentals)
 ## [2026-07-12] ingest | LOVED Passes 2 + 3 — Chs 7–30 (all remaining chapters, deep read)
 ## [2026-07-12] lint | Gap map for next ingests — raw/ reconciliation + book-tracker audit
+## [2026-08-31] revise | Batch B — alias-gap sweep (13 wikilinks)
