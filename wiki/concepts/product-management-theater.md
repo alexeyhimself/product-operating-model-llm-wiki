@@ -4,7 +4,7 @@ type: concept
 aliases: [pm-theater, product-leadership-theater, agile-theater, product-theater]
 status: drafting
 tags: [theater, feature-teams, product-manager, project-model, ai, core-concept]
-sources: ["[[transformed]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]]", "[[2022-12-01-cagan-the-nature-of-product-school-of-product]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2023-01-16-cagan-master-class-context-not-control]]"]
+sources: ["[[transformed]]", "[[2024-03-10-cagan-product-management-theater-lennys]]", "[[2021-06-10-cagan-the-cspo-pathology]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]]", "[[2022-12-01-cagan-the-nature-of-product-school-of-product]]", "[[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]]", "[[2023-01-16-cagan-master-class-context-not-control]]"]
 related: ["[[feature-teams-vs-product-teams]]", "[[product-manager]]", "[[product-leadership]]", "[[coaching-vs-contracting]]", "[[model-as-product-coach]]", "[[outcome-vs-output-orientation]]", "[[time-to-money]]"]
 created: 2026-07-03
 updated: 2026-07-03
@@ -34,7 +34,7 @@ The stakes rose sharply with generative AI, which **simultaneously exposes and a
 ## Anti-patterns & misunderstandings
 - **Not identical to [[feature-teams-vs-product-teams]].** That page is the *structural* axis (problems vs features; durable vs project). Theater is the *role-substance* symptom that rides on it: a person performing product-management activities without the skills or responsibilities. They travel together but name different things.
 - **"My team is empowered."** Often said, rarely true — Cagan treats the claim itself as a clue to look harder.
-- **Certifications as proof.** Cagan calls the big PM certifications "bogus"; a CSPO/PSPO teaches backlog administration in Jira, "very analogous to learning how to operate Google Docs" — a tool, not the job.
+- **Certifications as proof.** Cagan calls the big PM certifications "bogus"; a CSPO/PSPO teaches backlog administration in Jira, "very analogous to learning how to operate Google Docs" — a tool, not the job. The root treatment is [[2021-06-10-cagan-the-cspo-pathology|The CSPO Pathology (2021)]]: the certification is fine as PO-mechanics training, disastrous when it stands in as PM training.
 - **Using AI to end the theater by speeding the project model.** Generating PRDs, aggregating feedback into a roadmap — this deepens the theater. The escape is to *learn the product model* (see [[model-as-product-coach]], [[coaching-vs-contracting]]).
 - **Fatalism.** Cagan's counter: even an individual contributor has agency — self-assess, raise your skills from product-owner/feature-team PM toward real PM; companies notice and promote.
 
@@ -54,4 +54,5 @@ _Field note: where does theater show up in your org — in the PM role, the lead
 - [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] — the AI angle (three models; bottleneck shift).
 - [[2018-05-31-cagan-root-causes-of-product-failure-mtpcon-sf]] · [[2022-12-01-cagan-the-nature-of-product-school-of-product]] · [[2018-06-07-cagan-behind-every-great-product-mtpcon-london-2016]] — the role misconceptions and "three ways."
 - [[2024-04-14-cagan-escape-the-project-trap-agile-theatre]] · [[2023-01-16-cagan-master-class-context-not-control]] — the agile-theater sibling.
+- [[2021-06-10-cagan-the-cspo-pathology]] — the CSPO-pathology strand of certifications-as-proof; why a CSPO course produces backlog administrators, not PMs, and why the pathology feeds SAFe.
 - _Backlog: the SVPG "Product Management Theater" and "Product Leadership Theater" articles (not yet ingested)._

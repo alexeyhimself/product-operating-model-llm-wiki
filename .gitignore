@@ -21,3 +21,5 @@
 .claude
 .codex
 .agents
+# Local clippings (Obsidian web-clipper output) — not published
+/Clippings
