@@ -8,16 +8,16 @@ This repo is **open and community-maintained**. The easiest way to use it is one
 
 ## Wiki state
 
-_As of August 30, 2026._
+_As of September 5, 2026._
 
 | Item | Amount |
 |---|---|
-| Sources ingested | 228 |
-| Concepts | 60 |
+| Sources ingested | 292 |
+| Concepts | 68 |
 | Frameworks | 26 |
 | People | 26 |
 | Books | 18 |
-| **Total wiki pages** | **441** |
+| **Total wiki pages** | **524** |
 
 ## Use it with an AI agent
 
