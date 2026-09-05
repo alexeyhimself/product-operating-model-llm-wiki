@@ -4,7 +4,7 @@ type: concept
 aliases: [keep-the-lights-on, ktlo, protect-value, protect-value-work]
 status: drafting
 tags: [concept, focus, tech-debt, ktlo, protect-value, roadmap]
-sources: ["[[2025-10-02-idiodi-cagan-coaching-product-strategy]]", "[[2026-01-22-idiodi-jones-coaching-stakeholders]]", "[[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]]", "[[2020-03-04-cagan-team-objectives-action]]"]
+sources: ["[[2025-10-02-idiodi-cagan-coaching-product-strategy]]", "[[2026-01-22-idiodi-jones-coaching-stakeholders]]", "[[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]]", "[[2020-03-04-cagan-team-objectives-action]]", "[[2025-12-01-jones-cagan-stakeholders-and-the-product-model]]"]
 related: ["[[product-strategy]]", "[[team-objectives]]", "[[outcomes-over-output]]", "[[transformation-anti-patterns]]", "[[strategic-context]]", "[[strategy-and-focus-health]]"]
 created: 2026-08-31
 updated: 2026-08-31
@@ -52,6 +52,7 @@ _Field note placeholder — what percentage of your teams' capacity currently go
 
 ## Sources
 - [[2025-10-02-idiodi-cagan-coaching-product-strategy]] — Product Therapy Ep 29; "focus does not mean stop doing keep-the-lights-on work or stop tech debt — that would be suicide."
+- [[2025-12-01-jones-cagan-stakeholders-and-the-product-model]] — the stakeholder-facing definition: business reporting, compliance changes, and critical fixes, not usually requiring a problem statement or discovery.
 - [[2026-01-22-idiodi-jones-coaching-stakeholders]] — Product Therapy Ep 36; KTLO as the legitimate "constant buzz" behind regulatory/compliance stakeholder requests, and why teams should be trusted on it.
 - [[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]] — Product Therapy Ep 38; the three-buckets frame (new value / existing value / protect value); Idiodi's first rule of tech debt.
 - [[2020-03-04-cagan-team-objectives-action]] — the canonical naming of KTLO as a team's other, non-objective demand.

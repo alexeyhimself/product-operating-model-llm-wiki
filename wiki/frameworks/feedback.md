@@ -4,30 +4,51 @@ type: framework
 aliases: [feedback, coaching-feedback, radical-candor-adjacent, shared-feedback-frame]
 status: drafting
 tags: [coaching, feedback, communication, leadership, radical-candor, martina-lauchengco]
-sources: ["[[2024-08-29-idiodi-lauchengco-coaching-feedback]]", "[[loved]]", "[[empowered]]"]
+sources: ["[[2024-09-03-lauchengco-coaching-feedback-article]]", "[[2024-08-29-idiodi-lauchengco-coaching-feedback]]", "[[loved]]", "[[empowered]]"]
 related: ["[[coaching-mindset]]", "[[coaching-the-pm]]", "[[trust-over-control]]", "[[product-leadership]]", "[[pm-competency]]", "[[christian-idiodi]]", "[[martina-lauchengco]]"]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-05
 ---
 
 # Feedback (Coaching Framework)
 
-> A repeatable three-step frame for giving hard feedback — and a set of phrases that reframe challenge as inquiry — taught by [[martina-lauchengco|Martina Lauchengco]] on *Product Therapy* Ep 7 with [[christian-idiodi|Christian Idiodi]]. Adjacent to [Radical Candor](https://www.radicalcandor.com/) (Kim Scott); Lauchengco learned the specific frame from a mid-career coaching engagement and now teaches it to the Costanoa Ventures CEO cohort. Feedback is the [[product-coaching|coaching]] discipline applied to specific moments — most under-invested-in mechanic in the industry, and the one that most consistently keeps working relationships healthy.
+> The **SHARED™ Model** — a repeatable six-step frame for giving hard feedback, developed by Rebecca Zucker and her team at Next Step Partners — as taught by [[martina-lauchengco|Martina Lauchengco]] in [[2024-09-03-lauchengco-coaching-feedback-article|her SVPG article]] and its companion *Product Therapy* Ep 7 with [[christian-idiodi|Christian Idiodi]]. Adjacent to [Radical Candor](https://www.radicalcandor.com/) (Kim Scott); Lauchengco first used the model doing 360-degree reviews for Costanoa Ventures portfolio CEOs and now teaches it directly. Feedback is the [[product-coaching|coaching]] discipline applied to specific moments — most under-invested-in mechanic in the industry, and the one that most consistently keeps working relationships healthy.
 
 ## Why it matters
 Feedback is *how a person iterates on themselves* — the exact same discipline as product iteration, applied to a career. Its absence is one of the reasons people plateau and one of the reasons partnerships silently rot: *"a comment here and a comment there gets mistaken for a behavioral shift, or 'now this person doesn't like me,'* — small unresolved moments compound into false conclusions. The three-step frame is designed to release those tiny pressure valves early so they don't accumulate. *"Have these small conversations all along the way — keep collaborative relationships healthy."*
 
-## The three-step frame (Ep 7)
+## The SHARED™ Model — the full frame, from the article
+
+Lauchengco's [[2024-09-03-lauchengco-coaching-feedback-article|SVPG article]] names and roots the model the wiki previously described without naming: **SHARED**, developed by **Rebecca Zucker and her team at Next Step Partners**.
+
+| Letter | Step |
+|---|---|
+| **S** | **Share** your intent — open with a positive intention |
+| **H** | Provide context on when/where it **Happened** — the specific feedback |
+| **A** | Describe observed **Actions** |
+| **R** | Share **Results** or impact |
+| **E** | **Engage** with curiosity and listen — the coaching conversation begins |
+| **D** | **Discuss** next steps |
+
+**Lauchengco's own "keep it simple" compression** — what she actually holds in her head mid-conversation, and the version taught on *Product Therapy* Ep 7:
+
+1. **Lead with your intent.** *"I'm sharing this feedback because I believe in your potential as a leader, and I want to help you work on what might be in the way."*
+2. **Share the specifics of what you observed** — the concrete action and its impact.
+3. **Ask for their experience of the situation.** The step most people skip, and the one that de-escalates: *"engage with curiosity and listen to what's said but also what it infers."*
+4. **Finish with a coaching conversation**, now that both perspectives are on the table.
+
+The Ep 7 podcast-form three-step teaching is this same compression, phrased slightly differently for a spoken walkthrough:
 
 1. **Establish context first.** Reaffirm the relationship and the reason for the conversation before naming what happened.
    > *"Christian, I really value our working relationship, and I want to talk about the meeting we just had that felt uncomfortable."*
-
 2. **Share your experience — as *your experience*, not as fact.** Name what you observed and how it felt.
    > *"When you said X about the product decision I'd made, it felt like you were judging me — I'm sure that wasn't your intent, but it made me feel like that in front of all my peers."*
-
-3. **Ask for the other person's experience of the same moment.** *"I am curious what your experience of that was."* This is the step most people skip, and it is the step that de-escalates.
+3. **Ask for the other person's experience of the same moment.** *"I am curious what your experience of that was."*
 
 Once both experiences are on the table, the *interpretation gap* usually collapses — the other person often had a very different intent, and clarifying it (privately) prevents the small moment from becoming a story about the relationship.
+
+## Where the model came from
+Lauchengco first used SHARED doing 360-degree reviews for **Costanoa Ventures** portfolio CEOs. The finding: written 360 feedback wasn't the gap — CEOs didn't know *how* to actually hold the harder conversations with their own executives. Teaching the model directly, in 1:1 coaching, is what moved the needle. Her closing framing is explicitly "pay it forward": once you've experienced good feedback, the discipline is meant to spread through the people you lead.
 
 ## Two phrases that soften without diminishing
 
@@ -72,6 +93,7 @@ _Agent prompt: when did the leader you're coaching last give one report a piece 
 - [[martina-lauchengco]] · [[christian-idiodi]].
 
 ## Sources
-- [[2024-08-29-idiodi-lauchengco-coaching-feedback]] — **primary root**; the three-step frame, the two phrases, and the medium rules.
-- [[loved]] Ch 22 (Culture) and Ch 26 (Career Development) — supporting; the leadership-development-through-feedback frame is the systemic version of what Ep 7 teaches at the moment scale.
+- [[2024-09-03-lauchengco-coaching-feedback-article]] — **primary root**; names and structures the SHARED™ Model (Rebecca Zucker / Next Step Partners), the full six-letter breakdown, the "keep it simple" 4-step compression, the worked example, and the Costanoa Ventures 360 origin story.
+- [[2024-08-29-idiodi-lauchengco-coaching-feedback]] — **supporting**; the companion *Product Therapy* Ep 7 podcast-form elaboration — the two phrasing tools, the medium rules ("never email"), feedback up the ladder to a CEO, and positive-feedback specificity.
+- [[loved]] Ch 22 (Culture) and Ch 26 (Career Development) — supporting; the leadership-development-through-feedback frame is the systemic version of what the SHARED model teaches at the moment scale.
 - [[empowered]] Ch 7 (The Coaching Mindset) — supporting; Cagan's *"honest in both praise and criticism; don't sugarcoat"* is the mindset the framework operationalizes.

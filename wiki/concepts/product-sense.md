@@ -4,7 +4,7 @@ type: concept
 aliases: [product-judgment, doing-your-homework, product-intuition]
 status: drafting
 tags: [product-sense, judgment, onboarding, product-manager, coaching, discovery]
-sources: ["[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2020-02-22-cagan-product-strategy-the-missing-link]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]", "[[2024-05-02-idiodi-cagan-coaching-product-sense]]"]
+sources: ["[[2025-03-03-cagan-why-your-product-operating-model-is-broken]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2020-02-22-cagan-product-strategy-the-missing-link]]", "[[2024-03-26-cagan-russell-product-model-at-amazon]]", "[[2024-05-02-idiodi-cagan-coaching-product-sense]]", "[[2024-09-26-cagan-is-product-art-or-science]]"]
 related: ["[[founder-style-leadership]]", "[[product-manager]]", "[[product-coaching]]", "[[model-as-product-coach]]", "[[product-discovery]]", "[[powered-by-insights]]", "[[the-four-big-risks]]", "[[amazon-prime]]"]
 created: 2026-07-03
 updated: 2026-07-04
@@ -49,6 +49,9 @@ Ep 3's Cagan quote: *"the domain expertise is a double-edged sword — on one le
 ## Building product sense through biographies (Idiodi)
 An Idiodi coaching move worth naming: read biographies of great decision-makers not for the timeline, but for *how they made critical hard decisions under uncertainty* — the inputs they used, the trade-offs they navigated. Idiodi's specific list: Lincoln (David Herbert Donald); Steve Jobs (Isaacson); [[build-tony-fadell|*Build*]] (Fadell). The learning target is decision-making calibration, not domain facts.
 
+## Product sense as creative judgment, not just analysis
+[[2024-09-26-cagan-is-product-art-or-science|A shorter, more personal Cagan essay]] — prompted by Rick Rubin's *The Creative Act* — adds a framing worth holding alongside the homework-based account above: product creators (PMs, designers, engineers) share more with artists than a purely scientific account of product sense suggests. Both are fundamentally *creators*; both move through a "discovery" phase of open experimentation before "craft" hardens the work into final form. The difference is the goal, not the process — artists create primarily for self-expression, product creators create to deliver value to a business. Worth naming explicitly when someone treats product judgment as pure analysis: the muscle being built is closer to craft than to formula.
+
 ## Anti-patterns & misunderstandings
 - **"Product sense is innate."** Cagan: never been true — it's an excuse. It's learned by doing the homework.
 - **Domain dogma masquerading as domain expertise** (Shreyas Doshi) — knowing "how it's always been done" is not the same as real domain judgment; distinguish law from lore.
@@ -70,3 +73,4 @@ _Field note: how deliberately do your PMs build product sense in their first 90 
 - [[2020-02-22-cagan-product-strategy-the-missing-link]] — leaders as a "learning distribution machine"; product sense as connecting the dots.
 - [[2024-03-26-cagan-russell-product-model-at-amazon]] — STLs' strong product sense as the key to Amazon's success; backs [[amazon-prime]].
 - [[2024-05-02-idiodi-cagan-coaching-product-sense]] — *Product Therapy* Ep 3 with Cagan; the humility/curiosity/empathy triad; domain-as-double-edged-sword; the "biographies for decision-making" coaching move; Idiodi's $26M-losing origin story.
+- [[2024-09-26-cagan-is-product-art-or-science]] — supporting; product sense as creative judgment; the artist/product-creator "discovery and craft" parallel via Rick Rubin.

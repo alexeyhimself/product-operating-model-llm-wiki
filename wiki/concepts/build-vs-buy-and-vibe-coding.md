@@ -4,7 +4,7 @@ type: concept
 aliases: [build-vs-buy, vibe-coding, user-programming, build-vs-buy-and-vibe-coding]
 status: drafting
 tags: [ai, gen-ai, build-vs-buy, vibe-coding, mcp, saas, product-discovery]
-sources: ["[[2025-08-19-cagan-build-vs-buy-in-the-age-of-ai]]"]
+sources: ["[[2025-08-19-cagan-build-vs-buy-in-the-age-of-ai]]", "[[2026-04-09-cagan-commercial-vs-internal-products]]"]
 related: ["[[product-discovery]]", "[[intelligent-products]]", "[[ai-and-product-teams]]", "[[marty-cagan]]"]
 created: 2026-09-05
 updated: 2026-09-05
@@ -31,6 +31,9 @@ Cagan's prediction is not build-vs-buy resolving in either direction, but both s
 ### The enabler: the Model Context Protocol (MCP)
 The industry has needed a widely-accepted way for software to describe its services to *other software*, not just to people, since the early internet era. [Anthropic's Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) (proposed ~2024) is, per Cagan, finally solving that long-standing architectural gap — not a technical breakthrough so much as the moment "the stars align" for a problem the industry had needed to solve for thirty years.
 
+### Internal products: a milder version of the same pressure ([[2026-04-09-cagan-commercial-vs-internal-products|Cagan, 2026]])
+A later article notes, in passing, that internal users are "increasingly free to vibe-code their own internal tools" — a genuine, if low-stakes, new form of competition for internal product teams, alongside the long-standing pattern of in-house solutions competing against low-code/no-code alternatives. Cagan reads this as net positive: it frees more people to focus on the company's commercial products, which is where product discovery matters most (see [[the-four-big-risks]]). This is a milder instance of the same "does vibe-coding replace X?" question this page answers in full for commercial SaaS — the business-rules argument above is *why* it doesn't eliminate the need for genuine product teams even internally.
+
 ## Anti-patterns & misunderstandings
 - **"Vibe coding kills SaaS."** Confuses *ease of building an interface* with *possession of the business-rule knowledge needed to build a viable solution*. The hard part was never assembling code.
 - **Treating all vibe-coding tools as one category.** Cagan distinguishes engineer-productivity tools (Cursor, Replit — aimed at raising professional engineers' output) from tools aimed at non-technical end users (Lovable, Bolt) — acknowledging the line is blurring as the space matures.
@@ -43,6 +46,8 @@ _Field note placeholder — where in your org does a "build vs buy" decision get
 - [[product-discovery]] — the discipline vibe-coders will need whether or not they call it that.
 - [[intelligent-products]] — the deterministic-vs-probabilistic design question this concept doesn't directly address but sits adjacent to.
 - [[ai-and-product-teams]] — the broader reshaping of product-team roles under GenAI.
+- [[2026-04-09-cagan-commercial-vs-internal-products|Commercial vs Internal Products]] — the internal-vibe-coding note above.
 
 ## Sources
 - [[2025-08-19-cagan-build-vs-buy-in-the-age-of-ai]] — **primary root** for the whole concept: the user-programming history, the business-rules argument for why SaaS survives, the MCP-enabled "yes to both" forecast.
+- [[2026-04-09-cagan-commercial-vs-internal-products]] — light supporting citation for the internal-vibe-coding note.

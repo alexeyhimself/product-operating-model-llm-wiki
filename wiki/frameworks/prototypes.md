@@ -12,7 +12,7 @@ updated: 2026-09-05
 
 # Prototypes
 
-> The primary artifact of [[product-discovery|discovery]] / [[build-to-learn-vs-build-to-earn|build-to-learn]]: a cheap, deliberately incomplete thing you create to test one or more of [[the-four-big-risks|the four risks]] before committing engineers to production work. A prototype is "a fraction of the work" of a product — you skip automated tests, SEO, performance, scale, and maintainability on purpose.
+> The primary artifact of [[product-discovery|discovery]] / [[build-to-learn-vs-build-to-earn|build-to-learn]]: a cheap, deliberately incomplete thing you create to test one or more of [[the-four-big-risks|the four risks]] before committing engineers to production work. A prototype is "a fraction of the work" of a product — you skip automated tests, SEO, performance, scale, and maintainability on purpose. (A **[[visiontype]]** is a related but distinct prototype form — used to communicate a multi-year *vision*, not to test one of the four risks against a near-term backlog item.)
 
 ## When to use it
 Whenever you face a real risk — value, usability, feasibility, or viability — and don't yet have evidence. Cagan's rule for engineers: **never give a date (a [[high-integrity-commitments|high-integrity commitment]]) without first doing a feasibility prototype** ([[2023-06-02-cagan-are-roadmaps-ever-useful-talking-roadmaps|Talking Roadmaps]]). Match the prototype type to the risk you're testing.

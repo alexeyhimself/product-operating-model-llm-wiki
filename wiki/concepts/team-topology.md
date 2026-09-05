@@ -4,7 +4,7 @@ type: concept
 aliases: [team-topology, topology, product-org-design]
 status: drafting
 tags: [team-topology, org-design, product-leadership, empowerment]
-sources: ["[[transformed]]", "[[empowered]]", "[[inspired]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2021-03-23-cagan-internal-data-products-designing-for-analytics]]", "[[2024-06-24-cagan-pm-and-experimentation-testing-insights]]", "[[2025-12-19-cagan-lieberich-product-model-at-google]]", "[[2020-03-04-cagan-team-objectives-collaboration]]", "[[2025-08-07-idiodi-cagan-coaching-team-topology]]", "[[2025-04-18-cagan-team-autonomy-and-ai]]", "[[2023-06-09-cagan-preparing-for-the-future]]", "[[2026-07-23-cagan-the-ai-productivity-paradox]]", "[[2026-08-10-cagan-a-fresh-definition-of-the-product-role]]"]
+sources: ["[[transformed]]", "[[empowered]]", "[[inspired]]", "[[2020-11-19-cagan-product-leadership-is-hard]]", "[[2024-01-17-cagan-product-model-concepts]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2021-03-23-cagan-internal-data-products-designing-for-analytics]]", "[[2024-06-24-cagan-pm-and-experimentation-testing-insights]]", "[[2025-12-19-cagan-lieberich-product-model-at-google]]", "[[2020-03-04-cagan-team-objectives-collaboration]]", "[[2025-08-07-idiodi-cagan-coaching-team-topology]]", "[[2025-04-18-cagan-team-autonomy-and-ai]]", "[[2023-06-09-cagan-preparing-for-the-future]]", "[[2026-07-23-cagan-the-ai-productivity-paradox]]", "[[2026-08-10-cagan-a-fresh-definition-of-the-product-role]]", "[[2023-11-28-cagan-transformed-faq]]", "[[2025-12-01-jones-cagan-stakeholders-and-the-product-model]]"]
 related: ["[[product-leadership]]", "[[empowered-product-teams]]", "[[product-strategy]]", "[[product-vision]]", "[[the-product-team-trio]]", "[[data-product-management]]", "[[google-product-model]]", "[[okrs]]", "[[team-objectives]]", "[[psychological-safety]]", "[[ai-and-product-teams]]", "[[team-collaboration-health]]"]
 created: 2026-06-20
 updated: 2026-09-05
@@ -99,7 +99,7 @@ The critical context = (1) the overall product vision + (2) the specific busines
 
 **Naming credit.** SVPG had no name for this concept until Skelton & Pais's *Team Topologies* book (DevOps origin). Cagan reached out and asked to use the name — they agreed. **Two complementary perspectives:** the book optimizes for **throughput/flow** (bottom-up, DevOps); SVPG optimizes for **outcomes** (top-down, empowered teams). Both worth reading.
 
-**Topology ≠ org structure.** Org structure = reporting relationships (engineers report to eng managers, designers to design managers — the functional model is most common). Topology = *who is on each product team and what each product team is responsible for.* Same org structure can produce many different topologies. This distinction is Cagan's crispest statement to date; use it to close down definitional debates.
+**Topology ≠ org structure.** Org structure = reporting relationships (engineers report to eng managers, designers to design managers — the functional model is most common). Topology = *who is on each product team and what each product team is responsible for.* Same org structure can produce many different topologies. This distinction is Cagan's crispest statement to date; use it to close down definitional debates. **See [[org-design-models]]** for the org-structure side of this distinction in full — the GM/Functional/Hybrid models this page deliberately does not cover.
 
 **Cognitive load** (Cagan credits the *Team Topologies* book for surfacing this well). *"How much can you really fit in your head at one time when you're working on a specific problem?"* Thousands of business rules, millions of lines of code, layers of tech stack, APIs, SDKs — teams get lost in details. Under-discussed because it's a *squishy* factor that varies person-to-person.
 
@@ -139,11 +139,14 @@ Two shifts Cagan flags ([[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto|Moder
 
 **Checked against this question and ruled out — not resolving.** [[2026-07-23-cagan-the-ai-productivity-paradox|The AI Productivity Paradox]] (Jul 2026) and [[2026-08-10-cagan-a-fresh-definition-of-the-product-role|A Fresh Definition of The Product Role]] (Aug 2026) — the two most plausible later written follow-ups by date — were checked against this open question during the Sep-2026 ingest and neither resolves it. The Productivity Paradox is about *outcome quality* (whether AI speed converts to results), an axis orthogonal to headcount; Fresh Definition is about defining the product role via Benedict Evans's framing, unrelated to team sizing. **The open question stands, unresolved as of this ingest** — do not cite either article as an answer.
 
+## Topology is orthogonal to org design — and stakeholders navigate it through leadership
+[[2023-11-28-cagan-transformed-faq|Transformed FAQ]]: adopting the product model does not, in most cases, require reorganizing — the model is largely orthogonal to organizational design. The fuller treatment (GM / Functional / Hybrid org-structure models, and why they're a different axis from topology) lives on [[org-design-models]], rooted in [[2024-07-30-cagan-the-product-model-and-org-design|The Product Model and Org Design]] (ingested in Batch 6, concurrently with this batch) — this page already cross-links it above under "Topology ≠ org structure." From the outside, [[2025-12-01-jones-cagan-stakeholders-and-the-product-model|Jones & Cagan's stakeholder-facing article]] adds the practical corollary: when multiple product teams contribute to one offering, a stakeholder's primary contact is usually product leadership, who route to a specific PM as needed — a stakeholder does not need to track the topology itself to work effectively with it.
+
 ## In your context
 _Field note placeholder — pick a product team. Can it ship a meaningful end-to-end change without depending on another team? If no, who designed that dependency, and is it intentional?_
 
 ## Related
-- [[product-leadership]], [[empowered-product-teams]], [[product-strategy]], [[product-vision]], [[the-product-team-trio]]
+- [[product-leadership]], [[empowered-product-teams]], [[product-strategy]], [[product-vision]], [[the-product-team-trio]], [[org-design-models]]
 - Note: the book *[[transformed|TRANSFORMED]]* references Matthew Skelton & Manuel Pais's *Team Topologies* (2019) for the deeper treatment — useful further reading.
 
 ## Sources
@@ -162,3 +165,5 @@ _Field note placeholder — pick a product team. Can it ship a meaningful end-to
 - [[2023-06-09-cagan-preparing-for-the-future]] — **primary root** for the earliest cognitive-load/team-scope/fewer-teams claim and for the open more-vs-fewer-people question itself (hedged, unresolved even by its own author). Predates [[2025-04-18-cagan-team-autonomy-and-ai]] by 22 months.
 - [[2026-07-23-cagan-the-ai-productivity-paradox]] — checked against the open question above; doesn't resolve it (different axis — outcome quality, not headcount).
 - [[2026-08-10-cagan-a-fresh-definition-of-the-product-role]] — checked against the open question above; doesn't resolve it (unrelated topic — the product role's definition).
+- [[2023-11-28-cagan-transformed-faq]] — supporting; the product model is orthogonal to org design; see [[org-design-models]] (Batch 6) for the fuller treatment.
+- [[2025-12-01-jones-cagan-stakeholders-and-the-product-model]] — supporting; the stakeholder's-eye view of navigating a multi-team topology through product leadership.
