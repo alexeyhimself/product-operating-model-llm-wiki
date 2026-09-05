@@ -4,10 +4,10 @@ type: concept
 aliases: [ai-and-product-teams, ai-impact-on-product-teams, genai-and-product]
 status: drafting
 tags: [ai, gen-ai, product-teams, tech-lead, empowered-teams, product-discovery, product-delivery, product-strategy]
-sources: ["[[2025-05-15-idiodi-cagan-coaching-ai-impact-on-product-teams]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]"]
+sources: ["[[2025-02-25-cagan-a-vision-for-product-teams]]", "[[2025-05-15-idiodi-cagan-coaching-ai-impact-on-product-teams]]", "[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]"]
 related: ["[[product-discovery]]", "[[product-delivery]]", "[[empowered-engineers]]", "[[product-designer]]", "[[product-manager]]", "[[product-leadership]]", "[[team-topology]]", "[[the-four-big-risks]]", "[[remote-collaboration]]"]
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-05
 ---
 
 # AI and Product Teams

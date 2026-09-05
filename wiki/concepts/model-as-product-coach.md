@@ -4,10 +4,10 @@ type: concept
 aliases: [model-as-coach, ai-product-coach, foundation-model-as-coach]
 status: drafting
 tags: [coaching, ai, learning, foundation-models, core-concept]
-sources: ["[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]"]
+sources: ["[[2026-02-04-cagan-product-coaching-and-ai]]", "[[2026-04-14-cagan-ai-product-coaching-women-in-product]]", "[[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]]", "[[2025-02-25-cagan-a-vision-for-product-teams]]"]
 related: ["[[product-coaching]]", "[[trust-over-control]]", "[[marty-cagan]]", "[[svpg]]", "[[overview]]", "[[model-as-coach-readiness]]", "[[product-sense]]", "[[build-to-learn-vs-build-to-earn]]", "[[strategic-context]]"]
 created: 2026-06-14
-updated: 2026-08-30
+updated: 2026-09-05
 ---
 
 # Model as Product Coach
@@ -36,7 +36,7 @@ The single most valuable first use is building [[product-sense|product sense]] f
 **The full curriculum, verbatim from the Feb 2026 article.** *"After configuring your product coach, now you can start using the model-as-coach to learn about your company, your industry, your competitive landscape, your domain, the sales and marketing considerations, the financial considerations (both costs and monetization), the compliance, legal and privacy constraints, the key metrics used to assess your company's health, your different types of users and customers, your enabling technology, how your product team contributes to your overall product strategy, and how your team relates to other product teams."* This is the canonical starting curriculum for a new PM in their first weeks — quote it directly when coaching someone through what to ask the model.
 
 ### The zero-to-one problem — a Cagan retraction
-In an earlier piece ([A Vision For Product Teams](https://www.svpg.com/a-vision-for-product-teams/)) Cagan worried that experienced product creators would thrive in the AI era but newcomers would be *"blocked because the bar was too high for anyone that didn't already possess the necessary experience."* The Feb 2026 article walks that back: *"Today I'm happy to say that I think I was wrong about that. I didn't envision that the models would be able to get good enough, fast enough, that they could help to dramatically accelerate the learning curve for aspiring product creators and product leaders."* The retraction spans PMs, designers, **and especially engineers.**
+In an earlier piece ([[2025-02-25-cagan-a-vision-for-product-teams|A Vision For Product Teams]]) Cagan worried that experienced product creators would thrive in the AI era but newcomers would be *"blocked because the bar was too high for anyone that didn't already possess the necessary experience."* The Feb 2026 article walks that back: *"Today I'm happy to say that I think I was wrong about that. I didn't envision that the models would be able to get good enough, fast enough, that they could help to dramatically accelerate the learning curve for aspiring product creators and product leaders."* The retraction spans PMs, designers, **and especially engineers.**
 
 **Where it falls short (and why humans still matter):** the model is now surprisingly good at politics, but at the leadership level "there are things it doesn't even know it doesn't know" — above all, **it doesn't know *you* or your specific executives**. Cagan's example: a manager (Jennifer Bailey, herself coached by [[bill-campbell]]) explaining how each C-level peer reasons — knowledge no model has. Every product leader should use an AI coach *and*, ideally, a human leadership coach.
 

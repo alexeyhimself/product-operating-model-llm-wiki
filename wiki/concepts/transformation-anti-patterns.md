@@ -4,10 +4,10 @@ type: concept
 aliases: [transformation-anti-patterns, ten-anti-patterns, product-model-anti-patterns]
 status: drafting
 tags: [transformation, anti-patterns, loop-of-failure, air-sandwich, pilot-teams]
-sources: ["[[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]]", "[[2026-02-19-idiodi-hickman-coaching-transformations]]"]
+sources: ["[[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]]", "[[2026-02-19-idiodi-hickman-coaching-transformations]]", "[[2023-10-05-cagan-transformation-fail]]"]
 related: ["[[transformation]]", "[[transformation-as-a-project]]", "[[pilot-teams]]", "[[strategic-context]]"]
 created: 2026-08-30
-updated: 2026-08-31
+updated: 2026-09-05
 ---
 
 # Transformation Anti-Patterns
