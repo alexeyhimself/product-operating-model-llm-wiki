@@ -4,10 +4,10 @@ type: concept
 aliases: [agency, sense-of-agency, self-efficacy, coaching-agency, product-agency]
 status: drafting
 tags: [coaching, agency, mindset, empowered-teams, missionaries-vs-mercenaries, product-manager, self-efficacy]
-sources: ["[[2024-03-29-idiodi-cagan-coaching-agency]]", "[[empowered]]", "[[transformed]]", "[[2024-03-28-cagan-worrisome-trends-product-people]]"]
+sources: ["[[2024-03-29-idiodi-cagan-coaching-agency]]", "[[2024-02-13-cagan-product-leadership-theater]]", "[[empowered]]", "[[transformed]]", "[[2024-03-28-cagan-worrisome-trends-product-people]]"]
 related: ["[[coaching-mindset]]", "[[missionaries-vs-mercenaries]]", "[[empowered-product-teams]]", "[[feature-team-vs-empowered-team]]", "[[trust-over-control]]", "[[product-management-theater]]", "[[coaching-the-pm]]", "[[christian-idiodi]]"]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-05
 ---
 
 # Coaching Agency
@@ -24,7 +24,7 @@ Ep 1 of *Product Therapy* names three distinct psychological roots for low agenc
 2. **Do they feel *worthy*?** *"I'm just a new product manager — why should I get to decide these things?"* — the self-worth story where outcome ownership feels like an overreach. The coaching answer: *"that is your job; the company is counting on you to do that."*
 3. **Are they *scared*?** Low-agency environments are lower-stress — *"if things go wrong, it's not your fault."* Empowerment moves accountability toward the person, and the fear of visible failure is often what actually blocks the shift, especially where past risk-taking was punished.
 
-**Product Leadership Theater** ([[product-management-theater|Cagan]]) is the leadership version of this: *"many leaders go through their entire career blaming down at their teams, blaming up at their executives, and blaming sideways at their peers — and don't realize how much agency they truly have"* (Shreyas Doshi, quoted in this episode).
+**[[product-management-theater#product-leadership-theater|Product Leadership Theater]]** ([[2024-02-13-cagan-product-leadership-theater|Cagan]]) is the leadership version of this: leaders who complain about weak PMs, disempowerment, disengaged engineers, and distrustful stakeholders/CEOs without seeing each as a consequence of their own actions. Ep 1 puts the same idea in Shreyas Doshi's words: *"many leaders go through their entire career blaming down at their teams, blaming up at their executives, and blaming sideways at their peers — and don't realize how much agency they truly have."*
 
 ## How it works — the coaching move (Ep 1's tip of the week)
 Idiodi's script for turning a handed-down feature into a problem-to-solve (repeatable, disarming, works across seniority):
@@ -59,6 +59,7 @@ _Agent prompt: name the individuals on this team whose agency has visibly droppe
 
 ## Sources
 - [[2024-03-29-idiodi-cagan-coaching-agency]] — **primary root**; the inaugural *Product Therapy* episode where Idiodi coins agency as a coaching topic and delivers the tip-of-the-week script.
+- [[2024-02-13-cagan-product-leadership-theater]] — supporting; roots the "leaders blaming down/up/sideways" pattern this page's Product Leadership Theater reference draws on.
 - [[empowered]] Ch 7 (The Coaching Mindset) — supporting; agency is what Principle 2 (*Empowering People Produces the Best Results*) presupposes.
 - [[transformed]] — supporting; active coaching and trust are the leadership behaviors that grow agency.
 - [[2024-03-28-cagan-worrisome-trends-product-people]] — supporting; Cagan's parallel diagnosis of the same *trapped-in-a-feature-team* frustration.

@@ -36,6 +36,7 @@ Stakeholder dynamics determine which of two failure modes a team falls into when
 **Red flag:**
 - Stakeholders bypass the team entirely — go directly to engineers.
 - The "roadmap" is a "fair" allocation of engineering capacity across business units (the peanut-butter pattern).
+- Product leaders treat empowerment as a power transfer *from* stakeholders rather than a move to collaboration — humoring them instead of partnering with them ([[2024-02-27-hickman-transformation-theater|Hickman's "Stakeholder Collaboration Theater"]]).
 - Big features arrive as fait accompli from quarterly business reviews.
 - PM is regarded as a project manager / "herder of cats" ([[2019-08-29-cagan-product-vs-feature-teams|canon]]).
 - Stakeholders publicly blame the team for outcomes the team was never empowered to influence ([[2019-08-29-cagan-product-vs-feature-teams|canon]]).

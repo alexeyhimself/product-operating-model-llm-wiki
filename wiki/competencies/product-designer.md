@@ -5,10 +5,10 @@ aliases: [product-designer, designer, ux-designer]
 status: drafting
 tags: [competency, product-designer, trio, usability, experience]
 role: The member of the product team accountable for usability risk; owner of the holistic customer experience; the trio's prototyping and user-testing engine.
-sources: ["[[transformed]]", "[[inspired]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2016-08-30-jones-the-product-designer-role]]", "[[2011-01-06-cagan-beyond-usability]]", "[[2007-02-23-cagan-great-products-by-design]]"]
-related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-manager]]", "[[chris-jones]]"]
+sources: ["[[transformed]]", "[[inspired]]", "[[2023-03-15-cagan-product-model-competencies]]", "[[2016-08-30-jones-the-product-designer-role]]", "[[2011-01-06-cagan-beyond-usability]]", "[[2007-02-23-cagan-great-products-by-design]]", "[[2025-03-24-cagan-baxley-product-design-and-ai]]", "[[2023-06-09-cagan-preparing-for-the-future]]"]
+related: ["[[empowered-product-teams]]", "[[the-product-team-trio]]", "[[product-discovery]]", "[[the-four-big-risks]]", "[[product-manager]]", "[[chris-jones]]", "[[ai-and-product-teams]]"]
 created: 2026-06-20
-updated: 2026-07-12
+updated: 2026-09-05
 ---
 
 # Product Designer
@@ -30,6 +30,19 @@ updated: 2026-07-12
 3. **Prototyping** — uses prototypes as the primary canvas for communicating intent. Comfortable with multiple prototyping tools at multiple fidelities.
 4. **User testing** — weekly cadence; tests value as well as usability; collects insights not specifically being looked for.
 5. **Interaction and visual design** — both, with the toolset to work at different fidelities. Especially important in mobile where the two are deeply entangled.
+
+## Design sense — the five design disciplines (Cagan & Baxley, 2025)
+[[2025-03-24-cagan-baxley-product-design-and-ai|Cagan and design leader Bob Baxley]] name the craft foundation beneath the designer's contribution — **design sense** — as five disciplines. This is a *different* taxonomy from Jones's five attributes above, and the two are complementary, not competing: **Jones's five attributes describe the designer's practice** (how they work with the team — sit with the trio, use prototypes, test weekly); **these five disciplines describe the design craft itself** (what design sense actually draws on). Named as a pair with the PM's "product sense" for the first time.
+
+**Earlier precursor (2023).** [[2023-06-09-cagan-preparing-for-the-future|Preparing For The Future]] §8 is the actual origin of the underlying prediction, 21 months ahead of Cagan & Baxley's formal five-discipline taxonomy: designers skilled *only* in visual design were already, in 2023, seeing layoffs from automation and tooling; designers skilled at service and interaction design were becoming *more* essential, not less, "especially as the new generation of technology is exposing technology in ways that are new and in many cases unfamiliar to users." The 2023 article stays supporting — it makes the visual-vs-other-disciplines split but doesn't yet formalize the five-discipline taxonomy below, which is this article's own contribution.
+
+1. **Service design** — orchestrating the touchpoints and behind-the-scenes processes connecting an organization and its users, so they work together as one seamless experience. Pushes back on Conway's Law — the user feels they're dealing with a single entity, not "shipping the org chart." Absent this, the user feels shuttled between disconnected departments of a bureaucracy.
+2. **Information architecture** — structuring, organizing, and labeling a product's features and content around the user's existing mental models. Drives comprehension, findability, usability, engagement, and the sense that a product "makes sense." Done poorly, it leaves the user confused, frustrated, and lost.
+3. **Interaction design** — choreographing the conversation between user and system — selection and organization of on-screen elements, Fitt's Law, affordances, feedback loops, error handling. Most visible (and most felt when done poorly) in multi-step flows like sign-up or checkout.
+4. **Visual design** — how the product looks: selection, arrangement, and styling of on-screen elements, going beyond aesthetics to accessibility, affordance, and usability. Gestalt principles, grid systems, typography. Strong visual design builds trust; weak visual design signals the team "took little care" and can't be relied on.
+5. **Industrial design** — physical products only. Materials, manufacturing, repairability, production cost, transportability, environmental impact.
+
+Note this five-item list is *not* identical to the design-sense definition used on [[ai-and-product-teams]] (which substitutes *user research* for *industrial design*, likely a software-context simplification since industrial design applies only to physical products) — both citations are kept; this article, as the earlier and more detailed source, is primary.
 
 ## The [[inspired|INSPIRED]] Ch 11 grounding
 INSPIRED 2nd ed Ch 11 is the wiki's earliest book-form primary for this competency — written *for PMs learning to work with designers*, not for designers themselves. Ch 11's five sections match closely to Jones's five attributes and add three sharpenings:
@@ -77,7 +90,7 @@ Once a designer is dedicated to the team:
 _Field note placeholder — does each of your product teams have a designer who owns the five attributes? If the team's UX is being produced by the PM or by engineers, that's the gap._
 
 ## Related
-- concepts: [[empowered-product-teams]], [[product-discovery]], [[the-four-big-risks]]
+- concepts: [[empowered-product-teams]], [[product-discovery]], [[the-four-big-risks]], [[ai-and-product-teams]]
 - competencies: [[the-product-team-trio]], [[product-manager]], [[engineers]], [[product-leadership]]
 - principles: [[collaboration]], [[outcomes-over-output]]
 
@@ -86,3 +99,5 @@ _Field note placeholder — does each of your product teams have a designer who 
 - [[2023-03-15-cagan-product-model-competencies]] — Cagan's risk-ownership table (designer = usability, experience).
 - [[2016-08-30-jones-the-product-designer-role]] — the canonical role definition; the five attributes of the modern designer.
 - [[inspired]] Ch 11 — **primary (book-length)**; the PM-facing book form of the designer role. The 5 responsibilities (product discovery · holistic UX · prototyping · user testing · interaction+visual design); the **3 Absence-of-Product-Design anti-patterns**; the internal-agency anti-pattern; the *"design informs functionality as much as functionality drives design"* framing; the **5 keys to a strong PM ↔ designer relationship**; design as competitive differentiator by product type (consumer / B2B / SMB). Deep-read in the INSPIRED 2nd-ed close-the-gaps pass (2026-07-12).
+- [[2025-03-24-cagan-baxley-product-design-and-ai]] — **primary** for the five-design-disciplines "design sense" taxonomy (service design · information architecture · interaction design · visual design · industrial design), distinct from and complementary to Jones's five attributes above; pairs "design sense" with the PM's "product sense" by name for the first time.
+- [[2023-06-09-cagan-preparing-for-the-future]] — supporting; the 2023 precursor of the visual-vs-service/interaction-design disruption prediction, 21 months ahead of the formal taxonomy above.

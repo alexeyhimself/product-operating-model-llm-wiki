@@ -4,8 +4,8 @@ type: concept
 aliases: [transformation-anti-patterns, ten-anti-patterns, product-model-anti-patterns]
 status: drafting
 tags: [transformation, anti-patterns, loop-of-failure, air-sandwich, pilot-teams]
-sources: ["[[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]]", "[[2026-02-19-idiodi-hickman-coaching-transformations]]", "[[2023-10-05-cagan-transformation-fail]]"]
-related: ["[[transformation]]", "[[transformation-as-a-project]]", "[[pilot-teams]]", "[[strategic-context]]"]
+sources: ["[[2026-03-19-idiodi-castenfors-coaching-transformation-anti-patterns]]", "[[2026-02-19-idiodi-hickman-coaching-transformations]]", "[[2023-10-05-cagan-transformation-fail]]", "[[2024-02-27-hickman-transformation-theater]]"]
+related: ["[[transformation]]", "[[transformation-as-a-project]]", "[[pilot-teams]]", "[[strategic-context]]", "[[product-management-theater]]"]
 created: 2026-08-30
 updated: 2026-09-05
 ---
@@ -62,6 +62,8 @@ Transforming product-and-tech alone, without bringing sales, marketing, customer
 ## Product-management theater — installation not adoption
 
 Hickman's frame from Ep 37. Renaming Product Owners to Product Managers, calling it done. *"A great product leader once told me that's a problem of installation, not adoption. What we're trying to drive is adoption — grow the skills, develop them, coach them, make sure we're not just changing titles."* See [[product-management-theater]].
+
+**Note on this catalog vs. SVPG's own written taxonomy.** This page's catalog comes from Product Therapy coaching conversations (Castenfors, Hickman, Bufrem). [[transformation]] carries a parallel, earlier catalog from SVPG's own written canon — [[2024-02-27-hickman-transformation-theater|Hickman's "Transformation Theater"]] article names seven forms (Transformation, Title, Innovation, Discovery, Agile, Strategy, and Stakeholder Collaboration Theater). The two catalogs overlap in spirit — "installation not adoption" above is this page's version of what the article calls **Title Theater** — but are kept on separate pages deliberately: one is coaching-podcast voice, the other is SVPG written canon. See [[transformation#transformation-theater-the-wider-taxonomy|the full taxonomy]] rather than duplicating it here.
 
 ## Product leadership played as management
 

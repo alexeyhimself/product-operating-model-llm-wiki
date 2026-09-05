@@ -4,10 +4,10 @@ type: synthesis
 aliases: [product-myths, common-product-misconceptions, nine-product-myths]
 status: drafting
 tags: [myths, misconceptions, product-management, engineering, design, discovery, hiring, go-to-market]
-sources: ["[[2025-04-03-idiodi-jones-coaching-product-myths-part-1]]", "[[2025-06-26-idiodi-jones-coaching-product-myths-part-2]]"]
+sources: ["[[2025-04-03-idiodi-jones-coaching-product-myths-part-1]]", "[[2025-06-26-idiodi-jones-coaching-product-myths-part-2]]", "[[2024-02-27-hickman-transformation-theater]]"]
 related: ["[[feature-teams-vs-product-teams]]", "[[empowered-engineers]]", "[[product-designer]]", "[[product-manager]]", "[[product-discovery]]", "[[coaching-mindset]]"]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-05
 ---
 
 # Product Myths
@@ -37,7 +37,7 @@ Most product-transformation failures are not the *absence* of the product model 
 **Correction:** discovery is **not a formula, recipe, or process — it's a set of tools that inform your judgment.** People love this misconception because it lets them *replace* judgment with process ("I followed discovery, product didn't work, must be the process"). Right-size discovery based on actual risks and confidence needed. Idiodi's illustration: PM asks *"how do I do discovery?"* — actual issue = the site is down. Direct manager's job = spot when a PM is **grinding metal** (weeks of tweaking a prototype) and call it. See [[product-discovery]], [[product-discovery-techniques]].
 
 ### Myth 6 — "We need to iterate on a solution until it succeeds."
-**Correction:** some grit is valuable; runaway sunk-cost pushing a rock uphill is not. Product teams don't recognize they're running against a **clock** — the moment the business gives you a problem, there's a race for the value of the team. Idiodi's diagnostic: *"when a company says 'we have an innovation team,' that literally means my product team is not innovating."* Same for acquisitions: *"I've not met a single CEO who tells me 'if we thought we could build this better and quicker ourselves, we wouldn't have bought this company.'"* See [[the-need-for-speed]], [[time-to-money]].
+**Correction:** some grit is valuable; runaway sunk-cost pushing a rock uphill is not. Product teams don't recognize they're running against a **clock** — the moment the business gives you a problem, there's a race for the value of the team. Idiodi's diagnostic: *"when a company says 'we have an innovation team,' that literally means my product team is not innovating"* — a sharper, later echo of Hickman's **Innovation Theater**, named over a year earlier in the [[2024-02-27-hickman-transformation-theater|Transformation Theater]] article. Same for acquisitions: *"I've not met a single CEO who tells me 'if we thought we could build this better and quicker ourselves, we wouldn't have bought this company.'"* See [[the-need-for-speed]], [[time-to-money]].
 
 ### Myth 7 — "Product managers need product owners."
 **Correction:** the PO/BA role is a **historical artifact of the waterfall→agile transition** — companies changed the title but not how they worked. **Two people doing one job = handoffs = command-and-control by another name.** Jones's reframe: **inside game vs outside game.** Inside game = engineers, stories, technical decomposition. Outside game = customers, markets, discovery, stakeholders. Both must live *in a single skull.* **The PO role has no career path in a serious product company.** Idiodi's cost argument: 10-person team = ~$1.5–2M/year in salaries = ~$55–65k/sprint — that is not a decision to split across two roles. See [[product-manager]], [[delivery-manager]], [[feature-teams-vs-product-teams]].
