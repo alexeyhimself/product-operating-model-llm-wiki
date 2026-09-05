@@ -142,6 +142,23 @@ Two shifts Cagan flags ([[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto|Moder
 ## Topology is orthogonal to org design — and stakeholders navigate it through leadership
 [[2023-11-28-cagan-transformed-faq|Transformed FAQ]]: adopting the product model does not, in most cases, require reorganizing — the model is largely orthogonal to organizational design. The fuller treatment (GM / Functional / Hybrid org-structure models, and why they're a different axis from topology) lives on [[org-design-models]], rooted in [[2024-07-30-cagan-the-product-model-and-org-design|The Product Model and Org Design]] (ingested in Batch 6, concurrently with this batch) — this page already cross-links it above under "Topology ≠ org structure." From the outside, [[2025-12-01-jones-cagan-stakeholders-and-the-product-model|Jones & Cagan's stakeholder-facing article]] adds the practical corollary: when multiple product teams contribute to one offering, a stakeholder's primary contact is usually product leadership, who route to a specific PM as needed — a stakeholder does not need to track the topology itself to work effectively with it.
 
+## Five ways to cut teams, and the tell-tales of a wrong cut (Jones, 2024)
+
+[[chris-jones|Jones]] in [[2024-11-02-jones-from-features-to-outcomes-khodor|*From Features to Outcomes*]], asked directly whether to organise around KPIs, technologies or problems. His answer starts by refusing the premise that you pick *one*: a company almost always employs several, in pockets.
+
+**The cuts:**
+1. **Technology layer** — mobile, web, backend, a model-building team. Comfortable (engineers together, same reporting line), and the one most orgs default to.
+2. **Actor in the ecosystem** — a retailer splitting merchants vs. online shoppers vs. in-store shoppers.
+3. **A facet of the journey / experience.**
+4. **Vertical industry** — serving financial services differently from manufacturing or media.
+5. **Go-to-market motion** — direct-sales portfolio vs. self-service SMB.
+
+**On organising a team around a KPI, Jones is explicitly unenthusiastic** — growth teams specifically. They cut across many other teams, generate dependencies, and lose broader context. His preference: let the KPI show up **in the problems allocated to teams** ("for this quarter, growth is the most important thing for you") rather than in the org chart. The exception he grants: if a KPI genuinely needs deep focus over a long period, homing it in a team may be right.
+
+**Two tell-tales that the topology is wrong:**
+- **Drowning in dependencies.** Cross-team collaboration never goes to zero, but if enormous time and energy goes into getting six teams to collaborate, redraw the boundaries.
+- **Charters so thin that nobody owns anything.** Lots of small teams each holding a tiny piece, disconnected from any impact — *"you're really not in a position where you're creating this sense of empowerment through ownership of something."* See [[sense-of-ownership]].
+
 ## In your context
 _Field note placeholder — pick a product team. Can it ship a meaningful end-to-end change without depending on another team? If no, who designed that dependency, and is it intentional?_
 
@@ -167,3 +184,5 @@ _Field note placeholder — pick a product team. Can it ship a meaningful end-to
 - [[2026-08-10-cagan-a-fresh-definition-of-the-product-role]] — checked against the open question above; doesn't resolve it (unrelated topic — the product role's definition).
 - [[2023-11-28-cagan-transformed-faq]] — supporting; the product model is orthogonal to org design; see [[org-design-models]] (Batch 6) for the fuller treatment.
 - [[2025-12-01-jones-cagan-stakeholders-and-the-product-model]] — supporting; the stakeholder's-eye view of navigating a multi-team topology through product leadership.
+
+- [[2024-11-02-jones-from-features-to-outcomes-khodor]] — Jones (Nov 2024); the five cuts, the scepticism about KPI-shaped teams, and the two tell-tales of a wrong topology.

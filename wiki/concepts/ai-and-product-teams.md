@@ -99,3 +99,15 @@ When coaching a product leader in mid-2025 or later, use Cagan's Ep 20 as the cr
 - [[2026-04-14-cagan-ai-product-coaching-women-in-product]] — supporting (Apr 2026 talk form)
 - [[2026-06-04-cagan-pm-theater-age-of-ai-modern-cto]] — supporting (Jun 2026 talk form; the PM-theater intersection; also deepens the topology claim rooted above)
 - External references from Ep 20 show notes: Tim O'Reilly, *"The End of Programming as We Know It"*; Chip Huyen, *AI Engineering* — flagged on [[recommended-library]]
+
+## The EQ argument — what is left when AI does the IQ work
+
+A distinct line of argument running through three sources in the 2023–2025 corpus, worth recording alongside the capability-focused material above because it points somewhere different: not at what AI can do, but at which *human* capability appreciates as a result.
+
+**[[kate-leto|Leto]]** ([[2025-03-20-idiodi-leto-coaching-emotional-intelligence]]): AI does more of the work every year, *"but AI does not help me think of new ideas, be creative; AI does not help me interact with people and become that better human that's going to be there when things get challenging."* Her conclusion is that emotional intelligence and the other human skills become **more** important as the technology improves, not less. [[christian-idiodi|Idiodi]]'s compression of the same point: **"AI is IQ now."** See [[emotional-intelligence]].
+
+**Idiodi** ([[2024-06-25-idiodi-product-sense-product-momentum]]) makes the sharper version as a reductio on [[product-sense]]: *"if it's only about the data and the inputs, then ChatGPT should have the best product sense — we should just check with it for all of the decisions we make."* No amount of data automatically resolves what is right *for these humans, at this time, in this context*; the interpretation is the contribution.
+
+**Idiodi's 2023 position** ([[2023-05-30-idiodi-building-strong-product-cultures-product-unfiltered]]), recorded here as an early datapoint rather than a current one: AI absorbs mundane and elementary tasks in every discipline and does not replace the disciplines. His example is the lawyer who uses AI to prepare basic documents, serves more clients, charges less, and delivers value sooner — against the lawyer who does not. *"Working with AI in a legal field, absolutely the future. Replacing a lawyer, I don't see it."*
+
+Treat these as the human-skills counterweight to the capability-and-productivity material; they are not in tension with it, but they answer a different question.

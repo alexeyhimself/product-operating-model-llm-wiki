@@ -62,3 +62,23 @@ Current best view: Agile (small, frequent, iterative delivery) is a necessary bu
 - [[2017-02-10-cagan-beyond-lean-and-agile-dan-olsen]] — primary; beyond-methodology framing.
 - [[empowered]] — primary (book-length); Ch 1 footnote 3, the delivery-team/SAFe callout.
 - [[2021-10-28-cagan-process-people]] · [[2018-07-26-cagan-tools-and-processes]] — primary; the general process-embeds-beliefs mechanism.
+
+## Cagan on SAFe, from the stage (ProductTank Oslo, 2022)
+
+The bluntest spoken version in the corpus, from [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo]]:
+
+> *"I cannot point to a single good product company that uses SAFe. That should scare you if you're using it."*
+
+> *"It stands for Scaled Agile Framework. It is not agile in any way, shape or form — that is pure marketing. Literally, it's pure marketing."*
+
+And the anecdote he offers as evidence rather than opinion: he asked a SAFe coach, directly, whether he had ever seen a company deploy it successfully. *"His answer was no, I haven't — but this is where all my revenue comes from."*
+
+Two structural observations that sit underneath the polemic and are the parts worth keeping:
+
+- **It sells to CIOs because it sells predictability**, which returns an organisation to quarterly releases and waterfall. Cagan's test: *"if you're not releasing at least every two weeks for every team, forget it — you're not getting any of the benefits of agile."* See [[small-frequent-uncoupled-releases]].
+- **An audience member's explanation, which Cagan accepts as apt:** SAFe succeeds partly because *"safe" is what process feels like* to the people inside it. Cf. [[process-people]] — process as absolution from judgment.
+
+Cagan also uses the moment to make the wider point that this is not a Europe-versus-Silicon-Valley phenomenon — *"I can point to companies in San Francisco that are totally addicted to process"* — though he does say the attraction to process is unusually strong in northern Europe, and that in Europe agile coaches do much of the product-manager training, which he considers the root of the [[2021-06-10-cagan-the-cspo-pathology|product-owner-as-job-title]] problem.
+
+## Sources (addition)
+- [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo]] — Cagan, ProductTank Oslo (Apr 2022).

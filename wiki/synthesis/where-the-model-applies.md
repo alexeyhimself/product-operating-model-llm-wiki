@@ -72,3 +72,17 @@ As of this ingest, the wiki treats "does the model apply here" as answerable by 
 - [[2026-04-09-cagan-commercial-vs-internal-products]] — commercial vs. internal as orthogonal axis; discovery as the commercial differentiator.
 - [[2023-09-12-cagan-who-is-product-operating-model-for]] — the wiki's existing scope-clarification article; this page extends it into the specific edge contexts.
 - [[transformed]] — root source.
+
+## Two additions from the 2024 Jones interviews
+
+**The non-tech exemplar: [[john-deere-smart-industrial|John Deere]].** Jones's standing answer to *"this is for software companies, not for us"* ([[2024-04-03-jones-moving-to-the-product-operating-model-product-people]]) is a 190-year-old agricultural-equipment manufacturer where *"everything was absolutely legacy"* — and where an **engineer**, given customer context through a two-way tractor camera, invented machine-learning-targeted herbicide spraying. His framing: pretty much every company is now a tech-enabled company, including ones that predate the internet and predate computers.
+
+**The corporate-IT limit, stated more sharply than elsewhere.** In [[2024-11-02-jones-from-features-to-outcomes-khodor]], asked about transformations that struggled, Jones raises traditional corporate IT organisations that are genuinely trying — chasing outcomes, time-to-value, pockets of ownership — but whose work is largely *integrating and configuring vendor tools* rather than building solutions:
+
+> *"Here's a place where the product model can apply somewhat — there are certain aspects of it that can apply — but it certainly can't be as total a transformation as something that is more directly customer-facing."*
+
+Consistent with [[2024-07-09-cagan-the-product-model-in-traditional-it|Cagan's build-plus-outcome-levers fit test]], and useful because it comes from the scaling side: an area can be an excellent fit for the **first pilot teams** and a progressively worse fit as the transformation spreads. Jones's other two scaling cautions belong here too — a transformation carried by one charismatic champion who leaves before critical mass, and **wartime energy that fades**, after which it is easy to slip back into the old ways.
+
+## Sources (additions)
+- [[2024-04-03-jones-moving-to-the-product-operating-model-product-people]] — Jones (Apr 2024); John Deere.
+- [[2024-11-02-jones-from-features-to-outcomes-khodor]] — Jones (Nov 2024); the corporate-IT ceiling and the two scaling cautions.

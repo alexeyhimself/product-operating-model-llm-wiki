@@ -149,6 +149,23 @@ Seven behaviors that earn it:
 6. **Fast, competent response to customer issues** — instrumentation and monitoring in place *before* customers notice, not after.
 7. **Understanding the obligation to keep the lights on** — unglamorous, non-innovative work that stakeholders will notice if the team seems not to understand or care about it.
 
+## The litmus test — "what can you do now that you couldn't do before?"
+
+Both *TRANSFORMED* co-authors, independently, in the video corpus, converge on the same test for whether a transformation is real. It is worth stating as the wiki's default question, because it is answerable and cannot be faked with an artefact.
+
+**Cagan**, opening [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo|ProductTank Oslo]]:
+
+> *"Whenever anybody tells me 'we've transformed', I want to ask: what could you do now that you couldn't do before? Isn't that the point of this stuff?"*
+
+He notes that the pandemic served as an unplanned proof point — some companies that claimed transformation did not survive it, and others not only saved themselves but grew substantially. His worked positive answer is [[guardian-eyewitness|the Guardian's *eyewitness* app]]: a 200-year-old newspaper building a new app on an unreleased device in seven weeks, which he observes even Google or Amazon would struggle to do.
+
+**Jones**, asked in [[2024-04-03-jones-moving-to-the-product-operating-model-product-people|*Moving to a Product Operating Model*]] how to measure a transformation, gives a two-part answer:
+
+1. **Your ordinary business outcomes** — and whether you can even *attribute* them to the product organisation. In most pre-transformation companies the honest answer is that nobody knows: technology is expensive and what it returns is unclear. So the start of a transformation is when you finally establish that baseline.
+2. **The qualitative half:** *"what are you capable of doing now that you weren't capable of doing before?"* — usually an innovation that came from no stakeholder and no top-down request. His worked answer is [[john-deere-smart-industrial|John Deere]]: an engineer, watching a farmer through a tractor camera, inventing machine-learning-targeted herbicide spraying.
+
+There is no clean transformation metric — no LTV or TCO equivalent. These two questions are what the canon offers instead, and they are more useful than they look, because a company that cannot answer the second one has usually only changed its vocabulary.
+
 ## Anti-patterns
 - **[[transformation-as-a-project|Transformation as a project]]** — manage the transformation in the very mode you're trying to leave.
 - **Checkbox transformation** — squads, OKRs, "discovery" rituals adopted without competencies, strategy, or empowerment ([[model-maturity|Level 2]]).
@@ -203,3 +220,6 @@ _Field note placeholder — which of the three dimensions is your org currently 
 - [[2023-10-05-cagan-transformation-fail]] — the ten root causes of failed transformations; also re-roots the "hiring a management consultancy" anti-pattern above (root cause #10, predates the 2025 talk by 18 months).
 - [[2024-11-12-cagan-winning-hearts-and-minds]] — the seven-behavior trust-earning pattern above; positive-pattern companion to [[transformation-as-a-project]].
 - [[transformed]] — root source.
+
+- [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo]] — Cagan (Apr 2022); the litmus test, the pandemic as proof point, and the full two-list failure taxonomy (see [[transformation-anti-patterns]]).
+- [[2024-04-03-jones-moving-to-the-product-operating-model-product-people]] — Jones (Apr 2024); the two-part measurement answer and the [[john-deere-smart-industrial|John Deere]] example.

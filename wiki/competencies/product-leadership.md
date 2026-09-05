@@ -193,6 +193,20 @@ Part VI, Ch 26 of *TRANSFORMED* is Cagan's fullest treatment of the *product-tea
 ## Governance — a blind spot Cagan names (2026)
 [[2026-07-01-cagan-great-products-bad-companies|Great Products, Bad Companies]] (Jul 2026) names something outside the leadership responsibilities above: corporate-governance structure, which most product leaders — Cagan included, by his own admission — are never taught to evaluate, yet which determines whether a company's mission and culture survive contact with board members and investors optimizing for a quick financial exit rather than the company's long-term health. See [[governance-and-mission-locked-companies]] for the fuller concept. Not one of the six [[strategic-context|strategic-context]] elements — it sits underneath them, determining who ultimately gets to set and change strategic context at all.
 
+## Two additions from the 2022–2024 talk corpus
+
+**CIO or CTO — cost centre or profit centre.** Cagan's sharpest structural point in [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo|ProductTank Oslo]], flagged by him as a difference he sees more often in Europe than the US: in a good product company **technology does not report to a CIO, it reports to a CTO** — *"a CIO runs a cost centre, a CTO runs a profit centre. You really couldn't get much different than that. It's a very different mindset."* His observed consequence: tech debt kills CIO-led organisations more often, because a CTO treats the codebase as the thing that powers the company rather than as a pile of paid-for code. See [[transformation-anti-patterns]] for the full external list this belongs to, and [[it-to-product-organization]].
+
+**The manager of product managers is the leverage point.** Cagan, relaying Ben Horowitz: the most important **non-C-level role** in a technology product company is the *manager of product managers*. The chain — your products are only as good as the product teams that create them; those teams are only as good as their product manager; so **who is accountable for having strong product managers?** That first-line manager, who does the recruiting and the coaching. Cagan's two follow-ons to product leaders, both worth quoting as-is:
+
+> *"You will be judged by your weakest product manager."* When he asks a CEO about their product management, they immediately zero in on the weakest one.
+
+> To CEOs: *"you should know who your product managers are by name, and you should believe that each of them has the potential to be a future leader of your company. If you don't believe that's possible with this person, it's probably the wrong person."*
+
+And the encouraging half: taking someone with the raw materials to competent PM normally takes **two to three months** — *if* their manager is actually coaching them. See [[coaching-the-pm]] and [[product-coach]].
+
+**How much of a first-line leader's time this is.** [[chris-jones|Jones]] ([[2024-04-05-jones-product-power-play-pmdojo]]): *"the realization that the most important job you have is coaching your team — that's a bit of a flip for a lot of people. Usually it's at least **50% of your time** for a first-line manager."* His own framing of the transition: *"once you become a real leader of product, your product is the organization you're building"* — and the value you create becomes invisible in a way that requires a leap of faith. Backs [[product-career-development]].
+
 ## In your context
 _Field note placeholder — can each product leader articulate their team's vision, topology, strategy, and current objectives without notes? How much of last week did first-level managers spend on coaching? Where is the strategic context still missing for the trio? Does your product leadership know your own company's governance structure?_
 
@@ -232,3 +246,7 @@ _Field note placeholder — can each product leader articulate their team's visi
 - [[inspired]] — Ch 14 "The Product Council" (1st ed, 2008): Cagan's earlier proposal for a cross-functional executive review body making product go/no-go decisions across four milestones. Origin credited to Maynard Webb (eBay COO). **Largely retired in later canon** — replaced by product leaders providing strategic context + empowered trios making solution decisions + the executive partnership model (see the "Retired proposal" section above). Cite as `[[inspired]] Ch 14 (1st ed, 2008)` with the supersession note.
 - [[2023-12-12-cagan-product-managers-vs-product-leaders]] — the IC-vs-people-manager terminology ruling; the title ladders; group product manager as the explicit hybrid.
 - [[2025-08-27-cagan-product-leadership-archetypes]] — Cagan's opinion layer on Doshi's three archetypes: craft as foundation, the two types of operators, the decision guide, the "strong craft plus coaching" synthesis.
+
+- [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo]] — Cagan (Apr 2022); CIO-vs-CTO, the Horowitz manager-of-product-managers argument, *"judged by your weakest product manager"*, and *"you don't need less leadership, you need better leadership."*
+- [[2024-04-05-jones-product-power-play-pmdojo]] — Jones (Apr 2024); ~50% of a first-line manager's time on coaching; the your-product-is-the-organization framing.
+- [[2024-11-02-jones-from-features-to-outcomes-khodor]] — Jones (Nov 2024); the leader's two halves — providing [[strategic-context]] and coaching — with the four elements of strategic context a leader owes teams (vision, strategy, topology, problems framed as problems).

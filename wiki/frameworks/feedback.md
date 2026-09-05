@@ -73,6 +73,26 @@ When giving feedback up (to a boss, an executive, a CEO), the frame is the same 
 ## Feedback IS the coaching mindset in one moment
 Lauchengco's closing framing: feedback is not a separate discipline from [[coaching-mindset|coaching]] — it is the coaching discipline applied to a specific moment. A leader who never gives specific feedback is not coaching (regardless of title); a leader who gives good feedback often is coaching (regardless of title). This is why the Microsoft-interviewer discipline she cites — *"the interviewer works as hard as the interviewee, actively processing what they're hearing to find teaching moments"* — is a signature move for both interviewing and coaching. See [[coaching-the-pm]] for the systemic version.
 
+## Self-directed feedback — Leto's three exercises
+
+Most of this page is about feedback *given*. [[kate-leto|Kate Leto]] on [[2025-03-20-idiodi-leto-coaching-emotional-intelligence|*Coaching Emotional Intelligence*]] supplies the other half: what to do when you want feedback and nobody is systematically giving it to you. All three are cheap, need no budget and no HR programme, and belong to the **self-awareness trilogy** (know thyself · accept thyself · improve thyself) on [[emotional-intelligence]].
+
+**1. Daily reflection — and the "what/why" rule.** Ten minutes, morning or evening. *What am I looking to achieve today? What am I worried about? What am I grateful for?* Or in the evening: *what went well, what went wrong, what do I want to do differently?*
+
+The rule that makes it work: **frame every question with "what", never "why"**. Leto: *"if we knew why we did something, we probably wouldn't have done it that way in the first place. Our brain is just not in a place where it can answer a why — it sends us on a negative thought spiral."* The patterns come from the habit, not from any single entry.
+
+**2. Trusted critic.** Pick one or two people you are comfortable with **who will not sugarcoat**. Ask them to write down pros and cons — of you, of working with you, of living with you. You write the same list about yourself. Compare.
+
+> *"The interesting thing is when there's a big gap between what you think you're good at and what your trusted critic thinks you're good at. **The wider the gap, the more work you're going to have to do** — but haven't you learned something there."*
+
+**3. Observational feedback.** For a day or a week, simply **write down what people actually say to you**. *"Kate, stop interrupting." "Kate, you're late for the meeting." "Kate, we already covered that." "Great idea, Kate."* Read the list at the end.
+
+Its power is that it needs nobody's cooperation and asks for nothing: the feedback is already being given out loud and simply not absorbed. Leto's examples of what surfaces — consistently five minutes late to calls; interrupting constantly; also, genuinely, that you are good at presenting.
+
+**Then run yourself as an experiment.** Product people are already fluent in this: take one pattern, define one change, run it a week, watch the response. *I will join calls five minutes early. I will put fifteen minutes between meetings.* Continuous improvement, pointed inward.
+
+**And get a growth partner.** Leto deliberately renames "accountability partner" — *"growth partner, it feels a little better, right"* — a coach, a peer, or a manager you have told what you are working on. Her reason for insisting: this is hard to do alone, and the first two exercises will surface things you would rather not have found.
+
 ## Anti-patterns & misunderstandings
 - **Email for hard feedback.** Ep 7's cautionary tale — do not.
 - **Feedback as a substitute for coaching.** The three-step frame is the moment-scale version; the [[pm-competency|assessment]] + [[coaching-the-pm|plan]] loop is the systemic version. Neither replaces the other.
@@ -97,3 +117,5 @@ _Agent prompt: when did the leader you're coaching last give one report a piece 
 - [[2024-08-29-idiodi-lauchengco-coaching-feedback]] — **supporting**; the companion *Product Therapy* Ep 7 podcast-form elaboration — the two phrasing tools, the medium rules ("never email"), feedback up the ladder to a CEO, and positive-feedback specificity.
 - [[loved]] Ch 22 (Culture) and Ch 26 (Career Development) — supporting; the leadership-development-through-feedback frame is the systemic version of what the SHARED model teaches at the moment scale.
 - [[empowered]] Ch 7 (The Coaching Mindset) — supporting; Cagan's *"honest in both praise and criticism; don't sugarcoat"* is the mindset the framework operationalizes.
+
+- [[2025-03-20-idiodi-leto-coaching-emotional-intelligence]] — Idiodi with Kate Leto, SVPG *Product Therapy* (Mar 2025); the three self-directed exercises, the what-not-why rule, and growth partners. Root page for the wider frame: [[emotional-intelligence]].

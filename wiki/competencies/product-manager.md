@@ -98,6 +98,27 @@ Cagan assesses PM competence along three pillars — **product knowledge, proces
 - **No customer contact** — reasoning about users from requests and opinions rather than first-hand knowledge.
 - **People-skill plateau** — competent on knowledge/process but unwilling to develop collaboration/stakeholder skills; Cagan: if there's no sincere interest in improving, it's time to find a more suitable role.
 
+## Why value and viability are what degrade first (Jones)
+
+A structural explanation this page can use, from [[2024-11-02-jones-from-features-to-outcomes-khodor|Jones]]: the PM's two risks are **value** and **viability** — and *"these two are particularly interesting, because in feature teams you don't usually have to worry about those things, at least not within the product team."*
+
+On a feature team, whoever asked for the work owns value and viability. If adoption fails, that is not the team's fault. **In the product model it is** — which is why the model needs someone who deeply cares about both, and why the role hollows out in an org that has not made the switch. [[christian-idiodi|Idiodi]] makes the same point from the other end in [[2023-12-21-idiodi-essence-of-product-management-lennys]]: *"if teams are given roadmaps of projects and features to build, you actually really don't need a product manager, because they're going to **assume** value."*
+
+Idiodi's viability breakdown is the fullest in this batch: is it sellable, can the Salesforce move it, is it compliant, does it work with our partnership obligations, can we market it — plus the observation that B2B and B2C differ mainly in the **weight of the constraint set**, not in the job.
+
+## The "Bob test" (Idiodi)
+
+Idiodi's device for explaining product management to a CEO who thinks they do not need it ([[2023-12-21-idiodi-essence-of-product-management-lennys|Lenny's Podcast]]):
+
+> Ask the CEO: *who in your company do you trust to make a decision on what markets we go to, what things we do?* They always have someone — *"Bob has been here a long time, he knows everybody, everybody trusts him, he understands our business."*
+> Then: **"Well — Bob is a product manager."** *"Imagine if you had Bobs on every team. Imagine how much you could accomplish."*
+
+The point is that **the role is competency-based**. The reason people dislike product managers, in Idiodi's diagnosis, is not the role but the experience of *incompetent* instances of it: the trust that lets a company delegate a decision comes from being the person who knows the customer, the data, the industry, the business and the product better than anyone. Where that competence is absent, the influence is displaced — to sales, to executives — and this is *"not a cultural knock or a leadership knock, it's really on the individual, and the discipline has to elevate itself to a place that it **earns** the right to make a decision."*
+
+His practical instruction to a PM who does not have that standing yet: go to the loudest, most influential person in the organisation and ask them to **teach** you — and if they have no time, offer to help them instead. You borrow their trust, build the relationship, and learn what their influence is actually made of. See [[emotional-intelligence]] and [[hiring-and-onboarding]] for the leader-side version of the same technique.
+
+**The framing he offers PMs about the job itself:** *"you wake up on behalf of someone else to solve a problem for them, and you have to do it well enough that they give you something back in return — a certificate of appreciation. Revenue, engagement, loyalty, reference."* And the calibration: *"if it's not fun, you're probably not doing it right. If it's not hard, you're probably also not doing it right."*
+
 ## Relationships
 - **The trio.** The PM works as a peer with the [[product-designer|product designer]] and the [[engineers|tech lead]] (the [[the-product-team-trio|trio]]), not above them — "what each of design and engineering brings to the table is just as essential as what the PM brings." Prototyping, wireframing, and user research are the designer's job, not the PM's ([[2020-06-12-cagan-product-management-start-here|canon]]).
 - **Stakeholders.** Built on mutual trust earned by understanding constraints and previewing concerns — harder than trio trust because interactions are fewer and weightier.
@@ -152,3 +173,8 @@ The PM is the person who **operates the cross-functional partnerships** the mode
 - [[2026-08-10-cagan-a-fresh-definition-of-the-product-role]] — Benedict Evans's problem-discovery/value/viability framing (via Cagan); tempers the Era-of-the-Product-Creator optimism.
 - [[2026-04-28-cagan-build-to-learn-faq]] — the decider/protector/manager clarification of what the PM's job in build-to-learn is not, and the value+viability restatement of what it is.
 - [[2023-12-12-cagan-product-managers-vs-product-leaders]] — the explicit IC-vs-people-manager terminology ruling; the title ladders; group product manager as the named hybrid.
+
+- [[2023-12-21-idiodi-essence-of-product-management-lennys]] — Idiodi (Dec 2023); the Bob test, competency as the source of trust, the certificate-of-appreciation framing, and value as the most overlooked risk.
+- [[2024-11-02-jones-from-features-to-outcomes-khodor]] — Jones (Nov 2024); why value and viability are the risks that degrade first on a feature team.
+- [[2024-04-05-jones-product-power-play-pmdojo]] — Jones (Apr 2024); the two things to raise your game on — know your customers better than anyone in the company, and know how the business actually makes money — plus *"your stakeholder is not your customer."*
+- [[2023-05-30-idiodi-building-strong-product-cultures-product-unfiltered]] — Idiodi (May 2023); the doctor analogy — the core competency is diagnose-then-prescribe, specialisms sit on top, and every doctor can do CPR.

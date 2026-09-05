@@ -73,6 +73,16 @@ Once a designer is dedicated to the team:
 - **B2B products** — *"one of your best competitive differentiators."* Most B2B products have awful design because the user isn't the customer — a new breed of B2B companies taking design seriously are *"displacing the old guard."*
 - **Small-business products** — user IS the buyer; bar as high as consumer.
 
+## Prototyping volume — Jones's calibration
+
+A rare quantitative statement of what a product designer's week actually looks like in the model, from [[2024-11-02-jones-from-features-to-outcomes-khodor|Jones]]:
+
+> *"A good product designer is doing maybe more than **a dozen prototypes in a week**. They might be very lightweight, some might be higher fidelity, **most of them are going to get thrown away** — but the whole point is there's always this churn of ideas the team can be discussing and that can be brought in front of customers."*
+
+The prototype is the designer's **canvas**, not their deliverable. Jones's framing of the role shift is the same one this page makes from *EMPOWERED* Ch 11: in the old model design is downstream and tactical — a lot of decisions have already been made before the designer is involved, and what is left is UX and visual work on a solution someone else chose. In the product model the designer is often the person figuring out **how the experience actually works**, which is Jones's preferred Jobs quote: *"design is not just what it looks and feels like — it's how it actually works."*
+
+See [[prototypes]] for the fidelity taxonomy and [[2025-09-12-cagan-the-purpose-of-prototypes]] for why throwing them away is the point.
+
 ## Common failure modes
 - **Internal-agency mode** — recreating the external-agency model in-house: requirements come down, mocks go up. Loses every benefit of in-house design.
 - **UI-only practitioner** — treats UI as the whole job; the team has no one watching the broader UX.
@@ -101,3 +111,5 @@ _Field note placeholder — does each of your product teams have a designer who 
 - [[inspired]] Ch 11 — **primary (book-length)**; the PM-facing book form of the designer role. The 5 responsibilities (product discovery · holistic UX · prototyping · user testing · interaction+visual design); the **3 Absence-of-Product-Design anti-patterns**; the internal-agency anti-pattern; the *"design informs functionality as much as functionality drives design"* framing; the **5 keys to a strong PM ↔ designer relationship**; design as competitive differentiator by product type (consumer / B2B / SMB). Deep-read in the INSPIRED 2nd-ed close-the-gaps pass (2026-07-12).
 - [[2025-03-24-cagan-baxley-product-design-and-ai]] — **primary** for the five-design-disciplines "design sense" taxonomy (service design · information architecture · interaction design · visual design · industrial design), distinct from and complementary to Jones's five attributes above; pairs "design sense" with the PM's "product sense" by name for the first time.
 - [[2023-06-09-cagan-preparing-for-the-future]] — supporting; the 2023 precursor of the visual-vs-service/interaction-design disruption prediction, 21 months ahead of the formal taxonomy above.
+
+- [[2024-11-02-jones-from-features-to-outcomes-khodor]] — Jones (Nov 2024); the dozen-prototypes-a-week calibration and the strategic-vs-downstream framing of the role.

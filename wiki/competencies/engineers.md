@@ -67,6 +67,18 @@ Multiple Tech Leads per team is *"all the better."*
 ### Ch 12 on communication style
 *"It's also worth pointing out that engineers often have different work styles, which is also true for many designers. The product manager needs to be sensitive to the best way to interact. For example, many product managers are happy to speak in front of a larger group, or even a group of senior executives, but many engineers or designers are not. It's important to be sensitive to this."*
 
+## The tech lead's discovery time — a number (Jones, 2024)
+
+The canon is consistent that the tech lead participates in [[product-discovery|discovery]]; it rarely says *how much*. [[chris-jones|Jones]] gives a figure in [[2024-11-02-jones-from-features-to-outcomes-khodor|*From Features to Outcomes*]]:
+
+> *"If you are the tech lead, understand — yes, your day job is delivery, that's the main thing you're doing. But you do have a bit of a **side hustle** here on discovery, and you should expect that **20–25% of your hours** are going to be on tasks that are more about figuring out **what** we're building rather than just how."*
+
+Concretely: actively collaborating, looking at and weighing in on prototypes, judging feasibility of a given approach, and at times participating directly in customer interviews and user tests — plus acting as the conduit back to the rest of the engineering team on the discovery side.
+
+**Jones's answer to "why should a tech lead care about discovery?"** is not a fairness argument, it is a value argument: *"we're not getting the full value out of our engineers if we use them the way you just described."* Engineers know what is technically possible **right now** in ways nobody else does — which is why, in the best companies, they are often the real engine of ideation. The traditional split (*product owns the what and the why, engineering owns the how*) is precisely what forecloses that.
+
+The clearest demonstration in the wiki is [[john-deere-smart-industrial|John Deere]]: an engineer watching farmers through a tractor camera, who had the machine-learning insight nobody had asked for. See also [[empowered-engineers]] and [[2020-04-20-cagan-the-most-important-thing]].
+
 ## Common failure modes
 - **Sprint-planning surprise** — engineers first see ideas as Jira tickets at sprint planning. The diagnostic above.
 - **Outsourced engineering** — Cagan: "a strong tech-powered product company would no sooner outsource their engineers than they would outsource their CEO."
@@ -96,3 +108,6 @@ _Field note placeholder — when did your engineers last see a real customer? Wh
 - [[inspired]] Ch 12 — **primary (book-length)**; the PM-facing framing of the engineer relationship. *"There's probably no more important relationship."* The PM-side disciplines (do your homework · develop programming literacy · share your homework · engage daily on two axes · don't spell out the how · own team morale). The **Tech Lead role** as the engineer who explicitly helps PM + designer discover strong solutions; the *"what's not okay is a team where none of them wants to engage in discovery"* standard. Deep-read in the INSPIRED 2nd-ed close-the-gaps pass (2026-07-12).
 - [[2025-09-17-cagan-forward-deployed-engineers]] — root for the new [[forward-deployed-engineers]] concept; the engineers-embedded-with-customers practice, cited here as an intensified form of empowered-engineer customer access.
 - [[2024-05-21-cagan-good-product-people]] — the claim that many of the best product people are engineers by title; the McCue/White illustration.
+
+- [[2024-11-02-jones-from-features-to-outcomes-khodor]] — Jones (Nov 2024); the tech lead's ~20–25% discovery time and the value argument behind it.
+- [[2022-04-13-cagan-common-transformation-pitfalls-producttank-oslo]] — Cagan (Apr 2022); *"if you're just using your engineers to code, you're only getting about half their value"* — and the case against outsourced engineering (*"would you outsource the CEO?"*). Also the honest exception: a company can carry some engineers who only want to go deep on scale or fault tolerance, as long as **at least one senior engineer per team** cares what gets built.
