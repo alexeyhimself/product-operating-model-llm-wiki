@@ -739,3 +739,27 @@ Ingest plan Batch 10, revised same-day after Batches 0–9. Four jobs, none skip
 **Counts.** Sources 42/294 → **43/297** (one new bundle, three new cards). Concepts/Principles/Competencies/Frameworks unchanged (no new pages of those types this batch). Both entity pages (Hickman, Idiodi) enriched, not created. [`wiki/sources/INDEX.md`](wiki/sources/INDEX.md) carries the new *three long-referenced discovery/culture talks* bundle at the end of the primary catalog. [`index.md`](index.md): Latest-ingest blockquote rewritten, prior Batch-10 line compressed into the Previous line, jump-table Sources row updated 42/294 → 43/297.
 
 **Batch completed in one session:** roughly 15 files touched — 3 new source cards, substantive body edits to ~8 existing pages, sources: frontmatter bumps on ~12 pages, plus `index.md`, `wiki/sources/INDEX.md` and `log.md` themselves. `Clippings/` is now empty.
+
+## [2026-09-11] ingest | Cagan, *Strong Opinions, Loosely Held* (SVPG, Sep 2026)
+Ingested the single file dropped in `Clippings/` — Marty Cagan's *Strong Opinions, Loosely Held* (SVPG, 11 Sep 2026), the narrative version of a Lenny & Friends Summit keynote. Moved to `raw/First Principles/Marty Cagan/` (gitignored, local-only). A rare **first-person retrospective**: Cagan answers *"what did you used to argue was true that you no longer believe?"* by naming **the ten biggest things he's learned since INSPIRED's 1st edition (2008)** that represent a significant change from what he'd publicly argued.
+
+**Why this one is unusual.** The source *is itself* a lineage document, so its natural home is [[your-evolving-thesis]] rather than any single concept page. Every one of the ten **reweights emphasis on canon the wiki already holds** — none contradicts it — and several independently confirm corrections the wiki caught earlier by other means (the three→four risks lineage; INSPIRED's structural omissions). Integrated as first-party emphasis-reweighting, not as a new framework; the underlying ideas stay attributed to their existing roots.
+
+**Source card created (1, primary):** [[2026-09-11-cagan-strong-opinions-loosely-held]] — full ten-point breakdown + "what it backs" + coach's notes (the two genuinely fresh emphases flagged: the churn "why?" #3 and competition as a "full-contact blood sport" #9; non-SVPG references — Ries's *Incorruptible*, plus Torres/Doshi as draft reviewers — handled per the §2 endorsement test, no new cards).
+
+**Pages integrated (8):**
+- [[your-evolving-thesis]] — new "Cagan grades his own work — the ten regrets" thread (the meta home); added to Related + Sources (this page's one first-party primary).
+- [[inspired]] — new "Cagan's own retrospective self-critique" section (#1 viability buried, #7 leadership omitted, #10 "people/process/product" structure a mistake); Related + Sources bumped.
+- [[the-four-big-risks]] — #1: Cagan's own 2026 verdict that understating viability was his "most serious mistake"; viability-via-systems-thinking as the AI-era superpower. Lineage note + Sources.
+- [[product-discovery]] — #2 (over-indexing on problem discovery / gatekeeping starves solution discovery — "when a product fails, it's almost always because the solution wasn't good enough") + new "The neglected 'why?'" subsection (#3 — why people use or leave your product; the churn-learning discipline).
+- [[product-sense]] — new "Thinking is the point — and process is how people avoid it" section (#10 thinking + product sense as its neglected foundation; the LLM-as-alternative-to-thinking worry) and #4 humility (the "CEO of the product" self-critique; humility as root cause of failed products).
+- [[innovation-over-predictability]] — #5: predictability's depth under-weighted; roadmaps/PRDs as false-certainty enablers; predictability at the root of output-focus and lost trust.
+- [[transformation-politics]] — #6: politics as a long blind spot ("that was naive"); "most of my content in the past three years" is politics or AI — first-party confirmation of why the page exists.
+- [[governance-and-mission-locked-companies]] — #8: stance escalated from "may have been a mistake" / "product teams as victims" to actively coaching product leaders to work with the CEO on a durable governance structure; re-cites Ries's *Incorruptible*.
+
+**Not built (deliberate):**
+1. **No new "competition" page for #9** ("full-contact blood sport") — a single striking source; captured on the source card and [[your-evolving-thesis]], revisit if a second source builds it out.
+2. **No entity/source card for Eric Ries's *Incorruptible*** — cited in passing, unchanged from the [[governance-and-mission-locked-companies]] Batch-8 handling; doesn't clear the §2 endorsement test on its own.
+3. **No new concept pages** — all ten points had existing homes; the value was first-party confirmation, not new territory.
+
+**Counts.** Sources 43/297 → **43/298** (one new card, added to the existing 2026 AI-era cluster — no new bundle). No new concepts/principles/competencies/frameworks/entities. [`index.md`](index.md): Latest-ingest blockquote rewritten (prior Batch-11 line demoted to "Prior ingest"), jump-table Sources row 43/297 → 43/298. [`wiki/sources/INDEX.md`](wiki/sources/INDEX.md): new card appended to the AI-part-2 bundle. `Clippings/` is now empty.
