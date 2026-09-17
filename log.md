@@ -866,3 +866,43 @@ Ingested the single file dropped in `Clippings/` — Marty Cagan's *Strong Opini
 - [`AGENTS.md`](AGENTS.md) — the "keep index.md and log.md current" bullet replaced with the three-file version, so non-Claude agents get the same rule. Pointer-only structure preserved; the rule itself still lives in `CLAUDE.md`.
 
 **Verification.** The documented command was run verbatim from the repo root and reproduces the table above exactly.
+
+---
+
+## [2026-09-18] lint | Full wiki health check — 6 defects fixed, 6 findings referred
+
+Triggered by the Ep-26–44 backfill: if one enumeration layer had silently gone stale, what else had? Scripted checks over all **531 pages** (232 content + 299 source cards): link graph, orphans, frontmatter completeness, folder/type agreement, index completeness, count consistency, stale enumerations, and raw-vs-card coverage.
+
+### Clean — ruled out
+- **Frontmatter: 0 defects.** Every page has `title`/`type`/`status`/`created`/`updated`; every one of the 299 source cards has `role`, `author`, `medium`, `source_url`, `date`.
+- **Index completeness: 0 gaps.** All 232 non-source pages appear in [`index.md`](index.md); all 299 cards appear in [`wiki/sources/INDEX.md`](wiki/sources/INDEX.md).
+- **Folder/type agreement: 0 mismatches** across all 531 pages. (`wiki/diagnostics.md` and `wiki/overview.md` are intentional hub pages typed `overview`, not strays.)
+- **Orphans: 0 content pages** with no inbound link.
+- **Jump-table counts** all reconcile against actual file counts.
+- **Dangling links are mostly by design and mostly documented** — of 41 dangling targets, 3 are documented deliberate non-targets (`fake-agile`, `story-mapping`, `products-over-projects-fowler`), most of the rest carry a *"related linked references (not yet pages)"* self-flag on the citing line. Only **6** were undocumented.
+
+### Fixed (6)
+1. **[[lea-hickman]] — arithmetic error.** Said *"appears on 6 episodes"* while correctly listing **8** (Eps 4, 8, 15, 18, 27, 32, 37, 42). Corrected to 8, and noted she is the most frequent co-host after Cagan.
+2. **[[product-coaching]] — stale enumeration ×2.** Both the section intro and the Sources list said *"13 episodes ingested (2024-03 through 2025-01)"*. Now **44 episodes (2024-03 through 2026-09)**. Same root cause as the entity-page backfill earlier today — the staleness had reached the **concepts** layer, not just entity pages.
+3. **Two path-style wikilinks**, which never resolve in Obsidian (wikilinks take a basename, not a path with `.md`): `[[wiki/sources/INDEX.md|…]]` on [[2025-03-20-idiodi-leto-coaching-emotional-intelligence]] → a plain markdown link; `[[wiki/sources/2025-03-20-…-emotional-intelligence.md|…]]` in `INDEX.md` → the correct `[[2025-03-20-idiodi-leto-coaching-emotional-intelligence]]`.
+4. **[[svpg]] — leftover template placeholder.** `- case-studies: [[ ]]` had shipped un-filled; now lists the *TRANSFORMED* and *Real Examples* case studies.
+5. **[[overcoming-objections]] — dangling mis-link.** `[[product-market-fit]]` pointed at nothing while [[market-fit]] covers exactly that discussion; repointed as `[[market-fit|product-market fit]]`.
+6. **`INDEX.md` Batch-3 tally** — *"Corpus total after Batch 3: 43 of ~54 episodes"* now also names Ep 44.
+
+Verified: dangling targets 41 → 38, no new breakage.
+
+### Referred — needs a decision, not a mechanical fix
+
+**A. Filename + alias collision on two case studies (highest priority).** [`wiki/case-studies/carmax.md`](wiki/case-studies/carmax.md) and [`wiki/entities/organizations/carmax.md`](wiki/entities/organizations/carmax.md) share a **basename** *and* the alias `carmax`; same for `almosafer` (both also share `seera-almosafer`). In Obsidian `[[carmax]]` and `[[almosafer]]` are therefore **ambiguous** — and there are ~30 such short-name links, including 5 that make the two *organization* pages link to themselves instead of to their case study. Concrete proof of the harm: this lint's own scripts, keyed by basename, **silently dropped 2 of the 14 case-study pages** (which is why an intermediate type-count read `case-study: 12`). Every other exemplar follows a distinct-name convention — `amazon-prime`/`amazon`, `trainline-transformation`/`trainline`, `guardian-eyewitness`/`the-guardian`, `spotify-discover-weekly`/`spotify`, `gympass-wellness-pivot`/`gympass`, `datasite-transformation`/`datasite`, `palace-resorts-transformation`/`palace-company`, `kaiser-permanente-get-care-now`/`kaiser-permanente`, `john-deere-smart-industrial`/`john-deere`, `google-product-model`/`google`, `apple-role-of-product`/`apple`. **Recommended:** rename the case studies to `carmax-omnichannel-pivot` and `almosafer-istiraha-marketplace`, drop the colliding aliases, and repoint the ~30 links — case-study links to the case study, company links to the org.
+
+**B. [[engineering-leadership]] — the wiki's most-wanted unbuilt page.** Cited as a *competency* from four delivery-principle pages ([[deployment-infrastructure]], [[monitoring]], [[small-frequent-uncoupled-releases]], [[innovation-over-predictability]]) with no note that it doesn't exist. The material partly lives on [[product-leadership]] (*INSPIRED* Ch 16's "Leaders of Technology") and [[engineers]]. Either build the competency page or repoint those four — currently the delivery principles point at nothing.
+
+**C. Three more undocumented dangling *framework* links.** [[focus]] and [[powered-by-insights]] cite `[[the-product-strategy-process]]` and `[[product-strategy-canvas]]`; [[instrumentation]] cites `[[product-metrics]]`; the [[2026-01-22-idiodi-jones-coaching-stakeholders]] card has `[[funding-model]]` in frontmatter `related:`. None exist. The strategy material is on [[product-strategy]] + [[strategy-jumpstart]]. Build, repoint, or self-flag as the other cards do.
+
+**D. Nine sources sitting in `raw/` with no card.** Eight YouTube transcripts — Idiodi's *The Real Risk of AI in Product*; Cagan's *AI Is Helping Bad Companies Fail Faster*, *How AI Impacts Product Management* (with Dan Olsen), *the Current "Golden Era" for Product Management*, *best nuggets from EMPOWERED*, *Creating technology products that your customers love*, the Dan Olsen *Empowered* Lean Product fireside, and *2.1 Marty Cagan, Founder of SVPG* — plus one SVPG **article**: *Discovery vs. Delivery* (`svpg.com/discovery-vs-delivery/`), which is a **different piece** from the carded *Discovery – Delivery* (`svpg.com/discovery-delivery/`) and is already self-flagged as `[[discovery-vs-delivery]]` *"not yet pages"* on that card. The two AI interviews are the most likely to carry material the wiki doesn't already hold. (Horowitz's *Good Product Manager/Bad Product Manager* also has no card — correct, per the §2 endorsement test.)
+
+**E. 38 source cards are reachable only through `INDEX.md`.** All are Cagan talk/interview cards, 37 `primary` + 1 `supporting`, almost all from the 2026-07-04 *Video Ingest II* batch (whose own log line records "44 sources + 8 pages" — reinforcement by design). Each names pages it backs, but **no content page cites it back**, and the `INDEX.md` bundle entry gives them no per-card annotation — so an agent can't tell which of the 38 is worth opening for a given question. Either annotate the bundle or accept them as archive-only; flagging so the choice is explicit rather than accidental.
+
+**F. Still open from earlier today:** the [[2025-03-20-idiodi-leto-coaching-emotional-intelligence]] episode has no number and sits between Eps 16 and 17 by date — either a bonus episode or Eps 17+ are off by one. Needs a check against the published playlist.
+
+**Counts.** No pages added or removed. 7 files edited; dangling link targets 41 → 38.
