@@ -906,3 +906,8 @@ Verified: dangling targets 41 → 38, no new breakage.
 **F. Still open from earlier today:** the [[2025-03-20-idiodi-leto-coaching-emotional-intelligence]] episode has no number and sits between Eps 16 and 17 by date — either a bonus episode or Eps 17+ are off by one. Needs a check against the published playlist.
 
 **Counts.** No pages added or removed. 7 files edited; dangling link targets 41 → 38.
+
+**Addendum (same lint pass).** Two items that land on the [`CLAUDE.md`](CLAUDE.md) §4 rules committed while this lint was running:
+
+- **README `## Wiki state` table — checked, current.** Re-ran the §4 count command: `299 / 69 / 26 / 27 / 18 / **534**`, identical to what the table already shows as of September 18, 2026. Nothing to change; this lint added and removed no pages.
+- **The collision in finding A costs exactly 2 pages of visibility, confirmed against the §4 definition.** `find wiki -name '*.md' ! -name 'README.md'` returns **534**; minus the single `INDEX.md`, a basename-keyed scan should see **533**. This lint's scripts saw **531** — the 2 missing are precisely `almosafer` and `carmax`, whose case-study and organization pages collapse onto one key. Any tool that addresses these pages by basename (Obsidian's resolver included) has the same blind spot, which is the argument for the rename.
