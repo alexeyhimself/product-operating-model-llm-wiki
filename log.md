@@ -805,3 +805,34 @@ Ingested the single file dropped in `Clippings/` — Marty Cagan's *Strong Opini
 **Open hygiene item flagged, not fixed.** [[christian-idiodi]]'s *Product Therapy* episode list still enumerates only Eps 1–25 (Batch 1 + Batch 2) while `wiki/sources/` now carries cards through **Ep 44**. A note to that effect plus an Ep 44 "most recent" entry were added; backfilling Eps 26–43 into the entity page is a separate lint task.
 
 **Counts.** Concepts 68 → **69** (new [[ai-evals]]). Sources 43/298 → **44/299** (one new card; one new *Product Therapy* bundle row in [`wiki/sources/INDEX.md`](wiki/sources/INDEX.md)). No new principles/competencies/frameworks/diagnostics/entities. [`index.md`](index.md): Latest-ingest blockquote rewritten (prior entries demoted one level), jump-table Concepts and Sources rows updated, body Sources blockquote corrected from a stale 38/272 to 44/299, entries updated for [[ai-evals]] (new), [[ai-and-product-teams]], [[continuous-interviewing]], [[continuous-discovery]], [[teresa-torres]], [[christian-idiodi]]. `Clippings/` is now empty.
+
+---
+
+## [2026-09-18] revise | Backfill — partner entity pages were missing Product Therapy Eps 26–44
+
+**What was wrong.** Flagged during the Ep 44 ingest earlier today and initially recorded as "open hygiene item"; Aleksei pushed back — correctly — that missing Eps 26–43 is a defect, not an expected gap. It is. Source cards exist for **every** episode 1–44, and [`index.md`](index.md) already carried the correct per-partner counts and episode numbers. The **entity pages alone** had fallen behind: the Batch 3 ingest (Eps 26–43) updated the concept pages, [`wiki/sources/INDEX.md`](wiki/sources/INDEX.md) and the *new external guests'* entity pages, but never backfilled the existing SVPG partners' episode lists.
+
+**Audit — highest episode referenced per entity page, before this fix:**
+
+| Page | Was | Should be | Missing |
+|---|---:|---|---|
+| [[christian-idiodi]] | Ep 25 | Ep 44 (host, all) | **Eps 26–44** (19, incl. the unnumbered Leto EQ ep) |
+| [[marty-cagan]] | Ep 25 | Eps 1, 2, 3, 12, 14, 20, 25, 29, 39 | Eps 29, 39 |
+| [[chris-jones]] | Ep 23 | Eps 6, 11, 13, 17, 23, 36 | Ep 36 |
+| [[jon-moore]] | Ep 21 | Eps 5, 9, 21, 30 | Ep 30 |
+| [[martina-lauchengco]] | Ep 19 | Eps 7, 10, 16, 19, 41 | Ep 41 |
+| [[lea-hickman]] | Ep 42 | Eps 4, 8, 15, 18, 27, 32, 37, 42 | — ✅ complete |
+| external guests (Doshi, Bufrem, Chapur, Lieberich, Castenfors, Fisher, Leto, Cullen, Fredell, Torres) | — | — | — ✅ complete |
+
+**Fixed (5 pages):**
+- [[christian-idiodi]] — full **Batch 3** block added (Eps 26–43) plus Ep 44, each with a one-line substantive summary drawn from its own source card. Intro rewritten from *"the 25 episodes below"* to *"all 44 numbered episodes."* External-guest line in Related expanded from 3 names to 10.
+- [[marty-cagan]] — Batch 3 line added (Ep 29 Coaching Product Strategy · Ep 39 Coaching in the Age of AI); count 7 → 9.
+- [[chris-jones]] — Batch 3 block added (Ep 36 Coaching Stakeholders); count 5 → 6.
+- [[jon-moore]] — Batch 3 block added (Ep 30 Coaching Team Objectives, carrying its ⚠️ *partial capture* caveat forward from the card so the page doesn't over-claim); count 3 → 4.
+- [[martina-lauchengco]] — Batch 3 block added (Ep 41 Product Marketing In The AI Era); count 4 → 5.
+
+**One numbering anomaly recorded, not resolved.** [[2025-03-20-idiodi-leto-coaching-emotional-intelligence]] (with [[kate-leto]], Mar 2025) carries **no episode number** on its card, and by date sits between Ep 16 (2025-03-06) and Ep 17 (2025-04-03). Either the episode is unnumbered/bonus, or the wiki's Eps 17+ are off by one. Not guessed at — it is now listed explicitly as *"(unnumbered)"* under Batch 2 on [[christian-idiodi]], with the ambiguity stated in the section intro. Worth confirming against the published playlist on a future lint.
+
+**Verification.** All 44 numbered episodes now resolve on [[christian-idiodi]]; 0 broken wikilinks across the 5 edited pages; every episode link target matches an existing card in `wiki/sources/`.
+
+**Counts.** No new pages. No source-card changes. [`index.md`](index.md) needed **no** correction — it was already accurate; this brought the entity layer into line with it.
