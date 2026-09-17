@@ -836,3 +836,33 @@ Ingested the single file dropped in `Clippings/` — Marty Cagan's *Strong Opini
 **Verification.** All 44 numbered episodes now resolve on [[christian-idiodi]]; 0 broken wikilinks across the 5 edited pages; every episode link target matches an existing card in `wiki/sources/`.
 
 **Counts.** No new pages. No source-card changes. [`index.md`](index.md) needed **no** correction — it was already accurate; this brought the entity layer into line with it.
+
+---
+
+## [2026-09-18] revise | README Wiki state table refreshed, and a rule added so it stops going stale
+
+**The problem.** The `## Wiki state` table in [`README.md`](README.md) is the repo's public-facing scoreboard and the first thing a visitor sees — and it is forgotten on essentially every ingest, because nothing breaks when it goes stale. It was last refreshed **2026-09-05** (`4060ce6`), so it had missed three ingests: Batch 11, *Strong Opinions Loosely Held*, and today's Ep 44.
+
+**Table refreshed** (as of 2026-09-18):
+
+| Item | Was (Sep 5) | Now |
+|---|---:|---:|
+| Sources ingested | 292 | **299** |
+| Concepts | 68 | **69** |
+| Frameworks | 26 | 26 |
+| People | 26 | **27** |
+| Books | 18 | 18 |
+| **Total wiki pages** | **524** | **534** |
+
+**Counting convention pinned down.** The table's definitions were never written anywhere, which is part of why it drifted — each refresh had to re-guess them. Reverse-engineered from `4060ce6` (292 sources / 524 total) and now documented:
+- **Sources ingested** = every `.md` in `wiki/sources/` except `README.md` and `INDEX.md`.
+- **Total wiki pages** = every `.md` under `wiki/` except folder `README.md` files — **including** `wiki/sources/INDEX.md` and `wiki/diagnostics.md` (the diagnostics hub page, which sits at `wiki/` root beside the `wiki/diagnostics/` folder and is counted as the 18th diagnostic in [`index.md`](index.md)'s jump table).
+
+**Rules added:**
+- [`CLAUDE.md`](CLAUDE.md) **§3 Ingest — new step 7**: refresh the README table and its `_As of …_` line, as the explicit last step of every ingest. Stated as non-optional, with the reason it gets skipped.
+- [`CLAUDE.md`](CLAUDE.md) **§3** — new closing paragraph naming the **three bookkeeping files** (`index.md`, `log.md`, README table) and the check: *before reporting an ingest as finished, confirm all three were touched.*
+- [`CLAUDE.md`](CLAUDE.md) **§4 retitled** *"index.md, log.md, and the README Wiki state table"*, with a new **"Regenerating the Wiki state table"** subsection: the two definitions above, a **copy-pasteable one-line command** that emits the table body verbatim, and a guard — *if a count went down, stop and find out why before committing.*
+- [`CLAUDE.md`](CLAUDE.md) **§3 Lint** — scan list extended with (a) a stale README table and (b) **derived lists that have drifted from the source cards they summarize**, naming entity-page works/episode lists as the known offender and giving the spot-check (`ls wiki/sources/ | grep <name>`). This is the generalization of the defect found earlier today, where five partner entity pages sat at their old episode high-water mark while `index.md` and `wiki/sources/INDEX.md` were both current.
+- [`AGENTS.md`](AGENTS.md) — the "keep index.md and log.md current" bullet replaced with the three-file version, so non-Claude agents get the same rule. Pointer-only structure preserved; the rule itself still lives in `CLAUDE.md`.
+
+**Verification.** The documented command was run verbatim from the repo root and reproduces the table above exactly.

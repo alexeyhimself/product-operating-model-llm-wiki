@@ -8,16 +8,18 @@ This repo is **open and community-maintained**. The easiest way to use it is one
 
 ## Wiki state
 
-_As of September 5, 2026._
+_As of September 18, 2026._
 
 | Item | Amount |
 |---|---|
-| Sources ingested | 292 |
-| Concepts | 68 |
+| Sources ingested | 299 |
+| Concepts | 69 |
 | Frameworks | 26 |
-| People | 26 |
+| People | 27 |
 | Books | 18 |
-| **Total wiki pages** | **524** |
+| **Total wiki pages** | **534** |
+
+<sub>Counts are mechanical — see [`CLAUDE.md`](CLAUDE.md) §4 for the exact definition and the one command that regenerates this table.</sub>
 
 ## Use it with an AI agent
 

@@ -10,6 +10,6 @@ In short:
 - **The wiki does not prescribe how you respond.** *What* you ground your reasoning in is the wiki; *how* you respond is set by the user's prompt. Don't impose a stance the user hasn't asked for.
 - **Operations** are Ingest, Answer, and Lint. See `CLAUDE.md` → *Operations*.
 - **Conventions** (frontmatter, kebab-case filenames, `[[wikilinks]]`, citations, page templates in [`templates/`](templates/)) are defined in `CLAUDE.md` → *Page conventions*.
-- Keep [`index.md`](index.md) and [`log.md`](log.md) current.
+- **Three bookkeeping files, updated on every ingest:** [`index.md`](index.md), [`log.md`](log.md), and the `## Wiki state` table in [`README.md`](README.md) — the last one is regenerated with the count command in `CLAUDE.md` §4, never hand-edited. An ingest that leaves any of the three stale is not finished.
 
 If you change conventions, change them in `CLAUDE.md` and leave this pointer intact.
