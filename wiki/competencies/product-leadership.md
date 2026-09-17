@@ -1,7 +1,7 @@
 ---
 title: Product Leadership
 type: competency
-aliases: [product-leadership, head-of-product, head-of-design, head-of-engineering, product-leaders]
+aliases: [product-leadership, head-of-product, head-of-design, head-of-engineering, engineering-leadership, head-of-technology, leaders-of-technology, product-leaders]
 status: drafting
 tags: [competency, product-leadership, management, leadership, strategic-context]
 role: The managers and leaders of product management, product design, and engineering. Responsible for coaching and staffing the people, and for providing the strategic context (vision, principles, topology, strategy, team objectives, evangelism) that empowered teams need to make good decisions.

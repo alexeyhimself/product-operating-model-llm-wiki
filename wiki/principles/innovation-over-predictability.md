@@ -33,7 +33,7 @@ The feature factory dressed as discipline: every team committed to a packed quar
 
 ## Related
 - concepts: [[product-culture]], [[outcomes-over-output]]
-- competencies: [[product-leadership]], [[engineering-leadership]]
+- competencies: [[product-leadership]] (both halves — including the **Leaders of Technology Organization** role), [[engineers]]
 - frameworks: [[high-integrity-commitments]]
 - diagnostics: [[model-maturity]], [[outcome-vs-output-orientation]]
 
