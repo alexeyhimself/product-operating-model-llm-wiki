@@ -12,12 +12,12 @@ _As of September 18, 2026._
 
 | Item | Amount |
 |---|---|
-| Sources ingested | 308 |
+| Sources ingested | 320 |
 | Concepts | 69 |
 | Frameworks | 26 |
 | People | 27 |
 | Books | 18 |
-| **Total wiki pages** | **543** |
+| **Total wiki pages** | **555** |
 
 <sub>Counts are mechanical — see [`CLAUDE.md`](CLAUDE.md) §4 for the exact definition and the one command that regenerates this table.</sub>
 
